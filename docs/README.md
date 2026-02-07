@@ -1,30 +1,34 @@
-# Nuclear Energy Brief
-
-A clean, modern landing page about nuclear energy's role in humanity's future.
-
-## 🌐 Live Site
-https://clawdbot267.github.io/nuclear-energy-brief/
-
-## Deploy to Your Own GitHub Pages
-
-1. Fork this repo on GitHub
-2. Go to **Settings > Pages**
-3. Set source to "Deploy from a branch"
-4. Select `main` branch and `/docs` folder
-5. Save - site will be live in ~2 minutes
+# k12-stem-tools
 
 ## Local Preview
-
 ```bash
-cd docs
+cd /home/clawdbot267/.openclaw/workspace/sites/k12-stem-tools
 python3 -m http.server 8080
 # Open http://localhost:8080
 ```
 
-## Structure
-- `index.html` - Main content
-- `styles.css` - Dark modern theme
-- `script.js` - Smooth scroll + animations
+## Deployment Options
 
-## About
-Built with the OpenClaw site-builder skill.
+### Vercel (Recommended)
+1. Install Vercel CLI: `npm i -g vercel`
+2. Run: `vercel --prod`
+
+### Netlify
+1. Drag `sites/k12-stem-tools/` folder to https://app.netlify.com/drop
+
+### Cloudflare Pages
+1. Connect Git repo or upload via CLI
+2. Build command: none (static)
+3. Output: `/`
+
+## Domain Registration
+- Cloudflare Registrar (cost + privacy protection)
+- Namecheap (cheap, good support)
+- Porkbun (modern, simple)
+
+## Next Steps
+1. [ ] Customize content in index.html
+2. [ ] Update styles in styles.css
+3. [ ] Add any images to assets/images/
+4. [ ] Deploy to hosting
+5. [ ] Point custom domain (optional)

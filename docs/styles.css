@@ -1,11 +1,13 @@
 :root {
-    --primary: #6366f1;
-    --primary-dark: #4f46e5;
-    --secondary: #ec4899;
-    --bg-dark: #0f0f23;
-    --bg-card: #1a1a2e;
-    --text: #e5e7eb;
-    --text-muted: #9ca3af;
+    --primary: #3b82f6;
+    --primary-dark: #2563eb;
+    --secondary: #10b981;
+    --accent: #f59e0b;
+    --bg-dark: #0f172a;
+    --bg-card: #1e293b;
+    --bg-elevated: #334155;
+    --text: #f1f5f9;
+    --text-muted: #94a3b8;
     --border: rgba(255, 255, 255, 0.1);
 }
 
@@ -25,7 +27,7 @@ body {
 /* Hero */
 .hero {
     min-height: 100vh;
-    background: linear-gradient(135deg, var(--bg-dark) 0%, #1a1a3e 100%);
+    background: linear-gradient(135deg, var(--bg-dark) 0%, #1a2f4a 100%);
     display: flex;
     flex-direction: column;
 }
@@ -67,10 +69,10 @@ body {
 }
 
 .hero h1 {
-    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-size: clamp(2rem, 5vw, 3.5rem);
     font-weight: 800;
     margin-bottom: 1rem;
-    background: linear-gradient(135deg, var(--text) 0%, #a5b4fc 100%);
+    background: linear-gradient(135deg, var(--text) 0%, #60a5fa 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -78,7 +80,7 @@ body {
 .hero-description {
     font-size: 1.25rem;
     color: var(--text-muted);
-    max-width: 600px;
+    max-width: 700px;
     margin-bottom: 2rem;
 }
 
@@ -118,7 +120,7 @@ body {
     font-size: 1.1rem;
 }
 
-/* Features */
+/* Features / Tools */
 .features {
     padding: 5rem 5%;
     background: var(--bg-card);
@@ -132,8 +134,8 @@ body {
 
 .features-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -143,12 +145,12 @@ body {
     border: 1px solid var(--border);
     border-radius: 12px;
     padding: 2rem;
-    text-align: center;
-    transition: border-color 0.3s;
+    transition: border-color 0.3s, transform 0.3s;
 }
 
 .feature-card:hover {
     border-color: var(--primary);
+    transform: translateY(-4px);
 }
 
 .feature-icon {
@@ -158,11 +160,51 @@ body {
 
 .feature-card h3 {
     font-size: 1.25rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.75rem;
+    color: var(--text);
 }
 
 .feature-card p {
     color: var(--text-muted);
+    line-height: 1.7;
+}
+
+/* Philosophy Section */
+.philosophy {
+    padding: 5rem 5%;
+    background: var(--bg-dark);
+}
+
+.philosophy h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.philosophy-content {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.philosophy-item {
+    background: var(--bg-card);
+    border-left: 4px solid var(--accent);
+    padding: 2rem;
+    border-radius: 0 12px 12px 0;
+}
+
+.philosophy-item h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.75rem;
+    color: var(--accent);
+}
+
+.philosophy-item p {
+    color: var(--text-muted);
+    line-height: 1.7;
 }
 
 /* CTA Section */
@@ -181,6 +223,9 @@ body {
     font-size: 1.25rem;
     margin-bottom: 2rem;
     opacity: 0.9;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cta .btn-primary {
@@ -194,4 +239,16 @@ footer {
     padding: 2rem;
     color: var(--text-muted);
     border-top: 1px solid var(--border);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Smooth scroll behavior */
+html {
+    scroll-behavior: smooth;
 }
