@@ -32,3 +32,4 @@ python3 -m http.server 8080
 3. [ ] Add any images to assets/images/
 4. [ ] Deploy to hosting
 5. [ ] Point custom domain (optional)
+# Deployed to Cloudflare Pages
