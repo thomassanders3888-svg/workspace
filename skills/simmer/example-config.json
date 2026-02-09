@@ -1,0 +1,44 @@
+{
+  "simmer": {
+    "walletPassword": "your-secure-password-here",
+    "polygonRpc": "https://polygon-rpc.com"
+  },
+  "arbitrage": {
+    "enabled": true,
+    "dryRun": true,
+    "entryThreshold": 0.15,
+    "exitThreshold": 0.45,
+    "locations": ["NYC", "Chicago", "Seattle", "Atlanta", "Dallas"],
+    "maxPosition": 5,
+    "maxTradesPerRun": 5,
+    "maxTradesPerDay": 20,
+    "dailyLossLimit": 10,
+    "trendDetection": true,
+    "scanInterval": 120000,
+    "safeguards": {
+      "pauseOnError": true,
+      "maxConsecutiveLosses": 3,
+      "requireTrendConfirmation": true
+    }
+  },
+  "polymarket": {
+    "apiUrl": "https://api.polymarket.com",
+    "gammaUrl": "https://gamma-api.polymarket.com"
+  },
+  "notifications": {
+    "telegram": {
+      "enabled": false,
+      "botToken": "YOUR_BOT_TOKEN",
+      "chatId": "YOUR_CHAT_ID"
+    },
+    "discord": {
+      "enabled": false,
+      "webhook": "YOUR_WEBHOOK_URL"
+    }
+  },
+  "logs": {
+    "level": "info",
+    "file": true,
+    "console": true
+  }
+}

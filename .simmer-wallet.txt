@@ -1,0 +1,6 @@
+Simmer Wallet Credentials
+=========================
+Username: TCreations3888
+Password: [REDACTED - secured]
+
+This file will be deleted after wallet creation.

@@ -1,0 +1,20 @@
+{
+  "name": "simmer-weather-trader",
+  "version": "1.0.0",
+  "description": "Polymarket weather arbitrage bot",
+  "main": "run.js",
+  "scripts": {
+    "setup": "node setup.js",
+    "balance": "node -e \"const w=new(require('./wallet'));const p=process.env.WALLET_PASS||'demo';console.log('Loading...');w.loadWallet(p);w.getUSDCBalance().then(b=>console.log('USDC:',b.formatted)).catch(e=>console.log('Error:',e.message))\"",
+    "scan": "node -e \"const b=new(require('./arbitrage'));b.executeArbitrage(null,true).then(r=>console.log(JSON.stringify(r,null,2)))\"",
+    "start": "node run.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "ethers": "^6.8.0"
+  },
+  "keywords": ["polymarket", "arbitrage", "weather", "trading"],
+  "author": "OpenClaw",
+  "license": "MIT"
+}
