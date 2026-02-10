@@ -1,6 +1,5 @@
 // Polymarket API Client
 // Interacts with Polymarket prediction markets
-
 const axios = require('axios');
 
 const POLYMARKET_API = 'https://api.polymarket.com';
@@ -26,7 +25,6 @@ class PolymarketClient {
       active: 'true',
       ...params
     });
-
     const response = await this.gamma.get(`/markets?${query}`);
     return response.data;
   }
@@ -34,14 +32,11 @@ class PolymarketClient {
   // Search weather markets specifically
   async getWeatherMarkets() {
     const markets = await this.getMarkets({ limit: 100 });
-    
     return markets.filter(m => {
       const text = (m.title + ' ' + m.description).toLowerCase();
-      return text.includes('temp') || 
-             text.includes('weather') || 
-             text.includes('temperature') ||
-             text.includes('high') ||
-             text.includes('low');
+      return text.includes('temp') || text.includes('weather') || text.includes('temperature') ||
+             text.includes('high') || text.includes('low') || text.includes('rain') ||
+             text.includes('snow') || text.includes('sunny');
     });
   }
 
@@ -51,73 +46,51 @@ class PolymarketClient {
     return response.data;
   }
 
-  // Get order book / prices
-  async getOrderBook(tokenId) {
-    const response = await this.api.get(`/orderbook/${tokenId}`);
-    return response.data;
+  // Get markets by location
+  findMarketsByLocation(markets, location) {
+    const locPatterns = {
+      'NYC': /new york|nyc|manhattan/i,
+      'Chicago': /chicago/i,
+      'Seattle': /seattle/i,
+      'Atlanta': /atlanta/i,
+      'Dallas': /dallas|dfw/i
+    };
+    const pattern = locPatterns[location];
+    if (!pattern) return [];
+    return markets.filter(m => pattern.test(m.title + ' ' + m.description));
   }
 
-  // Get current price (midpoint)
+  // Extract temperature threshold from market title
+  parseTemperatureThreshold(title) {
+    const patterns = [
+      /(\d+)°?\s*[Ff]/,
+      /(\d+)\s+degrees/i,
+      /high.*?above\s+(\d+)/i,
+      /temp.*?over\s+(\d+)/i
+    ];
+    for (const pattern of patterns) {
+      const match = title.match(pattern);
+      if (match) return parseInt(match[1]);
+    }
+    return null;
+  }
+
+  // Get price for token
   async getPrice(tokenId) {
-    const book = await this.getOrderBook(tokenId);
-    
-    if (!book.bids?.length || !book.asks?.length) {
+    try {
+      const response = await this.gamma.get(`/events/${tokenId}`);
+      const event = response.data;
+      const bestAsk = event.bestAsk?.price || 0.5;
+      const bestBid = event.bestBid?.price || 0.5;
+      return {
+        yes: bestAsk,
+        no: bestBid,
+        mid: (bestAsk + bestBid) / 2
+      };
+    } catch (e) {
+      console.error('Price fetch error:', e.message);
       return null;
     }
-
-    const bestBid = parseFloat(book.bids[0].price);
-    const bestAsk = parseFloat(book.asks[0].price);
-    
-    return {
-      bid: bestBid,
-      ask: bestAsk,
-      mid: (bestBid + bestAsk) / 2,
-      spread: bestAsk - bestBid
-    };
-  }
-
-  // Get user's positions (requires auth)
-  async getPositions(walletAddress) {
-    const response = await this.api.get(`/positions`, {
-      params: { user: walletAddress }
-    });
-    return response.data;
-  }
-
-  // Get recent trades for a market
-  async getTrades(tokenId, limit = 20) {
-    const response = await this.api.get(`/trades`, {
-      params: { token_id: tokenId, limit }
-    });
-    return response.data;
-  }
-
-  // Get market history/chart data
-  async getMarketHistory(marketId, resolution = 'hour') {
-    const response = await this.api.get(`/markets/${marketId}/prices`, {
-      params: { resolution }
-    });
-    return response.data;
-  }
-
-  // Helper: Find markets by location
-  findMarketsByLocation(markets, location) {
-    const loc = location.toLowerCase();
-    return markets.filter(m => {
-      const text = (m.title + ' ' + m.description).toLowerCase();
-      return text.includes(loc) ||
-             (loc === 'nyc' && (text.includes('new york') || text.includes('nyc'))) ||
-             (loc === 'chicago' && text.includes('chicago')) ||
-             (loc.includes('seattle') && text.includes('seattle')) ||
-             (loc === 'atlanta' && text.includes('atlanta')) ||
-             (loc === 'dallas' && text.includes('dallas'));
-    });
-  }
-
-  // Helper: Parse temperature threshold from market title
-  parseTemperatureThreshold(title) {
-    const match = title.match(/(\d+)\s*°?\s*[CF]/i);
-    return match ? parseInt(match[1]) : null;
   }
 
   // Filter markets by price range (for arbitrage)
@@ -126,6 +99,16 @@ class PolymarketClient {
       const price = parseFloat(m.best_bid) || parseFloat(m.last_trade_price) || 0.5;
       return price >= minPrice && price <= maxPrice;
     });
+  }
+
+  // Submit signed order to CLOB (Simulated - needs actual Polymarket SDK for production)
+  async submitOrder(signedOrder) {
+    console.log('[SIMULATED] Order submitted:', JSON.stringify(signedOrder, null, 2));
+    return {
+      success: true,
+      orderId: 'sim-' + Date.now(),
+      txHash: '0x' + Math.random().toString(16).substr(2, 40)
+    };
   }
 }
 

@@ -1,0 +1,20 @@
+{
+  "name": "agent-council",
+  "version": "1.0.0",
+  "description": "Multi-agent coordination system for collaborative AI workflows",
+  "main": "scripts/council.js",
+  "scripts": {
+    "test": "node examples/quickstart.js"
+  },
+  "keywords": [
+    "agents",
+    "coordination",
+    "multi-agent",
+    "consensus",
+    "voting",
+    "debate",
+    "parallel"
+  ],
+  "author": "OpenClaw",
+  "license": "MIT"
+}

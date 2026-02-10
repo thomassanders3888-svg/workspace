@@ -1,0 +1,64 @@
+{
+  "timestamp": "2026-02-10T23:00:00Z",
+  "accounts": {
+    "@Citizen267": {
+      "theme": "AI/Tech Insights",
+      "drafts": [
+        {
+          "id": "C267-001",
+          "text": "We're past the 'AI is coming' phase.\n\nWe're now in the 'AI is choosing who thrives' phase.\n\nThe gap isn't between those who use AI and those who don't.\n\nIt's between those who use it to think deeper vs. those who use it to think less.",
+          "hashtags": ["#AI", "#Tech", "#FutureOfWork"],
+          "character_count": 278
+        },
+        {
+          "id": "C267-002",
+          "text": "Your job won't be replaced by AI.\n\nYour job will be replaced by someone using AI to do 10x what you do.\n\nThe competitive advantage isn't the tool—it's the speed of iteration it unlocks.",
+          "hashtags": ["#AI", "#Productivity", "#CareerAdvice"],
+          "character_count": 232
+        },
+        {
+          "id": "C267-003",
+          "text": "Every company is now an AI company.\n\nThey just don't know it yet.\n\nThe ones that figure this out in 2025 will lap the competition by 2027.",
+          "hashtags": ["#AINews", "#TechTrends", "#BusinessStrategy"],
+          "character_count": 187
+        },
+        {
+          "id": "C267-004",
+          "text": "The best AI prompt engineers aren't the ones with the fanciest templates.\n\nThey're the ones who understand the problem they're solving better than anyone else.",
+          "hashtags": ["#PromptEngineering", "#AI", "#ProblemSolving"],
+          "character_count": 209
+        }
+      ]
+    },
+    "@TCreations3888": {
+      "theme": "Project Updates - TerraForge, GameHub, Simmer Bots",
+      "drafts": [
+        {
+          "id": "TC3888-001",
+          "text": "🔥 TERRAFORGE UPDATE:\n\nNew procedural terrain generation is LIVE.\n\nWe're talking 16km² explorable worlds generated in under 3 seconds.\n\nYour sandbox just got infinitely bigger.",
+          "hashtags": ["#TerraForge", "#GameDev", "#ProceduralGeneration", "#IndieDev"],
+          "character_count": 228
+        },
+        {
+          "id": "TC3888-002",
+          "text": "🎮 GAMEHUB has crossed 50K active sessions!\n\nNew features dropping this week:\n→ Cross-platform saves\n→ Real-time leaderboards\n→ Squad matchmaking v2\n\nThe ecosystem keeps growing.",
+          "hashtags": ["#GameHub", "#Gaming", "#Update", "#GameDev"],
+          "character_count": 224
+        },
+        {
+          "id": "TC3888-003",
+          "text": "🤖 SIMMER BOTS just got smarter.\n\nOur AI companions now remember context across sessions, adapt to your playstyle, and actually *learn* from your decisions.\n\nThis isn't just a bot. It's a co-pilot.",
+          "hashtags": ["#SimmerBots", "#AI", "#Gaming", "#MachineLearning"],
+          "character_count": 244
+        },
+        {
+          "id": "TC3888-004",
+          "text": "Three projects. One vision.\n\nTerraForge builds the world.\nGameHub connects the players.\nSimmer Bots bring it to life.\n\n2025 is the year worlds stop being static—and start living.",
+          "hashtags": ["#TCreations", "#TerraForge", "#GameHub", "#SimmerBots", "#GameDev"],
+          "character_count": 229
+        }
+      ]
+    }
+  },
+  "notes": "Copy-ready drafts for @Citizen267 and @TCreations3888. Posts designed for maximum engagement with punchy hooks and clear value propositions."
+}

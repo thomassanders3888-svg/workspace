@@ -116,6 +116,26 @@ class SimmerWallet {
     if (!this.wallet) throw new Error('Wallet not loaded');
     return await this.wallet.signMessage(message);
   }
+
+  // Sign order for Polymarket CLOB
+  async signOrder(orderData) {
+    if (!this.wallet) throw new Error('Wallet not loaded');
+    
+    const message = JSON.stringify({
+      marketId: orderData.marketId,
+      side: orderData.side,
+      size: orderData.size,
+      price: orderData.price,
+      timestamp: orderData.timestamp
+    });
+    
+    const signature = await this.signMessage(message);
+    return {
+      ...orderData,
+      signature,
+      signer: this.wallet.address
+    };
+  }
 }
 
 module.exports = SimmerWallet;
