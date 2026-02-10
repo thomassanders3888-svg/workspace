@@ -1,0 +1,23 @@
+{
+  "citizen267": {
+    "voice": "Sharp tech optimist, contrarian, builds in public",
+    "topics": ["AI acceleration", "local LLMs", "coding automation", "agentic systems", "prediction markets"],
+    "formats": ["One-liner with mic drop", "Hot take thread (3-5 posts)", "Build update with numbers", "Contrarian question", "Tool recommendation with results"],
+    "hooks": ["I stopped doing X and my output 10x'd", "Unpopular opinion:", "Why I switched to Y", "X is cooked. Here's why.", "Just shipped:", "The thing nobody tells you about X"],
+    "hashtags": ["#buildinpublic", "#AI", "#indiedev", "#llm", "#automation"]
+  },
+  "tcreations3888": {
+    "voice": "Builder persona, hype with substance, community focused",
+    "topics": ["GameHub updates", "TerraForge dev", "Simmer bot results", "new features", "player/customer wins"],
+    "formats": ["Milestone celebration", "Feature spotlight", "Behind the scenes", "Community highlight", "Quick tutorial"],
+    "hooks": ["New on GameHub:", "What we're building:", "Shipped today:", "TerraForge progress:", "The numbers:", "Just added:"],
+    "hashtags": ["#gamedev", "#indiegames", "#ue5", "#mmorpg", "#webgames", "#polymarket"]
+  },
+  "content_rules": {
+    "max_chars": 280,
+    "ideal_length": "150-250",
+    "emoji_limit": 2,
+    "thread_connector": "→",
+    "cta_options": ["Try it:", "Thoughts?", "What's your take?", "DM for access"]
+  }
+}

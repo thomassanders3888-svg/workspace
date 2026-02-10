@@ -1,0 +1,37 @@
+{
+  "timestamp": "2026-02-10T16:10:00Z",
+  "drafts": [
+    {
+      "account": "@Citizen267",
+      "type": "single",
+      "content": "Just watched my AI agent spin up 3 parallel trading strategies on Polymarket while I focused on code.\n\nThe future isn't humans vs AI.\n\nIt's humans WITH AI vs humans without.",
+      "hashtags": ["#AI", "#automation"],
+      "char_count": 214
+    },
+    {
+      "account": "@Citizen267",
+      "type": "thread",
+      "posts": [
+        "Unpopular opinion: You don't need more productivity tools.\n\nYou need better prompts.",
+        "I've replaced 90% of my dev workflow with simple prompt engineering:\n\n→ Design: "Generate Figma layout for X"\n→ Code: "Write this function with Y constraints"\n→ Test: "Find edge cases for Z"",
+        "The magic isn't the tools.\n\nIt's having clear intent and letting the model fill the gaps.",
+        "Build in public helps. Every "dumb" question I post becomes a prompt for others to riff on."
+      ],
+      "hashtags": ["#buildinpublic", "#llm"]
+    },
+    {
+      "account": "@TCreations3888",
+      "type": "single",
+      "content": "GameHub just hit 7 free arcade games. Snake, Tetris, Flappy, Pong + 3 more.\n\nNo download. Play direct.\n\nWhat's your high score? 🎮",
+      "link": "https://gamehub-7ol.pages.dev",
+      "hashtags": ["#webgames", "#indiegames"],
+      "char_count": 182
+    },
+    {
+      "account": "@TCreations3888",
+      "type": "update",
+      "content": "TerraForge status:\n\n✅ PostgreSQL schema locked\n✅ Block system\n✅ Noise generation\n🔄 Terrain engine building\n🔄 World persistence\n\nThe Minecraft killer is coming.\n\nSlowly. But surely. 🧊",
+      "hashtags": ["#gamedev", "#ue5", "#mmorpg"]
+    }
+  ]
+}
