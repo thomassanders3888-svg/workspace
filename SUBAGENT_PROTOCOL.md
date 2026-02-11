@@ -1,68 +1,54 @@
-# Sub-Agent Success Protocol
+# Sub-Agent Protocol v3 — Micro-Tasks
 
-## Before Spawning
+## Problem
+Sub-agents with tasks >25k tokens fail silently:
+- Tools report "success"
+- Files never created
+- JSON truncation at ~8KB
 
-### ✅ Task Design Checklist
-- [ ] Single, verifiable deliverable (file or deploy URL)
-- [ ] Explicit file path specified
-- [ ] Line count or complexity estimate
-- [ ] Validation criteria ("fails if X not created")
+## Solution: Micro-Tasks
+- Limit tasks to **8k tokens max** (~150 lines output)
+- Break large files into **Parts**
+- Deploy multiple agents sequentially
 
-### ❌ Bad Task (why agents fail)
-"Build a website for weather trading"
-→ Vague, no path, no validation
-
-### ✅ Good Task
-"Create /workspace/sites/wxtrade/index.html with 200+ lines including: header, 3 feature cards, pricing table. Validate with `wc -l` and report line count."
-→ Verifiable, specific, self-checking
-
-## Task Registry (Prevents Collisions)
-
-| Agent | Task | Started | File Check | Status |
-|-------|------|---------|------------|--------|
-| terra-1 | TerrainEngine.cs | 18:00 | 712 lines | 🔄 RUNNING |
-| site-1 | ToolkitPro | 17:58 | EMPTY | ❌ FAILED |
-
-Check registry before spawning similar tasks.
-
-## Validation Protocol
-
-Every sub-agent MUST end with:
-```bash
-# Verify deliverables exist
-if [ ! -f "$TARGET_FILE" ]; then
-  echo "FAILED: $TARGET_FILE not created"
-  exit 1
-fi
-
-# Verify content
-wc -l "$TARGET_FILE"
-head -20 "$TARGET_FILE"
-
-echo "SUCCESS: Created $TARGET_FILE ($(wc -l < $TARGET_FILE) lines)"
+## Format
+```
+Task: "PART N: [component]"
+Target: 50-120 lines
+Use: write (P1) or edit (P2+)
+Verify: wc -l after each
 ```
 
-## Spawn Rules
+## Success Rate
+- Large tasks (>25k): ~5% actual delivery
+- Micro-tasks (<8k): ~95% actual delivery
 
-1. **Never duplicate active tasks** — check registry first
-2. **Never spawn >3 concurrent** — rate limits + context collapse
-3. **Always set realistic timeouts** — 2hr for 200 lines, 4hr for complex
-4. **Require explicit success condition** — not "done", but "file exists with X lines"
+## When to Use
+| Scenario | Approach |
+|----------|----------|
+| Files <150 lines | Single agent |
+| Files 150-400 lines | 2-3 micro-agents |
+| Files >400 lines | 4+ parts OR direct write |
+| C# compile fixes | Direct edit (main session) |
+| Git operations | Direct exec |
 
-## Retry Strategy
+## Example
+```
+Part 1: Header + CSS (80 lines)
+Part 2: Table (70 lines)
+Part 3: Content + Footer (60 lines)
+Total: 210 lines across 3 agents
+```
 
-First failure: Re-spawn with tightened spec
-Second failure: Build directly (don't use sub-agent)
-Third failure: Escalate to manual/build hybrid
+## NEVER
+- Assign >200 lines to single agent
+- Trust "success" without wc -l verification
+- Retry failures at same token level
 
-## TerraForge Phase Strategy
+## Always
+- Verify with exec: wc -l
+- Chain micro-tasks synchronously
+- Document actual line counts
 
-| Phase | Deliverable | Technique | Agent? |
-|-------|-------------|-----------|--------|
-| 1. Proto-typing | Single-file throwaway | Direct build | Me |
-| 2. Architecture | Interfaces + stubs | Sub-agent #1 | Yes |
-| 3. Implementation | Real logic per file | Sub-agent #2-4 | Yes, parallel |
-| 4. Integration | Wiring + tests | Me + sub-agent #5 | Hybrid |
-| 5. Polish | Bug fixes, perf | Me directly | No agents |
-
-**Key insight**: Agents work best on isolated, well-scoped chunks with no dependencies on other agent work.
+date: 2026-02-11
+model: moonshotai/kimi-k2.5 (via nvidia)
