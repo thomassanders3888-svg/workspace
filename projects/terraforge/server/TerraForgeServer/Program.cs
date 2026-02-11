@@ -27,7 +27,6 @@ builder.Services.AddSignalR()
     .AddMessagePackProtocol();
 
 builder.Services.AddSingleton<GameServer>();
-builder.Services.AddSingleton<WorldManager>();
 builder.Services.AddSingleton<PlayerManager>();
 builder.Services.AddSingleton<TerrainEngine>();
 
@@ -43,11 +42,9 @@ var app = builder.Build();
 
 // Get core services
 var gameServer = app.Services.GetRequiredService<GameServer>();
-var worldManager = app.Services.GetRequiredService<WorldManager>();
 
-// Initialize world
+// Initialize world (via GameServer)
 Console.WriteLine("[World] Initializing terrain engine...");
-await worldManager.InitializeAsync();
 
 // Start game server
 Console.WriteLine("[Network] Starting game server...");

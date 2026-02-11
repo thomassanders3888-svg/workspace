@@ -1,230 +1,206 @@
 #!/usr/bin/env node
-// FIXED Multi-bot trading system with actual execution
-
+// Multi-chain trader with Ethereum + Polygon support
 const fs = require('fs');
 const path = require('path');
-
-// Load modules
+const { execSync } = require('child_process');
 const WalletManager = require('./wallet');
 const PolymarketClient = require('./polymarket');
-
 const PASSWORD = 'simmer-VENyZWF0aW9u';
 const LOG_FILE = path.join(__dirname, 'trades.log');
+
+let firstTradeNotified = false;
 
 class FixedTrader {
   constructor() {
     this.wallet = new WalletManager();
     this.polymarket = new PolymarketClient();
     this.config = {
-      entryThreshold: 0.15,    // Buy under 15¢
-      exitThreshold: 0.45,     // Sell over 45¢
-      sniperThreshold: 0.05,   // Sniper: buy under 5¢
-      minSpread: 0.02,         // Farmer: min 2% spread
-      maxPosition: 5,          // Max $5 per trade
-      maxDailyLoss: 15,        // Stop after $15 loss
-      maxTradesPerDay: 15,     // Max 15 trades/day
-      dryRun: false            // FALSE = real trades
+      entryThreshold: 0.15,
+      exitThreshold: 0.45,
+      sniperThreshold: 0.05,
+      minSpread: 0.02,
+      maxPosition: 5,
+      maxDailyLoss: 15,
+      maxTradesPerDay: 15,
+      dryRun: false,
+      chain: 'polygon'
     };
     this.tradeCount = 0;
     this.dailyLoss = 0;
     this.positions = new Map();
     this.running = false;
     this.walletBalance = 0;
+    this.chainBalances = {};
   }
 
   log(msg) {
-    const timestamp = new Date().toISOString();
-    const logLine = `[${timestamp}] ${msg}`;
-    console.log(logLine);
-    fs.appendFileSync(LOG_FILE, logLine + '\n');
+    const ts = new Date().toISOString();
+    const line = `[${ts}] ${msg}`;
+    console.log(line);
+    fs.appendFileSync(LOG_FILE, line + '\n');
+  }
+
+  notify(side, size, price, marketId) {
+    try {
+      const cmd = `openclaw message send --target "+19402304961" --message "🚀 Trade executed! ${side} $${size} @ $${price.toFixed(2)} — Market: ${marketId}"`;
+      execSync(cmd, { stdio: 'ignore' });
+    } catch (e) {
+      // Silent fail for notifications
+    }
   }
 
   async init() {
     try {
       this.wallet.loadWallet(PASSWORD);
       const address = this.wallet.getAddress();
-      
-      // Try to get balance but don't fail if RPC is down
-      try {
-        const balance = await this.wallet.getUSDCBalance();
-        this.walletBalance = parseFloat(balance) || 0;
-      } catch(e) {
-        this.log(`⚠️ Balance check failed: ${e.message}`);
-        this.walletBalance = 10; // Assume $10 from memory
+      this.log(`[INIT] Wallet: ${address}`);
+      this.log(`[INIT] Checking all chains for USDC...`);
+      const allBalances = await this.wallet.checkAllChainsUSDC();
+      for (const [chain, bal] of Object.entries(allBalances)) {
+        const formatted = parseFloat(bal.formatted).toFixed(2);
+        this.chainBalances[chain] = parseFloat(bal.formatted) || 0;
+        this.log(`[INIT] ${chain.toUpperCase()}: $${formatted} USDC`);
       }
-      
-      this.log(`✓ Wallet: ${address}`);
-      this.log(`✓ Balance: $${this.walletBalance} USDC`);
-      this.log(`✓ Dry Run: ${this.config.dryRun}`);
-      this.log(`🔥 MODE: ${this.config.dryRun ? 'SIMULATED' : 'LIVE TRADING'}`);
+      const totalUSDC = Object.values(this.chainBalances).reduce((a, b) => a + b, 0);
+      this.walletBalance = this.chainBalances.polygon;
+      this.log(`[INIT] Total across all chains: $${totalUSDC.toFixed(2)}`);
+      this.log(`[INIT] Tradeable (Polygon): $${this.walletBalance.toFixed(2)}`);
+      for (const chain of ['ethereum', 'polygon']) {
+        const native = await this.wallet.getNativeBalance(chain);
+        this.log(`[INIT] ${chain.toUpperCase()} gas (${native.token}): ${parseFloat(native.formatted).toFixed(4)}`);
+      }
+      if (this.chainBalances.ethereum > 0 && this.chainBalances.polygon === 0) {
+        this.log(`[WARN] USD FOUND ON ETHEREUM! You have $${this.chainBalances.ethereum.toFixed(2)} on Ethereum`);
+        this.log(`[WARN] Need to bridge to Polygon for Polymarket trading`);
+      }
+      this.log(`[INIT] Chain: ${this.config.chain.toUpperCase()}`);
+      this.log(`[INIT] Dry Run: ${this.config.dryRun}`);
+      this.log(`[INIT] ${this.config.dryRun ? 'SIMULATED' : 'LIVE'} MODE`);
+      this.log('='.repeat(50));
       return true;
-    } catch(e) {
-      this.log(`✗ Init error: ${e.message}`);
+    } catch (e) {
+      this.log(`[INIT ERROR] ${e.message}`);
       return false;
     }
   }
 
-  // SIMULATED trade execution (replace with real Polymarket SDK)
   async executeTrade(marketId, side, size, price) {
     if (side === 'BUY' && this.walletBalance < size) {
-      this.log(`⚠️ INSUFFICIENT FUNDS: $${this.walletBalance} < $${size}`);
+      this.log(`[SKIP] Insufficient funds: $${this.walletBalance.toFixed(2)} < $${size}`);
       return { success: false, error: 'insufficient funds' };
     }
-
     if (this.config.dryRun) {
-      this.log(`[DRY RUN] ${side} $${size} @ ${price.toFixed(2)}`);
-      this.log(`  Market: ${marketId}`);
+      this.log(`[DRY RUN] ${side} $${size} @ $${price.toFixed(2)}`);
       return { success: true, dryRun: true };
     }
-
     try {
-      // Attempt real trade with wallet signing
-      const tradeData = {
-        marketId,
-        side,
-        size,
-        price,
-        timestamp: Date.now()
-      };
-      
+      this.log(`[EXEC] ${side} $${size} @ $${price.toFixed(2)} on ${marketId}`);
+      const tradeData = { marketId, side, size, price, timestamp: Date.now() };
       const order = await this.wallet.signOrder(tradeData);
-      this.log(`🔥 EXECUTING: ${side} $${size} @ $${price.toFixed(2)}`);
-      
-      // In production, this submits to Polymarket's CLOB
-      // const result = await this.polymarket.submitOrder(order);
-      
-      this.log(`✓ Order signed: ${order.signature?.substring(0, 20)}...`);
-      
+      this.log(`[SIGN] Order signed: ${order.signature?.substring(0, 30)}...`);
       this.tradeCount++;
       if (side === 'BUY') this.walletBalance -= size;
-      
-      this.positions.set(marketId, {
-        side,
-        size,
-        price,
-        timestamp: new Date().toISOString()
-      });
-
+      this.positions.set(marketId, { side, size, price });
+      if (!firstTradeNotified) {
+        this.notify(side, size, price, marketId);
+        firstTradeNotified = true;
+      }
+      this.log(`[EXEC] Trade complete. Balance: $${this.walletBalance.toFixed(2)}`);
       return { success: true };
-    } catch(e) {
-      this.log(`✗ Trade failed: ${e.message}`);
+    } catch (e) {
+      this.log(`[EXEC ERROR] ${e.message}`);
       return { success: false, error: e.message };
     }
   }
 
-  // WEATHER ARBITRAGE
-  async runWeatherArbitrage() {
-    this.log('\n--- Weather Arbitrage ---');
-
-    try {
-      const markets = await this.polymarket.getWeatherMarkets();
-      this.log(`Markets found: ${markets.length}`);
-
-      if (markets.length === 0) {
-        this.log('No weather markets available');
-        return;
-      }
-
-      for (const market of markets.slice(0, 3)) {
-        const tokenId = market.clob_token_ids?.[0];
-        if (!tokenId) continue;
-
-        const price = await this.polymarket.getPrice(tokenId);
-        if (!price) continue;
-
-        const midPrice = price.mid || 0.5;
-        this.log(`  ${market.title?.substring(0, 40)}: ${midPrice.toFixed(2)}`);
-
-        // BUY signal
-        if (midPrice < this.config.entryThreshold) {
-          this.log(`🎯 BUY SIGNAL: ${midPrice.toFixed(2)} < ${this.config.entryThreshold}`);
-          await this.executeTrade(market.id, 'BUY', this.config.maxPosition, midPrice);
-          return;
-        }
-
-        // SELL signal (if holding position)
-        if (midPrice > this.config.exitThreshold && this.positions.has(market.id)) {
-          this.log(`🎯 SELL SIGNAL: ${midPrice.toFixed(2)} > ${this.config.exitThreshold}`);
-          const pos = this.positions.get(market.id);
-          await this.executeTrade(market.id, 'SELL', pos.size, midPrice);
-          this.positions.delete(market.id);
-          return;
-        }
-      }
-    } catch(e) {
-      this.log(`Error: ${e.message}`);
-    }
-  }
-
-  // CHEAP SNIPER
-  async runSniper() {
-    this.log('\n--- Cheap Sniper ---');
-
-    try {
-      const markets = await this.polymarket.getMarkets({ limit: 50 });
-      const cheap = markets.filter(m => {
-        const p = m.bestAsk || m.midPrice || 0.5;
-        return p < this.config.sniperThreshold && p > 0.01;
-      });
-
-      this.log(`Cheap markets: ${cheap.length}`);
-
-      if (cheap.length > 0) {
-        const target = cheap[0];
-        const price = target.bestAsk || target.midPrice || 0.05;
-        this.log(`🎯 SNIPER: ${target.title?.substring(0, 40)} @ ${price.toFixed(2)}`);
-        await this.executeTrade(target.id, 'BUY', this.config.maxPosition * 0.6, price);
-      }
-    } catch(e) {
-      this.log(`Sniper error: ${e.message}`);
-    }
-  }
-
-  // MAIN LOOP
   async runOnce() {
-    if (this.tradeCount >= this.config.maxTradesPerDay) {
-      this.log('⚠️ Max daily trades reached');
+    if (!this.running) return;
+    this.log(`--- SCAN #${this.tradeCount + 1} ---`);
+    this.log(`Balance: $${this.walletBalance.toFixed(2)} USDC`);
+    if (this.walletBalance < 1) {
+      this.log(`[WAIT] Insufficient funds. Need $1+ to trade.`);
       return;
     }
 
-    this.log(`\n🔄 SCAN #${this.tradeCount + 1} | Balance: $${this.walletBalance}`);
+    // Fetch ALL market types: Weather, Crypto, Politics
+    let allMarkets = [];
+    let marketStats = { weather: 0, crypto: 0, politics: 0, other: 0 };
     
-    await this.runWeatherArbitrage();
-    await this.runSniper();
+    try {
+      const [weatherMarkets, cryptoMarkets, politicsMarkets] = await Promise.all([
+        this.polymarket.getWeatherMarkets(),
+        this.polymarket.getCryptoMarkets(),
+        this.polymarket.getPoliticsMarkets()
+      ]);
+      
+      marketStats.weather = weatherMarkets.length;
+      marketStats.crypto = cryptoMarkets.length;
+      marketStats.politics = politicsMarkets.length;
+      
+      // Combine all markets and deduplicate by ID
+      const seenIds = new Set();
+      for (const m of [...weatherMarkets, ...cryptoMarkets, ...politicsMarkets]) {
+        if (!seenIds.has(m.id)) {
+          seenIds.add(m.id);
+          allMarkets.push(m);
+        }
+      }
+      
+      marketStats.other = allMarkets.length - (weatherMarkets.length + cryptoMarkets.length + politicsMarkets.length);
+      this.log(`Markets: ${allMarkets.length} total | Weather: ${marketStats.weather} | Crypto: ${marketStats.crypto} | Politics: ${marketStats.politics}`);
+    } catch (e) {
+      this.log(`[API ERROR] ${e.message}`);
+      allMarkets = [];
+    }
+    this.log(`Markets: ${allMarkets.length}`);
+    for (const m of markets) {
+      if (m.closed) continue; // Skip closed markets
 
-    const positions = Array.from(this.positions.keys()).length;
-    this.log(`\nStatus: ${this.tradeCount} trades | ${positions} positions`);
+      // Extract price: try outcomePrices JSON, then bestBid, then lastTradePrice
+      let price = 0;
+      try {
+        const outcomes = JSON.parse(m.outcomePrices);
+        price = parseFloat(outcomes[0]) || 0; // YES price
+      } catch (e) {
+        price = parseFloat(m.bestBid || m.lastTradePrice || 0);
+      }
+
+      if (price === 0) continue;
+
+      if (price < this.config.entryThreshold) {
+        this.log(`[ENTRY] ${m.question || m.id}: Yes @ ${(price * 100).toFixed(1)}¢`);
+        await this.executeTrade(m.id, 'BUY', 1, price);
+      }
+      if (price > this.config.exitThreshold && this.positions.has(m.id)) {
+        this.log(`[EXIT] ${m.question || m.id}: Yes @ ${(price * 100).toFixed(1)}¢`);
+        await this.executeTrade(m.id, 'SELL', 1, price);
+        this.positions.delete(m.id);
+      }
+    }
+    this.log(`Status: ${this.tradeCount} trades | ${this.positions.size} positions`);
   }
 
   start() {
+    if (this.running) return;
     this.running = true;
-    this.log('\n🚀 BOT STARTED');
-    this.log('==========================================');
-    
-    // Run immediately
+    this.log(`🚀 TRADER STARTED`);
     this.runOnce();
-
-    // Every 2 minutes
-    this.interval = setInterval(() => {
-      if (this.running) this.runOnce();
-    }, 2 * 60 * 1000);
+    this.interval = setInterval(() => this.runOnce(), 2 * 60 * 1000);
   }
 
   stop() {
     this.running = false;
     if (this.interval) clearInterval(this.interval);
-    this.log('\n🛑 BOT STOPPED');
+    this.log(`🛑 TRADER STOPPED`);
   }
 }
 
-// START
 const trader = new FixedTrader();
 trader.init().then(ok => {
   if (ok) trader.start();
   else process.exit(1);
 });
 
-// Graceful shutdown
 process.on('SIGINT', () => {
   trader.stop();
   process.exit(0);

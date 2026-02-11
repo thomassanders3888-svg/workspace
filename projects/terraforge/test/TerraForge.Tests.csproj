@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Reference the main server project -->
+    <ProjectReference Include="../server/TerraForgeServer/TerraForgeServer.csproj" />
+    
+    <!-- Database -->
+    <PackageReference Include="Npgsql" Version="8.0.0" />
+    <PackageReference Include="StackExchange.Redis" Version="2.7.0" />
+    
+    <!-- Serialization testing -->
+    <PackageReference Include="MessagePack" Version="2.5.0" />
+  </ItemGroup>
+</Project>

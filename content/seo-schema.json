@@ -1,0 +1,74 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://aitools.example.com/#website",
+      "name": "AI Tools Directory",
+      "description": "Comprehensive directory of AI tools and software applications for productivity, creativity, and automation",
+      "url": "https://aitools.example.com"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://aitools.example.com/#app",
+      "name": "AI Tools Directory",
+      "description": "Discover and compare the best AI tools. Curated software applications for machine learning, NLP, image generation, and more.",
+      "url": "https://aitools.example.com",
+      "applicationCategory": "ProductivityApplication",
+      "operatingSystem": "Web"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://gamehub.example.com/#website",
+      "name": "GameHub",
+      "description": "Your ultimate gaming destination. Reviews, guides, and community for gamers worldwide",
+      "url": "https://gamehub.example.com"
+    },
+    {
+      "@type": "VideoGame",
+      "@id": "https://gamehub.example.com/#game",
+      "name": "GameHub Platform",
+      "description": "Interactive gaming platform featuring reviews, walkthroughs, and multiplayer gaming experiences",
+      "url": "https://gamehub.example.com",
+      "genre": ["Action", "Adventure", "Strategy", "RPG"],
+      "gamePlatform": ["PC", "Web", "Mobile"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://resumepro.example.com/#website",
+      "name": "ResumePro",
+      "description": "Professional resume building service. Create stunning resumes and land your dream job",
+      "url": "https://resumepro.example.com"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://resumepro.example.com/#service",
+      "name": "ResumePro Resume Writing Service",
+      "description": "Expert resume writing, CV optimization, and career coaching services for professionals",
+      "url": "https://resumepro.example.com",
+      "provider": {
+        "@type": "Organization",
+        "name": "ResumePro"
+      },
+      "serviceType": "Resume Writing"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://couponhub.example.com/#website",
+      "name": "CouponHub",
+      "description": "Find the best deals, discounts, and coupon codes. Save money on your favorite brands",
+      "url": "https://couponhub.example.com"
+    },
+    {
+      "@type": "Offer",
+      "@id": "https://couponhub.example.com/#offer",
+      "name": "CouponHub Deals & Discounts",
+      "description": "Exclusive coupons and promotional codes for thousands of stores. Maximize your savings today.",
+      "url": "https://couponhub.example.com",
+      "availableAtOrFrom": {
+        "@type": "WebSite",
+        "name": "CouponHub"
+      }
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+================================================================================
+SIMMER TRADER BOT DEBUG REPORT
+Generated: 2026-02-11 02:56 UTC
+================================================================================
+
+STATUS CHECK
+------------
+Bot runtime: 43 minutes
+Markets tracked: 50
+Trades executed: 0 (CRITICAL ISSUE)
+USDC balance: $30 (intact)
+
+================================================================================
+ROOT CAUSE ANALYSIS
+================================================================================
+
+[BUG #1] CRITICAL: Price Extraction Missing
+------------------------------------------
+Problem: Code checks for m.price which doesn't exist as a field
+Location: trader-fixed.js line ~175-185
+
+Current code:
+  if (m.price < this.config.entryThreshold) { ... }
+  if (m.price > this.config.exitThreshold && this.positions.has(m.id)) { ... }
+
+Actual available fields from API:
+  - m.bestBid (number)
+  - m.bestAsk (number)
+  - m.lastTradePrice (number)
+  - m.outcomePrices (JSON string: "[\"0.45\", \"0.55\"]")
+  - m.spread (number)
+
+Fix required: Replace m.price with proper price extraction:
+  const price = parseFloat(m.bestBid || m.lastTradePrice || 0);
+  OR parse: JSON.parse(m.outcomePrices)[0] for YES price
+
+[BUG #2] HIGH: Including Closed Markets
+--------------------------------------
+Problem: Markets from 2020 (e.g., "Will Joe Biden get Coronavirus...") are 
+returned even though closed: true. These show prices of 0 or 1.
+
+Sample closed market:
+  - ID: 12
+  - Question: "Will Joe Biden get Coronavirus before the election?"
+  - endDate: "2020-11-04"
+  - closed: true
+  - bestBid: 0
+  - bestAsk: 1
+  - lastTradePrice: 0
+
+Impact: Price of 0 or 1 on closed markets could trigger false signals
+
+[BUG #3] MEDIUM: Weather Markets Use Wrong Field Name
+----------------------------------------------------
+Problem: getWeatherMarkets() filters on m.title which doesn't exist
+Location: polymarket.js line ~30-38
+
+Current code:
+  text.includes('temp') || ... || text.includes('snow')
+  where text = (m.title + ' ' + m.description).toLowerCase()
+
+Actual field name: m.question (not m.title)
+Fix: Use m.question || m.events?.[0]?.title
+
+[ISSUE #4] WARNING: Entry Threshold at 15¢ May Be Too Low
+----------------------------------------------------------
+Current threshold: 0.15 (15¢)
+Observation: All 50 active markets show prices above 15¢
+Market prices range: 20¢ - 80¢ (typical range for active markets)
+
+Recommendation: Consider lowering threshold to 0.20-0.25 or wait for 
+market volatility. 15¢ is extremely low for most prediction markets.
+
+================================================================================
+VERIFICATION TESTS
+================================================================================
+
+Test 1: Price Availability
+Result: FAILED
+  - m.price field: MISSING
+  - m.bestBid: Available (0-1 range)
+  - m.lastTradePrice: Available (often 0 for new markets)
+  - m.outcomePrices: Available as JSON string "[\"0.45\", \"0.55\"]"
+
+Test 2: Weather Market Detection
+Result: PARTIAL
+  - Found 27 weather-related markets
+  - But filter using wrong field names
+  - Prices not properly extracted (all showing 50¢ default)
+
+Test 3: Markets Under 15¢ Threshold
+Result: 0 markets found
+  This is likely correct - active markets rarely trade below 15¢
+  unless highly unlikely outcomes (long shots)
+
+Test 4: Market Date Filter
+Result: FAILED
+  - Markets from 2020-2021 being returned
+  - Some markets have closed: true but still in active list
+
+================================================================================
+MINIMAL FIX REQUIRED
+================================================================================
+
+File: trader-fixed.js
+Lines: ~175-185 in runOnce()
+
+OLD CODE:
+---------
+    for (const m of markets.slice(0, 5)) {
+      if (!m.price) continue;
+      if (m.price < this.config.entryThreshold) {
+        this.log(`[ENTRY] ${m.id}: Yes @ ${(m.price * 100).toFixed(1)}¢`);
+        await this.executeTrade(m.id, 'BUY', 1, m.price);
+      }
+      if (m.price > this.config.exitThreshold && this.positions.has(m.id)) {
+        this.log(`[EXIT] ${m.id}: Yes @ ${(m.price * 100).toFixed(1)}¢`);
+        await this.executeTrade(m.id, 'SELL', 1, m.price);
+        this.positions.delete(m.id);
+      }
+    }
+
+NEW CODE:
+---------
+    for (const m of markets.slice(0, 5)) {
+      if (m.closed) continue;  // Skip closed markets
+      
+      // Extract price: try outcomePrices JSON, then bestBid, then lastTradePrice
+      let price = 0;
+      try {
+        const outcomes = JSON.parse(m.outcomePrices);
+        price = parseFloat(outcomes[0]) || 0;  // YES price
+      } catch (e) {
+        price = parseFloat(m.bestBid || m.lastTradePrice || 0);
+      }
+      
+      if (price === 0) continue;
+      
+      if (price < this.config.entryThreshold) {
+        this.log(`[ENTRY] ${m.question || m.id}: Yes @ ${(price * 100).toFixed(1)}¢`);
+        await this.executeTrade(m.id, 'BUY', 1, price);
+      }
+      if (price > this.config.exitThreshold && this.positions.has(m.id)) {
+        this.log(`[EXIT] ${m.question || m.id}: Yes @ ${(price * 100).toFixed(1)}¢`);
+        await this.executeTrade(m.id, 'SELL', 1, price);
+        this.positions.delete(m.id);
+      }
+    }
+
+================================================================================
+SUMMARY
+================================================================================
+
+PRIMARY ISSUE: The trader cannot execute trades because it references a 
+non-existent m.price field. All price comparisons fail silently due to 
+undefined values.
+
+SECONDARY ISSUES:
+  1. Including closed markets from 2020-2021
+  2. Weather market filter uses wrong field name
+  3. Entry threshold (15¢) may be too aggressive for current market conditions
+
+CONFIDENCE LEVEL: HIGH - The code clearly shows price extraction is wrong
+
+IMMEDIATE ACTION: Apply the minimal fix above and restart the bot
+
+================================================================================

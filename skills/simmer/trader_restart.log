@@ -1,0 +1,26 @@
+[2026-02-11T12:52:20.859Z] [INIT] Wallet: 0xb99a3Ed7d209DdaF69FAB477B52857701e245CE9
+[2026-02-11T12:52:20.860Z] [INIT] Checking all chains for USDC...
+[2026-02-11T12:52:21.533Z] [INIT] ETHEREUM: $0.00 USDC
+[2026-02-11T12:52:21.533Z] [INIT] BASE: $0.00 USDC
+[2026-02-11T12:52:21.533Z] [INIT] POLYGON: $30.00 USDC
+[2026-02-11T12:52:21.533Z] [INIT] Total across all chains: $30.00
+[2026-02-11T12:52:21.533Z] [INIT] Tradeable (Polygon): $30.00
+[2026-02-11T12:52:21.672Z] [INIT] ETHEREUM gas (ETH): 0.0000
+[2026-02-11T12:52:21.820Z] [INIT] POLYGON gas (MATIC): 49.0463
+[2026-02-11T12:52:21.821Z] [INIT] Chain: POLYGON
+[2026-02-11T12:52:21.821Z] [INIT] Dry Run: false
+[2026-02-11T12:52:21.821Z] [INIT] LIVE MODE
+[2026-02-11T12:52:21.821Z] ==================================================
+[2026-02-11T12:52:21.821Z] 🚀 TRADER STARTED
+[2026-02-11T12:52:21.821Z] --- SCAN #1 ---
+[2026-02-11T12:52:21.821Z] Balance: $30.00 USDC
+[2026-02-11T12:52:22.023Z] Markets: 0 total | Weather: 0 | Crypto: 0 | Politics: 0
+/home/clawdbot267/.openclaw/workspace/skills/simmer/trader-fixed.js:155
+    this.log(`Markets: ${markets.length}`);
+                         ^
+
+ReferenceError: markets is not defined
+    at FixedTrader.runOnce (/home/clawdbot267/.openclaw/workspace/skills/simmer/trader-fixed.js:155:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+
+Node.js v24.13.0
