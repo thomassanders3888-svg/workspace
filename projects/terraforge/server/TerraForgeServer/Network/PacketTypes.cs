@@ -3,6 +3,8 @@
 
 namespace TerraForgeServer.Network;
 
+public enum AuthResult { Success, InvalidToken, ServerFull, VersionMismatch }
+
 public enum PacketType : byte
 {
     // Connection

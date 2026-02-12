@@ -111,7 +111,7 @@ public class GameServer {
     private async Task ProcessSkillTicks() {
         Console.WriteLine($"[Skills] Processing hourly skill ticks for {_players.Count} players...");
         foreach (var player in _players.Values) {
-            await player.ProcessSkillTick();
+            await player.ProcessTickAsync();
         }
     }
 
@@ -207,7 +207,7 @@ public class Player {
         await Task.CompletedTask;
     }
 
-    public async Task ProcessSkillTick() {
+    public async Task ProcessTickAsync() {
         await Skills.ProcessTickAsync();
     }
 }

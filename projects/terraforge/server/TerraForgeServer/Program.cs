@@ -2,7 +2,7 @@
 // A Wurm Online-inspired sandbox MMO server
 
 using TerraForgeServer.Core;
-using TerraForgeServer.Networking;
+using TerraForgeServer.Network;
 using TerraForgeServer.World;
 
 Console.WriteLine(@"

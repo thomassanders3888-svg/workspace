@@ -1,0 +1,6 @@
+/home/clawdbot267/.openclaw/workspace/projects/terraforge/server/TerraForgeServer/obj/Debug/net8.0/TerraForgeServer.csproj.AssemblyReference.cache
+/home/clawdbot267/.openclaw/workspace/projects/terraforge/server/TerraForgeServer/obj/Debug/net8.0/TerraForgeServer.GeneratedMSBuildEditorConfig.editorconfig
+/home/clawdbot267/.openclaw/workspace/projects/terraforge/server/TerraForgeServer/obj/Debug/net8.0/TerraForgeServer.AssemblyInfoInputs.cache
+/home/clawdbot267/.openclaw/workspace/projects/terraforge/server/TerraForgeServer/obj/Debug/net8.0/TerraForgeServer.AssemblyInfo.cs
+/home/clawdbot267/.openclaw/workspace/projects/terraforge/server/TerraForgeServer/obj/Debug/net8.0/TerraForgeServer.csproj.CoreCompileInputs.cache
+/home/clawdbot267/.openclaw/workspace/projects/terraforge/server/TerraForgeServer/obj/Debug/net8.0/TerraForgeServer.sourcelink.json

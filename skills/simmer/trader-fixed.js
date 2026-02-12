@@ -153,7 +153,7 @@ class FixedTrader {
       allMarkets = [];
     }
     this.log(`Markets: ${allMarkets.length}`);
-    for (const m of markets) {
+    for (const m of allMarkets) {
       if (m.closed) continue; // Skip closed markets
 
       // Extract price: try outcomePrices JSON, then bestBid, then lastTradePrice

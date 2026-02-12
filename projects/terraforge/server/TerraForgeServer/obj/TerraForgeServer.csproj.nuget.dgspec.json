@@ -1,0 +1,111 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/clawdbot267/.openclaw/workspace/projects/terraforge/server/TerraForgeServer/TerraForgeServer.csproj": {}
+  },
+  "projects": {
+    "/home/clawdbot267/.openclaw/workspace/projects/terraforge/server/TerraForgeServer/TerraForgeServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/clawdbot267/.openclaw/workspace/projects/terraforge/server/TerraForgeServer/TerraForgeServer.csproj",
+        "projectName": "TerraForgeServer",
+        "projectPath": "/home/clawdbot267/.openclaw/workspace/projects/terraforge/server/TerraForgeServer/TerraForgeServer.csproj",
+        "packagesPath": "/home/clawdbot267/.nuget/packages/",
+        "outputPath": "/home/clawdbot267/.openclaw/workspace/projects/terraforge/server/TerraForgeServer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/clawdbot267/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MemoryPack": {
+              "target": "Package",
+              "version": "[1.10.0, )"
+            },
+            "MessagePack": {
+              "target": "Package",
+              "version": "[2.5.108, )"
+            },
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Protocols.MessagePack": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.7.0, )"
+            },
+            "Steamworks.NET": {
+              "target": "Package",
+              "version": "[20.1.0, )"
+            },
+            "prometheus-net.AspNetCore": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/clawdbot267/.dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -9,8 +9,8 @@ namespace TerraForgeServer.World
     {
         private readonly int[] _perm = new int[512];
         private readonly int[] _perm3D = new int[512];
-        private const double SKEW_2D = 0.5 * (1.0 / Math.Sqrt(3.0) - 1.0);
-        private const double UNSKEW_2D = (3.0 - Math.Sqrt(3.0)) / 6.0;
+        private const double SKEW_2D = -0.21132486540518708;
+        private const double UNSKEW_2D = 0.21132486540518713;
         private const double SKEW_3D = 1.0 / 3.0;
         private const double UNSKEW_3D = 1.0 / 6.0;
         
