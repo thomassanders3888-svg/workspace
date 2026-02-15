@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regex Tester & Debugger - Free Online Tool</title>
+    <meta name="description" content="Free online regex tester. Build, test, and debug regular expressions with real-time matching, substitution, and cheat sheet.">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V3KZQ8BTZM"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-V3KZQ8BTZM");</script>
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{&quot;token&quot;:&quot;c57568b1f2304c588adac9e8c1c0b8ad&quot;}"></script>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0a0a0f;color:#e0e0ff;min-height:100vh}
+        header{background:#12121a;padding:1rem 2rem;border-bottom:1px solid #1a1a2e}
+        h1{font-size:1.5rem;background: linear-gradient(90deg,#f093fb,#f5576c);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+        .container{max-width:1200px;margin:0 auto;padding:2rem}
+        .regex-input{width:100%;padding:1rem;background:#12121a;border:1px solid #1a1a2e;border-radius:8px;color:#e0e0ff;font-family:monospace;font-size:16px;margin-bottom:1rem}
+        .regex-input:focus{outline:none;border-color:#f5576c}
+        .flags{display:flex;gap:1rem;margin-bottom:1rem;flex-wrap:wrap}
+        .flag-label{display:flex;align-items:center;gap:0.5rem;cursor:pointer}
+        .flag-label input{width:18px;height:18px;accent-color:#f5576c}
+        textarea{width:100%;height:200px;background:#12121a;border:1px solid #1a1a2e;border-radius:8px;padding:1rem;color:#e0e0ff;font-family:monospace;font-size:14px;resize:vertical;margin-bottom:0.5rem}
+        textarea:focus{outline:none;border-color:#f5576c}
+        .btn{background:linear-gradient(90deg,#f093fb,#f5576c);color:#fff;border:none;padding:0.75rem 1.5rem;border-radius:6px;cursor:pointer;font-weight:600;margin-right:0.5rem}
+        .btn:hover{opacity:0.9}
+        .match{background:rgba(81,207,102,0.2);padding:2px 4px;border-radius:3px;color:#51cf66}
+        .no-match{color:#ff6b6b;margin-top:1rem}
+        .cheatsheet{background:#12121a;padding:1rem;border-radius:8px;margin-top:2rem}
+        .cheatsheet table{width:100%;border-collapse:collapse}
+        .cheatsheet td{padding:0.5rem;border-bottom:1px solid #1a1a2e}
+        .cheatsheet code{background:#1a1a2e;padding:2px 6px;border-radius:3px;color:#f5576c}
+        footer{text-align:center;padding:2rem;color:#666;border-top:1px solid #1a1a2e;margin-top:2rem}
+        .ad-placeholder{background:#1a1a2e;border:2px dashed #333;padding:2rem;text-align:center;margin:2rem 0;border-radius:8px}
+    </style>
+</head>
+<body>
+    <header><h1>🔍 Regex Tester & Debugger</h1></header>
+    <div class="container">
+        <p>Test regular expressions in real-time with JavaScript engine.</p>
+        
+        <input type="text" class="regex-input" id="regex" placeholder="Enter regex pattern (e.g., \d{3}-\d{4})" oninput="testRegex()">
+        
+        <div class="flags">
+            <label class="flag-label"><input type="checkbox" id="flag-g" onchange="testRegex()"> Global (g)</label>
+            <label class="flag-label"><input type="checkbox" id="flag-i" onchange="testRegex()"> Case insensitive (i)</label>
+            <label class="flag-label"><input type="checkbox" id="flag-m" onchange="testRegex()"> Multiline (m)</label>
+            <label class="flag-label"><input type="checkbox" id="flag-s" onchange="testRegex()"> Dot all (s)</label>
+        </div>
+        
+        <h3>Test String</h3>
+        <textarea id="testString" placeholder="Enter text to test against..." oninput="testRegex()"></textarea>
+        
+        <h3>Matches</h3>
+        <div id="matches" style="background:#12121a;padding:1rem;border-radius:8px;min-height:50px;font-family:monospace;white-space:pre-wrap"></div>
+        
+        <div class="ad-placeholder">Advertisement Space - AdSense Ready</div>
+        
+        <div class="cheatsheet">
+            <h3>Quick Reference</h3>
+            <table>
+                <tr><td><code>.</code></td><td>Any character</td></tr>
+                <tr><td><code>\d</code></td><td>Digit [0-9]</td></tr>
+                <tr><td><code>\w</code></td><td>Word [a-zA-Z0-9_]</td></tr>
+                <tr><td><code>\s</code></td><td>Whitespace</td></tr>
+                <tr><td><code>^</code></td><td>Start of string</td></tr>
+                <tr><td><code>$</code></td><td>End of string</td></tr>
+                <tr><td><code>*</code></td><td>0 or more</td></tr>
+                <tr><td><code>+</code></td><td>1 or more</td></tr>
+                <tr><td><code>?</code></td><td>0 or 1</td></tr>
+                <tr><td><code>{n}</code></td><td>Exactly n</td></tr>
+                <tr><td><code>{n,}</code></td><td>n or more</td></tr>
+                <tr><td><code>[abc]</code></td><td>Any of a, b, or c</td></tr>
+                <tr><td><code>[^abc]</code></td><td>Not a, b, or c</td></tr>
+            </table>
+        </div>
+    </div>
+    <footer><p>Built for developers | Free forever | Regex Tester</p></footer>
+    
+    <script>
+        function testRegex() {
+            const pattern = document.getElementById('regex').value;
+            const testString = document.getElementById('testString').value;
+            const matchesDiv = document.getElementById('matches');
+            
+            if (!pattern || !testString) {
+                matchesDiv.innerHTML = 'Enter regex and test string';
+                return;
+            }
+            
+            let flags = '';
+            if (document.getElementById('flag-g').checked) flags += 'g';
+            if (document.getElementById('flag-i').checked) flags += 'i';
+            if (document.getElementById('flag-m').checked) flags += 'm';
+            if (document.getElementById('flag-s').checked) flags += 's';
+            
+            try {
+                const regex = new RegExp(pattern, flags || 'g');
+                const matches = [...testString.matchAll(regex)];
+                
+                if (matches.length === 0) {
+                    matchesDiv.innerHTML = '<span class="no-match">No matches</span>';
+                    return;
+                }
+                
+                // Highlight matches in the test string
+                let result = testString;
+                let offset = 0;
+                matches.forEach((match, i) => {
+                    const start = match.index + offset;
+                    const end = start + match[0].length;
+                    const before = result.slice(0, start);
+                    const matched = '<span class="match">' + match[0] + '</span>';
+                    const after = result.slice(end);
+                    result = before + matched + after;
+                    offset += matched.length - match[0].length;
+                });
+                
+                matchesDiv.innerHTML = result + '<br><br><strong>Found ' + matches.length + ' match(es):</strong><br>' + 
+                    matches.map((m, i) => `Match ${i+1}: "${m[0]}" at position ${m.index}`).join('<br>');
+            } catch (e) {
+                matchesDiv.innerHTML = '<span class="no-match">Invalid regex: ' + e.message + '</span>';
+            }
+        }
+    </script>
+</body>
+</html>

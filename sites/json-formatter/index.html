@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Formatter & Validator - Free Online Tool</title>
+    <meta name="description" content="Free online JSON formatter, validator, and beautifier. Format, validate, minify, and convert JSON with syntax highlighting.">
+    <meta property="og:title" content="JSON Formatter & Validator">
+    <meta property="og:description" content="Format and validate JSON online for free">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V3KZQ8BTZM"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-V3KZQ8BTZM");</script>
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{&quot;token&quot;:&quot;c57568b1f2304c588adac9e8c1c0b8ad&quot;}"></script>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0a0a0f;color:#e0e0ff;min-height:100vh}
+        header{background:#12121a;padding:1rem 2rem;border-bottom:1px solid #1a1a2e}
+        h1{font-size:1.5rem;background: linear-gradient(90deg,#4facfe,#00f2fe);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+        .container{max-width:1400px;margin:0 auto;padding:2rem}
+        .tool-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:1rem}
+        @media(max-width:768px){.tool-grid{grid-template-columns:1fr}}
+        textarea{width:100%;height:400px;background:#12121a;border:1px solid #1a1a2e;border-radius:8px;padding:1rem;color:#e0e0ff;font-family:'Monaco','Consolas',monospace;font-size:14px;resize:vertical}
+        textarea:focus{outline:none;border-color:#4facfe}
+        .btn{background:linear-gradient(90deg,#4facfe,#00f2fe);color:#0a0a0f;border:none;padding:0.75rem 1.5rem;border-radius:6px;cursor:pointer;font-weight:600;margin:0.5rem 0.5rem 0 0;transition:opacity 0.2s}
+        .btn:hover{opacity:0.9}
+        .output{white-space:pre-wrap;word-break:break-word;font-family:'Monaco','Consolas',monospace;font-size:14px}
+        .error{color:#ff6b6b}
+        .success{color:#51cf66}
+        .toolbar{display:flex;gap:0.5rem;margin-bottom:1rem;flex-wrap:wrap}
+        .ad-placeholder{background:#1a1a2e;border:2px dashed #333;padding:2rem;text-align:center;margin:2rem 0;border-radius:8px;color:#666}
+        footer{text-align:center;padding:2rem;color:#666;font-size:0.875rem;border-top:1px solid #1a1a2e;margin-top:2rem}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🔧 JSON Formatter & Validator</h1>
+    </header>
+    <div class="container">
+        <p>Paste your JSON below to format, validate, and beautify. Works entirely in your browser - no data sent to servers.</p>
+        
+        <div class="toolbar">
+            <button class="btn" onclick="formatJSON()">Format / Beautify</button>
+            <button class="btn" onclick="minifyJSON()">Minify</button>
+            <button class="btn" onclick="validateJSON()">Validate</button>
+            <button class="btn" onclick="clearAll()">Clear</button>
+            <button class="btn" onclick="loadSample()">Load Sample</button>
+        </div>
+        
+        <div class="tool-grid">
+            <div>
+                <h3>Input</h3>
+                <textarea id="input" placeholder="Paste your JSON here..."></textarea>
+            </div>
+            <div>
+                <h3>Output <span id="status"></span></h3>
+                <textarea id="output" readonly placeholder="Formatted JSON will appear here..."></textarea>
+            </div>
+        </div>
+        
+        <div class="ad-placeholder">Advertisement Space - AdSense Ready</div>
+        
+        <h2>Related Tools</h2>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin-top:1rem">
+            <a href="https://thomassanders3888-svg.github.io/devtool-compare/" style="background:#12121a;padding:1rem;border-radius:8px;text-decoration:none;color:#4facfe">Dev Tool Compare →</a>
+            <a href="https://thomassanders3888-svg.github.io/api-directory/" style="background:#12121a;padding:1rem;border-radius:8px;text-decoration:none;color:#4facfe">API Directory →</a>
+            <a href="https://thomassanders3888-svg.github.io/vscode-themes/" style="background:#12121a;padding:1rem;border-radius:8px;text-decoration:none;color:#4facfe">VSCode Themes →</a>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Built for developers | Free forever | <a href="https://github.com/thomassanders3888-svg/json-formatter" style="color:#4facfe">GitHub</a></p>
+    </footer>
+    
+    <script>
+        function formatJSON() {
+            const input = document.getElementById('input').value;
+            const output = document.getElementById('output');
+            const status = document.getElementById('status');
+            
+            if (!input.trim()) {
+                status.innerHTML = '<span class="error">Please enter JSON</span>';
+                return;
+            }
+            
+            try {
+                const obj = JSON.parse(input);
+                output.value = JSON.stringify(obj, null, 2);
+                status.innerHTML = '<span class="success">✓ Formatted</span>';
+            } catch (e) {
+                output.value = '';
+                status.innerHTML = '<span class="error">✗ Invalid JSON: ' + e.message + '</span>';
+            }
+        }
+        
+        function minifyJSON() {
+            const input = document.getElementById('input').value;
+            const output = document.getElementById('output');
+            const status = document.getElementById('status');
+            
+            try {
+                const obj = JSON.parse(input);
+                output.value = JSON.stringify(obj);
+                status.innerHTML = '<span class="success">✓ Minified</span>';
+            } catch (e) {
+                status.innerHTML = '<span class="error">✗ Invalid JSON</span>';
+            }
+        }
+        
+        function validateJSON() {
+            const input = document.getElementById('input').value;
+            const status = document.getElementById('status');
+            
+            try {
+                JSON.parse(input);
+                status.innerHTML = '<span class="success">✓ Valid JSON</span>';
+            } catch (e) {
+                status.innerHTML = '<span class="error">✗ Invalid: ' + e.message + '</span>';
+            }
+        }
+        
+        function clearAll() {
+            document.getElementById('input').value = '';
+            document.getElementById('output').value = '';
+            document.getElementById('status').innerHTML = '';
+        }
+        
+        function loadSample() {
+            const sample = {
+                "name": "JSON Formatter",
+                "version": "1.0",
+                "features": ["Format", "Validate", "Minify"],
+                "free": true,
+                "created": new Date().toISOString()
+            };
+            document.getElementById('input').value = JSON.stringify(sample, null, 2);
+            formatJSON();
+        }
+        
+        // Auto-format on paste
+        document.getElementById('input').addEventListener('paste', () => {
+            setTimeout(formatJSON, 100);
+        });
+    </script>
+</body>
+</html>
