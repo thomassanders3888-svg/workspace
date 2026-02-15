@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strength Checker - Free Online Tool</title>
+    <meta name="description" content="Check your password strength instantly. Visual strength meter with tips for stronger passwords. No data sent to servers.">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V3KZQ8BTZM"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-V3KZQ8BTZM");</script>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0a0a0f;color:#e0e0ff;min-height:100vh}
+        header{background:#12121a;padding:1rem 2rem;border-bottom:1px solid #1a1a2e}
+        h1{font-size:1.5rem;background: linear-gradient(90deg,#42e695,#3bb2b8);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+        .container{max-width:600px;margin:0 auto;padding:2rem;text-align:center}
+        input[type="text"]{width:100%;padding:1rem;background:#12121a;border:1px solid #1a1a2e;border-radius:8px;color:#e0e0ff;font-size:1.1rem;margin-bottom:1rem}
+        .strength-meter{height:8px;background:#1a1a2e;border-radius:4px;overflow:hidden}
+        .strength-fill{height:100%;width:0%;transition:all 0.3s}
+        .strength-text{margin:0.5rem 0;font-weight:600}
+        .checks{text-align:left;background:#12121a;padding:1rem;border-radius:8px;margin-top:1rem}
+        .check{display:flex;align-items:center;gap:0.5rem;margin:0.5rem 0;color:#666}
+        .check.pass{color:#51cf66}
+        footer{text-align:center;padding:2rem;color:#666;border-top:1px solid #1a1a2e;margin-top:2rem}
+    </style>
+</head>
+<body>
+    <header><h1>🔐 Password Strength Checker</h1></header>
+    <div class="container">
+        <p>Check your password strength instantly. All processing happens in your browser.</p>
+        <input type="text" id="password" placeholder="Enter password to check..." oninput="checkStrength()">
+        <div class="strength-meter"><div class="strength-fill" id="meter"></div></div>
+        <div class="strength-text" id="strength-text">Start typing...</div>
+        <div class="checks">
+            <div class="check" id="len">❌ At least 12 characters</div>
+            <div class="check" id="upper">❌ Uppercase letter</div>
+            <div class="check" id="lower">❌ Lowercase letter</div>
+            <div class="check" id="num">❌ Number</div>
+            <div class="check" id="special">❌ Special character</div>
+        </div>
+    </div>
+    <footer><p>Built for security | No data stored or transmitted</p></footer>
+    <script>
+        function checkStrength() {
+            const pwd = document.getElementById('password').value;
+            const meter = document.getElementById('meter');
+            const text = document.getElementById('strength-text');
+            const hasLen = pwd.length >= 12;
+            const hasUpper = /[A-Z]/.test(pwd);
+            const hasLower = /[a-z]/.test(pwd);
+            const hasNum = /[0-9]/.test(pwd);
+            const hasSpecial = /[^A-Za-z0-9]/.test(pwd);
+            const score = [hasLen, hasUpper, hasLower, hasNum, hasSpecial].filter(Boolean).length;
+            document.getElementById('len').className = 'check ' + (hasLen ? 'pass' : '');
+            document.getElementById('len').textContent = (hasLen ? '✅' : '❌') + ' At least 12 characters';
+            document.getElementById('upper').className = 'check ' + (hasUpper ? 'pass' : '');
+            document.getElementById('upper').textContent = (hasUpper ? '✅' : '❌') + ' Uppercase letter';
+            document.getElementById('lower').className = 'check ' + (hasLower ? 'pass' : '');
+            document.getElementById('lower').textContent = (hasLower ? '✅' : '❌') + ' Lowercase letter';
+            document.getElementById('num').className = 'check ' + (hasNum ? 'pass' : '');
+            document.getElementById('num').textContent = (hasNum ? '✅' : '❌') + ' Number';
+            document.getElementById('special').className = 'check ' + (hasSpecial ? 'pass' : '');
+            document.getElementById('special').textContent = (hasSpecial ? '✅' : '❌') + ' Special character';
+            if (score <= 2) { meter.style.width = '33%'; meter.style.background = '#ff6b6b'; text.textContent = 'Weak'; text.style.color = '#ff6b6b'; }
+            else if (score <= 4) { meter.style.width = '66%'; meter.style.background = '#feca57'; text.textContent = 'Fair'; text.style.color = '#feca57'; }
+            else { meter.style.width = '100%'; meter.style.background = '#51cf66'; text.textContent = 'Strong!'; text.style.color = '#51cf66'; }
+        }
+    </script>
+</body>
+</html>
