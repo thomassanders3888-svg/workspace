@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lorem Ipsum Generator - Free Online Tool</title>
+    <meta name="description" content="Generate Lorem Ipsum placeholder text instantly. Free online tool with copy-to-clipboard functionality.">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V3KZQ8BTZM"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-V3KZQ8BTZM");</script>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0a0a0f;color:#e0e0ff;min-height:100vh}
+        header{background:#12121a;padding:1rem 2rem;border-bottom:1px solid #1a1a2e}
+        h1{font-size:1.5rem;background:linear-gradient(90deg,#fa709a,#f5576c);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+        .container{max-width:800px;margin:0 auto;padding:2rem;text-align:center}
+        .controls{display:flex;gap:1rem;justify-content:center;margin:2rem 0;flex-wrap:wrap}
+        .btn{background:linear-gradient(90deg,#fa709a,#f5576c);color:#fff;border:none;padding:0.75rem 1.5rem;border-radius:6px;cursor:pointer;font-weight:600;font-size:16px}
+        input[type="number"]{width:80px;padding:0.75rem;background:#12121a;border:1px solid #1a1a2e;border-radius:6px;color:#e0e0ff;text-align:center;font-size:16px}
+        .output{background:#12121a;border:1px solid #1a1a2e;border-radius:8px;padding:1.5rem;margin-top:1rem;text-align:left;line-height:1.8;min-height:200px;position:relative}
+        .copy-btn{position:absolute;top:1rem;right:1rem;background:#1a1a2e;border:1px solid #333;color:#fff;padding:0.5rem 1rem;border-radius:6px;cursor:pointer}
+        footer{text-align:center;padding:2rem;color:#666;border-top:1px solid #1a1a2e;margin-top:2rem}
+    </style>
+</head>
+<body>
+    <header><h1>✍️ Lorem Ipsum Generator</h1></header>
+    <div class="container">
+        <p>Generate placeholder text for your designs instantly.</p>
+        <div class="controls">
+            <input type="number" id="count" value="5" min="1" max="50">
+            <button class="btn" onclick="generateWords()">Words</button>
+            <button class="btn" onclick="generateSentences()">Sentences</button>
+            <button class="btn" onclick="generateParagraphs()">Paragraphs</button>
+        </div>
+        <div class="output" id="output"><button class="copy-btn" onclick="copyText()">Copy</button><div id="text">Click to generate...</div></div>
+    </div>
+    <footer>Free tool | No registration needed</footer>
+    <script>
+        const words=['lorem','ipsum','dolor','sit','amet','consectetur','adipiscing','elit','sed','do','eiusmod','tempor','incididunt','ut','labore','et','dolore','magna','aliqua'];
+        function randomWord(){return words[Math.floor(Math.random()*words.length)];}
+        function capitalize(w){return w.charAt(0).toUpperCase()+w.slice(1);}
+        function generateWords(){const c=+document.getElementById('count').value;let r=[];for(let i=0;i<c;i++)r.push(randomWord());document.getElementById('text').textContent=r.join(' ');}
+        function generateSentences(){const c=+document.getElementById('count').value;let r=[];for(let i=0;i<c;i++){let s=[];const len=8+Math.floor(Math.random()*6);for(let j=0;j<len;j++)s.push(randomWord());r.push(capitalize(s.join(' '))+'.');}document.getElementById('text').textContent=r.join(' ');}
+        function generateParagraphs(){const c=+document.getElementById('count').value;let r=[];for(let i=0;i<c;i++){let p=[];const slen=4+Math.floor(Math.random()*3);for(let s=0;s<slen;s++){let sent=[];const len=8+Math.floor(Math.random()*6);for(let j=0;j<len;j++)sent.push(randomWord());p.push(capitalize(sent.join(' '))+'.');}r.push(p.join(' '));}document.getElementById('text').textContent=r.join('\n\n');}
+        function copyText(){navigator.clipboard.writeText(document.getElementById('text').textContent);}
+    </script>
+</body>
+</html>
