@@ -1,117 +1,126 @@
 using System;
 using System.Threading.Tasks;
 using System.Security.Cryptography;
+using System.Text;
 
-public class Authentication {
-    private readonly IDatabase _db;
+public class AuthenticationService {
+    private readonly TerraForgeDbContext _db;
+    private readonly TimeSpan _sessionTimeout = TimeSpan.FromHours(24);
     
-    public Authentication(IDatabase db) {
+    public AuthenticationService(TerraForgeDbContext db) {
         _db = db;
     }
     
-    public async Task<AuthResult> Register(string username, string password, string email) {
-        if (await _db.UserExists(username)) {
-            return new AuthResult { Success = false, Error = "Username already exists" };
+    public async Task<AuthResult> Login(string username, string password, string clientVersion) {
+        var player = await _db.Players.FindAsync(username);
+        
+        if (player == null) {
+            return AuthResult.Failed("Player not found");
         }
         
-        var (hash, salt) = HashPassword(password);
+        if (!VerifyPassword(password, player.PasswordHash)) {
+            player.FailedLoginAttempts++;
+            await _db.SaveChangesAsync();
+            return AuthResult.Failed("Invalid password");
+        }
         
-        var user = new User {
+        if (player.IsBanned) {
+            return AuthResult.Failed($"Banned until {player.BanExpiry}. Reason: {player.BanReason}");
+        }
+        
+        if (player.ClientVersionRequired != null && player.ClientVersionRequired != clientVersion) {
+            return AuthResult.VersionMismatchRequired(player.ClientVersionRequired);
+        }
+        
+        var token = GenerateSessionToken(player.Id);
+        var session = new PlayerSession {
+            Token = token,
+            PlayerId = player.Id,
+            ExpiresAt = DateTime.UtcNow.Add(_sessionTimeout),
+            IpAddress = "127.0.0.1"
+        };
+        
+        player.LastLogin = DateTime.UtcNow;
+        player.FailedLoginAttempts = 0;
+        await _db.SaveChangesAsync();
+        
+        return AuthResult.Success(token, player);
+    }
+    
+    public async Task<AuthResult> Register(string username, string password, string email) {
+        if (await _db.Players.FindAsync(username) != null) {
+            return AuthResult.Failed("Username already taken");
+        }
+        
+        var player = new PlayerData {
             Id = Guid.NewGuid(),
             Username = username,
+            PasswordHash = HashPassword(password),
             Email = email,
-            PasswordHash = hash,
-            Salt = salt,
-            CreatedAt = DateTime.UtcNow,
-            IsEmailConfirmed = false
+            CreatedAt = DateTime.UtcNow
         };
         
-        await _db.CreateUser(user);
+        await _db.Players.AddAsync(player);
+        await _db.SaveChangesAsync();
         
-        return new AuthResult {
-            Success = true,
-            UserId = user.Id,
-            Token = GenerateToken(user.Id)
-        };
+        return AuthResult.Success("registered", player);
     }
     
-    public async Task<AuthResult> Login(string username, string password) {
-        var user = await _db.GetUserByUsername(username);
-        if (user == null) {
-            return new AuthResult { Success = false, Error = "Invalid credentials" };
+    public async Task<bool> ValidateSession(string token) {
+        var session = await _db.PlayerSessions.FindAsync(token);
+        return session != null && session.ExpiresAt > DateTime.UtcNow;
+    }
+    
+    public async Task<bool> Logout(string token) {
+        var session = await _db.PlayerSessions.FindAsync(token);
+        if (session != null) {
+            _db.PlayerSessions.Remove(session);
+            await _db.SaveChangesAsync();
         }
-        
-        if (!VerifyPassword(password, user.PasswordHash, user.Salt)) {
-            user.FailedLoginAttempts++;
-            if (user.FailedLoginAttempts >= 5) {
-                user.LockoutEnd = DateTime.UtcNow.AddMinutes(15);
-            }
-            await _db.UpdateUser(user);
-            return new AuthResult { Success = false, Error = "Invalid credentials" };
-        }
-        
-        user.LastLogin = DateTime.UtcNow;
-        user.FailedLoginAttempts = 0;
-        await _db.UpdateUser(user);
-        
-        return new AuthResult {
-            Success = true,
-            UserId = user.Id,
-            Token = GenerateToken(user.Id)
-        };
+        return true;
     }
     
-    public async Task<bool> ValidateToken(string token) {
-        // Check JWT or session token
-        return await _db.ValidateSessionToken(token);
+    string HashPassword(string password) {
+        using var sha256 = SHA256.Create();
+        var bytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password + "TerraForgeSalt"));
+        return Convert.ToBase64String(bytes);
     }
     
-    (string hash, string salt) HashPassword(string password) {
-        byte[] salt = new byte[16];
-        RandomNumberGenerator.Fill(salt);
-        
-        var pbkdf2 = new Rfc2898DeriveBytes(password, salt, 10000, HashAlgorithmName.SHA256);
-        byte[] hash = pbkdf2.GetBytes(32);
-        
-        return (Convert.ToBase64String(hash), Convert.ToBase64String(salt));
+    bool VerifyPassword(string password, string hash) {
+        return HashPassword(password) == hash;
     }
     
-    bool VerifyPassword(string password, string hash, string salt) {
-        var pbkdf2 = new Rfc2898DeriveBytes(password, Convert.FromBase64String(salt), 10000, HashAlgorithmName.SHA256);
-        byte[] computedHash = pbkdf2.GetBytes(32);
-        return Convert.ToBase64String(computedHash) == hash;
-    }
-    
-    string GenerateToken(Guid userId) {
-        // Generate JWT or similar
-        return Convert.ToBase64String(Guid.NewGuid().ToByteArray());
+    string GenerateSessionToken(Guid playerId) {
+        return Convert.ToBase64String(Guid.NewGuid().ToByteArray()) + Convert.ToBase64String(playerId.ToByteArray());
     }
 }
 
 public class AuthResult {
     public bool Success { get; set; }
-    public Guid? UserId { get; set; }
     public string Token { get; set; }
+    public PlayerData Player { get; set; }
     public string Error { get; set; }
+    public bool VersionMismatch { get; set; }
+    public string RequiredVersion { get; set; }
+    
+    public static AuthResult Success(string token, PlayerData player) => 
+        new() { Success = true, Token = token, Player = player };
+    
+    public static AuthResult Failed(string error) => 
+        new() { Success = false, Error = error };
+    
+    public static AuthResult VersionMismatchRequired(string required) =>
+        new() { Success = false, VersionMismatch = true, RequiredVersion = required };
 }
 
-public class User {
-    public Guid Id { get; set; }
-    public string Username { get; set; }
-    public string Email { get; set; }
-    public string PasswordHash { get; set; }
-    public string Salt { get; set; }
-    public DateTime CreatedAt { get; set; }
-    public DateTime? LastLogin { get; set; }
-    public bool IsEmailConfirmed { get; set; }
-    public int FailedLoginAttempts { get; set; }
-    public DateTime? LockoutEnd { get; set; }
+public class PlayerSession {
+    public string Token { get; set; }
+    public Guid PlayerId { get; set; }
+    public DateTime ExpiresAt { get; set; }
+    public string IpAddress { get; set; }
+    public bool IsActive { get; set; }
 }
 
-public interface IDatabase {
-    Task<bool> UserExists(string username);
-    Task<User> GetUserByUsername(string username);
-    Task CreateUser(User user);
-    Task UpdateUser(User user);
-    Task<bool> ValidateSessionToken(string token);
+public static class PlayerExtensions {
+    public static bool IsExpired(this PlayerSession session) => session.ExpiresAt < DateTime.UtcNow;
 }
