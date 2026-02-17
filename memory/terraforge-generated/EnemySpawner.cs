@@ -2,31 +2,39 @@ using UnityEngine;
 using System.Collections;
 
 public class EnemySpawner : MonoBehaviour {
-    public GameObject[] enemyPrefabs;
-    public float spawnRadius = 30f;
-    public float spawnInterval = 5f;
-    public int maxEnemies = 20;
-    public Transform player;
+    public GameObject enemyPrefab;
+    public Transform[] spawnPoints;
+    public float spawnInterval = 30f;
+    public int maxEnemies = 10;
+    public AnimationCurve difficultyCurve;
     
-    private int currentEnemies;
+    private int waveNumber = 1;
+    private int enemiesSpawned;
     
-    void Start() { StartCoroutine(SpawnLoop()); }
+    void Start() {
+        StartCoroutine(SpawnWave());
+    }
     
-    IEnumerator SpawnLoop() {
+    IEnumerator SpawnWave() {
         while (true) {
-            if (currentEnemies < maxEnemies) SpawnEnemy();
+            int enemiesThisWave = Mathf.FloorToInt(5 * difficultyCurve.Evaluate(waveNumber / 10f));
+            
+            for (int i = 0; i < enemiesThisWave && enemiesSpawned < maxEnemies; i++) {
+                SpawnEnemy();
+                yield return new WaitForSeconds(0.5f);
+            }
+            
+            waveNumber++;
             yield return new WaitForSeconds(spawnInterval);
         }
     }
     
     void SpawnEnemy() {
-        if (player == null) return;
-        Vector3 spawnPos = player.position + Random.insideUnitSphere * spawnRadius;
-        spawnPos.y = GetGroundHeight(spawnPos);
-        Instantiate(enemyPrefabs[Random.Range(0, enemyPrefabs.Length)], spawnPos, Quaternion.identity);
-        currentEnemies++;
+        if (spawnPoints.Length == 0) return;
+        Transform point = spawnPoints[Random.Range(0, spawnPoints.Length)];
+        Instantiate(enemyPrefab, point.position, Quaternion.identity);
+        enemiesSpawned++;
     }
     
-    float GetGroundHeight(Vector3 pos) { RaycastHit hit; if (Physics.Raycast(pos + Vector3.up * 100, Vector3.down, out hit, 200)) return hit.point.y; return 0; }
-    public void EnemyDied() { currentEnemies = Mathf.Max(0, currentEnemies - 1); }
+    public void OnEnemyDeath() { enemiesSpawned--; }
 }
