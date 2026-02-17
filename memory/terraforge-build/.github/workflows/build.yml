@@ -1,0 +1,73 @@
+name: TerraForge CI/CD
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+    inputs:
+      target:
+        description: 'Build target'
+        required: true
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - client
+          - server
+
+env:
+  UNITY_VERSION: 2023.2.0f1
+  DOTNET_VERSION: 8.0.x
+
+jobs:
+  server:
+    name: Build Server
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: ${{ env.DOTNET_VERSION }}
+          
+      - name: Restore dependencies
+        run: |
+          cd server/TerraForgeServer
+          dotnet restore
+          
+      - name: Build
+        run: |
+          cd server/TerraForgeServer
+          dotnet build --no-restore --configuration Release
+          
+      - name: Test
+        run: |
+          cd server/TerraForgeServer
+          dotnet test --no-build --verbosity normal
+          
+      - name: Publish (Windows)
+        run: |
+          cd server/TerraForgeServer
+          dotnet publish -c Release -r win-x64 --self-contained true -o ../../build/server/windows
+          
+      - name: Publish (Linux)
+        run: |
+          cd server/TerraForgeServer
+          dotnet publish -c Release -r linux-x64 --self-contained true -o ../../build/server/linux
+          
+      - name: Upload Server Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: terraforge-server
+          path: build/server/
+
+  client-windows:
+    name: Build Client (Windows)
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses:
