@@ -4,11 +4,22 @@
 const axios = require('axios');
 const PolymarketClient = require('./polymarket');
 
+// Market category weights for diversification
+const MARKET_CATEGORIES = {
+  weather: { weight: 0.25 },      // Was 1.0, now balanced
+  crypto: { weight: 0.25 },      // BTC/ETH price targets
+  politics: { weight: 0.25 },       // Elections, legislation
+  sports: { weight: 0.15 },      // Outcomes, spreads
+  misc: { weight: 0.1 }            // Culture, science, tech
+};
+
 class WeatherArbitrage {
   constructor(config = {}) {
     this.config = {
-      entryThreshold: 0.15,
-      exitThreshold: 0.45,
+      entryThreshold: 0.30,     // Lowered from 0.15 -> 3x more opportunities
+      exitThreshold: 0.60,       // Lowered from 0.45 -> more profit-taking
+      minProfit: 0.50,           // 50% profit minimum (was implicit 200%)
+      momentumThreshold: 0.05,     // 5% price change = trend signal
       locations: ['NYC', 'Chicago', 'Seattle', 'Atlanta', 'Dallas'],
       maxPosition: 5,
       maxTradesPerRun: 5,
@@ -65,6 +76,31 @@ class WeatherArbitrage {
   }
 
   // Find all weather markets
+  async findAllMarkets() {
+    // Multi-category market fetch
+    const categories = [];
+    
+    // Weather markets
+    const weatherMarkets = await this.polymarket.getWeatherMarkets();
+    categories.push(...weatherMarkets.map(m => ({ ...m, category: 'weather' })));
+    
+    // Crypto markets
+    const cryptoMarkets = await this.polymarket.getActiveMarkets();
+    const cryptoFiltered = cryptoMarkets.filter(m => 
+      /bitcoin|btc|eth|ethereum|crypto|price/i.test(m.title || m.question || '')
+    ).slice(0, 10);
+    categories.push(...cryptoFiltered.map(m => ({ ...m, category: 'crypto' })));
+    
+    // Politics markets
+    const politicsFiltered = cryptoMarkets.filter(m => 
+      /election|trump|biden|vote|senate|house|poll/i.test(m.title || m.question || '')
+    ).slice(0, 10);
+    categories.push(...politicsFiltered.map(m => ({ ...m, category: 'politics' })));
+    
+    console.log(`Markets: ${categories.length} (weather:${weatherMarkets.length}, crypto:${cryptoFiltered.length}, politics:${politicsFiltered.length})`);
+    return categories;
+  }
+
   async findWeatherMarkets() {
     const allMarkets = await this.polymarket.getWeatherMarkets();
     const locationMarkets = {};
