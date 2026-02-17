@@ -48,7 +48,13 @@ namespace TerraForgeServer.Game
             Skills[key] = Math.Min(currentSkill + gain, SKILL_HARD_CAP);
         }
 
-        private float CalculateGain(float skill, float difficulty)
+        public async Task ProcessTickAsync()
+    {
+        // Process hourly skill ticks - decay or other time-based effects
+        await Task.CompletedTask;
+    }
+
+    private float CalculateGain(float skill, float difficulty)
         {
             float skillDifference = Math.Abs(skill - difficulty);
             float multiplier = 1.0f;

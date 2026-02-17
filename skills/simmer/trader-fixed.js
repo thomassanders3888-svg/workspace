@@ -15,8 +15,8 @@ class FixedTrader {
     this.wallet = new WalletManager();
     this.polymarket = new PolymarketClient();
     this.config = {
-      entryThreshold: 0.15,
-      exitThreshold: 0.45,
+      entryThreshold: 0.30,
+      exitThreshold: 0.70,
       sniperThreshold: 0.05,
       minSpread: 0.02,
       maxPosition: 5,

@@ -84,7 +84,7 @@ namespace TerraForgeServer.World
                 var data = new byte[TOTAL_BLOCKS * 2];
                 for (int i = 0; i < TOTAL_BLOCKS; i++)
                 {
-                    data[i * 2] = (byte)(_blocks[i] & 0xFF);
+                    data[i * 2] = (byte)((int)_blocks[i] & 0xFF);
                     data[i * 2 + 1] = (byte)((ushort)_blocks[i] >> 8);
                 }
                 return data;

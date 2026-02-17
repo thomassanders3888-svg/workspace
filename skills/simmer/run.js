@@ -48,7 +48,7 @@ try {
 console.log('\n📊 Balances:');
 Promise.all([
   wallet.getUSDCBalance().catch(() => ({ formatted: '0' })),
-  wallet.getMaticBalance().catch(() => ({ formatted: '0' }))
+  wallet.getNativeBalance().catch(() => ({ formatted: '0' }))
 ]).then(([usdc, matic]) => {
   console.log('  USDC:', usdc.formatted);
   console.log('  MATIC (gas):', matic.formatted);

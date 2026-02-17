@@ -1,6 +1,9 @@
 // TerraForge Dedicated Server
 // A Wurm Online-inspired sandbox MMO server
 
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 using TerraForgeServer.Core;
 using TerraForgeServer.Network;
 using TerraForgeServer.World;
@@ -23,20 +26,20 @@ builder.Logging.AddConsole();
 builder.Logging.SetMinimumLevel(LogLevel.Information);
 
 // Add services
-builder.Services.AddSignalR()
-    .AddMessagePackProtocol();
+// builder.Services.AddSignalR()
+//     .AddMessagePackProtocol();
 
 builder.Services.AddSingleton<GameServer>();
-builder.Services.AddSingleton<PlayerManager>();
-builder.Services.AddSingleton<TerrainEngine>();
+// builder.Services.AddSingleton<PlayerManager>();
+// builder.Services.AddSingleton<TerrainEngine>();
 
 // Steam integration (if configured)
-var steamAppId = builder.Configuration.GetValue<int>("STEAM_APP_ID", 0);
-if (steamAppId > 0)
-{
-    builder.Services.AddSingleton<SteamIntegration>();
-    Console.WriteLine($"[Steam] Integration enabled for App ID: {steamAppId}");
-}
+// var steamAppId = builder.Configuration.GetValue<int>("STEAM_APP_ID", 0);
+// if (steamAppId > 0)
+// {
+//     builder.Services.AddSingleton<SteamIntegration>();
+//     Console.WriteLine($"[Steam] Integration enabled for App ID: {steamAppId}");
+// }
 
 var app = builder.Build();
 
@@ -51,8 +54,8 @@ Console.WriteLine("[Network] Starting game server...");
 await gameServer.StartAsync();
 
 // Map SignalR hubs
-app.MapHub<GameHub>("/game");
-app.MapHub<AdminHub>("/admin");
+// app.MapHub<GameHub>("/game");
+// app.MapHub<AdminHub>("/admin");
 
 // Health check endpoint
 app.MapGet("/health", () => new {
