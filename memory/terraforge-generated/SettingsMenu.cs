@@ -1,0 +1,1 @@
+using UnityEngine; using UnityEngine.UI; public class SettingsMenu : MonoBehaviour { public Slider volumeSlider; public Dropdown qualityDropdown; public void ApplySettings() { AudioListener.volume = volumeSlider.value; QualitySettings.SetQualityLevel(qualityDropdown.value); } }

@@ -1,0 +1,35 @@
+version: '3.8'
+services:
+  terraforge-server:
+    build: .
+    ports:
+      - "7777:7777"
+      - "5000:5000"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - POSTGRES_CONNECTION=Host=postgres;Database=terraforge;Username=terra;Password=forge
+      - REDIS_CONNECTION=redis:6379
+    depends_on:
+      - postgres
+      - redis
+    volumes:
+      - world-data:/app/worlds
+  
+  postgres:
+    image: postgres:15
+    environment:
+      - POSTGRES_DB=terraforge
+      - POSTGRES_USER=terra
+      - POSTGRES_PASSWORD=forge
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+  
+  redis:
+    image: redis:7-alpine
+    volumes:
+      - redis-data:/data
+
+volumes:
+  world-data:
+  postgres-data:
+  redis-data:

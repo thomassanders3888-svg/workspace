@@ -1,0 +1,1 @@
+using UnityEngine; public class CloudGenerator : MonoBehaviour { public GameObject cloudPrefab; public int cloudCount = 20; void Start() { for (int i = 0; i < cloudCount; i++) { Vector3 pos = new Vector3(Random.Range(-100f, 100f), Random.Range(50f, 80f), Random.Range(-100f, 100f)); Instantiate(cloudPrefab, pos, Quaternion.identity); } } }
