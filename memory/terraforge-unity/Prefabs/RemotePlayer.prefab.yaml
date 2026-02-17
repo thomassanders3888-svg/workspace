@@ -1,0 +1,103 @@
+# RemotePlayer.prefab - TerraForge Multiplayer Player
+# For network-synchronized remote players
+
+gameObject:
+  name: RemotePlayer
+  tag: RemotePlayer
+  layer: Default
+  
+  components:
+    - type: Transform
+      properties:
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+    
+    - type: RemotePlayerController
+      properties:
+        interpolationDelay: 0.1
+        maxExtrapolationTime: 0.5
+        positionLerpSpeed: 15.0
+        rotationLerpSpeed: 10.0
+    
+    - type: NetworkIdentity
+      properties:
+        sceneId: 0
+        assetId: {guid: 00000000000000000000000000000000, uniqueId: 0}
+        serverOnly: false
+        hasAuthority: false
+    
+    - type: NetworkTransform
+      properties:
+        syncPosition: true
+        syncRotation: true
+        syncScale: false
+        positionSensitivity: 0.01
+        rotationSensitivity: 0.01
+        scaleSensitivity: 0.01
+  
+  children:
+    - name: VisualBody
+      components:
+        - type: Transform
+          properties:
+            position: {x: 0, y: 0.9, z: 0}
+            rotation: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1, z: 1}
+        
+        - type: MeshFilter
+          properties:
+            mesh: Capsule
+        
+        - type: MeshRenderer
+          properties:
+            materials:
+              - {fileID: 0}  # RemotePlayerMaterial
+    
+    - name: NameTag
+      components:
+        - type: Transform
+          properties:
+            position: {x: 0, y: 2.2, z: 0}
+            rotation: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1, z: 1}
+        
+        - type: TextMeshPro
+          properties:
+            text: "Player Name"
+            fontSize: 3
+            color: {r: 1, g: 1, b: 1, a: 1}
+            alignment: Center
+            faceColor: {r: 1, g: 1, b: 1, a: 1}
+            outlineColor: {r: 0, g: 0, b: 0, a: 1}
+            outlineWidth: 0.2
+        
+        - type: LookAtCamera
+          properties:
+            mode: Billboard
+            smoothTime: 0.1
+        
+        - type: Canvas
+          properties:
+            renderMode: WorldSpace
+            worldCamera: {reference: PlayerCamera}
+            planeDistance: 10
+    
+    - name: RemotePlayerCamera
+      components:
+        - type: Transform
+          properties:
+            position: {x: 0, y: 1.6, z: 0}
+            rotation: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1, z: 1}
+        
+        - type: Camera
+          properties:
+            enabled: false  # Only render for this player
+            fieldOfView: 70
+    
+    - name: AnimationController
+      components:
+        - type: Animator
+          properties:
+            runtimeAnimatorController: {fileID: 0}  # PlayerAnimatorController

@@ -1,0 +1,70 @@
+# Chunk.prefab - TerraForge World Chunk
+# Size: 16x16x16 blocks
+
+gameObject:
+  name: Chunk
+  tag: Chunk
+  layer: Default
+  
+  components:
+    - type: Transform
+      properties:
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+    
+    - type: MeshFilter
+      properties:
+        mesh: {fileID: 0}  # Mesh generated at runtime by ChunkRenderer
+    
+    - type: MeshCollider
+      properties:
+        sharedMesh: {fileID: 0}  # Same mesh as MeshFilter
+        convex: false
+        isTrigger: false
+        providesContacts: false
+    
+    - type: MeshRenderer
+      properties:
+        sharedMaterials:
+          - {fileID: 0}  # TerrainAtlasMaterial
+        castShadows: On
+        receiveShadows: true
+    
+    - type: ChunkRenderer
+      properties:
+        chunkSize: 16
+        blockScale: 1.0
+        useGreedyMeshing: true
+        useAmbientOcclusion: true
+        updateInterval: 0.016  # 60fps max
+        maxMeshJobs: 8
+        meshGeneration:
+          generateColliders: true
+          generateNormals: true
+          generateUVs: true
+          atlasSize: {x: 4, y: 4}  # 4x4 texture atlas
+      
+      # Serialized fields in ChunkRenderer.cs
+      references:
+        meshFilter: {reference: Self/MeshFilter}
+        meshCollider: {reference: Self/MeshCollider}
+        meshRenderer: {reference: Self/MeshRenderer}
+  
+  # No children - chunk is self-contained
+  children: []
+  
+  # Performance settings
+  staticFlags: 8  # Static batching for stationary chunks
+  
+  # LOD Group for distant chunks (optional)
+  lodGroup:
+    enabled: true
+    fadeMode: CrossFade
+    animateCrossFading: false
+    lodLevels:
+      - screenRelativeHeight: 0.6
+        renderers:
+          - {reference: Self/MeshRenderer}
+      - screenRelativeHeight: 0.3
+        renderers: []  # Cull when far away

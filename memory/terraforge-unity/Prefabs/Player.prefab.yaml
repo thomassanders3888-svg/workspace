@@ -1,0 +1,104 @@
+# Player.prefab - TerraForge Player Character
+# Position: (0, 100, 0) - Spawn above terrain
+
+gameObject:
+  name: Player
+  tag: Player
+  layer: Default
+  
+  components:
+    - type: Transform
+      properties:
+        position: {x: 0, y: 100, z: 0}
+        rotation: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+    
+    - type: CharacterController
+      properties:
+        slopeLimit: 45
+        stepOffset: 0.6
+        skinWidth: 0.08
+        minMoveDistance: 0.001
+        center: {x: 0, y: 0.9, z: 0}
+        radius: 0.5
+        height: 1.8
+    
+    - type: PlayerController
+      properties:
+        walkSpeed: 4.5
+        sprintSpeed: 8.0
+        jumpForce: 8.0
+        gravity: -25.0
+        mouseSensitivity: 2.0
+        maxLookAngle: 80.0
+    
+    - type: GravityPhysics
+      properties:
+        terminalVelocity: -50.0
+        gravityMultiplier: 1.0
+        drag: 0.1
+        groundCheckDistance: 0.1
+        groundMask:
+          serializedVersion: 2
+          m_Bits: 1  # Default layer
+  
+  children:
+    - name: CameraHolder
+      components:
+        - type: Transform
+          properties:
+            position: {x: 0, y: 1.6, z: 0}
+            rotation: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1, z: 1}
+      
+      children:
+        - name: PlayerCamera
+          components:
+            - type: Transform
+              properties:
+                position: {x: 0, y: 0, z: 0}
+                rotation: {x: 0, y: 0, z: 0}
+                scale: {x: 1, y: 1, z: 1}
+            
+            - type: Camera
+              properties:
+                clearFlags: Skybox
+                backgroundColor: {r: 0.5, g: 0.8, b: 0.95, a: 1.0}
+                fieldOfView: 70
+                nearClipPlane: 0.01
+                farClipPlane: 1000
+            
+            - type: AudioListener
+            
+            - type: CameraController
+              properties:
+                bobFrequency: 10.0
+                bobAmplitude: 0.05
+                fovSprintMultiplier: 1.1
+                smoothTime: 0.1
+    
+    - name: PlayerVisual
+      components:
+        - type: Transform
+          properties:
+            position: {x: 0, y: 0.9, z: 0}
+            rotation: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1, z: 1}
+        
+        - type: MeshFilter
+          properties:
+            mesh: Capsule  # Reference to built-in capsule mesh
+        
+        - type: MeshRenderer
+          properties:
+            materials:
+              - {fileID: 0}  # PlayerMaterial placeholder
+  
+  serializedReferences:
+    PlayerController:
+      cameraTransform: {reference: CameraHolder/Transform}
+      characterController: {reference: Self/CharacterController}
+      gravityPhysics: {reference: Self/GravityPhysics}
+    
+    CameraController:
+      playerController: {reference: ../PlayerController}

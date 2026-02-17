@@ -1,0 +1,99 @@
+# BlockHighlighter.prefab - TerraForge Selection Outline
+# Visual feedback for targeted blocks
+
+gameObject:
+  name: BlockHighlighter
+  tag: BlockHighlighter
+  layer: Ignore Raycast
+  
+  components:
+    - type: Transform
+      properties:
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0}
+        scale: {x: 1.02, y: 1.02, z: 1.02}  # Slightly larger than block
+    
+    - type: BlockHighlighter
+      properties:
+        highlightDuration: 0.05
+        pulseSpeed: 5.0
+        pulseIntensity: 0.1
+        edgeThickness: 0.02
+        useGradient: true
+        showAdjacent: true
+    
+    - type: LineRenderer
+      properties:
+        enabled: true
+        useWorldSpace: false
+        loop: true
+        startWidth: 0.02
+        endWidth: 0.02
+        startColor: {r: 1, g: 1, b: 1, a: 0.8}
+        endColor: {r: 1, g: 1, b: 1, a: 0.8}
+        positionCount: 16
+        material: {fileID: 0}  # HighlightLineMaterial
+        alignment: View
+        textureMode: Stretch
+        numCapVertices: 0
+        numCornerVertices: 0
+        generateLightingData: false
+        shadowBias: 0.5
+        sortingOrder: 1000
+  
+  children:
+    - name: OutlineCube
+      components:
+        - type: Transform
+          properties:
+            position: {x: 0, y: 0, z: 0}
+            rotation: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1, z: 1}
+        
+        - type: MeshFilter
+          properties:
+            mesh: Cube
+        
+        - type: MeshRenderer
+          properties:
+            materials:
+              - {fileID: 0}  # HighlightShaderMaterial - transparent wireframe
+            castShadows: Off
+            receiveShadows: false
+  
+  # Highlight color presets
+  colorPresets:
+    default:
+      color: {r: 1, g: 1, b: 1, a: 0.8}
+      emissive: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    breakable:
+      color: {r: 1, g: 0.8, b: 0.2, a: 0.8}
+      emissive: {r: 0.3, g: 0.2, b: 0, a: 1}
+    placeable:
+      color: {r: 0.2, g: 1, b: 0.2, a: 0.6}
+      emissive: {r: 0, g: 0.3, b: 0, a: 1}
+    invalid:
+      color: {r: 1, g: 0.2, b: 0.2, a: 0.8}
+      emissive: {r: 0.3, g: 0, b: 0, a: 1}
+  
+  # Vertex positions for LineRenderer (cube wireframe)
+  lineRendererPositions:
+    # Bottom face
+    - {x: -0.5, y: -0.5, z: -0.5}
+    - {x: 0.5, y: -0.5, z: -0.5}
+    - {x: 0.5, y: -0.5, z: 0.5}
+    - {x: -0.5, y: -0.5, z: 0.5}
+    - {x: -0.5, y: -0.5, z: -0.5}
+    # Up to top face
+    - {x: -0.5, y: 0.5, z: -0.5}
+    - {x: 0.5, y: 0.5, z: -0.5}
+    - {x: 0.5, y: 0.5, z: 0.5}
+    - {x: -0.5, y: 0.5, z: 0.5}
+    - {x: -0.5, y: 0.5, z: -0.5}
+    # Cross lines
+    - {x: -0.5, y: -0.5, z: -0.5}
+    - {x: 0.5, y: 0.5, z: -0.5}
+    - {x: -0.5, y: 0.5, z: 0.5}
+    - {x: -0.5, y: -0.5, z: 0.5}
+    - {x: 0.5, y: -0.5, z: 0.5}
+    - {x: 0.5, y: 0.5, z: -0.5}
