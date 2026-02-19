@@ -1,72 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Business Idea Marketplace - Validate & Launch</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Business Idea Marketplace - Validate & Sell Startup Ideas</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: system-ui, sans-serif; }
+body { background: #0a0a0a; color: #e5e7eb; }
+header { background: linear-gradient(135deg, #06b6d4, #3b82f6); padding: 50px 20px; text-align: center; }
+h1 { font-size: 2.5em; margin-bottom: 10px; }
+.app-container { max-width: 1200px; margin: 0 auto; padding: 40px 20px; }
+.tabs { display: flex; justify-content: center; gap: 15px; margin: 30px 0; flex-wrap: wrap; }
+.tab { padding: 15px 30px; background: #1a1a1a; border: 2px solid #333; border-radius: 10px; cursor: pointer; transition: all 0.3s; }
+.tab.active { background: linear-gradient(135deg, #06b6d4, #3b82f6); border-color: transparent; }
+.idea-card { background: #1a1a1a; border-radius: 16px; padding: 25px; margin: 20px 0; border: 1px solid #333; transition: transform 0.3s; }
+.idea-card:hover { transform: translateY(-5px); border-color: #06b6d4; }
+.idea-header { display: flex; justify-content: space-between; align-items: start; margin-bottom: 15px; flex-wrap: wrap; gap: 15px; }
+.idea-title { font-size: 1.3em; margin-bottom: 5px; }
+.idea-meta { color: #9ca3af; font-size: 0.9em; }
+.badge { padding: 6px 14px; border-radius: 20px; font-size: 0.85em; margin-left: 5px; }
+.badge-tech { background: #06b6d4; }
+.badge-saas { background: #10b981; }
+.badge-marketplace { background: #f59e0b; }
+.scoring { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin: 20px 0; text-align: center; }
+.score-item { background: #222; padding: 15px; border-radius: 8px; }
+.score-value { font-size: 1.8em; font-weight: bold; color: #06b6d4; }
+.score-label { color: #9ca3af; font-size: 0.85em; margin-top: 5px; }
+.idea-desc { line-height: 1.7; margin: 15px 0; color: #d1d5db; }
+.btn { padding: 14px 28px; background: linear-gradient(135deg, #06b6d4, #3b82f6); border: none; border-radius: 8px; color: #fff; font-weight: 600; cursor: pointer; transition: all 0.3s; }
+.btn:hover { transform: translateY(-2px); box-shadow: 0 10px 30px rgba(6, 182, 212, 0.3); }
+.btn-outline { background: transparent; border: 2px solid #06b6d4; }
+.validation-form { background: #1a1a1a; border-radius: 16px; padding: 30px; max-width: 800px; margin: 0 auto; }
+.form-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 20px 0; }
+input, textarea, select { width: 100%; padding: 15px; background: #222; border: 2px solid #333; border-radius: 8px; color: #e5e7eb; font-size: 1em; }
+textarea { min-height: 120px; resize: vertical; }
+.featured-banner { background: linear-gradient(90deg, #fbbf24, #f59e0b); color: #000; text-align: center; padding: 15px; font-weight: 600; }
+footer { text-align: center; padding: 40px; color: #6b7280; border-top: 1px solid #1a1a1a; }
+</style>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">BizIdea Market</div>
-            <div class="nav-links">
-                <a href="#ideas">Browse Ideas</a>
-                <a href="#submit">Submit Idea</a>
-                <a href="#pricing">Pricing</a>
-            </div>
-        </nav>
-    </header>
+<div class="featured-banner">🔥 New: AI-powered validation scoring now live!</div>
+<header>
+<h1>💡 Business Idea Marketplace</h1>
+<p>Validate, share, and sell startup ideas. Get AI-powered market analysis.</p>
+</header>
 
-    <main>
-        <section class="hero">
-            <h1>Discover Tomorrow's Startups</h1>
-            <p>Ideas validated by real market data. Buy, sell, or co-found the next big thing.</p>
-            <div class="search-bar">
-                <input type="text" placeholder="Search ideas (e.g., 'SaaS', 'AI', 'B2B')..." id="search-input">
-                <button onclick="searchIdeas()">Search</button>
-            </div>
-        </section>
+<div class="app-container">
+<div class="tabs">
+<button class="tab active" onclick="showTab('marketplace')">Marketplace</button>
+<button class="tab" onclick="showTab('validate')">Validate Idea</button>
+<button class="tab" onclick="showTab('myideas')">My Ideas</button>
+</div>
 
-        <section id="ideas" class="ideas-grid">
-            <div class="filters">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="saas">SaaS</button>
-                <button class="filter-btn" data-filter="ai">AI</button>
-                <button class="filter-btn" data-filter="marketplace">Marketplace</button>
-                <button class="filter-btn" data-filter="mobile">Mobile App</button>
-                <select id="sort-select">
-                    <option value="popular">Most Popular</option>
-                    <option value="newest">Newest</option>
-                    <option value="price-low">Price: Low to High</option>
-                    <option value="price-high">Price: High to Low</option>
-                </select>
-            </div>
+<div id="marketplace" class="tab-content">
+<div class="idea-card">
+<div class="idea-header">
+<div>
+<h3 class="idea-title">AI Data Labeling Micro-Job Platform <span class="badge badge-tech">AI</span></h3>
+<div class="idea-meta">Posted by @startupfounder • 2 hours ago</div>
+</div>
+<span style="color: #10b981; font-weight: bold;">$4,500</span>
+</div>
+<div class="scoring">
+<div class="score-item">
+<div class="score-value">87</div>
+<div class="score-label">Market Score</div>
+</div>
+<div class="score-item">
+<div class="score-value">92</div>
+<div class="score-label">Feasibility</div>
+</div>
+<div class="score-item">
+<div class="score-value">78</div>
+<div class="score-label">Competition</div>
+</div>
+<div class="score-item">
+<div class="score-value">85</div>
+<div class="score-label">Potential</div>
+</div>
+</div>
+<p class="idea-desc">A platform connecting AI companies with remote workers for data labeling tasks. Automated quality control, gamified training, and instant payments. TAM: $2.1B data labeling market growing 25% annually.</p>
+<div style="display: flex; gap: 15px; flex-wrap: wrap;">
+<button class="btn">View Details</button>
+<button class="btn btn-outline">Contact Seller</button>
+</div>
+</div>
 
-            <div class="ideas-container" id="ideas-container">
-                <!-- Idea cards populated by JS -->
-            </div>
-        </section>
+<div class="idea-card">
+<div class="idea-header">
+<div>
+<h3 class="idea-title">Subscription Box for STEM Toys <span class="badge badge-saas">Physical</span></h3>
+<div class="idea-meta">Posted by @edtech_enthusiast • 5 hours ago</div>
+</div>
+<span style="color: #10b981; font-weight: bold;">$2,200</span>
+</div>
+<div class="scoring">
+<div class="score-item">
+<div class="score-value">76</div>
+<div class="score-label">Market Score</div>
+</div>
+<div class="score-item">
+<div class="score-value">88</div>
+<div class="score-label">Feasibility</div>
+</div>
+<div class="score-item">
+<div class="score-value">65</div>
+<div class="score-label">Competition</div>
+</div>
+<div class="score-item">
+<div class="score-value">72</div>
+<div class="score-label">Potential</div>
+</div>
+</div>
+<p class="idea-desc">Monthly subscription box delivering curated STEM educational toys for kids ages 5-12. Partnership with educational influencers and homeschool networks. LTV: $180, CAC: $35.</p>
+<div style="display: flex; gap: 15px; flex-wrap: wrap;">
+<button class="btn">View Details</button>
+<button class="btn btn-outline">Contact Seller</button>
+</div>
+</div>
 
-        <section id="submit" class="submit-section">
-            <h2>Have an Idea?</h2>
-            <p>Validate with our community before building. Get feedback, find co-founders, or sell your validated concept.</p>
-            <form id="idea-form">
-                <input type="text" placeholder="Idea Title" required>
-                <select required>
-                    <option value="">Category</option>
-                    <option value="saas">SaaS</option>
-                    <option value="ai">AI</option>
-                    <option value="marketplace">Marketplace</option>
-                    <option value="mobile">Mobile App</option>
-                    <option value="other">Other</option>
-                </select>
-                <textarea placeholder="Describe your idea, validation data, and what you're looking for..." rows="5" required></textarea>
-                <button type="submit">Submit Idea - Free</button>
-            </form>
-        </section>
-    </main>
+<div class="idea-card">
+<div class="idea-header">
+<div>
+<h3 class="idea-title">Freelancer Payment Escrow with Smart Contracts <span class="badge badge-marketplace">Blockchain</span></h3>
+<div class="idea-meta">Posted by @web3dev • 1 day ago</div>
+</div>
+<span style="color: #10b981; font-weight: bold;">$7,500</span>
+</div>
+<div class="scoring">
+<div class="score-item">
+<div class="score-value">82</div>
+<div class="score-label">Market Score</div>
+</div>
+<div class="score-item">
+<div class="score-value">75</div>
+<div class="score-label">Feasibility</div>
+</div>
+<div class="score-item">
+<div class="score-value">71</div>
+<div class="score-label">Competition</div>
+</div>
+<div class="score-item">
+<div class="score-value">91</div>
+<div class="score-label">Potential</div>
+</div>
+</div>
+<p class="idea-desc">Escrow platform for freelancers using smart contracts for automatic milestone payments. 0.5% fees vs 3-5% competitors. Includes dispute resolution DAO. Target: $500B+ gig economy.</p>
+<div style="display: flex; gap: 15px; flex-wrap: wrap;">
+<button class="btn">View Details</button>
+<button class="btn btn-outline">Contact Seller</button>
+</div>
+</div>
+</div>
 
-    <script src="app.js"></script>
-</body>
-</html>
+<div id="validate" class="tab-content" style="display: none;">
+<div class="validation-form">
+<h2 style="text-align: center; margin-bottom: 30px;">Validate Your Business Idea</h2>
+<p style="text-align: center; color: #6b7280; margin-bottom: 30px;">Get AI-powered market analysis, feasibility scoring, and competitive landscape insights.</p>
+<div class="form-row">
+<div>
+<label style="display: block; margin-bottom: 8px; color: #9ca3af;">Idea Title</label>
+<input type="text" placeholder="e.g., AI-Powered Data Labeling Platform">
+</div>
+<div>
+<label style="display: block; margin-bottom: 8px; color: #9ca3af;">Industry</label>
