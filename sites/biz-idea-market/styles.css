@@ -1,0 +1,86 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: system-ui, -apple-system, sans-serif; }
+
+body { background: #0f172a; color: #e2e8f0; }
+
+header { background: #1e293b; padding: 1rem 2rem; border-bottom: 1px solid #334155; }
+
+nav { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+
+.logo { font-size: 1.5rem; font-weight: bold; background: linear-gradient(135deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+
+.nav-links { display: flex; gap: 2rem; }
+
+.nav-links a { color: #94a3b8; text-decoration: none; transition: color 0.3s; }
+
+.nav-links a:hover { color: #fff; }
+
+.hero { text-align: center; padding: 5rem 2rem; background: linear-gradient(135deg, #1e293b, #0f172a); }
+
+.hero h1 { font-size: 3rem; margin-bottom: 1rem; }
+
+.search-bar { max-width: 600px; margin: 2rem auto; display: flex; gap: 0.5rem; }
+
+.search-bar input { flex: 1; padding: 1rem 1.5rem; border: none; border-radius: 8px; background: #1e293b; color: #fff; }
+
+.search-bar button { padding: 1rem 2rem; background: linear-gradient(135deg, #667eea, #764ba2); border: none; border-radius: 8px; color: #fff; cursor: pointer; }
+
+.ideas-grid { max-width: 1200px; margin: 0 auto; padding: 3rem 2rem; }
+
+.filters { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 2rem; align-items: center; }
+
+.filter-btn { padding: 0.75rem 1.5rem; background: #1e293b; border: 1px solid #334155; border-radius: 8px; color: #94a3b8; cursor: pointer; transition: all 0.3s; }
+
+.filter-btn.active, .filter-btn:hover { background: #667eea; color: #fff; }
+
+.ideas-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 1.5rem; }
+
+.idea-card { background: #1e293b; border-radius: 12px; padding: 1.5rem; border: 1px solid #334155; transition: transform 0.2s; }
+
+.idea-card:hover { transform: translateY(-3px); border-color: #667eea; }
+
+.idea-header { display: flex; justify-content: space-between; margin-bottom: 1rem; }
+
+.category-badge { padding: 0.25rem 0.75rem; background: rgba(102, 126, 234, 0.2); border-radius: 4px; font-size: 0.75rem; color: #667eea; }
+
+.status-badge { padding: 0.25rem 0.75rem; border-radius: 4px; font-size: 0.75rem; }
+
+.status-for-sale { background: #10b981; color: #000; }
+
+.status-cofounder-wanted { background: #fbbf24; color: #000; }
+
+.idea-card h3 { font-size: 1.25rem; margin-bottom: 0.5rem; }
+
+.idea-desc { color: #94a3b8; margin-bottom: 1rem; }
+
+.metrics { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1rem 0; padding: 1rem; background: #0f172a; border-radius: 8px; }
+
+.metric .label { display: block; font-size: 0.75rem; color: #64748b; }
+
+.metric .value { font-size: 0.875rem; font-weight: 600; }
+
+.tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin: 1rem 0; }
+
+.tag { padding: 0.25rem 0.75rem; background: #334155; border-radius: 4px; font-size: 0.75rem; }
+
+.idea-footer { display: flex; justify-content: space-between; align-items: center; margin-top: 1rem; padding-top: 1rem; border-top: 1px solid #334155; }
+
+.price { font-size: 1.5rem; font-weight: bold; color: #10b981; }
+
+.validation { color: #64748b; font-size: 0.875rem; }
+
+.btn-contact { padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #667eea, #764ba2); border: none; border-radius: 8px; color: #fff; cursor: pointer; }
+
+.submit-section { max-width: 600px; margin: 4rem auto; padding: 3rem; text-align: center; }
+
+.submit-section h2 { font-size: 2rem; margin-bottom: 1rem; }
+
+#idea-form { display: flex; flex-direction: column; gap: 1rem; margin-top: 2rem; }
+
+#idea-form input, #idea-form select, #idea-form textarea { padding: 1rem; background: #1e293b; border: 1px solid #334155; border-radius: 8px; color: #fff; font-size: 1rem; }
+
+#idea-form button { padding: 1rem; background: linear-gradient(135deg, #667eea, #764ba2); border: none; border-radius: 8px; color: #fff; font-size: 1rem; cursor: pointer; }
+
+@media (max-width: 768px) { 
+    .ideas-container { grid-template-columns: 1fr; }
+    .hero h1 { font-size: 2rem; }
+}

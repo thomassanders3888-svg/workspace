@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Governance Pulse - Global AI Regulation Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">AI Governance Pulse</div>
+            <div class="nav-links">
+                <a href="#dashboard">Dashboard</a>
+                <a href="#regulations">Regulations</a>
+                <a href="#alerts">Alerts</a>
+                <a href="#subscribe" class="btn-primary">Subscribe</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Track Global AI Regulation in Real-Time</h1>
+            <p>Monitor AI governance developments, compliance deadlines, and legislative changes across 50+ jurisdictions.</p>
+            <div class="cta-buttons">
+                <a href="#dashboard" class="btn-primary">View Dashboard</a>
+                <a href="#subscribe" class="btn-secondary">Set Alerts</a>
+            </div>
+        </section>
+
+        <section id="dashboard" class="dashboard">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>Active Regulations</h3>
+                    <div class="number" id="active-regs">127</div>
+                    <span class="change up">+12 this month</span>
+                </div>
+                <div class="stat-card">
+                    <h3>Pending Legislation</h3>
+                    <div class="number" id="pending-regs">89</div>
+                    <span class="change up">+5 this week</span>
+                </div>
+                <div class="stat-card">
+                    <h3>Compliance Deadlines</h3>
+                    <div class="number" id="deadlines">34</div>
+                    <span class="change alert">This quarter</span>
+                </div>
+                <div class="stat-card">
+                    <h3>Risk Level</h3>
+                    <div class="number" id="risk-level">Medium</div>
+                    <span class="risk-indicator medium"></span>
+                </div>
+            </div>
+
+            <div class="chart-container">
+                <h2>Regulatory Activity Timeline</h2>
+                <canvas id="timelineChart"></canvas>
+            </div>
+        </section>
+
+        <section id="regulations" class="regulations">
+            <h2>Recent Regulatory Changes</h2>
+            <div class="filters">
+                <select id="region-filter">
+                    <option value="all">All Regions</option>
+                    <option value="eu">European Union</option>
+                    <option value="us">United States</option>
+                    <option value="asia">Asia-Pacific</option>
+                </select>
+                <select id="category-filter">
+                    <option value="all">All Categories</option>
+                    <option value="safety">AI Safety</option>
+                    <option value="privacy">Privacy & Data</option>
+                    <option value="liability">Liability & Accountability</option>
+                </select>
+            </div>
+            <div class="regulations-list" id="regulations-list">
+                <!-- Populated by JavaScript -->
+            </div>
+        </section>
+
+        <section id="subscribe" class="subscribe">
+            <h2>Stay Compliant</h2>
+            <p>Get real-time alerts when AI regulations affecting your business change.</p>
+            <form id="subscribe-form">
+                <input type="email" placeholder="your@company.com" required>
+                <select multiple>
+                    <option value="eu">EU AI Act</option>
+                    <option value="us">US Executive Orders</option>
+                    <option value="uk">UK AI Strategy</option>
+                    <option value="china">China AI Regulations</option>
+                </select>
+                <button type="submit" class="btn-primary">Subscribe - $29/month</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 AI Governance Pulse. Real-time regulatory intelligence.</p>
+    </footer>
+
+    <script src="tracker.js"></script>
+</body>
+</html>

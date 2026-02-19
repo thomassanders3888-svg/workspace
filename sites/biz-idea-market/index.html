@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Idea Marketplace - Validate & Launch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">BizIdea Market</div>
+            <div class="nav-links">
+                <a href="#ideas">Browse Ideas</a>
+                <a href="#submit">Submit Idea</a>
+                <a href="#pricing">Pricing</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Discover Tomorrow's Startups</h1>
+            <p>Ideas validated by real market data. Buy, sell, or co-found the next big thing.</p>
+            <div class="search-bar">
+                <input type="text" placeholder="Search ideas (e.g., 'SaaS', 'AI', 'B2B')..." id="search-input">
+                <button onclick="searchIdeas()">Search</button>
+            </div>
+        </section>
+
+        <section id="ideas" class="ideas-grid">
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="saas">SaaS</button>
+                <button class="filter-btn" data-filter="ai">AI</button>
+                <button class="filter-btn" data-filter="marketplace">Marketplace</button>
+                <button class="filter-btn" data-filter="mobile">Mobile App</button>
+                <select id="sort-select">
+                    <option value="popular">Most Popular</option>
+                    <option value="newest">Newest</option>
+                    <option value="price-low">Price: Low to High</option>
+                    <option value="price-high">Price: High to Low</option>
+                </select>
+            </div>
+
+            <div class="ideas-container" id="ideas-container">
+                <!-- Idea cards populated by JS -->
+            </div>
+        </section>
+
+        <section id="submit" class="submit-section">
+            <h2>Have an Idea?</h2>
+            <p>Validate with our community before building. Get feedback, find co-founders, or sell your validated concept.</p>
+            <form id="idea-form">
+                <input type="text" placeholder="Idea Title" required>
+                <select required>
+                    <option value="">Category</option>
+                    <option value="saas">SaaS</option>
+                    <option value="ai">AI</option>
+                    <option value="marketplace">Marketplace</option>
+                    <option value="mobile">Mobile App</option>
+                    <option value="other">Other</option>
+                </select>
+                <textarea placeholder="Describe your idea, validation data, and what you're looking for..." rows="5" required></textarea>
+                <button type="submit">Submit Idea - Free</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

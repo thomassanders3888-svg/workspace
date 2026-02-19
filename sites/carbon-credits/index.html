@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carbon Credit Exchange - P2P Marketplace</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">CarbonX</div>
+        <div class="nav-links">
+            <a href="#market">Market</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#verify">Verify</a>
+            <a href="#about">About</a>
+        </div>
+        <div class="nav-wallet">
+            <span class="balance">$<span id="usd-balance">12,450.00</span></span>
+            <button class="btn-deposit">Deposit</button>
+        </div>
+    </nav>
+
+    <div class="dashboard">
+        <div class="market-summary">
+            <div class="ticker">
+                <span class="ticker-item">CCX-2024: $18.50 <span class="up">+2.3%</span></span>
+                <span class="ticker-item">VCS-REDD: $22.10 <span class="down">-0.8%</span></span>
+                <span class="ticker-item">GOLD-STAND: $28.90 <span class="up">+1.1%</span></span>
+                <span class="ticker-item">CORSIA: $35.20 <span class="up">+3.2%</span></span>
+            </div>
+            <div class="stats-row">
+                <div class="stat-box">
+                    <label>24h Volume</label>
+                    <value>$2.4M</value>
+                </div>
+                <div class="stat-box">
+                    <label>Credits Traded</label>
+                    <value>127,450</value>
+                </div>
+                <div class="stat-box">
+                    <label>Active Projects</label>
+                    <value>486</value>
+                </div>
+            </div>
+        </div>
+
+        <div class="trading-view">
+            <div class="chart-container">
+                <div class="chart-header">
+                    <select id="credit-select">
+                        <option value="ccx-2024">CCX-2024 (North America)</option>
+                        <option value="vcs-redd">VCS-REDD (Forest)</option>
+                        <option value="gold-standard">Gold Standard (Solar)</option>
+                        <option value="corsia">CORSIA (Aviation)</option>
+                    </select>
+                    <div class="timeframes">
+                        <button class="tf active">1H</button>
+                        <button class="tf">4H</button>
+                        <button class="tf">1D</button>
+                        <button class="tf">1W</button>
+                    </div>
+                </div>
+                <canvas id="priceChart"></canvas>
+            </div>
+
+            <div class="order-book">
+                <div class="book-header">
+                    <h3>Order Book</h3>
+                    <span class="spread">Spread: $0.15</span>
+                </div>
+                <div class="book-asks">
+                    <div class="book-row header">
+                        <span>Price</span>
+                        <span>Size</span>
+                        <span>Total</span>
+                    </div>
+                    <div class="book-row ask">
+                        <span class="price">$18.65</span>
+                        <span>500</span>
+                        <span>$9,325</span>
+                    </div>
+                    <div class="book-row ask">
+                        <span class="price">$18.70</span>
+                        <span>1,200</span>
+                        <span>$22,440</span>
+                    </div>
+                    <div class="book-row ask">
+                        <span class="price">$18.75</span>
+                        <span>800</span>
+                        <span>$15,000</span>
+                    </div>
+                </div>
+                <div class="current-price">
+                    <span class="price">$18.50</span>
+                    <span class="change up">+2.3%</span>
+                </div>
+                <div class="book-bids">
+                    <div class="book-row bid">
+                        <span class="price">$18.45</span>
+                        <span>950</span>
+                        <span>$17,528</span>
+                    </div>
+                    <div class="book-row bid">
+                        <span class="price">$18.40</span>
+                        <span>1,500</span>
+                        <span>$27,600</span>
+                    </div>
+                    <div class="book-row bid">
+                        <span class="price">$18.35</span>
+                        <span>2,100</span>
+                        <span>$38,535</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="trade-panel">
+            <div class="trade-tabs">
+                <button class="tab active" data-tab="buy">Buy</button>
+                <button class="tab" data-tab="sell">Sell</button>
+            </div>
+            
+            <div class="trade-form">
+                <div class="input-group">
+                    <label>Order Type</label>
+                    <select id="order-type">
+                        <option value="market">Market</option>
+                        <option value="limit">Limit</option>
+                        <option value="stop">Stop</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label>Amount (Credits)</label>
+                    <input type="number" id="trade-amount" placeholder="0.00" step="0.01">
+                    <span class="max">Max: 5,000</span>
+                </div>
+                <div class="input-group">
+                    <label>Price per Credit</label>
+                    <input type="number" id="trade-price" placeholder="18.50" step="0.01">
+                </div>
+                <div class="trade-summary">
+                    <div class="summary-row">
+                        <span>Subtotal</span>
+                        <span id="subtotal">$0.00</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Fee (0.5%)</span>
+                        <span id="fee">$0.00</span>
+                    </div>
+                    <div class="summary-row total">
+                        <span>Total</span>
+                        <span id="total">$0.00</span>
+                    </div>
+                </div>
+                <button class="btn-trade" id="execute-trade">Place Buy Order</button>
+            </div>
+        </div>
+
+        <div class="positions">
+            <h3>Your Positions</h3>
+            <table class="positions-table">
+                <thead>
+                    <tr>
+                        <th>Credit Type</th>
+                        <th>Quantity</th>
+                        <th>Avg Price</th>
+                        <th>Current</th>
+                        <th>P&L</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="positions-body">
+                    <tr>
+                        <td>CCX-2024</td>
+                        <td>2,500</td>
+                        <td>$17.80</td>
+                        <td>$18.50</td>
+                        <td class="positive">+$1,750</td>
+                        <td><button class="btn-small">Sell</button></td>
+                    </tr>
+                    <tr>
+                        <td>VCS-REDD</td>
+                        <td>1,000</td>
+                        <td>$21.50</td>
+                        <td>$22.10</td>
+                        <td class="positive">+$600</td>
+                        <td><button class="btn-small">Sell</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="recent-trades">
+            <h3>Recent Trades</h3>
+            <div class="trades-list" id="trades-list">
+                <!-- Populated by JS -->
+            </div>
+        </div>
+    </div>
+
+    <script src="trade.js"></script>
+</body>
+</html>
