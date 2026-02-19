@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLM Cost Calculator - Compare AI Model Pricing</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: system-ui, -apple-system, sans-serif; }
+        body { background: #0a0a0a; color: #fff; }
+        .header { background: linear-gradient(135deg, #10b981 0%, #059669 100%); padding: 60px 20px; text-align: center; }
+        .header h1 { font-size: 2.5em; margin-bottom: 10px; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 40px 20px; }
+        .model-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; margin: 30px 0; }
+        .model-card { background: #111; border: 2px solid #222; border-radius: 12px; padding: 25px; cursor: pointer; transition: all 0.3s; }
+        .model-card:hover, .model-card.selected { border-color: #10b981; background: #1a1a1a; }
+        .model-card.selected { box-shadow: 0 0 20px rgba(16, 185, 129, 0.3); }
+        .model-provider { color: #888; font-size: 0.9em; margin-bottom: 5px; }
+        .model-name { font-size: 1.3em; font-weight: bold; margin-bottom: 15px; }
+        .pricing { display: flex; justify-content: space-around; margin: 15px 0; }
+        .price-item { text-align: center; }
+        .price-item .label { color: #888; font-size: 0.8em; }
+        .price-item .value { font-size: 1.5em; font-weight: bold; color: #10b981; }
+        .calc-section { background: #111; border-radius: 16px; padding: 30px; margin: 30px 0; }
+        .input-group { margin: 20px 0; }
+        .input-group label { display: block; margin-bottom: 8px; color: #888; }
+        .input-group input, .input-group select { width: 100%; padding: 15px; background: #1a1a1a; border: 1px solid #333; border-radius: 8px; color: #fff; font-size: 1em; }
+        .result-box { background: #0a0a0a; border: 2px solid #10b981; border-radius: 12px; padding: 30px; margin: 20px 0; text-align: center; }
+        .result-box .amount { font-size: 3em; font-weight: bold; color: #10b981; }
+        .comparison-table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        .comparison-table th, .comparison-table td { padding: 12px; text-align: left; border-bottom: 1px solid #222; }
+        .comparison-table th { color: #888; font-weight: 600; }
+        .comparison-table tr:hover { background: #1a1a1a; }
+        .best { color: #10b981; font-weight: bold; }
+        footer { text-align: center; padding: 40px; color: #666; border-top: 1px solid #1a1a1a; margin-top: 60px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🔢 LLM Cost Calculator</h1>
+        <p>Calculate API costs for OpenAI, Anthropic, Google, Azure, and more</p>
+    </div>
+
+    <div class="container">
+        <h2>Select a Model</h2>
+        <div class="model-grid" id="model-grid"></div>
+
+        <div class="calc-section" id="calc-section" style="display: none;">
+            <h3>Usage Calculator</h3>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+                <div class="input-group">
+                    <label>Input Tokens (Monthly)</label>
+                    <input type="number" id="input-tokens" placeholder="1,000,000" value="1000000">
+                </div>
+                <div class="input-group">
+                    <label>Output Tokens (Monthly)</label>
+                    <input type="number" id="output-tokens" placeholder="500,000" value="500000">
+                </div>
+                <div class="input-group">
+                    <label>Request Frequency</label>
+                    <select id="usage-freq">
+                        <option value="hourly">Hourly</option>
+                        <option value="daily">Daily</option>
+                        <option value="weekly">Weekly</option>
+                        <option value="monthly" selected>Monthly</option>
+                    </select>
+                </div>
+            </div>
+            <button class="btn" onclick="calculateTokens()" style="width: 100%; padding: 18px; margin-top: 20px; background: linear-gradient(135deg, #10b981, #059669); border: none; border-radius: 8px; color: #fff; font-size: 1.2em; font-weight: 600; cursor: pointer;">Calculate Cost →</button>
+        </div>
+
+        <div class="result-box" id="result-box" style="display: none;">
+            <div class="amount" id="monthly-cost">$0.00</div>
+            <p style="color: #888; margin-top: 10px;">Estimated Monthly Cost</p>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 30px;">
+                <div>
+                    <div class="amount" style="font-size: 1.5em;" id="daily-cost">$0.00</div>
+                    <p style="color: #666; font-size: 0.9em;">Daily Average</p>
+                </div>
+                <div>
+                    <div class="amount" style="font-size: 1.5em;" id="per-request">$0.00</div>
+                    <p style="color: #666; font-size: 0.9em;">Per Request</p>
+                </div>
+                <div>
+                    <div class="amount" style="font-size: 1.5em;" id="enterprise-savings">$0.00</div>
+                    <p style="color: #666; font-size: 0.9em;">Enterprise Savings</p>
+                </div>
+            </div>
+        </div>
+
+        <h2 style="margin-top: 60px;">Full Model Comparison</h2>
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Model</th>
+                    <th>Provider</th>
+                    <th>Input</th>
+                    <th>Output</th>
+                    <th>Context</th>
+                    <th>Speed</th>
+                </tr>
+            </thead>
+            <tbody id="comparison-body"></tbody>
+        </table>
+    </div>
+
+    <footer>
+        <p>LLM Cost Calculator © 2026. Prices updated weekly. Always verify with provider.</p>
+    </footer>
+
+    <script>
+        const models = [
+            { name: 'GPT-4', provider: 'OpenAI', input: 0.03, output: 0.06, context: 8192, speed: 'Medium' },
+            { name: 'GPT-4 Turbo', provider: 'OpenAI', input: 0.01, output: 0.03, context: 128000, speed: 'Medium' },
+            { name: 'GPT-3.5 Turbo', provider: 'OpenAI', input: 0.0005, output: 0.0015, context: 16384, speed: 'Fast' },
+            { name: 'Claude 3 Opus', provider: 'Anthropic', input: 0.015, output: 0.075, context: 200000, speed: 'Medium' },
+            { name: 'Claude 3 Sonnet', provider: 'Anthropic', input: 0.003, output: 0.015, context: 200000, speed: 'Fast' },
+            { name: 'Claude 3 Haiku', provider: 'Anthropic', input: 0.00025, output: 0.00125, context: 200000, speed: 'Very Fast' },
+            { name: 'Gemini Pro', provider: 'Google', input: 0.0005, output: 0.0015, context: 32768, speed: 'Fast' },
+            { name: 'Gemini Ultra', provider: 'Google', input: 0.0035, output: 0.0105, context: 32768, speed: 'Medium' },
+            { name: 'Llama 2 70B', provider: 'Together', input: 0.0009, output: 0.0009, context: 4096, speed: 'Fast' },
+            { name: 'Mistral 7B', provider: 'Together', input: 0.0002, output: 0.0002, context: 32768, speed: 'Very Fast' }
+        ];
+
+        let currentModel = models[0];
+
+        function init() {
+            const grid = document.getElementById('model-grid');
+            grid.innerHTML = models.map((m, i) => `
+                <div class="model-card" data-index="${i}">
+                    <div class="model-provider">${m.provider}</div>
+                    <div class="model-name">${m.name}</div>
+                    <div class="pricing">
+                        <div class="
