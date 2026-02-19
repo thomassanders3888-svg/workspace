@@ -1,215 +1,239 @@
-// UIManager.cs - TerraForge HUD Manager
-// Handles: Crosshair, Hotbar, Health/Food bars, Chat, Pause menu, Inventory
-
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 using System.Collections.Generic;
-using System.Text;
 
 namespace TerraForge.UI
 {
+    /// <summary>
+    /// Manages all in-game UI elements and HUD display
+    /// </summary>
     public class UIManager : MonoBehaviour
     {
-        public static UIManager Instance { get; private set; }
-
+        [Header("HUD Elements")]
+        public Canvas mainCanvas;
+        public RectTransform hudPanel;
+        
+        [Header("Health & Status")]
+        public Slider healthBar;
+        public Slider foodBar;
+        public TextMeshProUGUI healthText;
+        public TextMeshProUGUI foodText;
+        
         [Header("Crosshair")]
-        [SerializeField] private Image crosshairImage;
-        [SerializeField] private Sprite defaultCrosshair;
-        [SerializeField] private Sprite interactionCrosshair;
-        [SerializeField] private Color crosshairDefaultColor = new Color(1, 1, 1, 0.8f);
-        [SerializeField] private Color crosshairHighlightColor = new Color(1, 1, 0, 0.9f);
-
+        public Image crosshair;
+        public Sprite crosshairNormal;
+        public Sprite crosshairTarget;
+        public Color crosshairDefaultColor = Color.white;
+        public Color crosshairTargetColor = Color.red;
+        
         [Header("Hotbar")]
-        [SerializeField] private Transform hotbarContainer;
-        [SerializeField] private GameObject hotbarSlotPrefab;
-        [SerializeField] private int hotbarSlotCount = 10;
-        private System.Collections.Generic.List<Image> hotbarIcons = new System.Collections.Generic.List<Image>();
-        private System.Collections.Generic.List<Image> hotbarHighlights = new System.Collections.Generic.List<Image>();
-
-        [Header("Health/Food Bars")]
-        [SerializeField] private Slider healthSlider;
-        [SerializeField] private Slider foodSlider;
-        [SerializeField] private Image healthBarFill;
-        [SerializeField] private Image foodBarFill;
-        [SerializeField] private Text healthText;
-        [SerializeField] private Text foodText;
-
-        [Header("Chat Panel")]
-        [SerializeField] private ScrollRect chatScrollRect;
-        [SerializeField] private Transform chatMessageContainer;
-        [SerializeField] private GameObject chatMessagePrefab;
-        [SerializeField] private InputField chatInputField;
-        [SerializeField] private int maxChatMessages = 50;
-        private System.Collections.Generic.Queue<GameObject> chatMessageQueue = new System.Collections.Generic.Queue<GameObject>();
-
+        public HorizontalLayoutGroup hotbarContainer;
+        public List<Image> hotbarSlots;
+        public List<TextMeshProUGUI> hotbarCounts;
+        public Image selectedHighlight;
+        public Sprite emptySlotSprite;
+        public Sprite selectedSlotSprite;
+        
+        [Header("Chat")]
+        public ScrollRect chatScrollView;
+        public RectTransform chatContent;
+        public TextMeshProUGUI chatTextPrefab;
+        public TMP_InputField chatInputField;
+        public int maxChatMessages = 50;
+        
         [Header("Pause Menu")]
-        [SerializeField] private GameObject pauseMenuPanel;
-        [SerializeField] private Button resumeButton;
-        [SerializeField] private Button settingsButton;
-        [SerializeField] private Button saveQuitButton;
-
+        public GameObject pauseMenuPanel;
+        public Button resumeButton;
+        public Button settingsButton;
+        public Button quitButton;
+        
         [Header("Inventory")]
-        [SerializeField] private GameObject inventoryPanel;
-
-        [Header("Canvas References")]
-        [SerializeField] private Canvas hudCanvas;
-        [SerializeField] private Canvas inventoryCanvas;
-        [SerializeField] private Canvas pauseCanvas;
-        [SerializeField] private Canvas chatCanvas;
-
-        private int selectedSlot = 0;
+        public GameObject inventoryPanel;
+        public GridLayoutGroup inventoryGrid;
+        public List<Image> inventorySlots;
+        public TextMeshProUGUI inventoryTitle;
+        
+        [Header("Debug")]
+        public TextMeshProUGUI debugText;
+        public GameObject debugPanel;
+        
+        private List<TextMeshProUGUI> chatMessages = new List<TextMeshProUGUI>();
+        private int selectedHotbarIndex = 0;
         private bool isPaused = false;
-        private bool isInventoryOpen = false;
-        private bool isChatOpen = false;
-        private StringBuilder sb = new StringBuilder(32);
-
-        public event System.Action<int> OnHotbarSlotChanged;
-        public event System.Action<string> OnChatMessageSent;
-        public event System.Action<bool> OnPauseStateChanged;
-
-        private void Awake()
+        private bool chatActive = false;
+        private bool inventoryActive = false;
+        
+        void Awake()
         {
-            if (Instance != null && Instance != this)
-            {
-                Destroy(gameObject);
-                return;
-            }
-            Instance = this;
+            InitializeUI();
         }
-
-        private void Start()
-        {
-            InitHotbar();
-            SetupButtons();
-            ShowHUDOnly();
-            LockCursor(true);
-        }
-
-        private void Update()
+        
+        void Update()
         {
             HandleInput();
+            UpdateCrosshair();
         }
-
-        private void HandleInput()
+        
+        void InitializeUI()
         {
-            if (Input.GetKeyDown(KeyCode.Escape))
+            // Setup pause menu callbacks
+            if (resumeButton != null) resumeButton.onClick.AddListener(ResumeGame);
+            if (settingsButton != null) settingsButton.onClick.AddListener(OpenSettings);
+            if (quitButton != null) quitButton.onClick.AddListener(QuitToMenu);
+            
+            // Setup chat input
+            if (chatInputField != null)
             {
-                if (isChatOpen) ToggleChat();
-                else if (isInventoryOpen) ToggleInventory();
-                else TogglePause();
+                chatInputField.onSubmit.AddListener(OnChatSubmit);
             }
-
-            if (Input.GetKeyDown(KeyCode.E) && !isPaused)
-                ToggleInventory();
-
-            if (Input.GetKeyDown(KeyCode.T) && !isPaused && !isInventoryOpen)
+            
+            // Hide panels initially
+            if (pauseMenuPanel != null) pauseMenuPanel.SetActive(false);
+            if (inventoryPanel != null) inventoryPanel.SetActive(false);
+            if (debugPanel != null) debugPanel.SetActive(false);
+            
+            // Initialize hotbar
+            InitializeHotbar();
+        }
+        
+        void InitializeHotbar()
+        {
+            for (int i = 0; i < hotbarSlots.Count; i++)
             {
-                ToggleChat();
-                if (isChatOpen && chatInputField != null)
-                    chatInputField.ActivateInputField();
+                if (hotbarSlots[i] != null)
+                {
+                    hotbarSlots[i].sprite = emptySlotSprite;
+                    hotbarSlots[i].color = Color.gray;
+                }
+                if (hotbarCounts[i] != null)
+                {
+                    hotbarCounts[i].text = "";
+                }
             }
-
-            for (int i = 0; i < 9 && i < hotbarSlotCount; i++)
+            UpdateHotbarSelection(0);
+        }
+        
+        void HandleInput()
+        {
+            // Number keys for hotbar
+            for (int i = 0; i < 9; i++)
             {
                 if (Input.GetKeyDown(KeyCode.Alpha1 + i))
-                    SelectHotbarSlot(i);
+                {
+                    UpdateHotbarSelection(i);
+                }
             }
-            if (Input.GetKeyDown(KeyCode.Alpha0))
-                SelectHotbarSlot(9);
-
+            
+            // Scroll wheel
             float scroll = Input.GetAxis("Mouse ScrollWheel");
             if (scroll != 0)
             {
-                int newSlot = selectedSlot + (scroll > 0 ? -1 : 1);
-                if (newSlot < 0) newSlot = hotbarSlotCount - 1;
-                if (newSlot >= hotbarSlotCount) newSlot = 0;
-                SelectHotbarSlot(newSlot);
+                int newIndex = selectedHotbarIndex + (scroll > 0 ? -1 : 1);
+                newIndex = Mathf.Clamp(newIndex, 0, 8);
+                UpdateHotbarSelection(newIndex);
             }
-
-            if (isChatOpen && Input.GetKeyDown(KeyCode.Return) && chatInputField != null)
+            
+            // Pause toggle
+            if (Input.GetKeyDown(KeyCode.Escape))
             {
-                OnChatSubmit(chatInputField.text);
+                if (chatActive) CloseChat();
+                else if (inventoryActive) CloseInventory();
+                else TogglePause();
+            }
+            
+            // Chat toggle
+            if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.T))
+            {
+                ToggleChat();
+            }
+            
+            // Inventory toggle
+            if (Input.GetKeyDown(KeyCode.I) || Input.GetKeyDown(KeyCode.E))
+            {
+                ToggleInventory();
+            }
+            
+            // Debug toggle
+            if (Input.GetKeyDown(KeyCode.BackQuote) || Input.GetKeyDown(KeyCode.F3))
+            {
+                ToggleDebug();
             }
         }
-
-        private void InitHotbar()
+        
+        void HandleInput()
         {
-            if (hotbarContainer == null || hotbarSlotPrefab == null) return;
-
-            foreach (Transform child in hotbarContainer)
-                Destroy(child.gameObject);
-
-            hotbarIcons.Clear();
-            hotbarHighlights.Clear();
-
-            for (int i = 0; i < hotbarSlotCount; i++)
+            // Number keys for hotbar
+            for (int i = 0; i < 9; i++)
             {
-                GameObject slot = Instantiate(hotbarSlotPrefab, hotbarContainer);
-                Image icon = slot.transform.Find("Icon")?.GetComponent<Image>();
-                Image highlight = slot.transform.Find("Highlight")?.GetComponent<Image>();
-
-                hotbarIcons.Add(icon);
-                if (highlight != null)
+                if (Input.GetKeyDown(KeyCode.Alpha1 + i))
                 {
-                    highlight.gameObject.SetActive(false);
-                    hotbarHighlights.Add(highlight);
+                    UpdateHotbarSelection(i);
                 }
             }
-            UpdateHotbarSelection();
-        }
-
-        private void SetupButtons()
-        {
-            if (resumeButton != null)
-                resumeButton.onClick.AddListener(TogglePause);
-            if (settingsButton != null)
-                settingsButton.onClick.AddListener(OpenSettings);
-            if (saveQuitButton != null)
-                saveQuitButton.onClick.AddListener(SaveAndQuit);
-        }
-
-        public void SetCrosshairHover(bool hovering)
-        {
-            if (crosshairImage == null) return;
-            crosshairImage.sprite = hovering && interactionCrosshair != null ? interactionCrosshair : defaultCrosshair;
-            crosshairImage.color = hovering ? crosshairHighlightColor : crosshairDefaultColor;
-        }
-
-        public void SetCrosshairColor(Color color)
-        {
-            if (crosshairImage != null)
-                crosshairImage.color = color;
-        }
-
-        public void SelectHotbarSlot(int index)
-        {
-            if (index < 0 || index >= hotbarSlotCount) return;
-            selectedSlot = index;
-            UpdateHotbarSelection();
-            OnHotbarSlotChanged?.Invoke(selectedSlot);
-        }
-
-        private void UpdateHotbarSelection()
-        {
-            for (int i = 0; i < hotbarHighlights.Count; i++)
+            
+            // Scroll wheel
+            float scroll = Input.GetAxis("Mouse ScrollWheel");
+            if (scroll != 0)
             {
-                if (hotbarHighlights[i] != null)
-                    hotbarHighlights[i].gameObject.SetActive(i == selectedSlot);
+                int newIndex = selectedHotbarIndex + (scroll > 0 ? -1 : 1);
+                newIndex = Mathf.Clamp(newIndex, 0, 8);
+                UpdateHotbarSelection(newIndex);
+            }
+            
+            // Pause toggle
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                if (chatActive) CloseChat();
+                else if (inventoryActive) CloseInventory();
+                else TogglePause();
+            }
+            
+            // Chat toggle
+            if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.T))
+            {
+                ToggleChat();
+            }
+            
+            // Inventory toggle
+            if (Input.GetKeyDown(KeyCode.I) || Input.GetKeyDown(KeyCode.E))
+            {
+                ToggleInventory();
+            }
+            
+            // Debug toggle
+            if (Input.GetKeyDown(KeyCode.BackQuote) || Input.GetKeyDown(KeyCode.F3))
+            {
+                ToggleDebug();
             }
         }
-
-        public int GetSelectedSlot() { return selectedSlot; }
-
-        public void SetHotbarSlotIcon(int slot, Sprite icon)
+        
+        public void UpdateHotbarSelection(int index)
         {
-            if (slot >= 0 && slot < hotbarIcons.Count && hotbarIcons[slot] != null)
-                hotbarIcons[slot].sprite = icon;
+            selectedHotbarIndex = index;
+            
+            if (selectedHighlight != null && hotbarContainer != null)
+            {
+                RectTransform slot = hotbarContainer.transform.GetChild(index) as RectTransform;
+                if (slot != null)
+                {
+                    selectedHighlight.transform.position = slot.position;
+                }
+            }
+            
+            OnHotbarChanged?.Invoke(index);
         }
-
-        public void SetHealth(float current, float max)
+        
+        public void SetHotbarSlot(int index, Sprite icon, int count)
         {
-            if (healthSlider != null)
-                healthSlider.value = current / max;
-
-            if (healthBarFill != null)
-                healthBarFill.color = Color.Lerp(Color.red, Color.green
+            if (index < 0 || index >= hotbarSlots.Count) return;
+            
+            if (hotbarSlots[index] != null)
+            {
+                hotbarSlots[index].sprite = icon != null ? icon : emptySlotSprite;
+                hotbarSlots[index].color = icon != null ? Color.white : Color.gray;
+            }
+            
+            if (hotbarCounts[index] != null)
+            {
+                hotbar

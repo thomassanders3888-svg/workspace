@@ -1,232 +1,130 @@
-// NetworkMessageTypes.cs
-// TerraForge Multiplayer Network Messages
-// Defines all message types for client-server communication
-
 using System;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace TerraForge.Network
+namespace TerraForge.Networking
 {
     /// <summary>
-    /// Enumeration of all network message types
+    /// Message types for multiplayer communication
     /// </summary>
     public enum MessageType
     {
-        PlayerMove,
-        BlockPlace,
-        BlockBreak,
-        Chat,
-        PlayerJoin,
-        PlayerLeave
+        PlayerMove = 1,
+        BlockPlace = 2,
+        BlockBreak = 3,
+        Chat = 4,
+        PlayerJoin = 5,
+        PlayerLeave = 6,
+        PlayerAuth = 7,
+        WorldData = 8,
+        ChunkData = 9,
+        InventorySync = 10,
+        PlayerAction = 11,
+        ServerTime = 99
     }
 
     /// <summary>
-    /// Base class for all network messages
+    /// Base message class for all network messages
     /// </summary>
     public abstract class BaseMessage
     {
-        /// <summary>
-        /// The type of message for deserialization routing
-        /// </summary>
         [JsonPropertyName("type")]
         public MessageType Type { get; set; }
-
-        /// <summary>
-        /// Timestamp when the message was created
-        /// </summary>
-        [JsonPropertyName("timestamp")]
-        public DateTime Timestamp { get; set; }
-
-        /// <summary>
-        /// Unique identifier for the sender
-        /// </summary>
+        
         [JsonPropertyName("playerId")]
         public string PlayerId { get; set; }
-
-        /// <summary>
-        /// Client-generated sequence number for ordering
-        /// </summary>
-        [JsonPropertyName("sequenceNumber")]
-        public long SequenceNumber { get; set; }
-
+        
+        [JsonPropertyName("timestamp")]
+        public long Timestamp { get; set; }
+        
         protected BaseMessage(MessageType type, string playerId)
         {
             Type = type;
             PlayerId = playerId;
-            Timestamp = DateTime.UtcNow;
-            SequenceNumber = 0;
+            Timestamp = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
         }
-
-        /// <summary>
-        /// Serialize the message to JSON
-        /// </summary>
+        
         public virtual string ToJson()
         {
-            return JsonSerializer.Serialize(this, GetType(), new JsonSerializerOptions
-            {
-                PropertyNamingPolicy = JsonNamingPolicy.CamelCase
-            });
-        }
-
-        /// <summary>
-        /// Deserialize a JSON string to the appropriate message type
-        /// </summary>
-        public static BaseMessage FromJson(string json)
-        {
-            // First deserialize to get the type
-            var baseMessage = JsonSerializer.Deserialize<JsonElement>(json);
-            
-            if (!baseMessage.TryGetProperty("type", out var typeElement))
-            {
-                throw new ArgumentException("Message JSON does not contain a 'type' field");
-            }
-
-            var typeString = typeElement.GetString();
-            if (!Enum.TryParse<MessageType>(typeString, out var messageType))
-            {
-                throw new ArgumentException($"Unknown message type: {typeString}");
-            }
-
-            // Now deserialize to the specific type
-            return messageType switch
-            {
-                MessageType.PlayerMove => JsonSerializer.Deserialize<PlayerMoveMessage>(json),
-                MessageType.BlockPlace => JsonSerializer.Deserialize<BlockPlaceMessage>(json),
-                MessageType.BlockBreak => JsonSerializer.Deserialize<BlockBreakMessage>(json),
-                MessageType.Chat => JsonSerializer.Deserialize<ChatMessage>(json),
-                MessageType.PlayerJoin => JsonSerializer.Deserialize<PlayerJoinMessage>(json),
-                MessageType.PlayerLeave => JsonSerializer.Deserialize<PlayerLeaveMessage>(json),
-                _ => throw new ArgumentException($"Unimplemented message type: {messageType}")
-            };
+            return JsonSerializer.Serialize(this, GetType());
         }
     }
 
     /// <summary>
-    /// Player position/movement update
+    /// Player movement message
     /// </summary>
     public class PlayerMoveMessage : BaseMessage
     {
-        [JsonPropertyName("x")]
-        public float X { get; set; }
-
-        [JsonPropertyName("y")]
-        public float Y { get; set; }
-
-        [JsonPropertyName("z")]
-        public float Z { get; set; }
-
-        [JsonPropertyName("yaw")]
-        public float Yaw { get; set; }
-
-        [JsonPropertyName("pitch")]
-        public float Pitch { get; set; }
-
-        [JsonPropertyName("velocityX")]
-        public float VelocityX { get; set; }
-
-        [JsonPropertyName("velocityY")]
-        public float VelocityY { get; set; }
-
-        [JsonPropertyName("velocityZ")]
-        public float VelocityZ { get; set; }
-
-        [JsonPropertyName("isOnGround")]
-        public bool IsOnGround { get; set; }
-
-        public PlayerMoveMessage(string playerId, float x, float y, float z, float yaw, float pitch) 
+        [JsonPropertyName("position")]
+        public Vec3 Position { get; set; }
+        
+        [JsonPropertyName("rotation")]
+        public Vec3 Rotation { get; set; }
+        
+        [JsonPropertyName("velocity")]
+        public Vec3 Velocity { get; set; }
+        
+        public PlayerMoveMessage(string playerId, Vec3 position, Vec3 rotation) 
             : base(MessageType.PlayerMove, playerId)
         {
-            X = x;
-            Y = y;
-            Z = z;
-            Yaw = yaw;
-            Pitch = pitch;
-            VelocityX = 0;
-            VelocityY = 0;
-            VelocityZ = 0;
-            IsOnGround = true;
+            Position = position;
+            Rotation = rotation;
+            Velocity = new Vec3(0, 0, 0);
         }
-
-        public PlayerMoveMessage() : base(MessageType.PlayerMove, string.Empty) { }
     }
 
     /// <summary>
-    /// Block placement event
+    /// Block placement message
     /// </summary>
     public class BlockPlaceMessage : BaseMessage
     {
         [JsonPropertyName("blockX")]
         public int BlockX { get; set; }
-
+        
         [JsonPropertyName("blockY")]
         public int BlockY { get; set; }
-
+        
         [JsonPropertyName("blockZ")]
         public int BlockZ { get; set; }
-
+        
         [JsonPropertyName("blockType")]
         public int BlockType { get; set; }
-
-        [JsonPropertyName("blockMetadata")]
-        public int BlockMetadata { get; set; }
-
-        [JsonPropertyName("toolUsed")]
-        public string ToolUsed { get; set; }
-
-        public BlockPlaceMessage(string playerId, int blockX, int blockY, int blockZ, int blockType) 
+        
+        public BlockPlaceMessage(string playerId, int x, int y, int z, int blockType) 
             : base(MessageType.BlockPlace, playerId)
         {
-            BlockX = blockX;
-            BlockY = blockY;
-            BlockZ = blockZ;
+            BlockX = x;
+            BlockY = y;
+            BlockZ = z;
             BlockType = blockType;
-            BlockMetadata = 0;
-            ToolUsed = null;
         }
-
-        public BlockPlaceMessage() : base(MessageType.BlockPlace, string.Empty) { }
     }
 
     /// <summary>
-    /// Block break/mining event
+    /// Block break message
     /// </summary>
     public class BlockBreakMessage : BaseMessage
     {
         [JsonPropertyName("blockX")]
         public int BlockX { get; set; }
-
+        
         [JsonPropertyName("blockY")]
         public int BlockY { get; set; }
-
+        
         [JsonPropertyName("blockZ")]
         public int BlockZ { get; set; }
-
-        [JsonPropertyName("blockType")]
-        public int BlockType { get; set; }
-
-        [JsonPropertyName("mineDuration")]
-        public float MineDuration { get; set; }
-
-        [JsonPropertyName("dropsItems")]
-        public bool DropsItems { get; set; }
-
-        [JsonPropertyName("toolUsed")]
-        public string ToolUsed { get; set; }
-
-        public BlockBreakMessage(string playerId, int blockX, int blockY, int blockZ, int blockType) 
+        
+        [JsonPropertyName("toolTier")]
+        public int ToolTier { get; set; }
+        
+        public BlockBreakMessage(string playerId, int x, int y, int z) 
             : base(MessageType.BlockBreak, playerId)
         {
-            BlockX = blockX;
-            BlockY = blockY;
-            BlockZ = blockZ;
-            BlockType = blockType;
-            MineDuration = 0;
-            DropsItems = true;
-            ToolUsed = null;
+            BlockX = x;
+            BlockY = y;
+            BlockZ = z;
+            ToolTier = 0;
         }
-
-        public BlockBreakMessage() : base(MessageType.BlockBreak, string.Empty) { }
     }
 
     /// <summary>
@@ -236,16 +134,77 @@ namespace TerraForge.Network
     {
         [JsonPropertyName("content")]
         public string Content { get; set; }
-
-        [JsonPropertyName("recipientType")]
-        public string RecipientType { get; set; }
-
-        [JsonPropertyName("targetPlayerId")]
-        public string TargetPlayerId { get; set; }
-
-        [JsonPropertyName("isCommand")]
-        public bool IsCommand { get; set; }
-
+        
+        [JsonPropertyName("isGlobal")]
+        public bool IsGlobal { get; set; }
+        
+        [JsonPropertyName("recipient")]
+        public string Recipient { get; set; }
+        
         public ChatMessage(string playerId, string content) 
             : base(MessageType.Chat, playerId)
         {
+            Content = content;
+            IsGlobal = true;
+            Recipient = null;
+        }
+    }
+
+    /// <summary>
+    /// Player join message
+    /// </summary>
+    public class PlayerJoinMessage : BaseMessage
+    {
+        [JsonPropertyName("playerName")]
+        public string PlayerName { get; set; }
+        
+        [JsonPropertyName("spawnPosition")]
+        public Vec3 SpawnPosition { get; set; }
+        
+        public PlayerJoinMessage(string playerId, string playerName) 
+            : base(MessageType.PlayerJoin, playerId)
+        {
+            PlayerName = playerName;
+            SpawnPosition = new Vec3(0, 100, 0);
+        }
+    }
+
+    /// <summary>
+    /// Player leave message
+    /// </summary>
+    public class PlayerLeaveMessage : BaseMessage
+    {
+        [JsonPropertyName("reason")]
+        public string Reason { get; set; }
+        
+        public PlayerLeaveMessage(string playerId, string reason) 
+            : base(MessageType.PlayerLeave, playerId)
+        {
+            Reason = reason ?? "Disconnected";
+        }
+    }
+
+    /// <summary>
+    /// Vector3 for serialization
+    /// </summary>
+    public struct Vec3
+    {
+        [JsonPropertyName("x")]
+        public float X { get; set; }
+        
+        [JsonPropertyName("y")]
+        public float Y { get; set; }
+        
+        [JsonPropertyName("z")]
+        public float Z { get; set; }
+        
+        public Vec3(float x, float y, float z)
+        {
+            X = x;
+            Y = y;
+            Z = z;
+        }
+        
+        public override string ToString() => $"({X:F2}, {Y:F2}, {Z:F2})";
+    }
+}
