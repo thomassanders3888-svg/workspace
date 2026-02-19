@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceCareerPath.com - Your Path to Space</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, sans-serif; background: #0a0a0f; color: #e0e0e0; }
+        .header { background: linear-gradient(135deg, #1a1a2e, #0d1b2a); padding: 4rem 2rem; text-align: center; }
+        .header h1 { font-size: 2.8rem; background: linear-gradient(135deg, #4ecdc4, #667eea); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+        .paths { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem; margin-top: 3rem; }
+        .path-card { background: #151520; border-radius: 16px; padding: 2rem; border: 2px solid #2a3a4e; }
+        .path-card.military { border-color: #ff6b6b; }
+        .path-card.engineering { border-color: #4ecdc4; }
+        .path-card.technician { border-color: #ffd93d; }
+        .path-icon { font-size: 3rem; margin-bottom: 1rem; }
+        .path-card h2 { margin-bottom: 1rem; }
+        .path-card.military h2 { color: #ff6b6b; }
+        .path-card.engineering h2 { color: #4ecdc4; }
+        .path-card.technician h2 { color: #ffd93d; }
+        .timeline { margin-top: 1.5rem; }
+        .step { display: flex; gap: 1rem; margin: 1rem 0; padding: 1rem; background: #1a1a2e; border-radius: 8px; }
+        .step-num { background: #2a3a4e; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; }
+        .salary { color: #4ecdc4; font-weight: bold; }
+        .companies { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
+        .company-tag { background: #1a1a2e; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.85rem; }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>🚀 SpaceCareerPath.com</h1>
+        <p>Your roadmap to the space industry. Three paths to the stars.</p>
+    </header>
+
+    <div class="container">
+        <div class="paths">
+            <div class="path-card military">
+                <div class="path-icon">🎖️</div>
+                <h2>Military Transition</h2>
+                <p>Nuclear-trained veterans have direct pathways to space ops.</p>
+                <div class="timeline">
+                    <div class="step">
+                        <div class="step-num">1</div>
+                        <div>
+                            <strong>Active Duty</strong>
+                            <p>NRO, Space Force, Navy nuclear program</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">2</div>
+                        <div>
+                            <strong>Clearance + Experience</strong>
+                            <p>TS/SCI clearance + technical background</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">3</div>
+                        <div>
+                            <strong>Space Industry</strong>
+                            <p>Operations, Mission Control, Systems</p>
+                            <span class="salary">Entry: $90K-120K</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="companies">
+                    <span class="company-tag">SpaceX</span>
+                    <span class="company-tag">Blue Origin</span>
+                    <span class="company-tag">ULA</span>
+                    <span class="company-tag">Boeing Defense</span>
+                </div>
+            </div>
+
+            <div class="path-card engineering">
+                <div class="path-icon">🔧</div>
+                <h2>Engineering Degree</h2>
+                <p>Traditional path through aerospace engineering.</p>
+                <div class="timeline">
+                    <div class="step">
+                        <div class="step-num">1</div>
+                        <div>
+                            <strong>Bachelor's Degree</strong>
+                            <p>Aerospace, Mechanical, Electrical, Physics</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">2</div>
+                        <div>
+                            <strong>Internships</strong>
+                            <p>NASA Pathways, SpaceX, Blue Origin</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">3</div>
+                        <div>
+                            <strong>Full-time Engineer</strong>
+                            <p>Propulsion, Avionics, Structures</p>
+                            <span class="salary">Entry: $80K-110K</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="companies">
+                    <span class="company-tag">NASA</span>
+                    <span class="company-tag">SpaceX</span>
+                    <span class="company-tag">Relativity</span>
+                    <span class="company-tag">Rocket Lab</span>
+                </div>
+            </div>
+
+            <div class="path-card technician">
+                <div class="path-icon">🔬</div>
+                <h2>Technical/Certification</h2>
+                <p>Fast track through certifications and training.</p>
+                <div class="timeline">
+                    <div class="step">
+                        <div class="step-num">1</div>
+                        <div>
+                            <strong>Trade School / A&P</strong>
+                            <p>Airframe & Powerplant license, machining</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">2</div>
+                        <div>
+                            <strong>Hands-on Experience</strong>
+                            <p>Aircraft maintenance, manufacturing</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">3</div>
+                        <div>
+                            <strong>Space Technician</strong>
+                            <p>Integration, Test, Launch Operations</p>
+                            <span class="salary">Entry: $55K-85K</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="companies">
+                    <span class="company-tag">SpaceX</span>
+                    <span class="company-tag">ABL Space</span>
+                    <span class="company-tag">Firefly</span>
+                    <span class="company-tag">Virgin Galactic</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
