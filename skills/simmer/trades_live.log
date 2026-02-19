@@ -1,27 +1,34 @@
-[2026-02-11T12:53:35.299Z] [INIT] Wallet: 0xb99a3Ed7d209DdaF69FAB477B52857701e245CE9
-[2026-02-11T12:53:35.300Z] [INIT] Checking all chains for USDC...
-[2026-02-11T12:53:35.998Z] [INIT] ETHEREUM: $0.00 USDC
-[2026-02-11T12:53:35.999Z] [INIT] BASE: $0.00 USDC
-[2026-02-11T12:53:35.999Z] [INIT] POLYGON: $30.00 USDC
-[2026-02-11T12:53:35.999Z] [INIT] Total across all chains: $30.00
-[2026-02-11T12:53:35.999Z] [INIT] Tradeable (Polygon): $30.00
-[2026-02-11T12:53:36.135Z] [INIT] ETHEREUM gas (ETH): 0.0000
-[2026-02-11T12:53:36.266Z] [INIT] POLYGON gas (MATIC): 49.0463
-[2026-02-11T12:53:36.266Z] [INIT] Chain: POLYGON
-[2026-02-11T12:53:36.266Z] [INIT] Dry Run: false
-[2026-02-11T12:53:36.266Z] [INIT] LIVE MODE
-[2026-02-11T12:53:36.266Z] ==================================================
-[2026-02-11T12:53:36.266Z] 🚀 TRADER STARTED
-[2026-02-11T12:53:36.267Z] --- SCAN #1 ---
-[2026-02-11T12:53:36.267Z] Balance: $30.00 USDC
-[2026-02-11T12:53:36.477Z] Markets: 0 total | Weather: 0 | Crypto: 0 | Politics: 0
-[2026-02-11T12:53:36.478Z] Markets: 0
-/home/clawdbot267/.openclaw/workspace/skills/simmer/trader-fixed.js:156
-    for (const m of markets) {
-                    ^
-
-ReferenceError: markets is not defined
-    at FixedTrader.runOnce (/home/clawdbot267/.openclaw/workspace/skills/simmer/trader-fixed.js:156:21)
-    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
-
-Node.js v24.13.0
+[2026-02-14T23:37:05.514Z] [INIT] Wallet: 0xb99a3Ed7d209DdaF69FAB477B52857701e245CE9
+[2026-02-14T23:37:05.515Z] [INIT] Checking all chains for USDC...
+[2026-02-14T23:37:06.549Z] [INIT] ETHEREUM: $0.00 USDC
+[2026-02-14T23:37:06.549Z] [INIT] BASE: $0.00 USDC
+[2026-02-14T23:37:06.550Z] [INIT] POLYGON: $30.00 USDC
+[2026-02-14T23:37:06.550Z] [INIT] Total across all chains: $30.00
+[2026-02-14T23:37:06.550Z] [INIT] Tradeable (Polygon): $30.00
+[2026-02-14T23:37:06.686Z] [INIT] ETHEREUM gas (ETH): 0.0000
+[2026-02-14T23:37:06.831Z] [INIT] POLYGON gas (MATIC): 49.0463
+[2026-02-14T23:37:06.831Z] [INIT] Chain: POLYGON
+[2026-02-14T23:37:06.832Z] [INIT] Dry Run: false
+[2026-02-14T23:37:06.832Z] [INIT] LIVE MODE
+[2026-02-14T23:37:06.832Z] ==================================================
+[2026-02-14T23:37:06.832Z] 🚀 TRADER STARTED
+[2026-02-14T23:37:06.832Z] --- SCAN #1 ---
+[2026-02-14T23:37:06.832Z] Balance: $30.00 USDC
+[DEBUG] Crypto: 0 markets
+[DEBUG] Weather: 0 markets
+[DEBUG] Politics: 0 markets
+[2026-02-14T23:37:07.259Z] Markets: 4 total | Weather: 1 | Crypto: 2 | Politics: 1
+[2026-02-14T23:37:07.259Z] Markets: 4
+[2026-02-14T23:37:07.259Z] [ENTRY] Will BTC hit $100k by March 2026?: Yes @ 20.0¢
+[2026-02-14T23:37:07.259Z] [EXEC] BUY $1 @ $0.20 on crypto-001
+[2026-02-14T23:37:07.262Z] [SIGN] Order signed: 0x97a74109d442056b669e0f2aeaf7...
+[2026-02-14T23:37:10.193Z] [EXEC] Trade complete. Balance: $29.00
+[2026-02-14T23:37:10.194Z] [ENTRY] Will ETH hit $10k by Dec 2026?: Yes @ 15.0¢
+[2026-02-14T23:37:10.194Z] [EXEC] BUY $1 @ $0.15 on crypto-002
+[2026-02-14T23:37:10.196Z] [SIGN] Order signed: 0x1737b68c5ee0b595733babb9cb5d...
+[2026-02-14T23:37:10.196Z] [EXEC] Trade complete. Balance: $28.00
+[2026-02-14T23:37:10.196Z] [ENTRY] Will Trump be president in 2026?: Yes @ 15.0¢
+[2026-02-14T23:37:10.196Z] [EXEC] BUY $1 @ $0.15 on politics-001
+[2026-02-14T23:37:10.197Z] [SIGN] Order signed: 0x8e85d3a5166af933d822d9aa4f20...
+[2026-02-14T23:37:10.198Z] [EXEC] Trade complete. Balance: $27.00
+[2026-02-14T23:37:10.198Z] Status: 3 trades | 3 positions

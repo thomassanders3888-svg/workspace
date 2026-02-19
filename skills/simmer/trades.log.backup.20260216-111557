@@ -1,0 +1,1385 @@
+[2026-02-11T02:05:04.955Z] [INIT] Wallet: 0xb99a3Ed7d209DdaF69FAB477B52857701e245CE9
+[2026-02-11T02:05:04.956Z] [INIT] Checking all chains for USDC...
+[2026-02-11T02:05:05.961Z] [INIT] ETHEREUM: $0.00 USDC
+[2026-02-11T02:05:05.961Z] [INIT] BASE: $0.00 USDC
+[2026-02-11T02:05:05.961Z] [INIT] POLYGON: $30.00 USDC
+[2026-02-11T02:05:05.962Z] [INIT] Total across all chains: $30.00
+[2026-02-11T02:05:05.962Z] [INIT] Tradeable (Polygon): $30.00
+[2026-02-11T02:05:06.094Z] [INIT] ETHEREUM gas (ETH): 0.0000
+[2026-02-11T02:05:06.234Z] [INIT] POLYGON gas (MATIC): 49.0463
+[2026-02-11T02:05:06.234Z] [INIT] Chain: POLYGON
+[2026-02-11T02:05:06.234Z] [INIT] Dry Run: false
+[2026-02-11T02:05:06.234Z] [INIT] LIVE MODE
+[2026-02-11T02:05:06.234Z] ==================================================
+[2026-02-11T02:05:06.234Z] 🚀 TRADER STARTED
+[2026-02-11T02:05:06.234Z] --- SCAN #1 ---
+[2026-02-11T02:05:06.234Z] Balance: $30.00 USDC
+[2026-02-11T02:05:06.235Z] - Weather Arbitrage -
+[2026-02-11T02:05:06.235Z] [API ERROR] this.polymarket.getActiveMarkets is not a function
+[2026-02-11T02:05:06.235Z] Markets: 0
+[2026-02-11T02:05:06.235Z] Status: 0 trades | 0 positions
+[2026-02-11T02:07:06.239Z] --- SCAN #1 ---
+[2026-02-11T02:07:06.240Z] Balance: $30.00 USDC
+[2026-02-11T02:07:06.240Z] - Weather Arbitrage -
+[2026-02-11T02:07:06.240Z] [API ERROR] this.polymarket.getActiveMarkets is not a function
+[2026-02-11T02:07:06.240Z] Markets: 0
+[2026-02-11T02:07:06.240Z] Status: 0 trades | 0 positions
+[2026-02-11T02:09:06.263Z] --- SCAN #1 ---
+[2026-02-11T02:09:06.264Z] Balance: $30.00 USDC
+[2026-02-11T02:09:06.264Z] - Weather Arbitrage -
+[2026-02-11T02:09:06.264Z] [API ERROR] this.polymarket.getActiveMarkets is not a function
+[2026-02-11T02:09:06.264Z] Markets: 0
+[2026-02-11T02:09:06.264Z] Status: 0 trades | 0 positions
+02-11T02:09:06.264Z] Markets: 0
+[2026-02-11T02:09:06.264Z] Status: 0 trades | 0 positions
+[2026-02-11T02:09:41.978Z] [INIT] Wallet: 0xb99a3Ed7d209DdaF69FAB477B52857701e245CE9
+[2026-02-11T02:09:41.978Z] [INIT] Wallet: 0xb99a3Ed7d209DdaF69FAB477B52857701e245CE9
+[2026-02-11T02:09:41.978Z] [INIT] Checking all chains for USDC...
+[2026-02-11T02:09:41.978Z] [INIT] Checking all chains for USDC...
+[2026-02-11T02:09:42.733Z] [INIT] ETHEREUM: $0.00 USDC
+[2026-02-11T02:09:42.733Z] [INIT] ETHEREUM: $0.00 USDC
+[2026-02-11T02:09:42.734Z] [INIT] BASE: $0.00 USDC
+[2026-02-11T02:09:42.734Z] [INIT] BASE: $0.00 USDC
+[2026-02-11T02:09:42.734Z] [INIT] POLYGON: $30.00 USDC
+[2026-02-11T02:09:42.734Z] [INIT] POLYGON: $30.00 USDC
+[2026-02-11T02:09:42.734Z] [INIT] Total across all chains: $30.00
+[2026-02-11T02:09:42.734Z] [INIT] Total across all chains: $30.00
+[2026-02-11T02:09:42.734Z] [INIT] Tradeable (Polygon): $30.00
+[2026-02-11T02:09:42.734Z] [INIT] Tradeable (Polygon): $30.00
+[2026-02-11T02:09:42.869Z] [INIT] ETHEREUM gas (ETH): 0.0000
+[2026-02-11T02:09:42.869Z] [INIT] ETHEREUM gas (ETH): 0.0000
+[2026-02-11T02:09:43.012Z] [INIT] POLYGON gas (MATIC): 49.0463
+[2026-02-11T02:09:43.012Z] [INIT] POLYGON gas (MATIC): 49.0463
+[2026-02-11T02:09:43.012Z] [INIT] Chain: POLYGON
+[2026-02-11T02:09:43.012Z] [INIT] Chain: POLYGON
+[2026-02-11T02:09:43.012Z] [INIT] Dry Run: false
+[2026-02-11T02:09:43.012Z] [INIT] Dry Run: false
+[2026-02-11T02:09:43.012Z] [INIT] LIVE MODE
+[2026-02-11T02:09:43.012Z] [INIT] LIVE MODE
+[2026-02-11T02:09:43.012Z] ==================================================
+[2026-02-11T02:09:43.012Z] ==================================================
+[2026-02-11T02:09:43.013Z] 🚀 TRADER STARTED
+[2026-02-11T02:09:43.013Z] 🚀 TRADER STARTED
+[2026-02-11T02:09:43.013Z] --- SCAN #1 ---
+[2026-02-11T02:09:43.013Z] --- SCAN #1 ---
+[2026-02-11T02:09:43.013Z] Balance: $30.00 USDC
+[2026-02-11T02:09:43.013Z] Balance: $30.00 USDC
+[2026-02-11T02:09:43.013Z] - Weather Arbitrage -
+[2026-02-11T02:09:43.013Z] - Weather Arbitrage -
+[2026-02-11T02:09:43.152Z] Markets: 50
+[2026-02-11T02:09:43.152Z] Markets: 50
+[2026-02-11T02:09:43.153Z] Status: 0 trades | 0 positions
+[2026-02-11T02:09:43.153Z] Status: 0 trades | 0 positions
+[2026-02-11T02:11:43.021Z] --- SCAN #1 ---
+[2026-02-11T02:11:43.021Z] --- SCAN #1 ---
+[2026-02-11T02:11:43.021Z] Balance: $30.00 USDC
+[2026-02-11T02:11:43.021Z] Balance: $30.00 USDC
+[2026-02-11T02:11:43.021Z] - Weather Arbitrage -
+[2026-02-11T02:11:43.021Z] - Weather Arbitrage -
+[2026-02-11T02:11:43.231Z] Markets: 50
+[2026-02-11T02:11:43.231Z] Markets: 50
+[2026-02-11T02:11:43.231Z] Status: 0 trades | 0 positions
+[2026-02-11T02:11:43.231Z] Status: 0 trades | 0 positions
+[2026-02-11T02:13:43.021Z] --- SCAN #1 ---
+[2026-02-11T02:13:43.021Z] --- SCAN #1 ---
+[2026-02-11T02:13:43.022Z] Balance: $30.00 USDC
+[2026-02-11T02:13:43.022Z] Balance: $30.00 USDC
+[2026-02-11T02:13:43.022Z] - Weather Arbitrage -
+[2026-02-11T02:13:43.022Z] - Weather Arbitrage -
+[2026-02-11T02:13:43.312Z] Markets: 50
+[2026-02-11T02:13:43.312Z] Markets: 50
+[2026-02-11T02:13:43.312Z] Status: 0 trades | 0 positions
+[2026-02-11T02:13:43.312Z] Status: 0 trades | 0 positions
+[2026-02-11T02:15:43.077Z] --- SCAN #1 ---
+[2026-02-11T02:15:43.077Z] --- SCAN #1 ---
+[2026-02-11T02:15:43.078Z] Balance: $30.00 USDC
+[2026-02-11T02:15:43.078Z] Balance: $30.00 USDC
+[2026-02-11T02:15:43.078Z] - Weather Arbitrage -
+[2026-02-11T02:15:43.078Z] - Weather Arbitrage -
+[2026-02-11T02:15:43.291Z] Markets: 50
+[2026-02-11T02:15:43.291Z] Markets: 50
+[2026-02-11T02:15:43.291Z] Status: 0 trades | 0 positions
+[2026-02-11T02:15:43.291Z] Status: 0 trades | 0 positions
+[2026-02-11T02:17:43.156Z] --- SCAN #1 ---
+[2026-02-11T02:17:43.156Z] --- SCAN #1 ---
+[2026-02-11T02:17:43.156Z] Balance: $30.00 USDC
+[2026-02-11T02:17:43.156Z] Balance: $30.00 USDC
+[2026-02-11T02:17:43.156Z] - Weather Arbitrage -
+[2026-02-11T02:17:43.156Z] - Weather Arbitrage -
+[2026-02-11T02:17:43.468Z] Markets: 50
+[2026-02-11T02:17:43.468Z] Markets: 50
+[2026-02-11T02:17:43.468Z] Status: 0 trades | 0 positions
+[2026-02-11T02:17:43.468Z] Status: 0 trades | 0 positions
+[2026-02-11T02:19:43.242Z] --- SCAN #1 ---
+[2026-02-11T02:19:43.242Z] --- SCAN #1 ---
+[2026-02-11T02:19:43.242Z] Balance: $30.00 USDC
+[2026-02-11T02:19:43.242Z] Balance: $30.00 USDC
+[2026-02-11T02:19:43.242Z] - Weather Arbitrage -
+[2026-02-11T02:19:43.242Z] - Weather Arbitrage -
+[2026-02-11T02:19:43.396Z] Markets: 50
+[2026-02-11T02:19:43.396Z] Markets: 50
+[2026-02-11T02:19:43.396Z] Status: 0 trades | 0 positions
+[2026-02-11T02:19:43.396Z] Status: 0 trades | 0 positions
+[2026-02-11T02:21:43.296Z] --- SCAN #1 ---
+[2026-02-11T02:21:43.296Z] --- SCAN #1 ---
+[2026-02-11T02:21:43.296Z] Balance: $30.00 USDC
+[2026-02-11T02:21:43.296Z] Balance: $30.00 USDC
+[2026-02-11T02:21:43.296Z] - Weather Arbitrage -
+[2026-02-11T02:21:43.296Z] - Weather Arbitrage -
+[2026-02-11T02:21:43.518Z] Markets: 50
+[2026-02-11T02:21:43.518Z] Markets: 50
+[2026-02-11T02:21:43.518Z] Status: 0 trades | 0 positions
+[2026-02-11T02:21:43.518Z] Status: 0 trades | 0 positions
+[2026-02-11T02:23:43.390Z] --- SCAN #1 ---
+[2026-02-11T02:23:43.390Z] --- SCAN #1 ---
+[2026-02-11T02:23:43.390Z] Balance: $30.00 USDC
+[2026-02-11T02:23:43.390Z] Balance: $30.00 USDC
+[2026-02-11T02:23:43.390Z] - Weather Arbitrage -
+[2026-02-11T02:23:43.390Z] - Weather Arbitrage -
+[2026-02-11T02:23:43.539Z] Markets: 50
+[2026-02-11T02:23:43.539Z] Markets: 50
+[2026-02-11T02:23:43.540Z] Status: 0 trades | 0 positions
+[2026-02-11T02:23:43.540Z] Status: 0 trades | 0 positions
+[2026-02-11T02:25:43.489Z] --- SCAN #1 ---
+[2026-02-11T02:25:43.489Z] --- SCAN #1 ---
+[2026-02-11T02:25:43.490Z] Balance: $30.00 USDC
+[2026-02-11T02:25:43.490Z] Balance: $30.00 USDC
+[2026-02-11T02:25:43.490Z] - Weather Arbitrage -
+[2026-02-11T02:25:43.490Z] - Weather Arbitrage -
+[2026-02-11T02:25:43.788Z] Markets: 50
+[2026-02-11T02:25:43.788Z] Markets: 50
+[2026-02-11T02:25:43.788Z] Status: 0 trades | 0 positions
+[2026-02-11T02:25:43.788Z] Status: 0 trades | 0 positions
+[2026-02-11T02:27:43.585Z] --- SCAN #1 ---
+[2026-02-11T02:27:43.585Z] --- SCAN #1 ---
+[2026-02-11T02:27:43.586Z] Balance: $30.00 USDC
+[2026-02-11T02:27:43.586Z] Balance: $30.00 USDC
+[2026-02-11T02:27:43.586Z] - Weather Arbitrage -
+[2026-02-11T02:27:43.586Z] - Weather Arbitrage -
+[2026-02-11T02:27:43.785Z] Markets: 50
+[2026-02-11T02:27:43.785Z] Markets: 50
+[2026-02-11T02:27:43.785Z] Status: 0 trades | 0 positions
+[2026-02-11T02:27:43.785Z] Status: 0 trades | 0 positions
+[2026-02-11T02:29:43.664Z] --- SCAN #1 ---
+[2026-02-11T02:29:43.664Z] --- SCAN #1 ---
+[2026-02-11T02:29:43.664Z] Balance: $30.00 USDC
+[2026-02-11T02:29:43.664Z] Balance: $30.00 USDC
+[2026-02-11T02:29:43.664Z] - Weather Arbitrage -
+[2026-02-11T02:29:43.664Z] - Weather Arbitrage -
+[2026-02-11T02:29:43.984Z] Markets: 50
+[2026-02-11T02:29:43.984Z] Markets: 50
+[2026-02-11T02:29:43.984Z] Status: 0 trades | 0 positions
+[2026-02-11T02:29:43.984Z] Status: 0 trades | 0 positions
+[2026-02-11T02:31:43.699Z] --- SCAN #1 ---
+[2026-02-11T02:31:43.699Z] --- SCAN #1 ---
+[2026-02-11T02:31:43.700Z] Balance: $30.00 USDC
+[2026-02-11T02:31:43.700Z] Balance: $30.00 USDC
+[2026-02-11T02:31:43.700Z] - Weather Arbitrage -
+[2026-02-11T02:31:43.700Z] - Weather Arbitrage -
+[2026-02-11T02:31:43.958Z] Markets: 50
+[2026-02-11T02:31:43.958Z] Markets: 50
+[2026-02-11T02:31:43.958Z] Status: 0 trades | 0 positions
+[2026-02-11T02:31:43.958Z] Status: 0 trades | 0 positions
+[2026-02-11T02:33:43.780Z] --- SCAN #1 ---
+[2026-02-11T02:33:43.780Z] --- SCAN #1 ---
+[2026-02-11T02:33:43.780Z] Balance: $30.00 USDC
+[2026-02-11T02:33:43.780Z] Balance: $30.00 USDC
+[2026-02-11T02:33:43.780Z] - Weather Arbitrage -
+[2026-02-11T02:33:43.780Z] - Weather Arbitrage -
+[2026-02-11T02:33:44.071Z] Markets: 50
+[2026-02-11T02:33:44.071Z] Markets: 50
+[2026-02-11T02:33:44.071Z] Status: 0 trades | 0 positions
+[2026-02-11T02:33:44.071Z] Status: 0 trades | 0 positions
+[2026-02-11T02:35:43.827Z] --- SCAN #1 ---
+[2026-02-11T02:35:43.827Z] --- SCAN #1 ---
+[2026-02-11T02:35:43.828Z] Balance: $30.00 USDC
+[2026-02-11T02:35:43.828Z] Balance: $30.00 USDC
+[2026-02-11T02:35:43.828Z] - Weather Arbitrage -
+[2026-02-11T02:35:43.828Z] - Weather Arbitrage -
+[2026-02-11T02:35:43.999Z] Markets: 50
+[2026-02-11T02:35:43.999Z] Markets: 50
+[2026-02-11T02:35:43.999Z] Status: 0 trades | 0 positions
+[2026-02-11T02:35:43.999Z] Status: 0 trades | 0 positions
+[2026-02-11T02:37:43.926Z] --- SCAN #1 ---
+[2026-02-11T02:37:43.926Z] --- SCAN #1 ---
+[2026-02-11T02:37:43.926Z] Balance: $30.00 USDC
+[2026-02-11T02:37:43.926Z] Balance: $30.00 USDC
+[2026-02-11T02:37:43.926Z] - Weather Arbitrage -
+[2026-02-11T02:37:43.926Z] - Weather Arbitrage -
+[2026-02-11T02:37:44.218Z] Markets: 50
+[2026-02-11T02:37:44.218Z] Markets: 50
+[2026-02-11T02:37:44.219Z] Status: 0 trades | 0 positions
+[2026-02-11T02:37:44.219Z] Status: 0 trades | 0 positions
+[2026-02-11T02:39:44.012Z] --- SCAN #1 ---
+[2026-02-11T02:39:44.012Z] --- SCAN #1 ---
+[2026-02-11T02:39:44.012Z] Balance: $30.00 USDC
+[2026-02-11T02:39:44.012Z] Balance: $30.00 USDC
+[2026-02-11T02:39:44.013Z] - Weather Arbitrage -
+[2026-02-11T02:39:44.013Z] - Weather Arbitrage -
+[2026-02-11T02:39:44.193Z] Markets: 50
+[2026-02-11T02:39:44.193Z] Markets: 50
+[2026-02-11T02:39:44.193Z] Status: 0 trades | 0 positions
+[2026-02-11T02:39:44.193Z] Status: 0 trades | 0 positions
+[2026-02-11T02:41:44.098Z] --- SCAN #1 ---
+[2026-02-11T02:41:44.098Z] --- SCAN #1 ---
+[2026-02-11T02:41:44.098Z] Balance: $30.00 USDC
+[2026-02-11T02:41:44.098Z] Balance: $30.00 USDC
+[2026-02-11T02:41:44.098Z] - Weather Arbitrage -
+[2026-02-11T02:41:44.098Z] - Weather Arbitrage -
+[2026-02-11T02:41:44.293Z] Markets: 50
+[2026-02-11T02:41:44.293Z] Markets: 50
+[2026-02-11T02:41:44.293Z] Status: 0 trades | 0 positions
+[2026-02-11T02:41:44.293Z] Status: 0 trades | 0 positions
+[2026-02-11T02:43:44.140Z] --- SCAN #1 ---
+[2026-02-11T02:43:44.140Z] --- SCAN #1 ---
+[2026-02-11T02:43:44.141Z] Balance: $30.00 USDC
+[2026-02-11T02:43:44.141Z] Balance: $30.00 USDC
+[2026-02-11T02:43:44.141Z] - Weather Arbitrage -
+[2026-02-11T02:43:44.141Z] - Weather Arbitrage -
+[2026-02-11T02:43:44.277Z] Markets: 50
+[2026-02-11T02:43:44.277Z] Markets: 50
+[2026-02-11T02:43:44.277Z] Status: 0 trades | 0 positions
+[2026-02-11T02:43:44.277Z] Status: 0 trades | 0 positions
+[2026-02-11T02:45:44.236Z] --- SCAN #1 ---
+[2026-02-11T02:45:44.236Z] --- SCAN #1 ---
+[2026-02-11T02:45:44.236Z] Balance: $30.00 USDC
+[2026-02-11T02:45:44.236Z] Balance: $30.00 USDC
+[2026-02-11T02:45:44.236Z] - Weather Arbitrage -
+[2026-02-11T02:45:44.236Z] - Weather Arbitrage -
+[2026-02-11T02:45:44.559Z] Markets: 50
+[2026-02-11T02:45:44.559Z] Markets: 50
+[2026-02-11T02:45:44.559Z] Status: 0 trades | 0 positions
+[2026-02-11T02:45:44.559Z] Status: 0 trades | 0 positions
+[2026-02-11T02:47:44.320Z] --- SCAN #1 ---
+[2026-02-11T02:47:44.320Z] --- SCAN #1 ---
+[2026-02-11T02:47:44.320Z] Balance: $30.00 USDC
+[2026-02-11T02:47:44.320Z] Balance: $30.00 USDC
+[2026-02-11T02:47:44.320Z] - Weather Arbitrage -
+[2026-02-11T02:47:44.320Z] - Weather Arbitrage -
+[2026-02-11T02:47:44.470Z] Markets: 50
+[2026-02-11T02:47:44.470Z] Markets: 50
+[2026-02-11T02:47:44.470Z] Status: 0 trades | 0 positions
+[2026-02-11T02:47:44.470Z] Status: 0 trades | 0 positions
+[2026-02-11T02:49:44.388Z] --- SCAN #1 ---
+[2026-02-11T02:49:44.388Z] --- SCAN #1 ---
+[2026-02-11T02:49:44.388Z] Balance: $30.00 USDC
+[2026-02-11T02:49:44.388Z] Balance: $30.00 USDC
+[2026-02-11T02:49:44.388Z] - Weather Arbitrage -
+[2026-02-11T02:49:44.388Z] - Weather Arbitrage -
+[2026-02-11T02:49:44.670Z] Markets: 50
+[2026-02-11T02:49:44.670Z] Markets: 50
+[2026-02-11T02:49:44.670Z] Status: 0 trades | 0 positions
+[2026-02-11T02:49:44.670Z] Status: 0 trades | 0 positions
+[2026-02-11T02:51:44.396Z] --- SCAN #1 ---
+[2026-02-11T02:51:44.396Z] --- SCAN #1 ---
+[2026-02-11T02:51:44.396Z] Balance: $30.00 USDC
+[2026-02-11T02:51:44.396Z] Balance: $30.00 USDC
+[2026-02-11T02:51:44.396Z] - Weather Arbitrage -
+[2026-02-11T02:51:44.396Z] - Weather Arbitrage -
+[2026-02-11T02:51:44.570Z] Markets: 50
+[2026-02-11T02:51:44.570Z] Markets: 50
+[2026-02-11T02:51:44.570Z] Status: 0 trades | 0 positions
+[2026-02-11T02:51:44.570Z] Status: 0 trades | 0 positions
+[2026-02-11T02:53:44.428Z] --- SCAN #1 ---
+[2026-02-11T02:53:44.428Z] --- SCAN #1 ---
+[2026-02-11T02:53:44.428Z] Balance: $30.00 USDC
+[2026-02-11T02:53:44.428Z] Balance: $30.00 USDC
+[2026-02-11T02:53:44.428Z] - Weather Arbitrage -
+[2026-02-11T02:53:44.428Z] - Weather Arbitrage -
+[2026-02-11T02:53:44.703Z] Markets: 50
+[2026-02-11T02:53:44.703Z] Markets: 50
+[2026-02-11T02:53:44.703Z] Status: 0 trades | 0 positions
+[2026-02-11T02:53:44.703Z] Status: 0 trades | 0 positions
+[2026-02-11T02:55:44.528Z] --- SCAN #1 ---
+[2026-02-11T02:55:44.528Z] --- SCAN #1 ---
+[2026-02-11T02:55:44.529Z] Balance: $30.00 USDC
+[2026-02-11T02:55:44.529Z] Balance: $30.00 USDC
+[2026-02-11T02:55:44.529Z] - Weather Arbitrage -
+[2026-02-11T02:55:44.529Z] - Weather Arbitrage -
+[2026-02-11T02:55:44.752Z] Markets: 50
+[2026-02-11T02:55:44.752Z] Markets: 50
+[2026-02-11T02:55:44.752Z] Status: 0 trades | 0 positions
+[2026-02-11T02:55:44.752Z] Status: 0 trades | 0 positions
+[2026-02-11T02:57:44.589Z] --- SCAN #1 ---
+[2026-02-11T02:57:44.589Z] --- SCAN #1 ---
+[2026-02-11T02:57:44.589Z] Balance: $30.00 USDC
+[2026-02-11T02:57:44.589Z] Balance: $30.00 USDC
+[2026-02-11T02:57:44.589Z] - Weather Arbitrage -
+[2026-02-11T02:57:44.589Z] - Weather Arbitrage -
+[2026-02-11T02:57:44.739Z] Markets: 50
+[2026-02-11T02:57:44.739Z] Markets: 50
+[2026-02-11T02:57:44.740Z] Status: 0 trades | 0 positions
+[2026-02-11T02:57:44.740Z] Status: 0 trades | 0 positions
+[2026-02-11T02:59:44.691Z] --- SCAN #1 ---
+[2026-02-11T02:59:44.691Z] --- SCAN #1 ---
+[2026-02-11T02:59:44.691Z] Balance: $30.00 USDC
+[2026-02-11T02:59:44.691Z] Balance: $30.00 USDC
+[2026-02-11T02:59:44.691Z] - Weather Arbitrage -
+[2026-02-11T02:59:44.691Z] - Weather Arbitrage -
+[2026-02-11T02:59:44.874Z] Markets: 50
+[2026-02-11T02:59:44.874Z] Markets: 50
+[2026-02-11T02:59:44.874Z] Status: 0 trades | 0 positions
+[2026-02-11T02:59:44.874Z] Status: 0 trades | 0 positions
+[2026-02-11T03:01:44.788Z] --- SCAN #1 ---
+[2026-02-11T03:01:44.788Z] --- SCAN #1 ---
+[2026-02-11T03:01:44.789Z] Balance: $30.00 USDC
+[2026-02-11T03:01:44.789Z] Balance: $30.00 USDC
+[2026-02-11T03:01:44.789Z] - Weather Arbitrage -
+[2026-02-11T03:01:44.789Z] - Weather Arbitrage -
+[2026-02-11T03:01:45.030Z] Markets: 50
+[2026-02-11T03:01:45.030Z] Markets: 50
+[2026-02-11T03:01:45.031Z] Status: 0 trades | 0 positions
+[2026-02-11T03:01:45.031Z] Status: 0 trades | 0 positions
+[2026-02-11T03:03:44.858Z] --- SCAN #1 ---
+[2026-02-11T03:03:44.858Z] --- SCAN #1 ---
+[2026-02-11T03:03:44.859Z] Balance: $30.00 USDC
+[2026-02-11T03:03:44.859Z] Balance: $30.00 USDC
+[2026-02-11T03:03:44.859Z] - Weather Arbitrage -
+[2026-02-11T03:03:44.859Z] - Weather Arbitrage -
+[2026-02-11T03:03:45.010Z] Markets: 50
+[2026-02-11T03:03:45.010Z] Markets: 50
+[2026-02-11T03:03:45.010Z] Status: 0 trades | 0 positions
+[2026-02-11T03:03:45.010Z] Status: 0 trades | 0 positions
+[2026-02-11T03:05:06.168Z] [INIT] Wallet: 0xb99a3Ed7d209DdaF69FAB477B52857701e245CE9
+[2026-02-11T03:05:06.168Z] [INIT] Wallet: 0xb99a3Ed7d209DdaF69FAB477B52857701e245CE9
+[2026-02-11T03:05:06.169Z] [INIT] Checking all chains for USDC...
+[2026-02-11T03:05:06.169Z] [INIT] Checking all chains for USDC...
+[2026-02-11T03:05:06.977Z] [INIT] ETHEREUM: $0.00 USDC
+[2026-02-11T03:05:06.977Z] [INIT] ETHEREUM: $0.00 USDC
+[2026-02-11T03:05:06.977Z] [INIT] BASE: $0.00 USDC
+[2026-02-11T03:05:06.977Z] [INIT] BASE: $0.00 USDC
+[2026-02-11T03:05:06.977Z] [INIT] POLYGON: $30.00 USDC
+[2026-02-11T03:05:06.977Z] [INIT] POLYGON: $30.00 USDC
+[2026-02-11T03:05:06.977Z] [INIT] Total across all chains: $30.00
+[2026-02-11T03:05:06.977Z] [INIT] Total across all chains: $30.00
+[2026-02-11T03:05:06.977Z] [INIT] Tradeable (Polygon): $30.00
+[2026-02-11T03:05:06.977Z] [INIT] Tradeable (Polygon): $30.00
+[2026-02-11T03:05:07.111Z] [INIT] ETHEREUM gas (ETH): 0.0000
+[2026-02-11T03:05:07.111Z] [INIT] ETHEREUM gas (ETH): 0.0000
+[2026-02-11T03:05:07.265Z] [INIT] POLYGON gas (MATIC): 49.0463
+[2026-02-11T03:05:07.265Z] [INIT] POLYGON gas (MATIC): 49.0463
+[2026-02-11T03:05:07.266Z] [INIT] Chain: POLYGON
+[2026-02-11T03:05:07.266Z] [INIT] Chain: POLYGON
+[2026-02-11T03:05:07.266Z] [INIT] Dry Run: false
+[2026-02-11T03:05:07.266Z] [INIT] Dry Run: false
+[2026-02-11T03:05:07.266Z] [INIT] LIVE MODE
+[2026-02-11T03:05:07.266Z] [INIT] LIVE MODE
+[2026-02-11T03:05:07.266Z] ==================================================
+[2026-02-11T03:05:07.266Z] ==================================================
+[2026-02-11T03:05:07.266Z] 🚀 TRADER STARTED
+[2026-02-11T03:05:07.266Z] 🚀 TRADER STARTED
+[2026-02-11T03:05:07.266Z] --- SCAN #1 ---
+[2026-02-11T03:05:07.266Z] --- SCAN #1 ---
+[2026-02-11T03:05:07.266Z] Balance: $30.00 USDC
+[2026-02-11T03:05:07.266Z] Balance: $30.00 USDC
+[2026-02-11T03:05:07.266Z] - Weather Arbitrage -
+[2026-02-11T03:05:07.266Z] - Weather Arbitrage -
+[2026-02-11T03:05:07.266Z] [API ERROR] this.polymarket.getActiveMarkets is not a function
+[2026-02-11T03:05:07.266Z] [API ERROR] this.polymarket.getActiveMarkets is not a function
+[2026-02-11T03:05:07.266Z] Markets: 0
+[2026-02-11T03:05:07.266Z] Markets: 0
+[2026-02-11T03:05:07.266Z] Status: 0 trades | 0 positions
+[2026-02-11T03:05:07.266Z] Status: 0 trades | 0 positions
+[2026-02-11T10:43:00.969Z] [INIT] Wallet: 0xb99a3Ed7d209DdaF69FAB477B52857701e245CE9
+[2026-02-11T10:43:00.970Z] [INIT] Checking all chains for USDC...
+[2026-02-11T10:43:01.775Z] [INIT] ETHEREUM: $0.00 USDC
+[2026-02-11T10:43:01.776Z] [INIT] BASE: $0.00 USDC
+[2026-02-11T10:43:01.776Z] [INIT] POLYGON: $30.00 USDC
+[2026-02-11T10:43:01.776Z] [INIT] Total across all chains: $30.00
+[2026-02-11T10:43:01.777Z] [INIT] Tradeable (Polygon): $30.00
+[2026-02-11T10:43:01.923Z] [INIT] ETHEREUM gas (ETH): 0.0000
+[2026-02-11T10:43:02.072Z] [INIT] POLYGON gas (MATIC): 49.0463
+[2026-02-11T10:43:02.073Z] [INIT] Chain: POLYGON
+[2026-02-11T10:43:02.073Z] [INIT] Dry Run: false
+[2026-02-11T10:43:02.073Z] [INIT] LIVE MODE
+[2026-02-11T10:43:02.073Z] ==================================================
+[2026-02-11T10:43:02.073Z] 🚀 TRADER STARTED
+[2026-02-11T10:43:02.073Z] --- SCAN #1 ---
+[2026-02-11T10:43:02.073Z] Balance: $30.00 USDC
+[2026-02-11T10:43:02.073Z] - Weather Arbitrage -
+[2026-02-11T10:43:02.469Z] Markets: 50
+[2026-02-11T10:43:02.469Z] Status: 0 trades | 0 positions
+[2026-02-11T10:45:02.082Z] --- SCAN #1 ---
+[2026-02-11T10:45:02.083Z] Balance: $30.00 USDC
+[2026-02-11T10:45:02.083Z] - Weather Arbitrage -
+[2026-02-11T10:45:02.204Z] Markets: 50
+[2026-02-11T10:45:02.205Z] Status: 0 trades | 0 positions
+[2026-02-11T10:47:02.120Z] --- SCAN #1 ---
+[2026-02-11T10:47:02.121Z] Balance: $30.00 USDC
+[2026-02-11T10:47:02.121Z] - Weather Arbitrage -
+[2026-02-11T10:47:02.417Z] Markets: 50
+[2026-02-11T10:47:02.417Z] Status: 0 trades | 0 positions
+[2026-02-11T10:49:02.165Z] --- SCAN #1 ---
+[2026-02-11T10:49:02.165Z] Balance: $30.00 USDC
+[2026-02-11T10:49:02.165Z] - Weather Arbitrage -
+[2026-02-11T10:49:02.340Z] Markets: 50
+[2026-02-11T10:49:02.340Z] Status: 0 trades | 0 positions
+[2026-02-11T10:51:02.183Z] --- SCAN #1 ---
+[2026-02-11T10:51:02.184Z] Balance: $30.00 USDC
+[2026-02-11T10:51:02.184Z] - Weather Arbitrage -
+[2026-02-11T10:51:02.742Z] Markets: 50
+[2026-02-11T10:51:02.742Z] Status: 0 trades | 0 positions
+[2026-02-11T10:53:02.228Z] --- SCAN #1 ---
+[2026-02-11T10:53:02.228Z] Balance: $30.00 USDC
+[2026-02-11T10:53:02.229Z] - Weather Arbitrage -
+[2026-02-11T10:53:02.373Z] Markets: 50
+[2026-02-11T10:53:02.373Z] Status: 0 trades | 0 positions
+[2026-02-11T10:55:02.312Z] --- SCAN #1 ---
+[2026-02-11T10:55:02.312Z] Balance: $30.00 USDC
+[2026-02-11T10:55:02.312Z] - Weather Arbitrage -
+[2026-02-11T10:55:02.637Z] Markets: 50
+[2026-02-11T10:55:02.638Z] Status: 0 trades | 0 positions
+[2026-02-11T10:57:02.312Z] --- SCAN #1 ---
+[2026-02-11T10:57:02.313Z] Balance: $30.00 USDC
+[2026-02-11T10:57:02.313Z] - Weather Arbitrage -
+[2026-02-11T10:57:02.468Z] Markets: 50
+[2026-02-11T10:57:02.468Z] Status: 0 trades | 0 positions
+[2026-02-11T10:59:02.357Z] --- SCAN #1 ---
+[2026-02-11T10:59:02.357Z] Balance: $30.00 USDC
+[2026-02-11T10:59:02.357Z] - Weather Arbitrage -
+[2026-02-11T10:59:02.711Z] Markets: 50
+[2026-02-11T10:59:02.711Z] Status: 0 trades | 0 positions
+[2026-02-11T11:01:02.444Z] --- SCAN #1 ---
+[2026-02-11T11:01:02.445Z] Balance: $30.00 USDC
+[2026-02-11T11:01:02.445Z] - Weather Arbitrage -
+[2026-02-11T11:01:02.627Z] Markets: 50
+[2026-02-11T11:01:02.628Z] Status: 0 trades | 0 positions
+[2026-02-11T11:03:02.519Z] --- SCAN #1 ---
+[2026-02-11T11:03:02.519Z] Balance: $30.00 USDC
+[2026-02-11T11:03:02.519Z] - Weather Arbitrage -
+[2026-02-11T11:03:02.806Z] Markets: 50
+[2026-02-11T11:03:02.806Z] Status: 0 trades | 0 positions
+[2026-02-11T11:05:02.620Z] --- SCAN #1 ---
+[2026-02-11T11:05:02.620Z] Balance: $30.00 USDC
+[2026-02-11T11:05:02.621Z] - Weather Arbitrage -
+[2026-02-11T11:05:02.776Z] Markets: 50
+[2026-02-11T11:05:02.776Z] Status: 0 trades | 0 positions
+[2026-02-11T11:07:02.654Z] --- SCAN #1 ---
+[2026-02-11T11:07:02.654Z] Balance: $30.00 USDC
+[2026-02-11T11:07:02.654Z] - Weather Arbitrage -
+[2026-02-11T11:07:02.982Z] Markets: 50
+[2026-02-11T11:07:02.983Z] Status: 0 trades | 0 positions
+[2026-02-11T11:09:02.748Z] --- SCAN #1 ---
+[2026-02-11T11:09:02.748Z] Balance: $30.00 USDC
+[2026-02-11T11:09:02.748Z] - Weather Arbitrage -
+[2026-02-11T11:09:02.886Z] Markets: 50
+[2026-02-11T11:09:02.886Z] Status: 0 trades | 0 positions
+[2026-02-11T11:11:02.848Z] --- SCAN #1 ---
+[2026-02-11T11:11:02.849Z] Balance: $30.00 USDC
+[2026-02-11T11:11:02.849Z] - Weather Arbitrage -
+[2026-02-11T11:11:03.170Z] Markets: 50
+[2026-02-11T11:11:03.171Z] Status: 0 trades | 0 positions
+[2026-02-11T11:13:02.921Z] --- SCAN #1 ---
+[2026-02-11T11:13:02.922Z] Balance: $30.00 USDC
+[2026-02-11T11:13:02.922Z] - Weather Arbitrage -
+[2026-02-11T11:13:03.091Z] Markets: 50
+[2026-02-11T11:13:03.091Z] Status: 0 trades | 0 positions
+[2026-02-11T11:15:02.946Z] --- SCAN #1 ---
+[2026-02-11T11:15:02.946Z] Balance: $30.00 USDC
+[2026-02-11T11:15:02.946Z] - Weather Arbitrage -
+[2026-02-11T11:15:03.259Z] Markets: 50
+[2026-02-11T11:15:03.259Z] Status: 0 trades | 0 positions
+[2026-02-11T11:17:03.041Z] --- SCAN #1 ---
+[2026-02-11T11:17:03.042Z] Balance: $30.00 USDC
+[2026-02-11T11:17:03.042Z] - Weather Arbitrage -
+[2026-02-11T11:17:03.207Z] Markets: 50
+[2026-02-11T11:17:03.207Z] Status: 0 trades | 0 positions
+[2026-02-11T11:19:03.140Z] --- SCAN #1 ---
+[2026-02-11T11:19:03.140Z] Balance: $30.00 USDC
+[2026-02-11T11:19:03.140Z] - Weather Arbitrage -
+[2026-02-11T11:19:03.439Z] Markets: 50
+[2026-02-11T11:19:03.439Z] Status: 0 trades | 0 positions
+[2026-02-11T11:21:03.229Z] --- SCAN #1 ---
+[2026-02-11T11:21:03.229Z] Balance: $30.00 USDC
+[2026-02-11T11:21:03.229Z] - Weather Arbitrage -
+[2026-02-11T11:21:03.392Z] Markets: 50
+[2026-02-11T11:21:03.393Z] Status: 0 trades | 0 positions
+[2026-02-11T11:23:03.312Z] --- SCAN #1 ---
+[2026-02-11T11:23:03.312Z] Balance: $30.00 USDC
+[2026-02-11T11:23:03.312Z] - Weather Arbitrage -
+[2026-02-11T11:23:03.623Z] Markets: 50
+[2026-02-11T11:23:03.623Z] Status: 0 trades | 0 positions
+[2026-02-11T11:25:03.411Z] --- SCAN #1 ---
+[2026-02-11T11:25:03.411Z] Balance: $30.00 USDC
+[2026-02-11T11:25:03.411Z] - Weather Arbitrage -
+[2026-02-11T11:25:03.555Z] Markets: 50
+[2026-02-11T11:25:03.555Z] Status: 0 trades | 0 positions
+[2026-02-11T11:27:03.510Z] --- SCAN #1 ---
+[2026-02-11T11:27:03.511Z] Balance: $30.00 USDC
+[2026-02-11T11:27:03.511Z] - Weather Arbitrage -
+[2026-02-11T11:27:03.833Z] Markets: 50
+[2026-02-11T11:27:03.834Z] Status: 0 trades | 0 positions
+[2026-02-11T11:29:03.596Z] --- SCAN #1 ---
+[2026-02-11T11:29:03.596Z] Balance: $30.00 USDC
+[2026-02-11T11:29:03.596Z] - Weather Arbitrage -
+[2026-02-11T11:29:03.794Z] Markets: 50
+[2026-02-11T11:29:03.794Z] Status: 0 trades | 0 positions
+[2026-02-11T11:31:03.687Z] --- SCAN #1 ---
+[2026-02-11T11:31:03.688Z] Balance: $30.00 USDC
+[2026-02-11T11:31:03.688Z] - Weather Arbitrage -
+[2026-02-11T11:31:03.981Z] Markets: 50
+[2026-02-11T11:31:03.981Z] Status: 0 trades | 0 positions
+[2026-02-11T11:33:03.733Z] --- SCAN #1 ---
+[2026-02-11T11:33:03.734Z] Balance: $30.00 USDC
+[2026-02-11T11:33:03.734Z] - Weather Arbitrage -
+[2026-02-11T11:33:03.896Z] Markets: 50
+[2026-02-11T11:33:03.896Z] Status: 0 trades | 0 positions
+[2026-02-11T11:35:03.799Z] --- SCAN #1 ---
+[2026-02-11T11:35:03.799Z] Balance: $30.00 USDC
+[2026-02-11T11:35:03.799Z] - Weather Arbitrage -
+[2026-02-11T11:35:04.094Z] Markets: 50
+[2026-02-11T11:35:04.094Z] Status: 0 trades | 0 positions
+[2026-02-11T11:37:03.885Z] --- SCAN #1 ---
+[2026-02-11T11:37:03.886Z] Balance: $30.00 USDC
+[2026-02-11T11:37:03.886Z] - Weather Arbitrage -
+[2026-02-11T11:37:04.039Z] Markets: 50
+[2026-02-11T11:37:04.039Z] Status: 0 trades | 0 positions
+[2026-02-11T11:39:03.940Z] --- SCAN #1 ---
+[2026-02-11T11:39:03.941Z] Balance: $30.00 USDC
+[2026-02-11T11:39:03.941Z] - Weather Arbitrage -
+[2026-02-11T11:39:04.266Z] Markets: 50
+[2026-02-11T11:39:04.266Z] Status: 0 trades | 0 positions
+[2026-02-11T11:41:04.012Z] --- SCAN #1 ---
+[2026-02-11T11:41:04.012Z] Balance: $30.00 USDC
+[2026-02-11T11:41:04.013Z] - Weather Arbitrage -
+[2026-02-11T11:41:04.162Z] Markets: 50
+[2026-02-11T11:41:04.162Z] Status: 0 trades | 0 positions
+[2026-02-11T11:43:04.088Z] --- SCAN #1 ---
+[2026-02-11T11:43:04.088Z] Balance: $30.00 USDC
+[2026-02-11T11:43:04.088Z] - Weather Arbitrage -
+[2026-02-11T11:43:04.364Z] Markets: 50
+[2026-02-11T11:43:04.364Z] Status: 0 trades | 0 positions
+[2026-02-11T11:45:04.151Z] --- SCAN #1 ---
+[2026-02-11T11:45:04.151Z] Balance: $30.00 USDC
+[2026-02-11T11:45:04.152Z] - Weather Arbitrage -
+[2026-02-11T11:45:04.313Z] Markets: 50
+[2026-02-11T11:45:04.313Z] Status: 0 trades | 0 positions
+[2026-02-11T11:47:04.253Z] --- SCAN #1 ---
+[2026-02-11T11:47:04.253Z] Balance: $30.00 USDC
+[2026-02-11T11:47:04.253Z] - Weather Arbitrage -
+[2026-02-11T11:47:04.567Z] Markets: 50
+[2026-02-11T11:47:04.568Z] Status: 0 trades | 0 positions
+[2026-02-11T11:49:04.353Z] --- SCAN #1 ---
+[2026-02-11T11:49:04.354Z] Balance: $30.00 USDC
+[2026-02-11T11:49:04.354Z] - Weather Arbitrage -
+[2026-02-11T11:49:04.506Z] Markets: 50
+[2026-02-11T11:49:04.506Z] Status: 0 trades | 0 positions
+[2026-02-11T11:51:04.364Z] --- SCAN #1 ---
+[2026-02-11T11:51:04.364Z] Balance: $30.00 USDC
+[2026-02-11T11:51:04.364Z] - Weather Arbitrage -
+[2026-02-11T11:51:04.917Z] Markets: 50
+[2026-02-11T11:51:04.918Z] Status: 0 trades | 0 positions
+[2026-02-11T11:53:04.375Z] --- SCAN #1 ---
+[2026-02-11T11:53:04.375Z] Balance: $30.00 USDC
+[2026-02-11T11:53:04.375Z] - Weather Arbitrage -
+[2026-02-11T11:53:04.517Z] Markets: 50
+[2026-02-11T11:53:04.517Z] Status: 0 trades | 0 positions
+[2026-02-11T11:55:04.381Z] --- SCAN #1 ---
+[2026-02-11T11:55:04.381Z] Balance: $30.00 USDC
+[2026-02-11T11:55:04.381Z] - Weather Arbitrage -
+[2026-02-11T11:55:04.642Z] Markets: 50
+[2026-02-11T11:55:04.642Z] Status: 0 trades | 0 positions
+[2026-02-11T11:57:04.476Z] --- SCAN #1 ---
+[2026-02-11T11:57:04.476Z] Balance: $30.00 USDC
+[2026-02-11T11:57:04.476Z] - Weather Arbitrage -
+[2026-02-11T11:57:04.692Z] Markets: 50
+[2026-02-11T11:57:04.693Z] Status: 0 trades | 0 positions
+[2026-02-11T11:59:04.575Z] --- SCAN #1 ---
+[2026-02-11T11:59:04.575Z] Balance: $30.00 USDC
+[2026-02-11T11:59:04.576Z] - Weather Arbitrage -
+[2026-02-11T11:59:04.863Z] Markets: 50
+[2026-02-11T11:59:04.863Z] Status: 0 trades | 0 positions
+[2026-02-11T12:01:04.630Z] --- SCAN #1 ---
+[2026-02-11T12:01:04.630Z] Balance: $30.00 USDC
+[2026-02-11T12:01:04.630Z] - Weather Arbitrage -
+[2026-02-11T12:01:04.791Z] Markets: 50
+[2026-02-11T12:01:04.791Z] Status: 0 trades | 0 positions
+[2026-02-11T12:03:04.631Z] --- SCAN #1 ---
+[2026-02-11T12:03:04.634Z] Balance: $30.00 USDC
+[2026-02-11T12:03:04.634Z] - Weather Arbitrage -
+[2026-02-11T12:03:05.012Z] Markets: 50
+[2026-02-11T12:03:05.013Z] Status: 0 trades | 0 positions
+[2026-02-11T12:05:04.679Z] --- SCAN #1 ---
+[2026-02-11T12:05:04.680Z] Balance: $30.00 USDC
+[2026-02-11T12:05:04.680Z] - Weather Arbitrage -
+[2026-02-11T12:05:04.815Z] Markets: 50
+[2026-02-11T12:05:04.815Z] Status: 0 trades | 0 positions
+[2026-02-11T12:07:04.757Z] --- SCAN #1 ---
+[2026-02-11T12:07:04.758Z] Balance: $30.00 USDC
+[2026-02-11T12:07:04.758Z] - Weather Arbitrage -
+[2026-02-11T12:07:05.022Z] Markets: 50
+[2026-02-11T12:07:05.022Z] Status: 0 trades | 0 positions
+[2026-02-11T12:08:44.178Z] [INIT] Wallet: 0xb99a3Ed7d209DdaF69FAB477B52857701e245CE9
+[2026-02-11T12:08:44.179Z] [INIT] Checking all chains for USDC...
+[2026-02-11T12:08:45.033Z] [INIT] ETHEREUM: $0.00 USDC
+[2026-02-11T12:08:45.034Z] [INIT] BASE: $0.00 USDC
+[2026-02-11T12:08:45.034Z] [INIT] POLYGON: $30.00 USDC
+[2026-02-11T12:08:45.034Z] [INIT] Total across all chains: $30.00
+[2026-02-11T12:08:45.034Z] [INIT] Tradeable (Polygon): $30.00
+[2026-02-11T12:08:45.184Z] [INIT] ETHEREUM gas (ETH): 0.0000
+[2026-02-11T12:08:45.327Z] [INIT] POLYGON gas (MATIC): 49.0463
+[2026-02-11T12:08:45.328Z] [INIT] Chain: POLYGON
+[2026-02-11T12:08:45.328Z] [INIT] Dry Run: false
+[2026-02-11T12:08:45.328Z] [INIT] LIVE MODE
+[2026-02-11T12:08:45.328Z] ==================================================
+[2026-02-11T12:08:45.328Z] 🚀 TRADER STARTED
+[2026-02-11T12:08:45.328Z] --- SCAN #1 ---
+[2026-02-11T12:08:45.328Z] Balance: $30.00 USDC
+[2026-02-11T12:08:45.328Z] - Weather Arbitrage -
+[2026-02-11T12:08:45.497Z] Markets: 50
+[2026-02-11T12:08:45.498Z] Status: 0 trades | 0 positions
+[2026-02-11T12:10:45.335Z] --- SCAN #1 ---
+[2026-02-11T12:10:45.336Z] Balance: $30.00 USDC
+[2026-02-11T12:10:45.336Z] - Weather Arbitrage -
+[2026-02-11T12:10:45.661Z] Markets: 50
+[2026-02-11T12:10:45.661Z] Status: 0 trades | 0 positions
+[2026-02-11T12:12:45.366Z] --- SCAN #1 ---
+[2026-02-11T12:12:45.366Z] Balance: $30.00 USDC
+[2026-02-11T12:12:45.366Z] - Weather Arbitrage -
+[2026-02-11T12:12:45.557Z] Markets: 50
+[2026-02-11T12:12:45.557Z] Status: 0 trades | 0 positions
+[2026-02-11T12:14:45.390Z] --- SCAN #1 ---
+[2026-02-11T12:14:45.390Z] Balance: $30.00 USDC
+[2026-02-11T12:14:45.390Z] - Weather Arbitrage -
+[2026-02-11T12:14:45.770Z] Markets: 50
+[2026-02-11T12:14:45.770Z] Status: 0 trades | 0 positions
+[2026-02-11T12:16:45.418Z] --- SCAN #1 ---
+[2026-02-11T12:16:45.418Z] Balance: $30.00 USDC
+[2026-02-11T12:16:45.418Z] - Weather Arbitrage -
+[2026-02-11T12:16:45.580Z] Markets: 50
+[2026-02-11T12:16:45.580Z] Status: 0 trades | 0 positions
+[2026-02-11T12:18:45.524Z] --- SCAN #1 ---
+[2026-02-11T12:18:45.524Z] Balance: $30.00 USDC
+[2026-02-11T12:18:45.524Z] - Weather Arbitrage -
+[2026-02-11T12:18:45.844Z] Markets: 50
+[2026-02-11T12:18:45.844Z] Status: 0 trades | 0 positions
+[2026-02-11T12:20:45.582Z] --- SCAN #1 ---
+[2026-02-11T12:20:45.582Z] Balance: $30.00 USDC
+[2026-02-11T12:20:45.582Z] - Weather Arbitrage -
+[2026-02-11T12:20:45.732Z] Markets: 50
+[2026-02-11T12:20:45.732Z] Status: 0 trades | 0 positions
+[2026-02-11T12:22:45.676Z] --- SCAN #1 ---
+[2026-02-11T12:22:45.677Z] Balance: $30.00 USDC
+[2026-02-11T12:22:45.677Z] - Weather Arbitrage -
+[2026-02-11T12:22:46.215Z] Markets: 50
+[2026-02-11T12:22:46.215Z] Status: 0 trades | 0 positions
+[2026-02-11T12:24:45.775Z] --- SCAN #1 ---
+[2026-02-11T12:24:45.776Z] Balance: $30.00 USDC
+[2026-02-11T12:24:45.776Z] - Weather Arbitrage -
+[2026-02-11T12:24:45.940Z] Markets: 50
+[2026-02-11T12:24:45.940Z] Status: 0 trades | 0 positions
+[2026-02-11T12:26:45.875Z] --- SCAN #1 ---
+[2026-02-11T12:26:45.875Z] Balance: $30.00 USDC
+[2026-02-11T12:26:45.875Z] - Weather Arbitrage -
+[2026-02-11T12:26:46.432Z] Markets: 50
+[2026-02-11T12:26:46.432Z] Status: 0 trades | 0 positions
+[2026-02-11T12:28:45.880Z] --- SCAN #1 ---
+[2026-02-11T12:28:45.880Z] Balance: $30.00 USDC
+[2026-02-11T12:28:45.881Z] - Weather Arbitrage -
+[2026-02-11T12:28:46.044Z] Markets: 50
+[2026-02-11T12:28:46.045Z] Status: 0 trades | 0 positions
+[2026-02-11T12:30:45.894Z] --- SCAN #1 ---
+[2026-02-11T12:30:45.894Z] Balance: $30.00 USDC
+[2026-02-11T12:30:45.894Z] - Weather Arbitrage -
+[2026-02-11T12:30:46.216Z] Markets: 50
+[2026-02-11T12:30:46.216Z] Status: 0 trades | 0 positions
+[2026-02-11T12:32:45.983Z] --- SCAN #1 ---
+[2026-02-11T12:32:45.983Z] Balance: $30.00 USDC
+[2026-02-11T12:32:45.984Z] - Weather Arbitrage -
+[2026-02-11T12:32:46.112Z] Markets: 50
+[2026-02-11T12:32:46.113Z] Status: 0 trades | 0 positions
+[2026-02-11T12:34:46.082Z] --- SCAN #1 ---
+[2026-02-11T12:34:46.083Z] Balance: $30.00 USDC
+[2026-02-11T12:34:46.083Z] - Weather Arbitrage -
+[2026-02-11T12:34:46.373Z] Markets: 50
+[2026-02-11T12:34:46.373Z] Status: 0 trades | 0 positions
+[2026-02-11T12:36:46.164Z] --- SCAN #1 ---
+[2026-02-11T12:36:46.164Z] Balance: $30.00 USDC
+[2026-02-11T12:36:46.164Z] - Weather Arbitrage -
+[2026-02-11T12:36:46.344Z] Markets: 50
+[2026-02-11T12:36:46.344Z] Status: 0 trades | 0 positions
+[2026-02-11T12:51:13.712Z] [INIT] Wallet: 0xb99a3Ed7d209DdaF69FAB477B52857701e245CE9
+[2026-02-11T12:51:13.713Z] [INIT] Checking all chains for USDC...
+[2026-02-11T12:51:14.587Z] [INIT] ETHEREUM: $0.00 USDC
+[2026-02-11T12:51:14.587Z] [INIT] BASE: $0.00 USDC
+[2026-02-11T12:51:14.587Z] [INIT] POLYGON: $30.00 USDC
+[2026-02-11T12:51:14.587Z] [INIT] Total across all chains: $30.00
+[2026-02-11T12:51:14.587Z] [INIT] Tradeable (Polygon): $30.00
+[2026-02-11T12:51:14.733Z] [INIT] ETHEREUM gas (ETH): 0.0000
+[2026-02-11T12:51:14.875Z] [INIT] POLYGON gas (MATIC): 49.0463
+[2026-02-11T12:51:14.875Z] [INIT] Chain: POLYGON
+[2026-02-11T12:51:14.876Z] [INIT] Dry Run: false
+[2026-02-11T12:51:14.876Z] [INIT] LIVE MODE
+[2026-02-11T12:51:14.876Z] ==================================================
+[2026-02-11T12:51:14.876Z] 🚀 TRADER STARTED
+[2026-02-11T12:51:14.876Z] --- SCAN #1 ---
+[2026-02-11T12:51:14.876Z] Balance: $30.00 USDC
+[2026-02-11T12:51:15.171Z] Markets: 0 total | Weather: 0 | Crypto: 0 | Politics: 0
+[2026-02-11T12:51:24.564Z] [INIT] Wallet: 0xb99a3Ed7d209DdaF69FAB477B52857701e245CE9
+[2026-02-11T12:51:24.565Z] [INIT] Checking all chains for USDC...
+[2026-02-11T12:51:25.325Z] [INIT] ETHEREUM: $0.00 USDC
+[2026-02-11T12:51:25.325Z] [INIT] BASE: $0.00 USDC
+[2026-02-11T12:51:25.325Z] [INIT] POLYGON: $30.00 USDC
+[2026-02-11T12:51:25.326Z] [INIT] Total across all chains: $30.00
+[2026-02-11T12:51:25.326Z] [INIT] Tradeable (Polygon): $30.00
+[2026-02-11T12:51:25.472Z] [INIT] ETHEREUM gas (ETH): 0.0000
+[2026-02-11T12:51:25.628Z] [INIT] POLYGON gas (MATIC): 49.0463
+[2026-02-11T12:51:25.628Z] [INIT] Chain: POLYGON
+[2026-02-11T12:51:25.628Z] [INIT] Dry Run: false
+[2026-02-11T12:51:25.628Z] [INIT] LIVE MODE
+[2026-02-11T12:51:25.628Z] ==================================================
+[2026-02-11T12:51:25.628Z] 🚀 TRADER STARTED
+[2026-02-11T12:51:25.629Z] --- SCAN #1 ---
+[2026-02-11T12:51:25.629Z] Balance: $30.00 USDC
+[2026-02-11T12:51:25.845Z] Markets: 0 total | Weather: 0 | Crypto: 0 | Politics: 0
+[2026-02-11T12:52:20.859Z] [INIT] Wallet: 0xb99a3Ed7d209DdaF69FAB477B52857701e245CE9
+[2026-02-11T12:52:20.860Z] [INIT] Checking all chains for USDC...
+[2026-02-11T12:52:21.533Z] [INIT] ETHEREUM: $0.00 USDC
+[2026-02-11T12:52:21.533Z] [INIT] BASE: $0.00 USDC
+[2026-02-11T12:52:21.533Z] [INIT] POLYGON: $30.00 USDC
+[2026-02-11T12:52:21.533Z] [INIT] Total across all chains: $30.00
+[2026-02-11T12:52:21.533Z] [INIT] Tradeable (Polygon): $30.00
+[2026-02-11T12:52:21.672Z] [INIT] ETHEREUM gas (ETH): 0.0000
+[2026-02-11T12:52:21.820Z] [INIT] POLYGON gas (MATIC): 49.0463
+[2026-02-11T12:52:21.821Z] [INIT] Chain: POLYGON
+[2026-02-11T12:52:21.821Z] [INIT] Dry Run: false
+[2026-02-11T12:52:21.821Z] [INIT] LIVE MODE
+[2026-02-11T12:52:21.821Z] ==================================================
+[2026-02-11T12:52:21.821Z] 🚀 TRADER STARTED
+[2026-02-11T12:52:21.821Z] --- SCAN #1 ---
+[2026-02-11T12:52:21.821Z] Balance: $30.00 USDC
+[2026-02-11T12:52:22.023Z] Markets: 0 total | Weather: 0 | Crypto: 0 | Politics: 0
+[2026-02-11T12:52:50.947Z] [INIT] Wallet: 0xb99a3Ed7d209DdaF69FAB477B52857701e245CE9
+[2026-02-11T12:52:50.948Z] [INIT] Checking all chains for USDC...
+[2026-02-11T12:52:51.668Z] [INIT] ETHEREUM: $0.00 USDC
+[2026-02-11T12:52:51.668Z] [INIT] BASE: $0.00 USDC
+[2026-02-11T12:52:51.668Z] [INIT] POLYGON: $30.00 USDC
+[2026-02-11T12:52:51.668Z] [INIT] Total across all chains: $30.00
+[2026-02-11T12:52:51.668Z] [INIT] Tradeable (Polygon): $30.00
+[2026-02-11T12:52:51.803Z] [INIT] ETHEREUM gas (ETH): 0.0000
+[2026-02-11T12:52:51.946Z] [INIT] POLYGON gas (MATIC): 49.0463
+[2026-02-11T12:52:51.946Z] [INIT] Chain: POLYGON
+[2026-02-11T12:52:51.947Z] [INIT] Dry Run: false
+[2026-02-11T12:52:51.947Z] [INIT] LIVE MODE
+[2026-02-11T12:52:51.947Z] ==================================================
+[2026-02-11T12:52:51.947Z] 🚀 TRADER STARTED
+[2026-02-11T12:52:51.947Z] --- SCAN #1 ---
+[2026-02-11T12:52:51.947Z] Balance: $30.00 USDC
+[2026-02-11T12:52:52.195Z] Markets: 0 total | Weather: 0 | Crypto: 0 | Politics: 0
+[2026-02-11T12:53:01.880Z] [INIT] Wallet: 0xb99a3Ed7d209DdaF69FAB477B52857701e245CE9
+[2026-02-11T12:53:01.882Z] [INIT] Checking all chains for USDC...
+[2026-02-11T12:53:02.581Z] [INIT] ETHEREUM: $0.00 USDC
+[2026-02-11T12:53:02.581Z] [INIT] BASE: $0.00 USDC
+[2026-02-11T12:53:02.581Z] [INIT] POLYGON: $30.00 USDC
+[2026-02-11T12:53:02.581Z] [INIT] Total across all chains: $30.00
+[2026-02-11T12:53:02.581Z] [INIT] Tradeable (Polygon): $30.00
+[2026-02-11T12:53:02.716Z] [INIT] ETHEREUM gas (ETH): 0.0000
+[2026-02-11T12:53:02.860Z] [INIT] POLYGON gas (MATIC): 49.0463
+[2026-02-11T12:53:02.861Z] [INIT] Chain: POLYGON
+[2026-02-11T12:53:02.861Z] [INIT] Dry Run: false
+[2026-02-11T12:53:02.861Z] [INIT] LIVE MODE
+[2026-02-11T12:53:02.861Z] ==================================================
+[2026-02-11T12:53:02.861Z] 🚀 TRADER STARTED
+[2026-02-11T12:53:02.861Z] --- SCAN #1 ---
+[2026-02-11T12:53:02.861Z] Balance: $30.00 USDC
+[2026-02-11T12:53:03.058Z] Markets: 0 total | Weather: 0 | Crypto: 0 | Politics: 0
+[2026-02-11T12:53:35.299Z] [INIT] Wallet: 0xb99a3Ed7d209DdaF69FAB477B52857701e245CE9
+[2026-02-11T12:53:35.300Z] [INIT] Checking all chains for USDC...
+[2026-02-11T12:53:35.998Z] [INIT] ETHEREUM: $0.00 USDC
+[2026-02-11T12:53:35.999Z] [INIT] BASE: $0.00 USDC
+[2026-02-11T12:53:35.999Z] [INIT] POLYGON: $30.00 USDC
+[2026-02-11T12:53:35.999Z] [INIT] Total across all chains: $30.00
+[2026-02-11T12:53:35.999Z] [INIT] Tradeable (Polygon): $30.00
+[2026-02-11T12:53:36.135Z] [INIT] ETHEREUM gas (ETH): 0.0000
+[2026-02-11T12:53:36.266Z] [INIT] POLYGON gas (MATIC): 49.0463
+[2026-02-11T12:53:36.266Z] [INIT] Chain: POLYGON
+[2026-02-11T12:53:36.266Z] [INIT] Dry Run: false
+[2026-02-11T12:53:36.266Z] [INIT] LIVE MODE
+[2026-02-11T12:53:36.266Z] ==================================================
+[2026-02-11T12:53:36.266Z] 🚀 TRADER STARTED
+[2026-02-11T12:53:36.267Z] --- SCAN #1 ---
+[2026-02-11T12:53:36.267Z] Balance: $30.00 USDC
+[2026-02-11T12:53:36.477Z] Markets: 0 total | Weather: 0 | Crypto: 0 | Politics: 0
+[2026-02-11T12:53:36.478Z] Markets: 0
+[2026-02-11T18:10:24.101Z] [INIT] Wallet: 0xb99a3Ed7d209DdaF69FAB477B52857701e245CE9
+[2026-02-11T18:10:24.102Z] [INIT] Checking all chains for USDC...
+[2026-02-11T18:10:25.019Z] [INIT] ETHEREUM: $0.00 USDC
+[2026-02-11T18:10:25.020Z] [INIT] BASE: $0.00 USDC
+[2026-02-11T18:10:25.020Z] [INIT] POLYGON: $30.00 USDC
+[2026-02-11T18:10:25.020Z] [INIT] Total across all chains: $30.00
+[2026-02-11T18:10:25.020Z] [INIT] Tradeable (Polygon): $30.00
+[2026-02-11T18:10:25.162Z] [INIT] ETHEREUM gas (ETH): 0.0000
+[2026-02-11T18:10:25.340Z] [INIT] POLYGON gas (MATIC): 49.0463
+[2026-02-11T18:10:25.341Z] [INIT] Chain: POLYGON
+[2026-02-11T18:10:25.341Z] [INIT] Dry Run: false
+[2026-02-11T18:10:25.341Z] [INIT] LIVE MODE
+[2026-02-11T18:10:25.341Z] ==================================================
+[2026-02-11T18:10:25.342Z] 🚀 TRADER STARTED
+[2026-02-11T18:10:25.342Z] --- SCAN #1 ---
+[2026-02-11T18:10:25.342Z] Balance: $30.00 USDC
+[2026-02-11T18:10:26.797Z] Markets: 0 total | Weather: 0 | Crypto: 0 | Politics: 0
+[2026-02-11T18:10:26.797Z] Markets: 0
+[2026-02-12T00:58:40.459Z] [INIT] Wallet: 0xb99a3Ed7d209DdaF69FAB477B52857701e245CE9
+[2026-02-12T00:58:40.462Z] [INIT] Checking all chains for USDC...
+[2026-02-12T00:58:41.316Z] [INIT] ETHEREUM: $0.00 USDC
+[2026-02-12T00:58:41.316Z] [INIT] BASE: $0.00 USDC
+[2026-02-12T00:58:41.316Z] [INIT] POLYGON: $30.00 USDC
+[2026-02-12T00:58:41.316Z] [INIT] Total across all chains: $30.00
+[2026-02-12T00:58:41.316Z] [INIT] Tradeable (Polygon): $30.00
+[2026-02-12T00:58:41.460Z] [INIT] ETHEREUM gas (ETH): 0.0000
+[2026-02-12T00:58:41.595Z] [INIT] POLYGON gas (MATIC): 49.0463
+[2026-02-12T00:58:41.595Z] [INIT] Chain: POLYGON
+[2026-02-12T00:58:41.595Z] [INIT] Dry Run: false
+[2026-02-12T00:58:41.595Z] [INIT] LIVE MODE
+[2026-02-12T00:58:41.595Z] ==================================================
+[2026-02-12T00:58:41.596Z] 🚀 TRADER STARTED
+[2026-02-12T00:58:41.596Z] --- SCAN #1 ---
+[2026-02-12T00:58:41.596Z] Balance: $30.00 USDC
+[2026-02-12T00:58:41.793Z] Markets: 0 total | Weather: 0 | Crypto: 0 | Politics: 0
+[2026-02-12T00:58:41.793Z] Markets: 0
+[2026-02-12T00:58:41.793Z] Status: 0 trades | 0 positions
+/home/clawdbot267/.openclaw/workspace/skills/simmer/polymarket.js:15
+    this.api = axios.create({ baseURL: POLYMARKET_API, timeout: 10000 });
+               ^
+
+ReferenceError: axios is not defined
+    at new PolymarketClient (/home/clawdbot267/.openclaw/workspace/skills/simmer/polymarket.js:15:16)
+    at new FixedTrader (/home/clawdbot267/.openclaw/workspace/skills/simmer/trader-fixed.js:16:23)
+    at Object.<anonymous> (/home/clawdbot267/.openclaw/workspace/skills/simmer/trader-fixed.js:198:16)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+
+Node.js v24.13.0
+[2026-02-12T22:22:34.639Z] [INIT] Wallet: 0xb99a3Ed7d209DdaF69FAB477B52857701e245CE9
+[2026-02-12T22:22:34.640Z] [INIT] Checking all chains for USDC...
+[2026-02-12T22:28:01.846Z] [INIT] Wallet: 0xb99a3Ed7d209DdaF69FAB477B52857701e245CE9
+[2026-02-12T22:28:01.847Z] [INIT] Checking all chains for USDC...
+[2026-02-12T22:28:06.212Z] [INIT] ETHEREUM: $0.00 USDC
+[2026-02-12T22:28:06.212Z] [INIT] BASE: $0.00 USDC
+[2026-02-12T22:28:06.213Z] [INIT] POLYGON: $30.00 USDC
+[2026-02-12T22:28:06.213Z] [INIT] Total across all chains: $30.00
+[2026-02-12T22:28:06.213Z] [INIT] Tradeable (Polygon): $30.00
+[2026-02-12T22:28:06.387Z] [INIT] ETHEREUM gas (ETH): 0.0000
+[2026-02-12T22:28:06.846Z] [INIT] POLYGON gas (MATIC): 49.0463
+[2026-02-12T22:28:06.847Z] [INIT] Chain: POLYGON
+[2026-02-12T22:28:06.847Z] [INIT] Dry Run: false
+[2026-02-12T22:28:06.847Z] [INIT] LIVE MODE
+[2026-02-12T22:28:06.847Z] ==================================================
+[2026-02-12T22:28:06.847Z] 🚀 TRADER STARTED
+[2026-02-12T22:28:06.848Z] --- SCAN #1 ---
+[2026-02-12T22:28:06.848Z] Balance: $30.00 USDC
+[2026-02-12T22:28:07.791Z] Markets: 4 total | Weather: 1 | Crypto: 2 | Politics: 1
+[2026-02-12T22:28:07.791Z] Markets: 4
+[2026-02-12T22:28:07.792Z] Status: 0 trades | 0 positions
+[2026-02-12T22:28:42.869Z] [INIT] Wallet: 0xb99a3Ed7d209DdaF69FAB477B52857701e245CE9
+[2026-02-12T22:28:42.870Z] [INIT] Checking all chains for USDC...
+[2026-02-12T22:28:44.901Z] [INIT] ETHEREUM: $0.00 USDC
+[2026-02-12T22:28:44.902Z] [INIT] BASE: $0.00 USDC
+[2026-02-12T22:28:44.902Z] [INIT] POLYGON: $30.00 USDC
+[2026-02-12T22:28:44.902Z] [INIT] Total across all chains: $30.00
+[2026-02-12T22:28:44.902Z] [INIT] Tradeable (Polygon): $30.00
+[2026-02-12T22:28:46.120Z] [INIT] ETHEREUM gas (ETH): 0.0000
+[2026-02-12T22:28:46.309Z] [INIT] POLYGON gas (MATIC): 49.0463
+[2026-02-12T22:28:46.309Z] [INIT] Chain: POLYGON
+[2026-02-12T22:28:46.309Z] [INIT] Dry Run: false
+[2026-02-12T22:28:46.309Z] [INIT] LIVE MODE
+[2026-02-12T22:28:46.309Z] ==================================================
+[2026-02-12T22:28:46.309Z] 🚀 TRADER STARTED
+[2026-02-12T22:28:46.310Z] --- SCAN #1 ---
+[2026-02-12T22:28:46.310Z] Balance: $30.00 USDC
+[2026-02-12T22:28:47.654Z] Markets: 4 total | Weather: 1 | Crypto: 2 | Politics: 1
+[2026-02-12T22:28:47.654Z] Markets: 4
+[2026-02-12T22:28:47.654Z] Status: 0 trades | 0 positions
+[2026-02-14T23:37:05.514Z] [INIT] Wallet: 0xb99a3Ed7d209DdaF69FAB477B52857701e245CE9
+[2026-02-14T23:37:05.515Z] [INIT] Checking all chains for USDC...
+[2026-02-14T23:37:06.549Z] [INIT] ETHEREUM: $0.00 USDC
+[2026-02-14T23:37:06.549Z] [INIT] BASE: $0.00 USDC
+[2026-02-14T23:37:06.550Z] [INIT] POLYGON: $30.00 USDC
+[2026-02-14T23:37:06.550Z] [INIT] Total across all chains: $30.00
+[2026-02-14T23:37:06.550Z] [INIT] Tradeable (Polygon): $30.00
+[2026-02-14T23:37:06.686Z] [INIT] ETHEREUM gas (ETH): 0.0000
+[2026-02-14T23:37:06.831Z] [INIT] POLYGON gas (MATIC): 49.0463
+[2026-02-14T23:37:06.831Z] [INIT] Chain: POLYGON
+[2026-02-14T23:37:06.832Z] [INIT] Dry Run: false
+[2026-02-14T23:37:06.832Z] [INIT] LIVE MODE
+[2026-02-14T23:37:06.832Z] ==================================================
+[2026-02-14T23:37:06.832Z] 🚀 TRADER STARTED
+[2026-02-14T23:37:06.832Z] --- SCAN #1 ---
+[2026-02-14T23:37:06.832Z] Balance: $30.00 USDC
+[2026-02-14T23:37:07.259Z] Markets: 4 total | Weather: 1 | Crypto: 2 | Politics: 1
+[2026-02-14T23:37:07.259Z] Markets: 4
+[2026-02-14T23:37:07.259Z] [ENTRY] Will BTC hit $100k by March 2026?: Yes @ 20.0¢
+[2026-02-14T23:37:07.259Z] [EXEC] BUY $1 @ $0.20 on crypto-001
+[2026-02-14T23:37:07.262Z] [SIGN] Order signed: 0x97a74109d442056b669e0f2aeaf7...
+[2026-02-14T23:37:10.193Z] [EXEC] Trade complete. Balance: $29.00
+[2026-02-14T23:37:10.194Z] [ENTRY] Will ETH hit $10k by Dec 2026?: Yes @ 15.0¢
+[2026-02-14T23:37:10.194Z] [EXEC] BUY $1 @ $0.15 on crypto-002
+[2026-02-14T23:37:10.196Z] [SIGN] Order signed: 0x1737b68c5ee0b595733babb9cb5d...
+[2026-02-14T23:37:10.196Z] [EXEC] Trade complete. Balance: $28.00
+[2026-02-14T23:37:10.196Z] [ENTRY] Will Trump be president in 2026?: Yes @ 15.0¢
+[2026-02-14T23:37:10.196Z] [EXEC] BUY $1 @ $0.15 on politics-001
+[2026-02-14T23:37:10.197Z] [SIGN] Order signed: 0x8e85d3a5166af933d822d9aa4f20...
+[2026-02-14T23:37:10.198Z] [EXEC] Trade complete. Balance: $27.00
+[2026-02-14T23:37:10.198Z] Status: 3 trades | 3 positions
+[2026-02-16T01:21:39.519Z] [INIT] Wallet: 0xb99a3Ed7d209DdaF69FAB477B52857701e245CE9
+[2026-02-16T01:21:39.520Z] [INIT] Checking all chains for USDC...
+[2026-02-16T01:21:40.474Z] [INIT] ETHEREUM: $0.00 USDC
+[2026-02-16T01:21:40.474Z] [INIT] BASE: $0.00 USDC
+[2026-02-16T01:21:40.474Z] [INIT] POLYGON: $30.00 USDC
+[2026-02-16T01:21:40.475Z] [INIT] Total across all chains: $30.00
+[2026-02-16T01:21:40.475Z] [INIT] Tradeable (Polygon): $30.00
+[2026-02-16T01:21:40.620Z] [INIT] ETHEREUM gas (ETH): 0.0000
+[2026-02-16T01:21:40.773Z] [INIT] POLYGON gas (MATIC): 49.0463
+[2026-02-16T01:21:40.774Z] [INIT] Chain: POLYGON
+[2026-02-16T01:21:40.774Z] [INIT] Dry Run: false
+[2026-02-16T01:21:40.774Z] [INIT] LIVE MODE
+[2026-02-16T01:21:40.774Z] ==================================================
+[2026-02-16T01:21:40.774Z] 🚀 TRADER STARTED
+[2026-02-16T01:21:40.774Z] --- SCAN #1 ---
+[2026-02-16T01:21:40.774Z] Balance: $30.00 USDC
+[2026-02-16T01:21:41.061Z] Markets: 4 total | Weather: 1 | Crypto: 2 | Politics: 1
+[2026-02-16T01:21:41.062Z] Markets: 4
+[2026-02-16T01:21:41.062Z] [ENTRY] Will BTC hit $100k by March 2026?: Yes @ 20.0¢
+[2026-02-16T01:21:41.062Z] [EXEC] BUY $1 @ $0.20 on crypto-001
+[2026-02-16T01:21:41.064Z] [SIGN] Order signed: 0x287c7a0d77f009a3ad92ce86d096...
+[2026-02-16T01:21:44.770Z] [EXEC] Trade complete. Balance: $29.00
+[2026-02-16T01:21:44.770Z] [ENTRY] Will ETH hit $10k by Dec 2026?: Yes @ 15.0¢
+[2026-02-16T01:21:44.771Z] [EXEC] BUY $1 @ $0.15 on crypto-002
+[2026-02-16T01:21:44.772Z] [SIGN] Order signed: 0x75ca3890c3b1fd9b9c1c0a61af72...
+[2026-02-16T01:21:44.772Z] [EXEC] Trade complete. Balance: $28.00
+[2026-02-16T01:21:44.772Z] [ENTRY] Will Trump be president in 2026?: Yes @ 15.0¢
+[2026-02-16T01:21:44.772Z] [EXEC] BUY $1 @ $0.15 on politics-001
+[2026-02-16T01:21:44.773Z] [SIGN] Order signed: 0x45b93789707480d5bc87c4023f05...
+[2026-02-16T01:21:44.773Z] [EXEC] Trade complete. Balance: $27.00
+[2026-02-16T01:21:44.773Z] Status: 3 trades | 3 positions
+[2026-02-16T02:20:16.757Z] [INIT] Wallet: 0xb99a3Ed7d209DdaF69FAB477B52857701e245CE9
+[2026-02-16T02:20:16.757Z] [INIT] Wallet: 0xb99a3Ed7d209DdaF69FAB477B52857701e245CE9
+[2026-02-16T02:20:16.758Z] [INIT] Checking all chains for USDC...
+[2026-02-16T02:20:16.758Z] [INIT] Checking all chains for USDC...
+[2026-02-16T02:20:17.624Z] [INIT] ETHEREUM: $0.00 USDC
+[2026-02-16T02:20:17.624Z] [INIT] ETHEREUM: $0.00 USDC
+[2026-02-16T02:20:17.624Z] [INIT] BASE: $0.00 USDC
+[2026-02-16T02:20:17.624Z] [INIT] BASE: $0.00 USDC
+[2026-02-16T02:20:17.624Z] [INIT] POLYGON: $30.00 USDC
+[2026-02-16T02:20:17.624Z] [INIT] POLYGON: $30.00 USDC
+[2026-02-16T02:20:17.624Z] [INIT] Total across all chains: $30.00
+[2026-02-16T02:20:17.624Z] [INIT] Total across all chains: $30.00
+[2026-02-16T02:20:17.624Z] [INIT] Tradeable (Polygon): $30.00
+[2026-02-16T02:20:17.624Z] [INIT] Tradeable (Polygon): $30.00
+[2026-02-16T02:20:17.760Z] [INIT] ETHEREUM gas (ETH): 0.0000
+[2026-02-16T02:20:17.760Z] [INIT] ETHEREUM gas (ETH): 0.0000
+[2026-02-16T02:20:17.902Z] [INIT] POLYGON gas (MATIC): 49.0463
+[2026-02-16T02:20:17.902Z] [INIT] POLYGON gas (MATIC): 49.0463
+[2026-02-16T02:20:17.903Z] [INIT] Chain: POLYGON
+[2026-02-16T02:20:17.903Z] [INIT] Chain: POLYGON
+[2026-02-16T02:20:17.903Z] [INIT] Dry Run: false
+[2026-02-16T02:20:17.903Z] [INIT] Dry Run: false
+[2026-02-16T02:20:17.903Z] [INIT] LIVE MODE
+[2026-02-16T02:20:17.903Z] [INIT] LIVE MODE
+[2026-02-16T02:20:17.903Z] ==================================================
+[2026-02-16T02:20:17.903Z] ==================================================
+[2026-02-16T02:20:17.903Z] 🚀 TRADER STARTED
+[2026-02-16T02:20:17.903Z] 🚀 TRADER STARTED
+[2026-02-16T02:20:17.903Z] --- SCAN #1 ---
+[2026-02-16T02:20:17.903Z] --- SCAN #1 ---
+[2026-02-16T02:20:17.903Z] Balance: $30.00 USDC
+[2026-02-16T02:20:17.903Z] Balance: $30.00 USDC
+[DEBUG] Weather: 0 markets
+[DEBUG] Crypto: 0 markets
+[DEBUG] Politics: 0 markets
+[2026-02-16T02:20:18.238Z] Markets: 4 total | Weather: 1 | Crypto: 2 | Politics: 1
+[2026-02-16T02:20:18.238Z] Markets: 4 total | Weather: 1 | Crypto: 2 | Politics: 1
+[2026-02-16T02:20:18.238Z] Markets: 4
+[2026-02-16T02:20:18.238Z] Markets: 4
+[2026-02-16T02:20:18.239Z] [ENTRY] Will BTC hit $100k by March 2026?: Yes @ 20.0¢
+[2026-02-16T02:20:18.239Z] [ENTRY] Will BTC hit $100k by March 2026?: Yes @ 20.0¢
+[2026-02-16T02:20:18.239Z] [EXEC] BUY $1 @ $0.20 on crypto-001
+[2026-02-16T02:20:18.239Z] [EXEC] BUY $1 @ $0.20 on crypto-001
+[2026-02-16T02:20:18.241Z] [SIGN] Order signed: 0x087de6aeccc92caca5fb1fbbcb6a...
+[2026-02-16T02:20:18.241Z] [SIGN] Order signed: 0x087de6aeccc92caca5fb1fbbcb6a...
+[2026-02-16T02:20:20.816Z] [EXEC] Trade complete. Balance: $29.00
+[2026-02-16T02:20:20.816Z] [EXEC] Trade complete. Balance: $29.00
+[2026-02-16T02:20:20.816Z] [ENTRY] Will ETH hit $10k by Dec 2026?: Yes @ 15.0¢
+[2026-02-16T02:20:20.816Z] [ENTRY] Will ETH hit $10k by Dec 2026?: Yes @ 15.0¢
+[2026-02-16T02:20:20.816Z] [EXEC] BUY $1 @ $0.15 on crypto-002
+[2026-02-16T02:20:20.816Z] [EXEC] BUY $1 @ $0.15 on crypto-002
+[2026-02-16T02:20:20.817Z] [SIGN] Order signed: 0x9861dca6ad290f230e580f3237a8...
+[2026-02-16T02:20:20.817Z] [SIGN] Order signed: 0x9861dca6ad290f230e580f3237a8...
+[2026-02-16T02:20:20.817Z] [EXEC] Trade complete. Balance: $28.00
+[2026-02-16T02:20:20.817Z] [EXEC] Trade complete. Balance: $28.00
+[2026-02-16T02:20:20.817Z] [ENTRY] Will Trump be president in 2026?: Yes @ 15.0¢
+[2026-02-16T02:20:20.817Z] [ENTRY] Will Trump be president in 2026?: Yes @ 15.0¢
+[2026-02-16T02:20:20.817Z] [EXEC] BUY $1 @ $0.15 on politics-001
+[2026-02-16T02:20:20.817Z] [EXEC] BUY $1 @ $0.15 on politics-001
+[2026-02-16T02:20:20.818Z] [SIGN] Order signed: 0x04543a9a0c1c98baa2006017272b...
+[2026-02-16T02:20:20.818Z] [SIGN] Order signed: 0x04543a9a0c1c98baa2006017272b...
+[2026-02-16T02:20:20.818Z] [EXEC] Trade complete. Balance: $27.00
+[2026-02-16T02:20:20.818Z] [EXEC] Trade complete. Balance: $27.00
+[2026-02-16T02:20:20.818Z] Status: 3 trades | 3 positions
+[2026-02-16T02:20:20.818Z] Status: 3 trades | 3 positions
+[2026-02-16T15:16:42.950Z] [INIT] Wallet: 0xb99a3Ed7d209DdaF69FAB477B52857701e245CE9
+[2026-02-16T15:16:42.950Z] [INIT] Wallet: 0xb99a3Ed7d209DdaF69FAB477B52857701e245CE9
+[2026-02-16T15:16:42.951Z] [INIT] Checking all chains for USDC...
+[2026-02-16T15:16:42.951Z] [INIT] Checking all chains for USDC...
+[2026-02-16T15:16:44.010Z] [INIT] ETHEREUM: $0.00 USDC
+[2026-02-16T15:16:44.010Z] [INIT] ETHEREUM: $0.00 USDC
+[2026-02-16T15:16:44.010Z] [INIT] BASE: $0.00 USDC
+[2026-02-16T15:16:44.010Z] [INIT] BASE: $0.00 USDC
+[2026-02-16T15:16:44.010Z] [INIT] POLYGON: $30.00 USDC
+[2026-02-16T15:16:44.010Z] [INIT] POLYGON: $30.00 USDC
+[2026-02-16T15:16:44.010Z] [INIT] Total across all chains: $30.00
+[2026-02-16T15:16:44.010Z] [INIT] Total across all chains: $30.00
+[2026-02-16T15:16:44.011Z] [INIT] Tradeable (Polygon): $30.00
+[2026-02-16T15:16:44.011Z] [INIT] Tradeable (Polygon): $30.00
+[2026-02-16T15:16:44.243Z] [INIT] ETHEREUM gas (ETH): 0.0000
+[2026-02-16T15:16:44.243Z] [INIT] ETHEREUM gas (ETH): 0.0000
+[2026-02-16T15:16:44.403Z] [INIT] POLYGON gas (MATIC): 49.0463
+[2026-02-16T15:16:44.403Z] [INIT] POLYGON gas (MATIC): 49.0463
+[2026-02-16T15:16:44.403Z] [INIT] Chain: POLYGON
+[2026-02-16T15:16:44.403Z] [INIT] Chain: POLYGON
+[2026-02-16T15:16:44.403Z] [INIT] Dry Run: false
+[2026-02-16T15:16:44.403Z] [INIT] Dry Run: false
+[2026-02-16T15:16:44.403Z] [INIT] LIVE MODE
+[2026-02-16T15:16:44.403Z] [INIT] LIVE MODE
+[2026-02-16T15:16:44.403Z] ==================================================
+[2026-02-16T15:16:44.403Z] ==================================================
+[2026-02-16T15:16:44.403Z] 🚀 TRADER STARTED
+[2026-02-16T15:16:44.403Z] 🚀 TRADER STARTED
+[2026-02-16T15:16:44.404Z] --- SCAN #1 ---
+[2026-02-16T15:16:44.404Z] --- SCAN #1 ---
+[2026-02-16T15:16:44.404Z] Balance: $30.00 USDC
+[2026-02-16T15:16:44.404Z] Balance: $30.00 USDC
+[DEBUG] Weather: 0 markets
+[DEBUG] Crypto: 0 markets
+[DEBUG] Politics: 0 markets
+[2026-02-16T15:16:44.726Z] Markets: 4 total | Weather: 1 | Crypto: 2 | Politics: 1
+[2026-02-16T15:16:44.726Z] Markets: 4 total | Weather: 1 | Crypto: 2 | Politics: 1
+[2026-02-16T15:16:44.726Z] Markets: 4
+[2026-02-16T15:16:44.726Z] Markets: 4
+[2026-02-16T15:16:44.726Z] [ENTRY] Will BTC hit $100k by March 2026?: Yes @ 20.0¢
+[2026-02-16T15:16:44.726Z] [ENTRY] Will BTC hit $100k by March 2026?: Yes @ 20.0¢
+[2026-02-16T15:16:44.726Z] [EXEC] BUY $1 @ $0.20 on crypto-001
+[2026-02-16T15:16:44.726Z] [EXEC] BUY $1 @ $0.20 on crypto-001
+[2026-02-16T15:16:44.728Z] [SIGN] Order signed: 0xbc2d35bc3e85dbd1874897304259...
+[2026-02-16T15:16:44.728Z] [SIGN] Order signed: 0xbc2d35bc3e85dbd1874897304259...
+[2026-02-16T15:16:47.176Z] [EXEC] Trade complete. Balance: $29.00
+[2026-02-16T15:16:47.176Z] [EXEC] Trade complete. Balance: $29.00
+[2026-02-16T15:16:47.176Z] [ENTRY] Will ETH hit $10k by Dec 2026?: Yes @ 15.0¢
+[2026-02-16T15:16:47.176Z] [ENTRY] Will ETH hit $10k by Dec 2026?: Yes @ 15.0¢
+[2026-02-16T15:16:47.176Z] [EXEC] BUY $1 @ $0.15 on crypto-002
+[2026-02-16T15:16:47.176Z] [EXEC] BUY $1 @ $0.15 on crypto-002
+[2026-02-16T15:16:47.177Z] [SIGN] Order signed: 0x6b371ca306d2b215ad731f6b3f19...
+[2026-02-16T15:16:47.177Z] [SIGN] Order signed: 0x6b371ca306d2b215ad731f6b3f19...
+[2026-02-16T15:16:47.177Z] [EXEC] Trade complete. Balance: $28.00
+[2026-02-16T15:16:47.177Z] [EXEC] Trade complete. Balance: $28.00
+[2026-02-16T15:16:47.178Z] [ENTRY] Will Trump be president in 2026?: Yes @ 15.0¢
+[2026-02-16T15:16:47.178Z] [ENTRY] Will Trump be president in 2026?: Yes @ 15.0¢
+[2026-02-16T15:16:47.178Z] [EXEC] BUY $1 @ $0.15 on politics-001
+[2026-02-16T15:16:47.178Z] [EXEC] BUY $1 @ $0.15 on politics-001
+[2026-02-16T15:16:47.179Z] [SIGN] Order signed: 0x02c53871d91ee9227a17c3eb49d5...
+[2026-02-16T15:16:47.179Z] [SIGN] Order signed: 0x02c53871d91ee9227a17c3eb49d5...
+[2026-02-16T15:16:47.179Z] [EXEC] Trade complete. Balance: $27.00
+[2026-02-16T15:16:47.179Z] [EXEC] Trade complete. Balance: $27.00
+[2026-02-16T15:16:47.179Z] Status: 3 trades | 3 positions
+[2026-02-16T15:16:47.179Z] Status: 3 trades | 3 positions
+[2026-02-16T15:18:44.417Z] --- SCAN #4 ---
+[2026-02-16T15:18:44.417Z] --- SCAN #4 ---
+[2026-02-16T15:18:44.417Z] Balance: $27.00 USDC
+[2026-02-16T15:18:44.417Z] Balance: $27.00 USDC
+[DEBUG] Weather: 0 markets
+[DEBUG] Politics: 0 markets
+[DEBUG] Crypto: 0 markets
+[2026-02-16T15:18:44.603Z] Markets: 4 total | Weather: 1 | Crypto: 2 | Politics: 1
+[2026-02-16T15:18:44.603Z] Markets: 4 total | Weather: 1 | Crypto: 2 | Politics: 1
+[2026-02-16T15:18:44.603Z] Markets: 4
+[2026-02-16T15:18:44.603Z] Markets: 4
+[2026-02-16T15:18:44.603Z] [ENTRY] Will BTC hit $100k by March 2026?: Yes @ 20.0¢
+[2026-02-16T15:18:44.603Z] [ENTRY] Will BTC hit $100k by March 2026?: Yes @ 20.0¢
+[2026-02-16T15:18:44.603Z] [EXEC] BUY $1 @ $0.20 on crypto-001
+[2026-02-16T15:18:44.603Z] [EXEC] BUY $1 @ $0.20 on crypto-001
+[2026-02-16T15:18:44.607Z] [SIGN] Order signed: 0xe4cbe2d5076e6273291a3bfec7d2...
+[2026-02-16T15:18:44.607Z] [SIGN] Order signed: 0xe4cbe2d5076e6273291a3bfec7d2...
+[2026-02-16T15:18:44.607Z] [EXEC] Trade complete. Balance: $26.00
+[2026-02-16T15:18:44.607Z] [EXEC] Trade complete. Balance: $26.00
+[2026-02-16T15:18:44.607Z] [ENTRY] Will ETH hit $10k by Dec 2026?: Yes @ 15.0¢
+[2026-02-16T15:18:44.607Z] [ENTRY] Will ETH hit $10k by Dec 2026?: Yes @ 15.0¢
+[2026-02-16T15:18:44.607Z] [EXEC] BUY $1 @ $0.15 on crypto-002
+[2026-02-16T15:18:44.607Z] [EXEC] BUY $1 @ $0.15 on crypto-002
+[2026-02-16T15:18:44.609Z] [SIGN] Order signed: 0x2dae465599ca1999da3d00c007fe...
+[2026-02-16T15:18:44.609Z] [SIGN] Order signed: 0x2dae465599ca1999da3d00c007fe...
+[2026-02-16T15:18:44.609Z] [EXEC] Trade complete. Balance: $25.00
+[2026-02-16T15:18:44.609Z] [EXEC] Trade complete. Balance: $25.00
+[2026-02-16T15:18:44.609Z] [ENTRY] Will Trump be president in 2026?: Yes @ 15.0¢
+[2026-02-16T15:18:44.609Z] [ENTRY] Will Trump be president in 2026?: Yes @ 15.0¢
+[2026-02-16T15:18:44.609Z] [EXEC] BUY $1 @ $0.15 on politics-001
+[2026-02-16T15:18:44.609Z] [EXEC] BUY $1 @ $0.15 on politics-001
+[2026-02-16T15:18:44.610Z] [SIGN] Order signed: 0xaaedcc279f13e88756c25752aa59...
+[2026-02-16T15:18:44.610Z] [SIGN] Order signed: 0xaaedcc279f13e88756c25752aa59...
+[2026-02-16T15:18:44.610Z] [EXEC] Trade complete. Balance: $24.00
+[2026-02-16T15:18:44.610Z] [EXEC] Trade complete. Balance: $24.00
+[2026-02-16T15:18:44.610Z] Status: 6 trades | 3 positions
+[2026-02-16T15:18:44.610Z] Status: 6 trades | 3 positions
+[2026-02-16T15:20:44.430Z] --- SCAN #7 ---
+[2026-02-16T15:20:44.430Z] --- SCAN #7 ---
+[2026-02-16T15:20:44.430Z] Balance: $24.00 USDC
+[2026-02-16T15:20:44.430Z] Balance: $24.00 USDC
+[DEBUG] Weather: 0 markets
+[DEBUG] Politics: 0 markets
+[DEBUG] Crypto: 0 markets
+[2026-02-16T15:20:44.659Z] Markets: 4 total | Weather: 1 | Crypto: 2 | Politics: 1
+[2026-02-16T15:20:44.659Z] Markets: 4 total | Weather: 1 | Crypto: 2 | Politics: 1
+[2026-02-16T15:20:44.659Z] Markets: 4
+[2026-02-16T15:20:44.659Z] Markets: 4
+[2026-02-16T15:20:44.659Z] [ENTRY] Will BTC hit $100k by March 2026?: Yes @ 20.0¢
+[2026-02-16T15:20:44.659Z] [ENTRY] Will BTC hit $100k by March 2026?: Yes @ 20.0¢
+[2026-02-16T15:20:44.659Z] [EXEC] BUY $1 @ $0.20 on crypto-001
+[2026-02-16T15:20:44.659Z] [EXEC] BUY $1 @ $0.20 on crypto-001
+[2026-02-16T15:20:44.663Z] [SIGN] Order signed: 0xd3ddd0bef584369c404a1c9110e2...
+[2026-02-16T15:20:44.663Z] [SIGN] Order signed: 0xd3ddd0bef584369c404a1c9110e2...
+[2026-02-16T15:20:44.663Z] [EXEC] Trade complete. Balance: $23.00
+[2026-02-16T15:20:44.663Z] [EXEC] Trade complete. Balance: $23.00
+[2026-02-16T15:20:44.663Z] [ENTRY] Will ETH hit $10k by Dec 2026?: Yes @ 15.0¢
+[2026-02-16T15:20:44.663Z] [ENTRY] Will ETH hit $10k by Dec 2026?: Yes @ 15.0¢
+[2026-02-16T15:20:44.663Z] [EXEC] BUY $1 @ $0.15 on crypto-002
+[2026-02-16T15:20:44.663Z] [EXEC] BUY $1 @ $0.15 on crypto-002
+[2026-02-16T15:20:44.665Z] [SIGN] Order signed: 0x76896b7f28fd1928670957f7a15f...
+[2026-02-16T15:20:44.665Z] [SIGN] Order signed: 0x76896b7f28fd1928670957f7a15f...
+[2026-02-16T15:20:44.665Z] [EXEC] Trade complete. Balance: $22.00
+[2026-02-16T15:20:44.665Z] [EXEC] Trade complete. Balance: $22.00
+[2026-02-16T15:20:44.665Z] [ENTRY] Will Trump be president in 2026?: Yes @ 15.0¢
+[2026-02-16T15:20:44.665Z] [ENTRY] Will Trump be president in 2026?: Yes @ 15.0¢
+[2026-02-16T15:20:44.665Z] [EXEC] BUY $1 @ $0.15 on politics-001
+[2026-02-16T15:20:44.665Z] [EXEC] BUY $1 @ $0.15 on politics-001
+[2026-02-16T15:20:44.666Z] [SIGN] Order signed: 0xc4de6b2fc75c5e78066909986d55...
+[2026-02-16T15:20:44.666Z] [SIGN] Order signed: 0xc4de6b2fc75c5e78066909986d55...
+[2026-02-16T15:20:44.666Z] [EXEC] Trade complete. Balance: $21.00
+[2026-02-16T15:20:44.666Z] [EXEC] Trade complete. Balance: $21.00
+[2026-02-16T15:20:44.666Z] Status: 9 trades | 3 positions
+[2026-02-16T15:20:44.666Z] Status: 9 trades | 3 positions
+[2026-02-16T15:22:44.491Z] --- SCAN #10 ---
+[2026-02-16T15:22:44.491Z] --- SCAN #10 ---
+[2026-02-16T15:22:44.491Z] Balance: $21.00 USDC
+[2026-02-16T15:22:44.491Z] Balance: $21.00 USDC
+[DEBUG] Weather: 0 markets
+[DEBUG] Crypto: 0 markets
+[DEBUG] Politics: 0 markets
+[2026-02-16T15:22:44.713Z] Markets: 4 total | Weather: 1 | Crypto: 2 | Politics: 1
+[2026-02-16T15:22:44.713Z] Markets: 4 total | Weather: 1 | Crypto: 2 | Politics: 1
+[2026-02-16T15:22:44.713Z] Markets: 4
+[2026-02-16T15:22:44.713Z] Markets: 4
+[2026-02-16T15:22:44.713Z] [ENTRY] Will BTC hit $100k by March 2026?: Yes @ 20.0¢
+[2026-02-16T15:22:44.713Z] [ENTRY] Will BTC hit $100k by March 2026?: Yes @ 20.0¢
+[2026-02-16T15:22:44.713Z] [EXEC] BUY $1 @ $0.20 on crypto-001
+[2026-02-16T15:22:44.713Z] [EXEC] BUY $1 @ $0.20 on crypto-001
+[2026-02-16T15:22:44.715Z] [SIGN] Order signed: 0x4ea7cf44f736d79aeb52d5190569...
+[2026-02-16T15:22:44.715Z] [SIGN] Order signed: 0x4ea7cf44f736d79aeb52d5190569...
+[2026-02-16T15:22:44.716Z] [EXEC] Trade complete. Balance: $20.00
+[2026-02-16T15:22:44.716Z] [EXEC] Trade complete. Balance: $20.00
+[2026-02-16T15:22:44.716Z] [ENTRY] Will ETH hit $10k by Dec 2026?: Yes @ 15.0¢
+[2026-02-16T15:22:44.716Z] [ENTRY] Will ETH hit $10k by Dec 2026?: Yes @ 15.0¢
+[2026-02-16T15:22:44.716Z] [EXEC] BUY $1 @ $0.15 on crypto-002
+[2026-02-16T15:22:44.716Z] [EXEC] BUY $1 @ $0.15 on crypto-002
+[2026-02-16T15:22:44.718Z] [SIGN] Order signed: 0x7a7adfe4a8afc8931cac29f65fab...
+[2026-02-16T15:22:44.718Z] [SIGN] Order signed: 0x7a7adfe4a8afc8931cac29f65fab...
+[2026-02-16T15:22:44.718Z] [EXEC] Trade complete. Balance: $19.00
+[2026-02-16T15:22:44.718Z] [EXEC] Trade complete. Balance: $19.00
+[2026-02-16T15:22:44.718Z] [ENTRY] Will Trump be president in 2026?: Yes @ 15.0¢
+[2026-02-16T15:22:44.718Z] [ENTRY] Will Trump be president in 2026?: Yes @ 15.0¢
+[2026-02-16T15:22:44.718Z] [EXEC] BUY $1 @ $0.15 on politics-001
+[2026-02-16T15:22:44.718Z] [EXEC] BUY $1 @ $0.15 on politics-001
+[2026-02-16T15:22:44.720Z] [SIGN] Order signed: 0x10cf5906ccb1e8f30d6141d7f673...
+[2026-02-16T15:22:44.720Z] [SIGN] Order signed: 0x10cf5906ccb1e8f30d6141d7f673...
+[2026-02-16T15:22:44.720Z] [EXEC] Trade complete. Balance: $18.00
+[2026-02-16T15:22:44.720Z] [EXEC] Trade complete. Balance: $18.00
+[2026-02-16T15:22:44.721Z] Status: 12 trades | 3 positions
+[2026-02-16T15:22:44.721Z] Status: 12 trades | 3 positions
+[2026-02-16T15:24:44.526Z] --- SCAN #13 ---
+[2026-02-16T15:24:44.526Z] --- SCAN #13 ---
+[2026-02-16T15:24:44.526Z] Balance: $18.00 USDC
+[2026-02-16T15:24:44.526Z] Balance: $18.00 USDC
+[DEBUG] Politics: 0 markets
+[DEBUG] Weather: 0 markets
+[DEBUG] Crypto: 0 markets
+[2026-02-16T15:24:44.763Z] Markets: 4 total | Weather: 1 | Crypto: 2 | Politics: 1
+[2026-02-16T15:24:44.763Z] Markets: 4 total | Weather: 1 | Crypto: 2 | Politics: 1
+[2026-02-16T15:24:44.763Z] Markets: 4
+[2026-02-16T15:24:44.763Z] Markets: 4
+[2026-02-16T15:24:44.763Z] [ENTRY] Will BTC hit $100k by March 2026?: Yes @ 20.0¢
+[2026-02-16T15:24:44.763Z] [ENTRY] Will BTC hit $100k by March 2026?: Yes @ 20.0¢
+[2026-02-16T15:24:44.763Z] [EXEC] BUY $1 @ $0.20 on crypto-001
+[2026-02-16T15:24:44.763Z] [EXEC] BUY $1 @ $0.20 on crypto-001
+[2026-02-16T15:24:44.765Z] [SIGN] Order signed: 0x48afbb6bf218a8add52a0bcbd82c...
+[2026-02-16T15:24:44.765Z] [SIGN] Order signed: 0x48afbb6bf218a8add52a0bcbd82c...
+[2026-02-16T15:24:44.765Z] [EXEC] Trade complete. Balance: $17.00
+[2026-02-16T15:24:44.765Z] [EXEC] Trade complete. Balance: $17.00
+[2026-02-16T15:24:44.765Z] [ENTRY] Will ETH hit $10k by Dec 2026?: Yes @ 15.0¢
+[2026-02-16T15:24:44.765Z] [ENTRY] Will ETH hit $10k by Dec 2026?: Yes @ 15.0¢
+[2026-02-16T15:24:44.765Z] [EXEC] BUY $1 @ $0.15 on crypto-002
+[2026-02-16T15:24:44.765Z] [EXEC] BUY $1 @ $0.15 on crypto-002
+[2026-02-16T15:24:44.766Z] [SIGN] Order signed: 0x48514a2637e96bff557e7a8beaa1...
+[2026-02-16T15:24:44.766Z] [SIGN] Order signed: 0x48514a2637e96bff557e7a8beaa1...
+[2026-02-16T15:24:44.766Z] [EXEC] Trade complete. Balance: $16.00
+[2026-02-16T15:24:44.766Z] [EXEC] Trade complete. Balance: $16.00
+[2026-02-16T15:24:44.766Z] [ENTRY] Will Trump be president in 2026?: Yes @ 15.0¢
+[2026-02-16T15:24:44.766Z] [ENTRY] Will Trump be president in 2026?: Yes @ 15.0¢
+[2026-02-16T15:24:44.766Z] [EXEC] BUY $1 @ $0.15 on politics-001
+[2026-02-16T15:24:44.766Z] [EXEC] BUY $1 @ $0.15 on politics-001
+[2026-02-16T15:24:44.767Z] [SIGN] Order signed: 0x3487b6ffa7e178022019277659a2...
+[2026-02-16T15:24:44.767Z] [SIGN] Order signed: 0x3487b6ffa7e178022019277659a2...
+[2026-02-16T15:24:44.767Z] [EXEC] Trade complete. Balance: $15.00
+[2026-02-16T15:24:44.767Z] [EXEC] Trade complete. Balance: $15.00
+[2026-02-16T15:24:44.767Z] Status: 15 trades | 3 positions
+[2026-02-16T15:24:44.767Z] Status: 15 trades | 3 positions
+[2026-02-16T15:26:44.636Z] --- SCAN #16 ---
+[2026-02-16T15:26:44.636Z] --- SCAN #16 ---
+[2026-02-16T15:26:44.636Z] Balance: $15.00 USDC
+[2026-02-16T15:26:44.636Z] Balance: $15.00 USDC
+[DEBUG] Weather: 0 markets
+[DEBUG] Politics: 0 markets
+[DEBUG] Crypto: 0 markets
+[2026-02-16T15:26:44.837Z] Markets: 4 total | Weather: 1 | Crypto: 2 | Politics: 1
+[2026-02-16T15:26:44.837Z] Markets: 4 total | Weather: 1 | Crypto: 2 | Politics: 1
+[2026-02-16T15:26:44.837Z] Markets: 4
+[2026-02-16T15:26:44.837Z] Markets: 4
+[2026-02-16T15:26:44.837Z] [ENTRY] Will BTC hit $100k by March 2026?: Yes @ 20.0¢
+[2026-02-16T15:26:44.837Z] [ENTRY] Will BTC hit $100k by March 2026?: Yes @ 20.0¢
+[2026-02-16T15:26:44.837Z] [EXEC] BUY $1 @ $0.20 on crypto-001
+[2026-02-16T15:26:44.837Z] [EXEC] BUY $1 @ $0.20 on crypto-001
+[2026-02-16T15:26:44.838Z] [SIGN] Order signed: 0x8d09f064db8c274f3306abf04d04...
+[2026-02-16T15:26:44.838Z] [SIGN] Order signed: 0x8d09f064db8c274f3306abf04d04...
+[2026-02-16T15:26:44.839Z] [EXEC] Trade complete. Balance: $14.00
+[2026-02-16T15:26:44.839Z] [EXEC] Trade complete. Balance: $14.00
+[2026-02-16T15:26:44.839Z] [ENTRY] Will ETH hit $10k by Dec 2026?: Yes @ 15.0¢
+[2026-02-16T15:26:44.839Z] [ENTRY] Will ETH hit $10k by Dec 2026?: Yes @ 15.0¢
+[2026-02-16T15:26:44.839Z] [EXEC] BUY $1 @ $0.15 on crypto-002
+[2026-02-16T15:26:44.839Z] [EXEC] BUY $1 @ $0.15 on crypto-002
+[2026-02-16T15:26:44.839Z] [SIGN] Order signed: 0xb441f04577f13789183b9fe0d5cd...
+[2026-02-16T15:26:44.839Z] [SIGN] Order signed: 0xb441f04577f13789183b9fe0d5cd...
+[2026-02-16T15:26:44.839Z] [EXEC] Trade complete. Balance: $13.00
+[2026-02-16T15:26:44.839Z] [EXEC] Trade complete. Balance: $13.00
+[2026-02-16T15:26:44.839Z] [ENTRY] Will Trump be president in 2026?: Yes @ 15.0¢
+[2026-02-16T15:26:44.839Z] [ENTRY] Will Trump be president in 2026?: Yes @ 15.0¢
+[2026-02-16T15:26:44.839Z] [EXEC] BUY $1 @ $0.15 on politics-001
+[2026-02-16T15:26:44.839Z] [EXEC] BUY $1 @ $0.15 on politics-001
+[2026-02-16T15:26:44.840Z] [SIGN] Order signed: 0x4004a6fedb064cff43a0174da9c1...
+[2026-02-16T15:26:44.840Z] [SIGN] Order signed: 0x4004a6fedb064cff43a0174da9c1...
+[2026-02-16T15:26:44.840Z] [EXEC] Trade complete. Balance: $12.00
+[2026-02-16T15:26:44.840Z] [EXEC] Trade complete. Balance: $12.00
+[2026-02-16T15:26:44.840Z] Status: 18 trades | 3 positions
+[2026-02-16T15:26:44.840Z] Status: 18 trades | 3 positions
+[2026-02-16T15:28:44.738Z] --- SCAN #19 ---
+[2026-02-16T15:28:44.738Z] --- SCAN #19 ---
+[2026-02-16T15:28:44.739Z] Balance: $12.00 USDC
+[2026-02-16T15:28:44.739Z] Balance: $12.00 USDC
+[DEBUG] Crypto: 0 markets
+[DEBUG] Politics: 0 markets
+[DEBUG] Weather: 0 markets
+[2026-02-16T15:28:45.040Z] Markets: 4 total | Weather: 1 | Crypto: 2 | Politics: 1
+[2026-02-16T15:28:45.040Z] Markets: 4 total | Weather: 1 | Crypto: 2 | Politics: 1
+[2026-02-16T15:28:45.040Z] Markets: 4
+[2026-02-16T15:28:45.040Z] Markets: 4
+[2026-02-16T15:28:45.040Z] [ENTRY] Will BTC hit $100k by March 2026?: Yes @ 20.0¢
+[2026-02-16T15:28:45.040Z] [ENTRY] Will BTC hit $100k by March 2026?: Yes @ 20.0¢
+[2026-02-16T15:28:45.040Z] [EXEC] BUY $1 @ $0.20 on crypto-001
+[2026-02-16T15:28:45.040Z] [EXEC] BUY $1 @ $0.20 on crypto-001
+[2026-02-16T15:28:45.041Z] [SIGN] Order signed: 0xa2d98c936b803faf3ea288a0ff4c...
+[2026-02-16T15:28:45.041Z] [SIGN] Order signed: 0xa2d98c936b803faf3ea288a0ff4c...
+[2026-02-16T15:28:45.041Z] [EXEC] Trade complete. Balance: $11.00
+[2026-02-16T15:28:45.041Z] [EXEC] Trade complete. Balance: $11.00
+[2026-02-16T15:28:45.041Z] [ENTRY] Will ETH hit $10k by Dec 2026?: Yes @ 15.0¢
+[2026-02-16T15:28:45.041Z] [ENTRY] Will ETH hit $10k by Dec 2026?: Yes @ 15.0¢
+[2026-02-16T15:28:45.041Z] [EXEC] BUY $1 @ $0.15 on crypto-002
+[2026-02-16T15:28:45.041Z] [EXEC] BUY $1 @ $0.15 on crypto-002
+[2026-02-16T15:28:45.042Z] [SIGN] Order signed: 0xba05e6976ea9aaf15c82dc3a8e80...
+[2026-02-16T15:28:45.042Z] [SIGN] Order signed: 0xba05e6976ea9aaf15c82dc3a8e80...
+[2026-02-16T15:28:45.042Z] [EXEC] Trade complete. Balance: $10.00
+[2026-02-16T15:28:45.042Z] [EXEC] Trade complete. Balance: $10.00
+[2026-02-16T15:28:45.042Z] [ENTRY] Will Trump be president in 2026?: Yes @ 15.0¢
+[2026-02-16T15:28:45.042Z] [ENTRY] Will Trump be president in 2026?: Yes @ 15.0¢
+[2026-02-16T15:28:45.042Z] [EXEC] BUY $1 @ $0.15 on politics-001
+[2026-02-16T15:28:45.042Z] [EXEC] BUY $1 @ $0.15 on politics-001
+[2026-02-16T15:28:45.043Z] [SIGN] Order signed: 0x172610495b4c5c2b4f54a40a0a16...
+[2026-02-16T15:28:45.043Z] [SIGN] Order signed: 0x172610495b4c5c2b4f54a40a0a16...
+[2026-02-16T15:28:45.043Z] [EXEC] Trade complete. Balance: $9.00
+[2026-02-16T15:28:45.043Z] [EXEC] Trade complete. Balance: $9.00
+[2026-02-16T15:28:45.043Z] Status: 21 trades | 3 positions
+[2026-02-16T15:28:45.043Z] Status: 21 trades | 3 positions
+[2026-02-16T15:30:44.843Z] --- SCAN #22 ---
+[2026-02-16T15:30:44.843Z] --- SCAN #22 ---
+[2026-02-16T15:30:44.843Z] Balance: $9.00 USDC
+[2026-02-16T15:30:44.843Z] Balance: $9.00 USDC
+[DEBUG] Weather: 0 markets
+[DEBUG] Crypto: 0 markets
+[DEBUG] Politics: 0 markets
+[2026-02-16T15:30:45.050Z] Markets: 4 total | Weather: 1 | Crypto: 2 | Politics: 1
+[2026-02-16T15:30:45.050Z] Markets: 4 total | Weather: 1 | Crypto: 2 | Politics: 1
+[2026-02-16T15:30:45.050Z] Markets: 4
+[2026-02-16T15:30:45.050Z] Markets: 4
+[2026-02-16T15:30:45.050Z] [ENTRY] Will BTC hit $100k by March 2026?: Yes @ 20.0¢
+[2026-02-16T15:30:45.050Z] [ENTRY] Will BTC hit $100k by March 2026?: Yes @ 20.0¢
+[2026-02-16T15:30:45.050Z] [EXEC] BUY $1 @ $0.20 on crypto-001
+[2026-02-16T15:30:45.050Z] [EXEC] BUY $1 @ $0.20 on crypto-001
+[2026-02-16T15:30:45.051Z] [SIGN] Order signed: 0x0b4de9929e9e86912151ab52e36c...
+[2026-02-16T15:30:45.051Z] [SIGN] Order signed: 0x0b4de9929e9e86912151ab52e36c...
+[2026-02-16T15:30:45.051Z] [EXEC] Trade complete. Balance: $8.00
+[2026-02-16T15:30:45.051Z] [EXEC] Trade complete. Balance: $8.00
+[2026-02-16T15:30:45.051Z] [ENTRY] Will ETH hit $10k by Dec 2026?: Yes @ 15.0¢
+[2026-02-16T15:30:45.051Z] [ENTRY] Will ETH hit $10k by Dec 2026?: Yes @ 15.0¢
+[2026-02-16T15:30:45.051Z] [EXEC] BUY $1 @ $0.15 on crypto-002
+[2026-02-16T15:30:45.051Z] [EXEC] BUY $1 @ $0.15 on crypto-002
+[2026-02-16T15:30:45.052Z] [SIGN] Order signed: 0xe3002c77f1f1960b7d6f9eb4c8b7...
+[2026-02-16T15:30:45.052Z] [SIGN] Order signed: 0xe3002c77f1f1960b7d6f9eb4c8b7...
+[2026-02-16T15:30:45.052Z] [EXEC] Trade complete. Balance: $7.00
+[2026-02-16T15:30:45.052Z] [EXEC] Trade complete. Balance: $7.00
+[2026-02-16T15:30:45.052Z] [ENTRY] Will Trump be president in 2026?: Yes @ 15.0¢
+[2026-02-16T15:30:45.052Z] [ENTRY] Will Trump be president in 2026?: Yes @ 15.0¢
+[2026-02-16T15:30:45.052Z] [EXEC] BUY $1 @ $0.15 on politics-001
+[2026-02-16T15:30:45.052Z] [EXEC] BUY $1 @ $0.15 on politics-001
+[2026-02-16T15:30:45.053Z] [SIGN] Order signed: 0x0e09f77956be6c22f19524e2420f...
+[2026-02-16T15:30:45.053Z] [SIGN] Order signed: 0x0e09f77956be6c22f19524e2420f...
+[2026-02-16T15:30:45.053Z] [EXEC] Trade complete. Balance: $6.00
+[2026-02-16T15:30:45.053Z] [EXEC] Trade complete. Balance: $6.00
+[2026-02-16T15:30:45.053Z] Status: 24 trades | 3 positions
+[2026-02-16T15:30:45.053Z] Status: 24 trades | 3 positions
+[2026-02-16T15:32:44.951Z] --- SCAN #25 ---
+[2026-02-16T15:32:44.951Z] --- SCAN #25 ---
+[2026-02-16T15:32:44.951Z] Balance: $6.00 USDC
+[2026-02-16T15:32:44.951Z] Balance: $6.00 USDC
+[DEBUG] Weather: 0 markets
+[DEBUG] Politics: 0 markets
+[DEBUG] Crypto: 0 markets
+[2026-02-16T15:32:45.171Z] Markets: 4 total | Weather: 1 | Crypto: 2 | Politics: 1
+[2026-02-16T15:32:45.171Z] Markets: 4 total | Weather: 1 | Crypto: 2 | Politics: 1
+[2026-02-16T15:32:45.171Z] Markets: 4
+[2026-02-16T15:32:45.171Z] Markets: 4
+[2026-02-16T15:32:45.171Z] [ENTRY] Will BTC hit $100k by March 2026?: Yes @ 20.0¢
+[2026-02-16T15:32:45.171Z] [ENTRY] Will BTC hit $100k by March 2026?: Yes @ 20.0¢
+[2026-02-16T15:32:45.171Z] [EXEC] BUY $1 @ $0.20 on crypto-001
+[2026-02-16T15:32:45.171Z] [EXEC] BUY $1 @ $0.20 on crypto-001
+[2026-02-16T15:32:45.173Z] [SIGN] Order signed: 0x63b8d4f6db2ed8e0731abf311a75...
+[2026-02-16T15:32:45.173Z] [SIGN] Order signed: 0x63b8d4f6db2ed8e0731abf311a75...
+[2026-02-16T15:32:45.173Z] [EXEC] Trade complete. Balance: $5.00
+[2026-02-16T15:32:45.173Z] [EXEC] Trade complete. Balance: $5.00
+[2026-02-16T15:32:45.173Z] [ENTRY] Will ETH hit $10k by Dec 2026?: Yes @ 15.0¢
+[2026-02-16T15:32:45.173Z] [ENTRY] Will ETH hit $10k by Dec 2026?: Yes @ 15.0¢
+[2026-02-16T15:32:45.173Z] [EXEC] BUY $1 @ $0.15 on crypto-002
+[2026-02-16T15:32:45.173Z] [EXEC] BUY $1 @ $0.15 on crypto-002
+[2026-02-16T15:32:45.174Z] [SIGN] Order signed: 0xce85b3521fbe2608c459cc9210bd...
+[2026-02-16T15:32:45.174Z] [SIGN] Order signed: 0xce85b3521fbe2608c459cc9210bd...
+[2026-02-16T15:32:45.174Z] [EXEC] Trade complete. Balance: $4.00
+[2026-02-16T15:32:45.174Z] [EXEC] Trade complete. Balance: $4.00
+[2026-02-16T15:32:45.174Z] [ENTRY] Will Trump be president in 2026?: Yes @ 15.0¢
+[2026-02-16T15:32:45.174Z] [ENTRY] Will Trump be president in 2026?: Yes @ 15.0¢
+[2026-02-16T15:32:45.174Z] [EXEC] BUY $1 @ $0.15 on politics-001
+[2026-02-16T15:32:45.174Z] [EXEC] BUY $1 @ $0.15 on politics-001
+[2026-02-16T15:32:45.175Z] [SIGN] Order signed: 0xdaaccb2eb2cc40d85e665b4b7bd8...
+[2026-02-16T15:32:45.175Z] [SIGN] Order signed: 0xdaaccb2eb2cc40d85e665b4b7bd8...
+[2026-02-16T15:32:45.175Z] [EXEC] Trade complete. Balance: $3.00
+[2026-02-16T15:32:45.175Z] [EXEC] Trade complete. Balance: $3.00
+[2026-02-16T15:32:45.175Z] Status: 27 trades | 3 positions
+[2026-02-16T15:32:45.175Z] Status: 27 trades | 3 positions

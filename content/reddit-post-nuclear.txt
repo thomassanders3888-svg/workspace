@@ -1,0 +1,26 @@
+TITLE: [OC] I teach Navy nuclear operators. Here are the 3 facts that convert every skeptic.
+
+BODY:
+
+I've spent 5 years in the Navy nuclear pipeline and now train future officers at Newport. When people ask "why nuclear?" I show them three numbers:
+
+**1. Energy density that breaks your brain**
+One uranium fuel pellet — the size of your fingertip — contains as much energy as 1 tonne of coal. A single reactor core (submarine-sized) runs 10+ years without refueling. Try that with diesel.
+
+**2. 24/7 baseload, zero carbon**
+Solar and wind are great. They're also intermittent. Nuclear runs when it's dark, when it's calm, when the polar vortex hits Texas. The entire US nuclear fleet emits less carbon than the cement industry makes just building wind turbine foundations.
+
+**3. Safest energy per kWh — yes, including Chernobyl**
+The safety record includes every meltdown, every disaster, every "worst case scenario" in the history of the industry. Normalized by energy produced, nuclear kills fewer people per terawatt-hour than rooftop solar (falls), wind (maintenance), gas (explosions), or coal (everything).
+
+---
+
+I put together a quick visual brief covering the basics: https://thomassanders3888-svg.github.io/nuclear-energy-brief/
+
+Happy to answer questions about:
+- The nuclear pipeline (what we actually teach)
+- Why submarines run on this stuff
+- Why the Navy invests years training each operator
+- The reactor physics (it's elegant once you see it)
+
+AMA.

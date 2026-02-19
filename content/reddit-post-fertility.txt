@@ -1,0 +1,44 @@
+TITLE: The demographic math nobody's doing: 300M jobs exposed to AI automation + birth rates in freefall
+
+BODY:
+
+Everyone's talking about AI taking jobs OR the fertility crisis. Almost nobody's doing the combined analysis. Here's why that matters:
+
+**The twin collision:**
+
+South Korea: 0.72 births per woman
+Taiwan: 0.86
+Japan: 1.26
+Italy: 1.24
+US: 1.62 (record low)
+
+Replacement rate: 2.1. We're not in maintenance mode. We are in collapse.
+
+Meanwhile: Goldman Sachs estimates 300 million full-time jobs exposed to automation. McKinsey says half of all work could be automated by 2030.
+
+**The uncomfortable equation:**
+
+Civilization isn't funded by robots paying taxes.
+
+Social Security, Medicare, infrastructure, defense — all require a ratio of workers to dependents.
+- 1950: 16 workers per retiree
+- Today: 3.3
+- By 2030: 2.5
+
+Add mass automation to this and what happens to the tax base?
+
+**Two headlines, one decade:**
+
+Scenario A: "AI abundance funds prosperous civilization with fewer workers"
+
+Scenario B: "Automation perfected, civilization bankrupt, no one left to care"
+
+The outcome depends on policy choices made in the next 5-10 years. We are not making them.
+
+---
+
+I wrote a longer thread on this with sources (Goldman, McKinsey, UN population data): [link when posted on X]
+
+The question I keep coming back to: Can AI productivity create enough wealth to fund a smaller workforce before the tax base collapses? The optimist case requires redistribution mechanisms we haven't invented yet.
+
+Curious about other takes on this. Is anyone factoring automation exposure into demographic/entitlement models?
