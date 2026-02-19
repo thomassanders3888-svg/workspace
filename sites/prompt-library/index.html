@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PromptLibrary.pro - AI Prompts</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, sans-serif; background: #0a0a0f; color: #e0e0e0; }
+        .header { background: linear-gradient(135deg, #1a1a2e, #16213e); padding: 4rem 2rem; text-align: center; }
+        .header h1 { font-size: 2.5rem; background: linear-gradient(135deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; }
+        .prompt-card { background: #151520; border-radius: 12px; padding: 1.5rem; border: 1px solid #2a3a4e; }
+        .prompt-text { background: #1a1a2e; padding: 1rem; border-radius: 8px; font-family: monospace; color: #4ecdc4; margin: 1rem 0; white-space: pre-wrap; word-wrap: break-word; }
+        .copy-btn { background: #667eea; color: white; border: none; padding: 0.75rem 1.5rem; border-radius: 8px; cursor: pointer; }
+        .category { color: #ffd93d; font-size: 0.85rem; margin-bottom: 0.5rem; }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>📝 PromptLibrary.pro</h1>
+        <p>Curated AI prompts for professionals. Copy and use instantly.</p>
+    </header>
+    <div class="container">
+        <div class="grid">
+            <div class="prompt-card">
+                <div class="category">Lesson Planning</div>
+                <h3>Create Lesson Plan</h3>
+                <div class="prompt-text">Create a detailed lesson plan for [SUBJECT] suitable for [GRADE LEVEL]. Include learning objectives, activities, assessments, and materials needed.</div>
+                <button class="copy-btn" onclick="navigator.clipboard.writeText(this.previousElementSibling.innerText)">Copy</button>
+            </div>
+            <div class="prompt-card">
+                <div class="category">Technical Writing</div>
+                <h3>Explain Technical Concept</h3>
+                <div class="prompt-text">Explain [COMPLEX TOPIC] in simple terms that a [TARGET AUDIENCE] can understand. Use analogies and avoid jargon.</div>
+                <button class="copy-btn">Copy</button>
+            </div>
+            <div class="prompt-card">
+                <div class="category">Military Report</div>
+                <h3>Brief Format</h3>
+                <div class="prompt-text">Write a military brief in BLUF format about [TOPIC]. Include situation, mission, execution, and commander's intent.</div>
+                <button class="copy-btn">Copy</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
