@@ -1,4 +1,4 @@
-// Tax Calculator Engine
+// Tax Calculator Engine - 2024 Tax Year
 
 const TAX_BRACKETS_2024 = {
     single: [
@@ -37,14 +37,12 @@ const STANDARD_DEDUCTION_2024 = {
 };
 
 class TaxCalculator {
-    constructor() {
-        this.year = 2024;
-    }
-
-    calculateTax(income, deductions, credits, filingStatus) {
-        const taxableIncome = Math.max(0, income - deductions);
-        const brackets = TAX_BRACKETS_2024[filingStatus];
+    calculateFederalTax(income, deductions, credits, filingStatus) {
+        const standardDeduction = STANDARD_DEDUCTION_2024[filingStatus] || STANDARD_DEDUCTION_2024.single;
+        const totalDeductions = Math.max(deductions, standardDeduction);
+        const taxableIncome = Math.max(0, income - totalDeductions);
         
+        const brackets = TAX_BRACKETS_2024[filingStatus] || TAX_BRACKETS_2024.single;
         let tax = 0;
         let previousLimit = 0;
         
@@ -53,80 +51,85 @@ class TaxCalculator {
                 tax += (bracket.limit - previousLimit) * bracket.rate;
                 previousLimit = bracket.limit;
             } else {
-                tax += (taxableIncome - previousLimit) * bracket.rate;
+                tax += Math.max(0, taxableIncome - previousLimit) * bracket.rate;
                 break;
             }
         }
         
-        // Apply credits
-        const finalTax = Math.max(0, tax - credits);
+        const finalTax = Math.max(0, tax - (credits || 0));
         
         return {
             grossIncome: income,
-            deductions: deductions,
+            deductions: totalDeductions,
             taxableIncome: taxableIncome,
             federalTax: finalTax,
             effectiveRate: taxableIncome > 0 ? (finalTax / taxableIncome * 100).toFixed(2) : 0,
             takeHome: income - finalTax
         };
     }
-
-    estimateSelfEmploymentTax(netIncome) {
-        // 92.35% of net income subject to SE tax
-        const taxableSE = netIncome * 0.9235;
-        // 15.3% total (12.4% Social Security up to limit, 2.9% Medicare)
-        const seTax = taxableSE * 0.153;
-        // Deductible portion (50%)
-        const deductible = seTax * 0.5;
+    
+    calculateSelfEmploymentTax(netIncome) {
+        const seTaxable = netIncome * 0.9235;
+        const socialSecurityCap = 168600;
+        const socialSecurityRate = 0.124;
+        const medicareRate = 0.029;
         
-        return {
-            grossSE: seTax,
-            deductible: deductible,
-            netSE: seTax - deductible
-        };
-    }
-
-    optimizeDeductions(income, itemizedDeductions, filingStatus) {
-        const standard = STANDARD_DEDUCTION_2024[filingStatus];
-        const optimal = Math.max(standard, itemizedDeductions);
-        const savings = itemizedDeductions > standard ? 
-            this.calculateTaxSavings(itemizedDeductions - standard, filingStatus) : 0;
+        let ssTax = Math.min(seTaxable, socialSecurityCap) * socialSecurityRate;
+        let medicareTax = seTaxable * medicareRate;
         
-        return {
-            useStandard: itemizedDeductions <= standard,
-            standardAmount: standard,
-            itemizedAmount: itemizedDeductions,
-            optimal: optimal,
-            savings: savings
-        };
-    }
-
-    calculateTaxSavings(additionalDeduction, filingStatus) {
-        const brackets = TAX_BRACKETS_2024[filingStatus];
-        // Simplified - use marginal rate
-        for (const bracket of brackets) {
-            if (additionalDeduction < bracket.limit) {
-                return additionalDeduction * bracket.rate;
-            }
+        if (netIncome > 200000) {
+            medicareTax += (netIncome - 200000) * 0.009;
         }
-        return 0;
+        
+        const totalSETax = ssTax + medicareTax;
+        const deductible = totalSETax * 0.5;
+        
+        return {
+            total: totalSETax.toFixed(2),
+            deductible: deductible.toFixed(2),
+            net: (totalSETax - deductible).toFixed(2)
+        };
     }
-
-    quarterlyEstimate(annualIncome, credits, filingStatus) {
-        const result = this.calculateTax(annualIncome, 
-            STANDARD_DEDUCTION_2024[filingStatus], credits, filingStatus);
+    
+    estimateQuarterlyTaxes(annualIncome, filingStatus) {
+        const result = this.calculateFederalTax(annualIncome, 0, 0, filingStatus);
         const quarterly = result.federalTax / 4;
         
         return {
-            annual: result.federalTax,
-            quarterly: quarterly,
-            dueDates: ['Apr 15', 'Jun 15', 'Sep 15', 'Jan 15'],
-            safeHarbor: annualIncome * 0.25 // Simplified safe harbor
+            annual: result.federalTax.toFixed(2),
+            quarterly: quarterly.toFixed(2),
+            dueDates: ['April 15', 'June 15', 'September 15', 'January 15'],
+            safeHarbor: (annualIncome * 0.25).toFixed(2)
+        };
+    }
+    
+    calculateStateTax(income, state) {
+        const stateRates = {
+            CA: { rate: 0.093, name: 'California' },
+            NY: { rate: 0.0685, name: 'New York' },
+            TX: { rate: 0, name: 'Texas (No income tax)' },
+            FL: { rate: 0, name: 'Florida (No income tax)' },
+            WA: { rate: 0, name: 'Washington (No income tax)' },
+            default: { rate: 0.05, name: 'Average State' }
+        };
+        
+        const stateInfo = stateRates[state] || stateRates.default;
+        const tax = income * stateInfo.rate;
+        
+        return {
+            state: stateInfo.name,
+            rate: (stateInfo.rate * 100).toFixed(2),
+            tax: tax.toFixed(2)
         };
     }
 }
 
-// Export for module systems
+// Export for browser and Node.js
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = TaxCalculator;
+}
+
+// Initialize on page load
+if (typeof window !== 'undefined') {
+    window.TaxCalculator = TaxCalculator;
 }
