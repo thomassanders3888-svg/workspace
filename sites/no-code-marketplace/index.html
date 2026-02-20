@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>No-Code Marketplace - Build Without Code</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: system-ui, sans-serif; }
+body { background: #0a0a0a; color: #e5e7eb; }
+header { background: linear-gradient(135deg, #06b6d4, #3b82f6); padding: 50px 20px; text-align: center; }
+h1 { font-size: 2.5em; margin-bottom: 10px; }
+.container { max-width: 1200px; margin: 0 auto; padding: 40px 20px; }
+.platform-card { background: #1a1a1a; border-radius: 16px; padding: 30px; margin: 20px 0; border: 1px solid #333; }
+.platform-header { display: flex; justify-content: space-between; align-items: start; margin-bottom: 20px; flex-wrap: wrap; gap: 15px; }
+.platform-name { font-size: 1.5em; font-weight: bold; }
+.platform-tag { padding: 6px 14px; border-radius: 20px; font-size: 0.85em; }
+.tag-popular { background: #f59e0b20; color: #f59e0b; }
+.tag-free { background: #10b98120; color: #10b981; }
+.tag-enterprise { background: #8b5cf620; color: #8b5cf6; }
+.platform-desc { color: #9ca3af; margin-bottom: 20px; line-height: 1.6; }
+.features-list { list-style: none; margin: 20px 0; }
+.features-list li { padding: 10px 0; border-bottom: 1px solid #333; }
+.features-list li:before { content: "✓"; color: #10b981; margin-right: 10px; }
+.pricing-box { background: #222; border-radius: 10px; padding: 20px; margin-top: 20px; }
+.pricing-amount { font-size: 2em; font-weight: bold; }
+.pricing-note { color: #6b7280; font-size: 0.9em; }
+.btn { padding: 14px 28px; background: linear-gradient(135deg, #06b6d4, #3b82f6); border: none; border-radius: 8px; color: #fff; font-weight: 600; cursor: pointer; }
+.builder-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; margin: 40px 0; }
+.template-card { background: #1a1a1a; border-radius: 12px; overflow: hidden; border: 1px solid #333; transition: transform 0.3s; }
+.template-card:hover { transform: translateY(-5px); }
+.template-preview { height: 150px; background: linear-gradient(135deg, #1a1a2e, #2d2d44); display: flex; align-items: center; justify-content: center; font-size: 3em; }
+.template-info { padding: 20px; }
+.template-name { font-weight: 600; margin-bottom: 8px; }
+.template-meta { color: #6b7280; font-size: 0.9em; }
+footer { text-align: center; padding: 40px; color: #6b7280; border-top: 1px solid #1a1a1a; }
+</style>
+</head>
+<body>
+<header>
+<h1>🚀 No-Code Marketplace</h1>
+<p>Discover the best no-code platforms. Build apps, websites, and automations.</p>
+</header>
+
+<div class="container">
+<div class="platform-card">
+<div class="platform-header">
+<div>
+<div class="platform-name">🎨 Webflow</div>
+<span class="platform-tag tag-popular">Most Popular</span>
+</div>
+<button class="btn">Start Free</button>
+</div>
+<p class="platform-desc">Professional website builder with CMS, e-commerce, and hosting. Design visually, export clean code. Used by 3.5M+ designers and teams.</p>
+<ul class="features-list">
+<li>Visual CSS & animations</li>
+<li>Built-in CMS & e-commerce</li>
+<li>Custom code integration</li>
+<li>Client billing & white label</li>
+</ul>
+<div class="pricing-box">
+<span class="pricing-amount">$14/mo</span>
+<p class="pricing-note">Starter plan. Free plan available.</p>
+</div>
+</div>
+
+<div class="platform-card">
+<div class="platform-header">
+<div>
+<div class="platform-name">⚡ Bubble</div>
+<span class="platform-tag tag-free">Free Tier</span>
+</div>
+<button class="btn">Start Free</button>
+</div>
+<p class="platform-desc">Full-stack web apps without code. Database, workflows, user auth, and responsive design. Best for MVPs and marketplaces.</p>
+<ul class="features-list">
+<li>Visual programming</li>
+<li>Built-in database</li>
+<li>User authentication</li>
+<li>API integrations</li>
+</ul>
+<div class="pricing-box">
+<span class="pricing-amount">$25/mo</span>
+<p class="pricing-note">Personal plan. Free development available.</p>
+</div>
+</div>
+
+<div class="platform-card">
+<div class="platform-header">
+<div>
+<div class="platform-name">🤖 Zapier</div>
+<span class="platform-tag tag-enterprise">Enterprise Ready</span>
+</div>
+<button class="btn">Start Free</button>
+</div>
+<p class="platform-desc">Connect 5,000+ apps and automate workflows. No-code automation for business processes, marketing, and operations.</p>
+<ul class="features-list">
+<li>5,000+ app integrations</li>
+<li>Multi-step workflows (Zaps)</li>
+<li>AI-powered automations</li>
+<li>Team collaboration</li>
+</ul>
+<div class="pricing-box">
+<span class="pricing-amount">$19/mo</span>
+<p class="pricing-note">Professional plan. Free 100 tasks/mo.</p>
+</div>
+</div>
+
+<div class="platform-card">
+<div class="platform-header">
+<div>
+<div class="platform-name">📱 FlutterFlow</div>
+<span class="platform-tag tag-popular">AI-Powered</span>
+</div>
+<button class="btn">Start Free</button>
+</div>
+<p class="platform-desc">Build native mobile apps visually. Export Flutter code, deploy to iOS/Android. AI-assisted development and Firebase integration.</p>
+<ul class="features-list">
+<li>Native iOS & Android apps</li>
+<li>Flutter code export</li>
+<li>Firebase integration</li>
+<li>AI code assistance</li>
+</ul>
