@@ -37,8 +37,7 @@ class WeatherArbitrage {
     let tradesExecuted = 0;
     const tradeDetails = [];
 
-    console.log(`[${new Date().toISOString()}] Scanning Polymarket...`);
-    console.log(`Entry threshold: ${this.config.entryThreshold * 100}¢ (${this.config.entryThreshold * 100}% implied probability)`);
+    // Quiet mode - only log on activity
 
     try {
       const markets = await this.polymarket.getActiveMarkets();
@@ -49,7 +48,7 @@ class WeatherArbitrage {
         m.slug?.includes('weather')
       );
 
-      console.log(`Found ${weatherMarkets.length} weather-related markets`);
+      // Found markets - scan silently
 
       for (const market of weatherMarkets.slice(0, 10)) {
         marketsScanned++;
@@ -117,23 +116,18 @@ async function main() {
     enabled: true
   });
   
-  console.log('═══════════════════════════════════════');
-  console.log('  POLYMARKET WEATHER ARBITRAGE v1.0');
-  console.log('═══════════════════════════════════════\n');
-  
   const balance = await trader.getBalance();
-  console.log(`💰 Wallet Balance: $${balance.toFixed(2)} USDC\n`);
-  
   const result = await trader.scanAndTrade();
   
-  console.log('\n═══════════════════════════════════════');
-  console.log('  RESULTS');
-  console.log('═══════════════════════════════════════');
-  console.log(`Markets scanned: ${result.markets}`);
-  console.log(`Opportunities: ${result.opportunities}`);
-  console.log(`Trades executed: ${result.trades}`);
-  console.log(`Duration: ${result.duration}ms`);
-  console.log('═══════════════════════════════════════\n');
+  // Single-line summary for cron
+  const now = new Date().toISOString().slice(11, 16);
+  if (result.trades > 0) {
+    console.log(`[${now}] 🔥 EXECUTED ${result.trades} trades | $${balance.toFixed(2)} remaining`);
+  } else if (result.opportunities > 0) {
+    console.log(`[${now}] ⚡ ${result.opportunities} opportunities | No trades (profitable)`);
+  } else {
+    console.log(`[${now}] ⏸️ No opportunities | $${balance.toFixed(2)} USDC | ${result.markets} mkts`);
+  }
   
   return result;
 }
