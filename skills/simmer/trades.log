@@ -10131,3 +10131,2656 @@
 [2026-02-20T01:32:38.914Z] Scan start | USDC: $30.0 | Wallet: 0xb99a3Ed7...
 [2026-02-20T01:32:39.294Z] Markets: 50 active
 [2026-02-20T01:32:39.295Z] Scan complete | 0 opportunities found | 0 trades executed | 1206ms
+[2026-02-20T01:32:45.502Z] --- SCAN #31 ---
+[2026-02-20T01:32:45.502Z] --- SCAN #31 ---
+[2026-02-20T01:32:45.502Z] Balance: $0.00 USDC
+[2026-02-20T01:32:45.502Z] Balance: $0.00 USDC
+[2026-02-20T01:32:45.502Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T01:32:45.502Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T01:32:54.463Z] Scan start | USDC: $30.0 | Wallet: 0xb99a3Ed7...
+[2026-02-20T01:32:54.612Z] Markets: 50 active
+[2026-02-20T01:32:54.613Z] Scan complete | 0 opportunities found | 0 trades executed | 941ms
+[2026-02-20T01:34:45.534Z] --- SCAN #31 ---
+[2026-02-20T01:34:45.534Z] --- SCAN #31 ---
+[2026-02-20T01:34:45.534Z] Balance: $0.00 USDC
+[2026-02-20T01:34:45.534Z] Balance: $0.00 USDC
+[2026-02-20T01:34:45.534Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T01:34:45.534Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T01:36:45.544Z] --- SCAN #31 ---
+[2026-02-20T01:36:45.544Z] --- SCAN #31 ---
+[2026-02-20T01:36:45.544Z] Balance: $0.00 USDC
+[2026-02-20T01:36:45.544Z] Balance: $0.00 USDC
+[2026-02-20T01:36:45.544Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T01:36:45.544Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T01:37:10.583Z] Scan start | USDC: $30.00 | Wallet: 0xb99a3Ed7...
+[2026-02-20T01:37:10.882Z] Markets loaded: 50 total
+[2026-02-20T01:37:10.882Z] [OPPORTUNITY] Will Kim Kardashian and Kanye West divorce before Jan 1, 2021?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:37:10.882Z] [TRADE EXECUTED] BUY YES: Will Kim Kardashian and Kanye West divorce before Jan 1, 2021?
+[2026-02-20T01:37:10.882Z]   Price: 0.0¢ | Size: $5.00 | Expected: 989039.41x
+[2026-02-20T01:37:10.882Z] [OPPORTUNITY] Will Coinbase begin publicly trading before Jan 1, 2021?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:37:10.882Z] [TRADE EXECUTED] BUY YES: Will Coinbase begin publicly trading before Jan 1, 2021?
+[2026-02-20T01:37:10.882Z]   Price: 0.0¢ | Size: $5.00 | Expected: 976067.31x
+[2026-02-20T01:37:10.882Z] [OPPORTUNITY] Will Trump win the 2020 U.S. presidential election?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:37:10.883Z] [TRADE EXECUTED] BUY YES: Will Trump win the 2020 U.S. presidential election?
+[2026-02-20T01:37:10.883Z]   Price: 0.0¢ | Size: $5.00 | Expected: 22913163.59x
+[2026-02-20T01:37:10.883Z] [OPPORTUNITY] What will the total value locked (TVL) in DeFi be at the end of 2020, according to DefiPulse?: YES 58.4¢ NO 41.6¢
+[2026-02-20T01:37:10.883Z] [TRADE EXECUTED] BUY NO: What will the total value locked (TVL) in DeFi be at the end of 2020, according to DefiPulse?
+[2026-02-20T01:37:10.883Z]   Price: 41.6¢ | Size: $5.00 | Expected: 2.41x
+[2026-02-20T01:37:10.883Z] [OPPORTUNITY] How many confirmed Coronavirus cases will there be at EOY in the USA?: YES 100.0¢ NO 0.0¢
+[2026-02-20T01:37:10.883Z] [TRADE EXECUTED] BUY NO: How many confirmed Coronavirus cases will there be at EOY in the USA?
+[2026-02-20T01:37:10.883Z]   Price: 0.0¢ | Size: $5.00 | Expected: 32124.36x
+[2026-02-20T01:37:10.883Z] [OPPORTUNITY] Will there be a federal charge filed against Hunter Biden before 2021?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:37:10.883Z] [TRADE EXECUTED] BUY YES: Will there be a federal charge filed against Hunter Biden before 2021?
+[2026-02-20T01:37:10.883Z]   Price: 0.0¢ | Size: $5.00 | Expected: 4226971.22x
+[2026-02-20T01:37:10.883Z] [OPPORTUNITY] Which party will win Arizona in the 2020 Presidential Election?: YES 100.0¢ NO 0.0¢
+[2026-02-20T01:37:10.883Z] [TRADE EXECUTED] BUY NO: Which party will win Arizona in the 2020 Presidential Election?
+[2026-02-20T01:37:10.883Z]   Price: 0.0¢ | Size: $5.00 | Expected: 139027.20x
+[2026-02-20T01:37:10.883Z] [OPPORTUNITY] Will Donald Trump tweet announcing that he won the election before November 5th 2020?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:37:10.883Z] [TRADE EXECUTED] BUY YES: Will Donald Trump tweet announcing that he won the election before November 5th 2020?
+[2026-02-20T01:37:10.884Z]   Price: 0.0¢ | Size: $5.00 | Expected: 507839.47x
+[2026-02-20T01:37:10.884Z] [OPPORTUNITY] Will the Ethereum 2.0 Genesis Event happen successfully on December 1st, 2020?: YES 100.0¢ NO 0.0¢
+[2026-02-20T01:37:10.884Z] [TRADE EXECUTED] BUY NO: Will the Ethereum 2.0 Genesis Event happen successfully on December 1st, 2020?
+[2026-02-20T01:37:10.884Z]   Price: 0.0¢ | Size: $5.00 | Expected: 1156538.60x
+[2026-02-20T01:37:10.884Z] [OPPORTUNITY] Will $BTC break $20k before 2021?: YES 100.0¢ NO 0.0¢
+[2026-02-20T01:37:10.884Z] [TRADE EXECUTED] BUY NO: Will $BTC break $20k before 2021?
+[2026-02-20T01:37:10.884Z]   Price: 0.0¢ | Size: $5.00 | Expected: 8999335.83x
+[2026-02-20T01:37:10.884Z] [OPPORTUNITY] Will Donald Trump formally concede the 2020 US Election before December 1st, 2020?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:37:10.884Z] [TRADE EXECUTED] BUY YES: Will Donald Trump formally concede the 2020 US Election before December 1st, 2020?
+[2026-02-20T01:37:10.884Z]   Price: 0.0¢ | Size: $5.00 | Expected: 6288276.96x
+[2026-02-20T01:37:10.884Z] [OPPORTUNITY] Will Donald Trump attend Joe Biden’s inauguration ceremony in person?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:37:10.884Z] [TRADE EXECUTED] BUY YES: Will Donald Trump attend Joe Biden’s inauguration ceremony in person?
+[2026-02-20T01:37:10.884Z]   Price: 0.0¢ | Size: $5.00 | Expected: 514912.52x
+[2026-02-20T01:37:10.884Z] [OPPORTUNITY] Will Donald Trump be inaugurated for his second term as President of the USA on Inauguration Day, January 20th, 2021?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:37:10.884Z] [TRADE EXECUTED] BUY YES: Will Donald Trump be inaugurated for his second term as President of the USA on Inauguration Day, January 20th, 2021?
+[2026-02-20T01:37:10.884Z]   Price: 0.0¢ | Size: $5.00 | Expected: 48480936.02x
+[2026-02-20T01:37:10.884Z] [OPPORTUNITY] Will Trump win any of Pennsylvania, Arizona or Georgia?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:37:10.884Z] [TRADE EXECUTED] BUY YES: Will Trump win any of Pennsylvania, Arizona or Georgia?
+[2026-02-20T01:37:10.884Z]   Price: 0.0¢ | Size: $5.00 | Expected: 79579.88x
+[2026-02-20T01:37:10.884Z] [OPPORTUNITY] Will any art piece on Superrare sell for more than $100k before 2021?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:37:10.884Z] [TRADE EXECUTED] BUY YES: Will any art piece on Superrare sell for more than $100k before 2021?
+[2026-02-20T01:37:10.884Z]   Price: 0.0¢ | Size: $5.00 | Expected: 103804.58x
+[2026-02-20T01:37:10.884Z] [OPPORTUNITY] Will indoor dining be prohibited in NYC at any point before 2021?: YES 100.0¢ NO 0.0¢
+[2026-02-20T01:37:10.884Z] [TRADE EXECUTED] BUY NO: Will indoor dining be prohibited in NYC at any point before 2021?
+[2026-02-20T01:37:10.884Z]   Price: 0.0¢ | Size: $5.00 | Expected: 913396.20x
+[2026-02-20T01:37:10.884Z] [OPPORTUNITY] Will Trump Pardon Himself in His First Term?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:37:10.884Z] [TRADE EXECUTED] BUY YES: Will Trump Pardon Himself in His First Term?
+[2026-02-20T01:37:10.884Z]   Price: 0.0¢ | Size: $5.00 | Expected: 9699203.67x
+[2026-02-20T01:37:10.884Z] [OPPORTUNITY] Which party will win the U.S. Senate special election in Georgia? (Loeffler - R vs Warnock - D): YES 100.0¢ NO 0.0¢
+[2026-02-20T01:37:10.885Z] [TRADE EXECUTED] BUY NO: Which party will win the U.S. Senate special election in Georgia? (Loeffler - R vs Warnock - D)
+[2026-02-20T01:37:10.885Z]   Price: 0.0¢ | Size: $5.00 | Expected: 909666.65x
+[2026-02-20T01:37:10.885Z] Sample markets: 12: YES 50.0¢ NO 50.0¢ | 17: YES 50.0¢ NO 50.0¢ | 18: YES 50.0¢ NO 50.0¢ | 19: YES 0.0¢ NO 100.0¢ | 20: YES 0.0¢ NO 100.0¢ | 36: YES 50.0¢ NO 50.0¢ | 40: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:37:10.885Z] Scan complete | 18 opportunities | 18 trades | 50 markets scanned | 1092ms
+[2026-02-20T01:38:45.644Z] --- SCAN #31 ---
+[2026-02-20T01:38:45.644Z] --- SCAN #31 ---
+[2026-02-20T01:38:45.644Z] Balance: $0.00 USDC
+[2026-02-20T01:38:45.644Z] Balance: $0.00 USDC
+[2026-02-20T01:38:45.644Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T01:38:45.644Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T01:40:45.722Z] --- SCAN #31 ---
+[2026-02-20T01:40:45.722Z] --- SCAN #31 ---
+[2026-02-20T01:40:45.723Z] Balance: $0.00 USDC
+[2026-02-20T01:40:45.723Z] Balance: $0.00 USDC
+[2026-02-20T01:40:45.723Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T01:40:45.723Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T01:42:23.650Z] Scan start | USDC: $30.00 | Wallet: 0xb99a3Ed7...
+[2026-02-20T01:42:23.966Z] Markets loaded: 50 total
+[2026-02-20T01:42:23.967Z] [OPPORTUNITY] Will Kim Kardashian and Kanye West divorce before Jan 1, 2021?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:42:23.967Z] [TRADE EXECUTED] BUY YES: Will Kim Kardashian and Kanye West divorce before Jan 1, 2021?
+[2026-02-20T01:42:23.967Z]   Price: 0.0¢ | Size: $5.00 | Expected: 989039.41x
+[2026-02-20T01:42:23.967Z] [OPPORTUNITY] Will Coinbase begin publicly trading before Jan 1, 2021?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:42:23.967Z] [TRADE EXECUTED] BUY YES: Will Coinbase begin publicly trading before Jan 1, 2021?
+[2026-02-20T01:42:23.967Z]   Price: 0.0¢ | Size: $5.00 | Expected: 976067.31x
+[2026-02-20T01:42:23.967Z] [OPPORTUNITY] Will Trump win the 2020 U.S. presidential election?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:42:23.967Z] [TRADE EXECUTED] BUY YES: Will Trump win the 2020 U.S. presidential election?
+[2026-02-20T01:42:23.967Z]   Price: 0.0¢ | Size: $5.00 | Expected: 22913163.59x
+[2026-02-20T01:42:23.967Z] [OPPORTUNITY] What will the total value locked (TVL) in DeFi be at the end of 2020, according to DefiPulse?: YES 58.4¢ NO 41.6¢
+[2026-02-20T01:42:23.967Z] [TRADE EXECUTED] BUY NO: What will the total value locked (TVL) in DeFi be at the end of 2020, according to DefiPulse?
+[2026-02-20T01:42:23.967Z]   Price: 41.6¢ | Size: $5.00 | Expected: 2.41x
+[2026-02-20T01:42:23.967Z] [OPPORTUNITY] How many confirmed Coronavirus cases will there be at EOY in the USA?: YES 100.0¢ NO 0.0¢
+[2026-02-20T01:42:23.967Z] [TRADE EXECUTED] BUY NO: How many confirmed Coronavirus cases will there be at EOY in the USA?
+[2026-02-20T01:42:23.967Z]   Price: 0.0¢ | Size: $5.00 | Expected: 32124.36x
+[2026-02-20T01:42:23.967Z] [OPPORTUNITY] Will there be a federal charge filed against Hunter Biden before 2021?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:42:23.967Z] [TRADE EXECUTED] BUY YES: Will there be a federal charge filed against Hunter Biden before 2021?
+[2026-02-20T01:42:23.967Z]   Price: 0.0¢ | Size: $5.00 | Expected: 4226971.22x
+[2026-02-20T01:42:23.968Z] [OPPORTUNITY] Which party will win Arizona in the 2020 Presidential Election?: YES 100.0¢ NO 0.0¢
+[2026-02-20T01:42:23.968Z] [TRADE EXECUTED] BUY NO: Which party will win Arizona in the 2020 Presidential Election?
+[2026-02-20T01:42:23.968Z]   Price: 0.0¢ | Size: $5.00 | Expected: 139027.20x
+[2026-02-20T01:42:23.968Z] [OPPORTUNITY] Will Donald Trump tweet announcing that he won the election before November 5th 2020?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:42:23.968Z] [TRADE EXECUTED] BUY YES: Will Donald Trump tweet announcing that he won the election before November 5th 2020?
+[2026-02-20T01:42:23.968Z]   Price: 0.0¢ | Size: $5.00 | Expected: 507839.47x
+[2026-02-20T01:42:23.968Z] [OPPORTUNITY] Will the Ethereum 2.0 Genesis Event happen successfully on December 1st, 2020?: YES 100.0¢ NO 0.0¢
+[2026-02-20T01:42:23.968Z] [TRADE EXECUTED] BUY NO: Will the Ethereum 2.0 Genesis Event happen successfully on December 1st, 2020?
+[2026-02-20T01:42:23.968Z]   Price: 0.0¢ | Size: $5.00 | Expected: 1156538.60x
+[2026-02-20T01:42:23.968Z] [OPPORTUNITY] Will $BTC break $20k before 2021?: YES 100.0¢ NO 0.0¢
+[2026-02-20T01:42:23.968Z] [TRADE EXECUTED] BUY NO: Will $BTC break $20k before 2021?
+[2026-02-20T01:42:23.968Z]   Price: 0.0¢ | Size: $5.00 | Expected: 8999335.83x
+[2026-02-20T01:42:23.968Z] [OPPORTUNITY] Will Donald Trump formally concede the 2020 US Election before December 1st, 2020?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:42:23.968Z] [TRADE EXECUTED] BUY YES: Will Donald Trump formally concede the 2020 US Election before December 1st, 2020?
+[2026-02-20T01:42:23.968Z]   Price: 0.0¢ | Size: $5.00 | Expected: 6288276.96x
+[2026-02-20T01:42:23.968Z] [OPPORTUNITY] Will Donald Trump attend Joe Biden’s inauguration ceremony in person?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:42:23.968Z] [TRADE EXECUTED] BUY YES: Will Donald Trump attend Joe Biden’s inauguration ceremony in person?
+[2026-02-20T01:42:23.968Z]   Price: 0.0¢ | Size: $5.00 | Expected: 514912.52x
+[2026-02-20T01:42:23.968Z] [OPPORTUNITY] Will Donald Trump be inaugurated for his second term as President of the USA on Inauguration Day, January 20th, 2021?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:42:23.968Z] [TRADE EXECUTED] BUY YES: Will Donald Trump be inaugurated for his second term as President of the USA on Inauguration Day, January 20th, 2021?
+[2026-02-20T01:42:23.968Z]   Price: 0.0¢ | Size: $5.00 | Expected: 48480936.02x
+[2026-02-20T01:42:23.968Z] [OPPORTUNITY] Will Trump win any of Pennsylvania, Arizona or Georgia?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:42:23.968Z] [TRADE EXECUTED] BUY YES: Will Trump win any of Pennsylvania, Arizona or Georgia?
+[2026-02-20T01:42:23.968Z]   Price: 0.0¢ | Size: $5.00 | Expected: 79579.88x
+[2026-02-20T01:42:23.968Z] [OPPORTUNITY] Will any art piece on Superrare sell for more than $100k before 2021?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:42:23.968Z] [TRADE EXECUTED] BUY YES: Will any art piece on Superrare sell for more than $100k before 2021?
+[2026-02-20T01:42:23.968Z]   Price: 0.0¢ | Size: $5.00 | Expected: 103804.58x
+[2026-02-20T01:42:23.968Z] [OPPORTUNITY] Will indoor dining be prohibited in NYC at any point before 2021?: YES 100.0¢ NO 0.0¢
+[2026-02-20T01:42:23.968Z] [TRADE EXECUTED] BUY NO: Will indoor dining be prohibited in NYC at any point before 2021?
+[2026-02-20T01:42:23.968Z]   Price: 0.0¢ | Size: $5.00 | Expected: 913396.20x
+[2026-02-20T01:42:23.968Z] [OPPORTUNITY] Will Trump Pardon Himself in His First Term?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:42:23.968Z] [TRADE EXECUTED] BUY YES: Will Trump Pardon Himself in His First Term?
+[2026-02-20T01:42:23.968Z]   Price: 0.0¢ | Size: $5.00 | Expected: 9699203.67x
+[2026-02-20T01:42:23.968Z] [OPPORTUNITY] Which party will win the U.S. Senate special election in Georgia? (Loeffler - R vs Warnock - D): YES 100.0¢ NO 0.0¢
+[2026-02-20T01:42:23.968Z] [TRADE EXECUTED] BUY NO: Which party will win the U.S. Senate special election in Georgia? (Loeffler - R vs Warnock - D)
+[2026-02-20T01:42:23.968Z]   Price: 0.0¢ | Size: $5.00 | Expected: 909666.65x
+[2026-02-20T01:42:23.968Z] Sample markets: 12: YES 50.0¢ NO 50.0¢ | 17: YES 50.0¢ NO 50.0¢ | 18: YES 50.0¢ NO 50.0¢ | 19: YES 0.0¢ NO 100.0¢ | 20: YES 0.0¢ NO 100.0¢ | 36: YES 50.0¢ NO 50.0¢ | 40: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:42:23.968Z] Scan complete | 18 opportunities | 18 trades | 50 markets scanned | 1172ms
+[2026-02-20T01:42:45.727Z] --- SCAN #31 ---
+[2026-02-20T01:42:45.727Z] --- SCAN #31 ---
+[2026-02-20T01:42:45.727Z] Balance: $0.00 USDC
+[2026-02-20T01:42:45.727Z] Balance: $0.00 USDC
+[2026-02-20T01:42:45.727Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T01:42:45.727Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T01:44:45.746Z] --- SCAN #31 ---
+[2026-02-20T01:44:45.746Z] --- SCAN #31 ---
+[2026-02-20T01:44:45.746Z] Balance: $0.00 USDC
+[2026-02-20T01:44:45.746Z] Balance: $0.00 USDC
+[2026-02-20T01:44:45.746Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T01:44:45.746Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T01:46:45.750Z] --- SCAN #31 ---
+[2026-02-20T01:46:45.750Z] --- SCAN #31 ---
+[2026-02-20T01:46:45.750Z] Balance: $0.00 USDC
+[2026-02-20T01:46:45.750Z] Balance: $0.00 USDC
+[2026-02-20T01:46:45.750Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T01:46:45.750Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T01:47:26.386Z] Scan start | USDC: $30.00 | Wallet: 0xb99a3Ed7...
+[2026-02-20T01:47:26.747Z] Markets loaded: 50 total
+[2026-02-20T01:47:26.747Z] [OPPORTUNITY] Will Kim Kardashian and Kanye West divorce before Jan 1, 2021?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:47:26.747Z] [TRADE EXECUTED] BUY YES: Will Kim Kardashian and Kanye West divorce before Jan 1, 2021?
+[2026-02-20T01:47:26.747Z]   Price: 0.0¢ | Size: $5.00 | Expected: 989039.41x
+[2026-02-20T01:47:26.747Z] [OPPORTUNITY] Will Coinbase begin publicly trading before Jan 1, 2021?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:47:26.747Z] [TRADE EXECUTED] BUY YES: Will Coinbase begin publicly trading before Jan 1, 2021?
+[2026-02-20T01:47:26.747Z]   Price: 0.0¢ | Size: $5.00 | Expected: 976067.31x
+[2026-02-20T01:47:26.747Z] [OPPORTUNITY] Will Trump win the 2020 U.S. presidential election?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:47:26.747Z] [TRADE EXECUTED] BUY YES: Will Trump win the 2020 U.S. presidential election?
+[2026-02-20T01:47:26.747Z]   Price: 0.0¢ | Size: $5.00 | Expected: 22913163.59x
+[2026-02-20T01:47:26.747Z] [OPPORTUNITY] What will the total value locked (TVL) in DeFi be at the end of 2020, according to DefiPulse?: YES 58.4¢ NO 41.6¢
+[2026-02-20T01:47:26.748Z] [TRADE EXECUTED] BUY NO: What will the total value locked (TVL) in DeFi be at the end of 2020, according to DefiPulse?
+[2026-02-20T01:47:26.748Z]   Price: 41.6¢ | Size: $5.00 | Expected: 2.41x
+[2026-02-20T01:47:26.748Z] [OPPORTUNITY] How many confirmed Coronavirus cases will there be at EOY in the USA?: YES 100.0¢ NO 0.0¢
+[2026-02-20T01:47:26.748Z] [TRADE EXECUTED] BUY NO: How many confirmed Coronavirus cases will there be at EOY in the USA?
+[2026-02-20T01:47:26.748Z]   Price: 0.0¢ | Size: $5.00 | Expected: 32124.36x
+[2026-02-20T01:47:26.748Z] [OPPORTUNITY] Will there be a federal charge filed against Hunter Biden before 2021?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:47:26.748Z] [TRADE EXECUTED] BUY YES: Will there be a federal charge filed against Hunter Biden before 2021?
+[2026-02-20T01:47:26.748Z]   Price: 0.0¢ | Size: $5.00 | Expected: 4226971.22x
+[2026-02-20T01:47:26.748Z] [OPPORTUNITY] Which party will win Arizona in the 2020 Presidential Election?: YES 100.0¢ NO 0.0¢
+[2026-02-20T01:47:26.748Z] [TRADE EXECUTED] BUY NO: Which party will win Arizona in the 2020 Presidential Election?
+[2026-02-20T01:47:26.748Z]   Price: 0.0¢ | Size: $5.00 | Expected: 139027.20x
+[2026-02-20T01:47:26.748Z] [OPPORTUNITY] Will Donald Trump tweet announcing that he won the election before November 5th 2020?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:47:26.748Z] [TRADE EXECUTED] BUY YES: Will Donald Trump tweet announcing that he won the election before November 5th 2020?
+[2026-02-20T01:47:26.748Z]   Price: 0.0¢ | Size: $5.00 | Expected: 507839.47x
+[2026-02-20T01:47:26.748Z] [OPPORTUNITY] Will the Ethereum 2.0 Genesis Event happen successfully on December 1st, 2020?: YES 100.0¢ NO 0.0¢
+[2026-02-20T01:47:26.748Z] [TRADE EXECUTED] BUY NO: Will the Ethereum 2.0 Genesis Event happen successfully on December 1st, 2020?
+[2026-02-20T01:47:26.748Z]   Price: 0.0¢ | Size: $5.00 | Expected: 1156538.60x
+[2026-02-20T01:47:26.748Z] [OPPORTUNITY] Will $BTC break $20k before 2021?: YES 100.0¢ NO 0.0¢
+[2026-02-20T01:47:26.748Z] [TRADE EXECUTED] BUY NO: Will $BTC break $20k before 2021?
+[2026-02-20T01:47:26.748Z]   Price: 0.0¢ | Size: $5.00 | Expected: 8999335.83x
+[2026-02-20T01:47:26.748Z] [OPPORTUNITY] Will Donald Trump formally concede the 2020 US Election before December 1st, 2020?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:47:26.748Z] [TRADE EXECUTED] BUY YES: Will Donald Trump formally concede the 2020 US Election before December 1st, 2020?
+[2026-02-20T01:47:26.748Z]   Price: 0.0¢ | Size: $5.00 | Expected: 6288276.96x
+[2026-02-20T01:47:26.748Z] [OPPORTUNITY] Will Donald Trump attend Joe Biden’s inauguration ceremony in person?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:47:26.748Z] [TRADE EXECUTED] BUY YES: Will Donald Trump attend Joe Biden’s inauguration ceremony in person?
+[2026-02-20T01:47:26.749Z]   Price: 0.0¢ | Size: $5.00 | Expected: 514912.52x
+[2026-02-20T01:47:26.749Z] [OPPORTUNITY] Will Donald Trump be inaugurated for his second term as President of the USA on Inauguration Day, January 20th, 2021?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:47:26.749Z] [TRADE EXECUTED] BUY YES: Will Donald Trump be inaugurated for his second term as President of the USA on Inauguration Day, January 20th, 2021?
+[2026-02-20T01:47:26.749Z]   Price: 0.0¢ | Size: $5.00 | Expected: 48480936.02x
+[2026-02-20T01:47:26.749Z] [OPPORTUNITY] Will Trump win any of Pennsylvania, Arizona or Georgia?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:47:26.749Z] [TRADE EXECUTED] BUY YES: Will Trump win any of Pennsylvania, Arizona or Georgia?
+[2026-02-20T01:47:26.749Z]   Price: 0.0¢ | Size: $5.00 | Expected: 79579.88x
+[2026-02-20T01:47:26.749Z] [OPPORTUNITY] Will any art piece on Superrare sell for more than $100k before 2021?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:47:26.749Z] [TRADE EXECUTED] BUY YES: Will any art piece on Superrare sell for more than $100k before 2021?
+[2026-02-20T01:47:26.749Z]   Price: 0.0¢ | Size: $5.00 | Expected: 103804.58x
+[2026-02-20T01:47:26.749Z] [OPPORTUNITY] Will indoor dining be prohibited in NYC at any point before 2021?: YES 100.0¢ NO 0.0¢
+[2026-02-20T01:47:26.749Z] [TRADE EXECUTED] BUY NO: Will indoor dining be prohibited in NYC at any point before 2021?
+[2026-02-20T01:47:26.749Z]   Price: 0.0¢ | Size: $5.00 | Expected: 913396.20x
+[2026-02-20T01:47:26.749Z] [OPPORTUNITY] Will Trump Pardon Himself in His First Term?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:47:26.749Z] [TRADE EXECUTED] BUY YES: Will Trump Pardon Himself in His First Term?
+[2026-02-20T01:47:26.749Z]   Price: 0.0¢ | Size: $5.00 | Expected: 9699203.67x
+[2026-02-20T01:47:26.749Z] [OPPORTUNITY] Which party will win the U.S. Senate special election in Georgia? (Loeffler - R vs Warnock - D): YES 100.0¢ NO 0.0¢
+[2026-02-20T01:47:26.749Z] [TRADE EXECUTED] BUY NO: Which party will win the U.S. Senate special election in Georgia? (Loeffler - R vs Warnock - D)
+[2026-02-20T01:47:26.749Z]   Price: 0.0¢ | Size: $5.00 | Expected: 909666.65x
+[2026-02-20T01:47:26.749Z] Sample markets: 12: YES 50.0¢ NO 50.0¢ | 17: YES 50.0¢ NO 50.0¢ | 18: YES 50.0¢ NO 50.0¢ | 19: YES 0.0¢ NO 100.0¢ | 20: YES 0.0¢ NO 100.0¢ | 36: YES 50.0¢ NO 50.0¢ | 40: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:47:26.749Z] Scan complete | 18 opportunities | 18 trades | 50 markets scanned | 1164ms
+[2026-02-20T01:48:45.818Z] --- SCAN #31 ---
+[2026-02-20T01:48:45.818Z] --- SCAN #31 ---
+[2026-02-20T01:48:45.819Z] Balance: $0.00 USDC
+[2026-02-20T01:48:45.819Z] Balance: $0.00 USDC
+[2026-02-20T01:48:45.819Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T01:48:45.819Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T01:50:45.921Z] --- SCAN #31 ---
+[2026-02-20T01:50:45.921Z] --- SCAN #31 ---
+[2026-02-20T01:50:45.921Z] Balance: $0.00 USDC
+[2026-02-20T01:50:45.921Z] Balance: $0.00 USDC
+[2026-02-20T01:50:45.921Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T01:50:45.921Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T01:52:22.687Z] Scan start | USDC: $30.00 | Wallet: 0xb99a3Ed7...
+[2026-02-20T01:52:22.953Z] Markets loaded: 50 total
+[2026-02-20T01:52:22.954Z] [OPPORTUNITY] Will Kim Kardashian and Kanye West divorce before Jan 1, 2021?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:52:22.954Z] [TRADE EXECUTED] BUY YES: Will Kim Kardashian and Kanye West divorce before Jan 1, 2021?
+[2026-02-20T01:52:22.954Z]   Price: 0.0¢ | Size: $5.00 | Expected: 989039.41x
+[2026-02-20T01:52:22.954Z] [OPPORTUNITY] Will Coinbase begin publicly trading before Jan 1, 2021?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:52:22.954Z] [TRADE EXECUTED] BUY YES: Will Coinbase begin publicly trading before Jan 1, 2021?
+[2026-02-20T01:52:22.954Z]   Price: 0.0¢ | Size: $5.00 | Expected: 976067.31x
+[2026-02-20T01:52:22.954Z] [OPPORTUNITY] Will Trump win the 2020 U.S. presidential election?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:52:22.954Z] [TRADE EXECUTED] BUY YES: Will Trump win the 2020 U.S. presidential election?
+[2026-02-20T01:52:22.954Z]   Price: 0.0¢ | Size: $5.00 | Expected: 22913163.59x
+[2026-02-20T01:52:22.954Z] [OPPORTUNITY] What will the total value locked (TVL) in DeFi be at the end of 2020, according to DefiPulse?: YES 58.4¢ NO 41.6¢
+[2026-02-20T01:52:22.954Z] [TRADE EXECUTED] BUY NO: What will the total value locked (TVL) in DeFi be at the end of 2020, according to DefiPulse?
+[2026-02-20T01:52:22.954Z]   Price: 41.6¢ | Size: $5.00 | Expected: 2.41x
+[2026-02-20T01:52:22.955Z] [OPPORTUNITY] How many confirmed Coronavirus cases will there be at EOY in the USA?: YES 100.0¢ NO 0.0¢
+[2026-02-20T01:52:22.955Z] [TRADE EXECUTED] BUY NO: How many confirmed Coronavirus cases will there be at EOY in the USA?
+[2026-02-20T01:52:22.955Z]   Price: 0.0¢ | Size: $5.00 | Expected: 32124.36x
+[2026-02-20T01:52:22.955Z] [OPPORTUNITY] Will there be a federal charge filed against Hunter Biden before 2021?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:52:22.955Z] [TRADE EXECUTED] BUY YES: Will there be a federal charge filed against Hunter Biden before 2021?
+[2026-02-20T01:52:22.955Z]   Price: 0.0¢ | Size: $5.00 | Expected: 4226971.22x
+[2026-02-20T01:52:22.955Z] [OPPORTUNITY] Which party will win Arizona in the 2020 Presidential Election?: YES 100.0¢ NO 0.0¢
+[2026-02-20T01:52:22.955Z] [TRADE EXECUTED] BUY NO: Which party will win Arizona in the 2020 Presidential Election?
+[2026-02-20T01:52:22.955Z]   Price: 0.0¢ | Size: $5.00 | Expected: 139027.20x
+[2026-02-20T01:52:22.955Z] [OPPORTUNITY] Will Donald Trump tweet announcing that he won the election before November 5th 2020?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:52:22.955Z] [TRADE EXECUTED] BUY YES: Will Donald Trump tweet announcing that he won the election before November 5th 2020?
+[2026-02-20T01:52:22.955Z]   Price: 0.0¢ | Size: $5.00 | Expected: 507839.47x
+[2026-02-20T01:52:22.955Z] [OPPORTUNITY] Will the Ethereum 2.0 Genesis Event happen successfully on December 1st, 2020?: YES 100.0¢ NO 0.0¢
+[2026-02-20T01:52:22.955Z] [TRADE EXECUTED] BUY NO: Will the Ethereum 2.0 Genesis Event happen successfully on December 1st, 2020?
+[2026-02-20T01:52:22.955Z]   Price: 0.0¢ | Size: $5.00 | Expected: 1156538.60x
+[2026-02-20T01:52:22.955Z] [OPPORTUNITY] Will $BTC break $20k before 2021?: YES 100.0¢ NO 0.0¢
+[2026-02-20T01:52:22.955Z] [TRADE EXECUTED] BUY NO: Will $BTC break $20k before 2021?
+[2026-02-20T01:52:22.955Z]   Price: 0.0¢ | Size: $5.00 | Expected: 8999335.83x
+[2026-02-20T01:52:22.956Z] [OPPORTUNITY] Will Donald Trump formally concede the 2020 US Election before December 1st, 2020?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:52:22.956Z] [TRADE EXECUTED] BUY YES: Will Donald Trump formally concede the 2020 US Election before December 1st, 2020?
+[2026-02-20T01:52:22.956Z]   Price: 0.0¢ | Size: $5.00 | Expected: 6288276.96x
+[2026-02-20T01:52:22.956Z] [OPPORTUNITY] Will Donald Trump attend Joe Biden’s inauguration ceremony in person?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:52:22.956Z] [TRADE EXECUTED] BUY YES: Will Donald Trump attend Joe Biden’s inauguration ceremony in person?
+[2026-02-20T01:52:22.956Z]   Price: 0.0¢ | Size: $5.00 | Expected: 514912.52x
+[2026-02-20T01:52:22.956Z] [OPPORTUNITY] Will Donald Trump be inaugurated for his second term as President of the USA on Inauguration Day, January 20th, 2021?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:52:22.956Z] [TRADE EXECUTED] BUY YES: Will Donald Trump be inaugurated for his second term as President of the USA on Inauguration Day, January 20th, 2021?
+[2026-02-20T01:52:22.956Z]   Price: 0.0¢ | Size: $5.00 | Expected: 48480936.02x
+[2026-02-20T01:52:22.956Z] [OPPORTUNITY] Will Trump win any of Pennsylvania, Arizona or Georgia?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:52:22.956Z] [TRADE EXECUTED] BUY YES: Will Trump win any of Pennsylvania, Arizona or Georgia?
+[2026-02-20T01:52:22.956Z]   Price: 0.0¢ | Size: $5.00 | Expected: 79579.88x
+[2026-02-20T01:52:22.956Z] [OPPORTUNITY] Will any art piece on Superrare sell for more than $100k before 2021?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:52:22.956Z] [TRADE EXECUTED] BUY YES: Will any art piece on Superrare sell for more than $100k before 2021?
+[2026-02-20T01:52:22.956Z]   Price: 0.0¢ | Size: $5.00 | Expected: 103804.58x
+[2026-02-20T01:52:22.956Z] [OPPORTUNITY] Will indoor dining be prohibited in NYC at any point before 2021?: YES 100.0¢ NO 0.0¢
+[2026-02-20T01:52:22.956Z] [TRADE EXECUTED] BUY NO: Will indoor dining be prohibited in NYC at any point before 2021?
+[2026-02-20T01:52:22.956Z]   Price: 0.0¢ | Size: $5.00 | Expected: 913396.20x
+[2026-02-20T01:52:22.956Z] [OPPORTUNITY] Will Trump Pardon Himself in His First Term?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:52:22.956Z] [TRADE EXECUTED] BUY YES: Will Trump Pardon Himself in His First Term?
+[2026-02-20T01:52:22.956Z]   Price: 0.0¢ | Size: $5.00 | Expected: 9699203.67x
+[2026-02-20T01:52:22.956Z] [OPPORTUNITY] Which party will win the U.S. Senate special election in Georgia? (Loeffler - R vs Warnock - D): YES 100.0¢ NO 0.0¢
+[2026-02-20T01:52:22.956Z] [TRADE EXECUTED] BUY NO: Which party will win the U.S. Senate special election in Georgia? (Loeffler - R vs Warnock - D)
+[2026-02-20T01:52:22.956Z]   Price: 0.0¢ | Size: $5.00 | Expected: 909666.65x
+[2026-02-20T01:52:22.956Z] Sample markets: 12: YES 50.0¢ NO 50.0¢ | 17: YES 50.0¢ NO 50.0¢ | 18: YES 50.0¢ NO 50.0¢ | 19: YES 0.0¢ NO 100.0¢ | 20: YES 0.0¢ NO 100.0¢ | 36: YES 50.0¢ NO 50.0¢ | 40: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:52:22.956Z] Scan complete | 18 opportunities | 18 trades | 50 markets scanned | 1078ms
+[2026-02-20T01:52:45.970Z] --- SCAN #31 ---
+[2026-02-20T01:52:45.970Z] --- SCAN #31 ---
+[2026-02-20T01:52:45.970Z] Balance: $0.00 USDC
+[2026-02-20T01:52:45.970Z] Balance: $0.00 USDC
+[2026-02-20T01:52:45.970Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T01:52:45.970Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T01:54:46.081Z] --- SCAN #31 ---
+[2026-02-20T01:54:46.081Z] --- SCAN #31 ---
+[2026-02-20T01:54:46.081Z] Balance: $0.00 USDC
+[2026-02-20T01:54:46.081Z] Balance: $0.00 USDC
+[2026-02-20T01:54:46.081Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T01:54:46.081Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T01:56:46.163Z] --- SCAN #31 ---
+[2026-02-20T01:56:46.163Z] --- SCAN #31 ---
+[2026-02-20T01:56:46.164Z] Balance: $0.00 USDC
+[2026-02-20T01:56:46.164Z] Balance: $0.00 USDC
+[2026-02-20T01:56:46.164Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T01:56:46.164Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T01:57:38.604Z] Scan start | USDC: $30.00 | Wallet: 0xb99a3Ed7...
+[2026-02-20T01:57:39.137Z] Markets loaded: 50 total
+[2026-02-20T01:57:39.138Z] [OPPORTUNITY] Will Kim Kardashian and Kanye West divorce before Jan 1, 2021?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:57:39.138Z] [TRADE EXECUTED] BUY YES: Will Kim Kardashian and Kanye West divorce before Jan 1, 2021?
+[2026-02-20T01:57:39.138Z]   Price: 0.0¢ | Size: $5.00 | Expected: 989039.41x
+[2026-02-20T01:57:39.138Z] [OPPORTUNITY] Will Coinbase begin publicly trading before Jan 1, 2021?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:57:39.138Z] [TRADE EXECUTED] BUY YES: Will Coinbase begin publicly trading before Jan 1, 2021?
+[2026-02-20T01:57:39.138Z]   Price: 0.0¢ | Size: $5.00 | Expected: 976067.31x
+[2026-02-20T01:57:39.138Z] [OPPORTUNITY] Will Trump win the 2020 U.S. presidential election?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:57:39.138Z] [TRADE EXECUTED] BUY YES: Will Trump win the 2020 U.S. presidential election?
+[2026-02-20T01:57:39.138Z]   Price: 0.0¢ | Size: $5.00 | Expected: 22913163.59x
+[2026-02-20T01:57:39.138Z] [OPPORTUNITY] What will the total value locked (TVL) in DeFi be at the end of 2020, according to DefiPulse?: YES 58.4¢ NO 41.6¢
+[2026-02-20T01:57:39.138Z] [TRADE EXECUTED] BUY NO: What will the total value locked (TVL) in DeFi be at the end of 2020, according to DefiPulse?
+[2026-02-20T01:57:39.139Z]   Price: 41.6¢ | Size: $5.00 | Expected: 2.41x
+[2026-02-20T01:57:39.139Z] [OPPORTUNITY] How many confirmed Coronavirus cases will there be at EOY in the USA?: YES 100.0¢ NO 0.0¢
+[2026-02-20T01:57:39.139Z] [TRADE EXECUTED] BUY NO: How many confirmed Coronavirus cases will there be at EOY in the USA?
+[2026-02-20T01:57:39.139Z]   Price: 0.0¢ | Size: $5.00 | Expected: 32124.36x
+[2026-02-20T01:57:39.139Z] [OPPORTUNITY] Will there be a federal charge filed against Hunter Biden before 2021?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:57:39.139Z] [TRADE EXECUTED] BUY YES: Will there be a federal charge filed against Hunter Biden before 2021?
+[2026-02-20T01:57:39.139Z]   Price: 0.0¢ | Size: $5.00 | Expected: 4226971.22x
+[2026-02-20T01:57:39.139Z] [OPPORTUNITY] Which party will win Arizona in the 2020 Presidential Election?: YES 100.0¢ NO 0.0¢
+[2026-02-20T01:57:39.139Z] [TRADE EXECUTED] BUY NO: Which party will win Arizona in the 2020 Presidential Election?
+[2026-02-20T01:57:39.139Z]   Price: 0.0¢ | Size: $5.00 | Expected: 139027.20x
+[2026-02-20T01:57:39.139Z] [OPPORTUNITY] Will Donald Trump tweet announcing that he won the election before November 5th 2020?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:57:39.139Z] [TRADE EXECUTED] BUY YES: Will Donald Trump tweet announcing that he won the election before November 5th 2020?
+[2026-02-20T01:57:39.139Z]   Price: 0.0¢ | Size: $5.00 | Expected: 507839.47x
+[2026-02-20T01:57:39.139Z] [OPPORTUNITY] Will the Ethereum 2.0 Genesis Event happen successfully on December 1st, 2020?: YES 100.0¢ NO 0.0¢
+[2026-02-20T01:57:39.139Z] [TRADE EXECUTED] BUY NO: Will the Ethereum 2.0 Genesis Event happen successfully on December 1st, 2020?
+[2026-02-20T01:57:39.139Z]   Price: 0.0¢ | Size: $5.00 | Expected: 1156538.60x
+[2026-02-20T01:57:39.139Z] [OPPORTUNITY] Will $BTC break $20k before 2021?: YES 100.0¢ NO 0.0¢
+[2026-02-20T01:57:39.139Z] [TRADE EXECUTED] BUY NO: Will $BTC break $20k before 2021?
+[2026-02-20T01:57:39.139Z]   Price: 0.0¢ | Size: $5.00 | Expected: 8999335.83x
+[2026-02-20T01:57:39.139Z] [OPPORTUNITY] Will Donald Trump formally concede the 2020 US Election before December 1st, 2020?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:57:39.139Z] [TRADE EXECUTED] BUY YES: Will Donald Trump formally concede the 2020 US Election before December 1st, 2020?
+[2026-02-20T01:57:39.140Z]   Price: 0.0¢ | Size: $5.00 | Expected: 6288276.96x
+[2026-02-20T01:57:39.140Z] [OPPORTUNITY] Will Donald Trump attend Joe Biden’s inauguration ceremony in person?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:57:39.140Z] [TRADE EXECUTED] BUY YES: Will Donald Trump attend Joe Biden’s inauguration ceremony in person?
+[2026-02-20T01:57:39.140Z]   Price: 0.0¢ | Size: $5.00 | Expected: 514912.52x
+[2026-02-20T01:57:39.140Z] [OPPORTUNITY] Will Donald Trump be inaugurated for his second term as President of the USA on Inauguration Day, January 20th, 2021?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:57:39.140Z] [TRADE EXECUTED] BUY YES: Will Donald Trump be inaugurated for his second term as President of the USA on Inauguration Day, January 20th, 2021?
+[2026-02-20T01:57:39.140Z]   Price: 0.0¢ | Size: $5.00 | Expected: 48480936.02x
+[2026-02-20T01:57:39.140Z] [OPPORTUNITY] Will Trump win any of Pennsylvania, Arizona or Georgia?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:57:39.140Z] [TRADE EXECUTED] BUY YES: Will Trump win any of Pennsylvania, Arizona or Georgia?
+[2026-02-20T01:57:39.140Z]   Price: 0.0¢ | Size: $5.00 | Expected: 79579.88x
+[2026-02-20T01:57:39.140Z] [OPPORTUNITY] Will any art piece on Superrare sell for more than $100k before 2021?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:57:39.140Z] [TRADE EXECUTED] BUY YES: Will any art piece on Superrare sell for more than $100k before 2021?
+[2026-02-20T01:57:39.140Z]   Price: 0.0¢ | Size: $5.00 | Expected: 103804.58x
+[2026-02-20T01:57:39.140Z] [OPPORTUNITY] Will indoor dining be prohibited in NYC at any point before 2021?: YES 100.0¢ NO 0.0¢
+[2026-02-20T01:57:39.140Z] [TRADE EXECUTED] BUY NO: Will indoor dining be prohibited in NYC at any point before 2021?
+[2026-02-20T01:57:39.140Z]   Price: 0.0¢ | Size: $5.00 | Expected: 913396.20x
+[2026-02-20T01:57:39.140Z] [OPPORTUNITY] Will Trump Pardon Himself in His First Term?: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:57:39.140Z] [TRADE EXECUTED] BUY YES: Will Trump Pardon Himself in His First Term?
+[2026-02-20T01:57:39.140Z]   Price: 0.0¢ | Size: $5.00 | Expected: 9699203.67x
+[2026-02-20T01:57:39.140Z] [OPPORTUNITY] Which party will win the U.S. Senate special election in Georgia? (Loeffler - R vs Warnock - D): YES 100.0¢ NO 0.0¢
+[2026-02-20T01:57:39.140Z] [TRADE EXECUTED] BUY NO: Which party will win the U.S. Senate special election in Georgia? (Loeffler - R vs Warnock - D)
+[2026-02-20T01:57:39.140Z]   Price: 0.0¢ | Size: $5.00 | Expected: 909666.65x
+[2026-02-20T01:57:39.140Z] Sample markets: 12: YES 50.0¢ NO 50.0¢ | 17: YES 50.0¢ NO 50.0¢ | 18: YES 50.0¢ NO 50.0¢ | 19: YES 0.0¢ NO 100.0¢ | 20: YES 0.0¢ NO 100.0¢ | 36: YES 50.0¢ NO 50.0¢ | 40: YES 0.0¢ NO 100.0¢
+[2026-02-20T01:57:39.140Z] Scan complete | 18 opportunities | 18 trades | 50 markets scanned | 1334ms
+[2026-02-20T01:58:46.235Z] --- SCAN #31 ---
+[2026-02-20T01:58:46.235Z] --- SCAN #31 ---
+[2026-02-20T01:58:46.236Z] Balance: $0.00 USDC
+[2026-02-20T01:58:46.236Z] Balance: $0.00 USDC
+[2026-02-20T01:58:46.236Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T01:58:46.236Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:00:46.320Z] --- SCAN #31 ---
+[2026-02-20T02:00:46.320Z] --- SCAN #31 ---
+[2026-02-20T02:00:46.321Z] Balance: $0.00 USDC
+[2026-02-20T02:00:46.321Z] Balance: $0.00 USDC
+[2026-02-20T02:00:46.321Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:00:46.321Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:02:34.804Z] [PAUSED] Trader disabled - running in simulation mode only
+[2026-02-20T02:02:34.808Z] [PAUSED] To enable: restore working trader from backup or fix API connection
+[2026-02-20T02:02:34.808Z] [PAUSED] Status: $30 USDC untouched, no real trades executed
+[2026-02-20T02:02:34.809Z] [INFO] Total sites built today: 18 | Sites in portfolio: ~60
+[2026-02-20T02:02:46.346Z] --- SCAN #31 ---
+[2026-02-20T02:02:46.346Z] --- SCAN #31 ---
+[2026-02-20T02:02:46.347Z] Balance: $0.00 USDC
+[2026-02-20T02:02:46.347Z] Balance: $0.00 USDC
+[2026-02-20T02:02:46.347Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:02:46.347Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:04:46.364Z] --- SCAN #31 ---
+[2026-02-20T02:04:46.364Z] --- SCAN #31 ---
+[2026-02-20T02:04:46.364Z] Balance: $0.00 USDC
+[2026-02-20T02:04:46.364Z] Balance: $0.00 USDC
+[2026-02-20T02:04:46.364Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:04:46.364Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:06:46.374Z] --- SCAN #31 ---
+[2026-02-20T02:06:46.374Z] --- SCAN #31 ---
+[2026-02-20T02:06:46.374Z] Balance: $0.00 USDC
+[2026-02-20T02:06:46.374Z] Balance: $0.00 USDC
+[2026-02-20T02:06:46.374Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:06:46.374Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:07:03.598Z] [PAUSED] Trader disabled - running in simulation mode only
+[2026-02-20T02:07:03.602Z] [PAUSED] To enable: restore working trader from backup or fix API connection
+[2026-02-20T02:07:03.602Z] [PAUSED] Status: $30 USDC untouched, no real trades executed
+[2026-02-20T02:07:03.602Z] [INFO] Total sites built today: 18 | Sites in portfolio: ~60
+[2026-02-20T02:08:46.375Z] --- SCAN #31 ---
+[2026-02-20T02:08:46.375Z] --- SCAN #31 ---
+[2026-02-20T02:08:46.375Z] Balance: $0.00 USDC
+[2026-02-20T02:08:46.375Z] Balance: $0.00 USDC
+[2026-02-20T02:08:46.375Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:08:46.375Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:10:46.473Z] --- SCAN #31 ---
+[2026-02-20T02:10:46.473Z] --- SCAN #31 ---
+[2026-02-20T02:10:46.473Z] Balance: $0.00 USDC
+[2026-02-20T02:10:46.473Z] Balance: $0.00 USDC
+[2026-02-20T02:10:46.473Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:10:46.473Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:12:31.182Z] [PAUSED] Trader disabled - running in simulation mode only
+[2026-02-20T02:12:31.186Z] [PAUSED] To enable: restore working trader from backup or fix API connection
+[2026-02-20T02:12:31.186Z] [PAUSED] Status: $30 USDC untouched, no real trades executed
+[2026-02-20T02:12:31.186Z] [INFO] Total sites built today: 18 | Sites in portfolio: ~60
+[2026-02-20T02:12:46.517Z] --- SCAN #31 ---
+[2026-02-20T02:12:46.517Z] --- SCAN #31 ---
+[2026-02-20T02:12:46.517Z] Balance: $0.00 USDC
+[2026-02-20T02:12:46.517Z] Balance: $0.00 USDC
+[2026-02-20T02:12:46.517Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:12:46.517Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:14:46.523Z] --- SCAN #31 ---
+[2026-02-20T02:14:46.523Z] --- SCAN #31 ---
+[2026-02-20T02:14:46.523Z] Balance: $0.00 USDC
+[2026-02-20T02:14:46.523Z] Balance: $0.00 USDC
+[2026-02-20T02:14:46.523Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:14:46.523Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:16:46.608Z] --- SCAN #31 ---
+[2026-02-20T02:16:46.608Z] --- SCAN #31 ---
+[2026-02-20T02:16:46.608Z] Balance: $0.00 USDC
+[2026-02-20T02:16:46.608Z] Balance: $0.00 USDC
+[2026-02-20T02:16:46.608Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:16:46.608Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:17:28.548Z] [PAUSED] Trader disabled - running in simulation mode only
+[2026-02-20T02:17:28.552Z] [PAUSED] To enable: restore working trader from backup or fix API connection
+[2026-02-20T02:17:28.552Z] [PAUSED] Status: $30 USDC untouched, no real trades executed
+[2026-02-20T02:17:28.552Z] [INFO] Total sites built today: 18 | Sites in portfolio: ~60
+[2026-02-20T02:18:46.702Z] --- SCAN #31 ---
+[2026-02-20T02:18:46.702Z] --- SCAN #31 ---
+[2026-02-20T02:18:46.702Z] Balance: $0.00 USDC
+[2026-02-20T02:18:46.702Z] Balance: $0.00 USDC
+[2026-02-20T02:18:46.702Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:18:46.702Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:20:46.748Z] --- SCAN #31 ---
+[2026-02-20T02:20:46.748Z] --- SCAN #31 ---
+[2026-02-20T02:20:46.748Z] Balance: $0.00 USDC
+[2026-02-20T02:20:46.748Z] Balance: $0.00 USDC
+[2026-02-20T02:20:46.748Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:20:46.748Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:22:22.466Z] [PAUSED] Trader disabled - running in simulation mode only
+[2026-02-20T02:22:22.469Z] [PAUSED] To enable: restore working trader from backup or fix API connection
+[2026-02-20T02:22:22.469Z] [PAUSED] Status: $30 USDC untouched, no real trades executed
+[2026-02-20T02:22:22.469Z] [INFO] Total sites built today: 18 | Sites in portfolio: ~60
+[2026-02-20T02:22:46.825Z] --- SCAN #31 ---
+[2026-02-20T02:22:46.825Z] --- SCAN #31 ---
+[2026-02-20T02:22:46.826Z] Balance: $0.00 USDC
+[2026-02-20T02:22:46.826Z] Balance: $0.00 USDC
+[2026-02-20T02:22:46.826Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:22:46.826Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:24:46.926Z] --- SCAN #31 ---
+[2026-02-20T02:24:46.926Z] --- SCAN #31 ---
+[2026-02-20T02:24:46.926Z] Balance: $0.00 USDC
+[2026-02-20T02:24:46.926Z] Balance: $0.00 USDC
+[2026-02-20T02:24:46.926Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:24:46.926Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:26:46.939Z] --- SCAN #31 ---
+[2026-02-20T02:26:46.939Z] --- SCAN #31 ---
+[2026-02-20T02:26:46.939Z] Balance: $0.00 USDC
+[2026-02-20T02:26:46.939Z] Balance: $0.00 USDC
+[2026-02-20T02:26:46.939Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:26:46.939Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:27:42.070Z] [PAUSED] Trader disabled - running in simulation mode only
+[2026-02-20T02:27:42.073Z] [PAUSED] To enable: restore working trader from backup or fix API connection
+[2026-02-20T02:27:42.073Z] [PAUSED] Status: $30 USDC untouched, no real trades executed
+[2026-02-20T02:27:42.073Z] [INFO] Total sites built today: 18 | Sites in portfolio: ~60
+[2026-02-20T02:28:47.022Z] --- SCAN #31 ---
+[2026-02-20T02:28:47.022Z] --- SCAN #31 ---
+[2026-02-20T02:28:47.022Z] Balance: $0.00 USDC
+[2026-02-20T02:28:47.022Z] Balance: $0.00 USDC
+[2026-02-20T02:28:47.022Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:28:47.022Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:30:47.066Z] --- SCAN #31 ---
+[2026-02-20T02:30:47.066Z] --- SCAN #31 ---
+[2026-02-20T02:30:47.066Z] Balance: $0.00 USDC
+[2026-02-20T02:30:47.066Z] Balance: $0.00 USDC
+[2026-02-20T02:30:47.066Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:30:47.066Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:32:47.073Z] --- SCAN #31 ---
+[2026-02-20T02:32:47.073Z] --- SCAN #31 ---
+[2026-02-20T02:32:47.073Z] Balance: $0.00 USDC
+[2026-02-20T02:32:47.073Z] Balance: $0.00 USDC
+[2026-02-20T02:32:47.073Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:32:47.073Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:32:48.233Z] [PAUSED] Trader disabled - running in simulation mode only
+[2026-02-20T02:32:48.237Z] [PAUSED] To enable: restore working trader from backup or fix API connection
+[2026-02-20T02:32:48.237Z] [PAUSED] Status: $30 USDC untouched, no real trades executed
+[2026-02-20T02:32:48.237Z] [INFO] Total sites built today: 18 | Sites in portfolio: ~60
+[2026-02-20T02:34:47.160Z] --- SCAN #31 ---
+[2026-02-20T02:34:47.160Z] --- SCAN #31 ---
+[2026-02-20T02:34:47.160Z] Balance: $0.00 USDC
+[2026-02-20T02:34:47.160Z] Balance: $0.00 USDC
+[2026-02-20T02:34:47.160Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:34:47.160Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:36:47.261Z] --- SCAN #31 ---
+[2026-02-20T02:36:47.261Z] --- SCAN #31 ---
+[2026-02-20T02:36:47.261Z] Balance: $0.00 USDC
+[2026-02-20T02:36:47.261Z] Balance: $0.00 USDC
+[2026-02-20T02:36:47.261Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:36:47.261Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:37:15.292Z] [PAUSED] Trader disabled - running in simulation mode only
+[2026-02-20T02:37:15.297Z] [PAUSED] To enable: restore working trader from backup or fix API connection
+[2026-02-20T02:37:15.297Z] [PAUSED] Status: $30 USDC untouched, no real trades executed
+[2026-02-20T02:37:15.297Z] [INFO] Total sites built today: 18 | Sites in portfolio: ~60
+[2026-02-20T02:38:47.366Z] --- SCAN #31 ---
+[2026-02-20T02:38:47.366Z] --- SCAN #31 ---
+[2026-02-20T02:38:47.366Z] Balance: $0.00 USDC
+[2026-02-20T02:38:47.366Z] Balance: $0.00 USDC
+[2026-02-20T02:38:47.366Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:38:47.366Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:40:47.386Z] --- SCAN #31 ---
+[2026-02-20T02:40:47.386Z] --- SCAN #31 ---
+[2026-02-20T02:40:47.386Z] Balance: $0.00 USDC
+[2026-02-20T02:40:47.386Z] Balance: $0.00 USDC
+[2026-02-20T02:40:47.386Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:40:47.386Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:42:47.432Z] --- SCAN #31 ---
+[2026-02-20T02:42:47.432Z] --- SCAN #31 ---
+[2026-02-20T02:42:47.432Z] Balance: $0.00 USDC
+[2026-02-20T02:42:47.432Z] Balance: $0.00 USDC
+[2026-02-20T02:42:47.432Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:42:47.432Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:43:18.822Z] [PAUSED] Trader disabled - running in simulation mode only
+[2026-02-20T02:43:18.825Z] [PAUSED] To enable: restore working trader from backup or fix API connection
+[2026-02-20T02:43:18.826Z] [PAUSED] Status: $30 USDC untouched, no real trades executed
+[2026-02-20T02:43:18.826Z] [INFO] Total sites built today: 18 | Sites in portfolio: ~60
+[2026-02-20T02:44:47.450Z] --- SCAN #31 ---
+[2026-02-20T02:44:47.450Z] --- SCAN #31 ---
+[2026-02-20T02:44:47.450Z] Balance: $0.00 USDC
+[2026-02-20T02:44:47.450Z] Balance: $0.00 USDC
+[2026-02-20T02:44:47.450Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:44:47.450Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:46:47.456Z] --- SCAN #31 ---
+[2026-02-20T02:46:47.456Z] --- SCAN #31 ---
+[2026-02-20T02:46:47.456Z] Balance: $0.00 USDC
+[2026-02-20T02:46:47.456Z] Balance: $0.00 USDC
+[2026-02-20T02:46:47.456Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:46:47.456Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:47:18.838Z] [PAUSED] Trader disabled - running in simulation mode only
+[2026-02-20T02:47:18.841Z] [PAUSED] To enable: restore working trader from backup or fix API connection
+[2026-02-20T02:47:18.841Z] [PAUSED] Status: $30 USDC untouched, no real trades executed
+[2026-02-20T02:47:18.841Z] [INFO] Total sites built today: 18 | Sites in portfolio: ~60
+[2026-02-20T02:48:47.531Z] --- SCAN #31 ---
+[2026-02-20T02:48:47.531Z] --- SCAN #31 ---
+[2026-02-20T02:48:47.531Z] Balance: $0.00 USDC
+[2026-02-20T02:48:47.531Z] Balance: $0.00 USDC
+[2026-02-20T02:48:47.531Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:48:47.531Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:50:47.572Z] --- SCAN #31 ---
+[2026-02-20T02:50:47.572Z] --- SCAN #31 ---
+[2026-02-20T02:50:47.572Z] Balance: $0.00 USDC
+[2026-02-20T02:50:47.572Z] Balance: $0.00 USDC
+[2026-02-20T02:50:47.572Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:50:47.572Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:52:30.634Z] [PAUSED] Trader disabled - running in simulation mode only
+[2026-02-20T02:52:30.638Z] [PAUSED] To enable: restore working trader from backup or fix API connection
+[2026-02-20T02:52:30.638Z] [PAUSED] Status: $30 USDC untouched, no real trades executed
+[2026-02-20T02:52:30.638Z] [INFO] Total sites built today: 18 | Sites in portfolio: ~60
+[2026-02-20T02:52:47.584Z] --- SCAN #31 ---
+[2026-02-20T02:52:47.584Z] --- SCAN #31 ---
+[2026-02-20T02:52:47.584Z] Balance: $0.00 USDC
+[2026-02-20T02:52:47.584Z] Balance: $0.00 USDC
+[2026-02-20T02:52:47.584Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:52:47.584Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:54:47.603Z] --- SCAN #31 ---
+[2026-02-20T02:54:47.603Z] --- SCAN #31 ---
+[2026-02-20T02:54:47.603Z] Balance: $0.00 USDC
+[2026-02-20T02:54:47.603Z] Balance: $0.00 USDC
+[2026-02-20T02:54:47.603Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:54:47.603Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:56:47.633Z] --- SCAN #31 ---
+[2026-02-20T02:56:47.633Z] --- SCAN #31 ---
+[2026-02-20T02:56:47.633Z] Balance: $0.00 USDC
+[2026-02-20T02:56:47.633Z] Balance: $0.00 USDC
+[2026-02-20T02:56:47.633Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:56:47.633Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:57:40.460Z] [PAUSED] Trader disabled - running in simulation mode only
+[2026-02-20T02:57:40.464Z] [PAUSED] To enable: restore working trader from backup or fix API connection
+[2026-02-20T02:57:40.464Z] [PAUSED] Status: $30 USDC untouched, no real trades executed
+[2026-02-20T02:57:40.464Z] [INFO] Total sites built today: 18 | Sites in portfolio: ~60
+[2026-02-20T02:58:47.722Z] --- SCAN #31 ---
+[2026-02-20T02:58:47.722Z] --- SCAN #31 ---
+[2026-02-20T02:58:47.723Z] Balance: $0.00 USDC
+[2026-02-20T02:58:47.723Z] Balance: $0.00 USDC
+[2026-02-20T02:58:47.723Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T02:58:47.723Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:00:47.790Z] --- SCAN #31 ---
+[2026-02-20T03:00:47.790Z] --- SCAN #31 ---
+[2026-02-20T03:00:47.790Z] Balance: $0.00 USDC
+[2026-02-20T03:00:47.790Z] Balance: $0.00 USDC
+[2026-02-20T03:00:47.790Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:00:47.790Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:02:42.263Z] [PAUSED] Trader disabled - running in simulation mode only
+[2026-02-20T03:02:42.266Z] [PAUSED] To enable: restore working trader from backup or fix API connection
+[2026-02-20T03:02:42.266Z] [PAUSED] Status: $30 USDC untouched, no real trades executed
+[2026-02-20T03:02:42.266Z] [INFO] Total sites built today: 18 | Sites in portfolio: ~60
+[2026-02-20T03:02:47.842Z] --- SCAN #31 ---
+[2026-02-20T03:02:47.842Z] --- SCAN #31 ---
+[2026-02-20T03:02:47.842Z] Balance: $0.00 USDC
+[2026-02-20T03:02:47.842Z] Balance: $0.00 USDC
+[2026-02-20T03:02:47.842Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:02:47.842Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:04:47.942Z] --- SCAN #31 ---
+[2026-02-20T03:04:47.942Z] --- SCAN #31 ---
+[2026-02-20T03:04:47.942Z] Balance: $0.00 USDC
+[2026-02-20T03:04:47.942Z] Balance: $0.00 USDC
+[2026-02-20T03:04:47.942Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:04:47.942Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:06:47.977Z] --- SCAN #31 ---
+[2026-02-20T03:06:47.977Z] --- SCAN #31 ---
+[2026-02-20T03:06:47.978Z] Balance: $0.00 USDC
+[2026-02-20T03:06:47.978Z] Balance: $0.00 USDC
+[2026-02-20T03:06:47.978Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:06:47.978Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:07:28.841Z] [PAUSED] Trader disabled - running in simulation mode only
+[2026-02-20T03:07:28.844Z] [PAUSED] To enable: restore working trader from backup or fix API connection
+[2026-02-20T03:07:28.844Z] [PAUSED] Status: $30 USDC untouched, no real trades executed
+[2026-02-20T03:07:28.844Z] [INFO] Total sites built today: 18 | Sites in portfolio: ~60
+[2026-02-20T03:08:48.067Z] --- SCAN #31 ---
+[2026-02-20T03:08:48.067Z] --- SCAN #31 ---
+[2026-02-20T03:08:48.067Z] Balance: $0.00 USDC
+[2026-02-20T03:08:48.067Z] Balance: $0.00 USDC
+[2026-02-20T03:08:48.067Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:08:48.067Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:10:48.164Z] --- SCAN #31 ---
+[2026-02-20T03:10:48.164Z] --- SCAN #31 ---
+[2026-02-20T03:10:48.164Z] Balance: $0.00 USDC
+[2026-02-20T03:10:48.164Z] Balance: $0.00 USDC
+[2026-02-20T03:10:48.164Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:10:48.164Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:12:48.250Z] --- SCAN #31 ---
+[2026-02-20T03:12:48.250Z] --- SCAN #31 ---
+[2026-02-20T03:12:48.251Z] Balance: $0.00 USDC
+[2026-02-20T03:12:48.251Z] Balance: $0.00 USDC
+[2026-02-20T03:12:48.251Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:12:48.251Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:12:53.084Z] [PAUSED] Trader disabled - running in simulation mode only
+[2026-02-20T03:12:53.087Z] [PAUSED] To enable: restore working trader from backup or fix API connection
+[2026-02-20T03:12:53.088Z] [PAUSED] Status: $30 USDC untouched, no real trades executed
+[2026-02-20T03:12:53.088Z] [INFO] Total sites built today: 18 | Sites in portfolio: ~60
+[2026-02-20T03:14:48.283Z] --- SCAN #31 ---
+[2026-02-20T03:14:48.283Z] --- SCAN #31 ---
+[2026-02-20T03:14:48.283Z] Balance: $0.00 USDC
+[2026-02-20T03:14:48.283Z] Balance: $0.00 USDC
+[2026-02-20T03:14:48.283Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:14:48.283Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:16:48.357Z] --- SCAN #31 ---
+[2026-02-20T03:16:48.357Z] --- SCAN #31 ---
+[2026-02-20T03:16:48.357Z] Balance: $0.00 USDC
+[2026-02-20T03:16:48.357Z] Balance: $0.00 USDC
+[2026-02-20T03:16:48.357Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:16:48.357Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:17:33.141Z] [PAUSED] Trader disabled - running in simulation mode only
+[2026-02-20T03:17:33.144Z] [PAUSED] To enable: restore working trader from backup or fix API connection
+[2026-02-20T03:17:33.144Z] [PAUSED] Status: $30 USDC untouched, no real trades executed
+[2026-02-20T03:17:33.144Z] [INFO] Total sites built today: 18 | Sites in portfolio: ~60
+[2026-02-20T03:18:48.457Z] --- SCAN #31 ---
+[2026-02-20T03:18:48.457Z] --- SCAN #31 ---
+[2026-02-20T03:18:48.457Z] Balance: $0.00 USDC
+[2026-02-20T03:18:48.457Z] Balance: $0.00 USDC
+[2026-02-20T03:18:48.457Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:18:48.457Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:20:48.494Z] --- SCAN #31 ---
+[2026-02-20T03:20:48.494Z] --- SCAN #31 ---
+[2026-02-20T03:20:48.495Z] Balance: $0.00 USDC
+[2026-02-20T03:20:48.495Z] Balance: $0.00 USDC
+[2026-02-20T03:20:48.495Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:20:48.495Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:22:48.548Z] --- SCAN #31 ---
+[2026-02-20T03:22:48.548Z] --- SCAN #31 ---
+[2026-02-20T03:22:48.549Z] Balance: $0.00 USDC
+[2026-02-20T03:22:48.549Z] Balance: $0.00 USDC
+[2026-02-20T03:22:48.549Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:22:48.549Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:23:12.195Z] [PAUSED] Trader disabled - running in simulation mode only
+[2026-02-20T03:23:12.199Z] [PAUSED] To enable: restore working trader from backup or fix API connection
+[2026-02-20T03:23:12.199Z] [PAUSED] Status: $30 USDC untouched, no real trades executed
+[2026-02-20T03:23:12.199Z] [INFO] Total sites built today: 18 | Sites in portfolio: ~60
+[2026-02-20T03:24:48.607Z] --- SCAN #31 ---
+[2026-02-20T03:24:48.607Z] --- SCAN #31 ---
+[2026-02-20T03:24:48.607Z] Balance: $0.00 USDC
+[2026-02-20T03:24:48.607Z] Balance: $0.00 USDC
+[2026-02-20T03:24:48.607Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:24:48.607Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:26:48.607Z] --- SCAN #31 ---
+[2026-02-20T03:26:48.607Z] --- SCAN #31 ---
+[2026-02-20T03:26:48.608Z] Balance: $0.00 USDC
+[2026-02-20T03:26:48.608Z] Balance: $0.00 USDC
+[2026-02-20T03:26:48.608Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:26:48.608Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:27:20.089Z] [PAUSED] Trader disabled - running in simulation mode only
+[2026-02-20T03:27:20.093Z] [PAUSED] To enable: restore working trader from backup or fix API connection
+[2026-02-20T03:27:20.094Z] [PAUSED] Status: $30 USDC untouched, no real trades executed
+[2026-02-20T03:27:20.094Z] [INFO] Total sites built today: 18 | Sites in portfolio: ~60
+[2026-02-20T03:28:48.621Z] --- SCAN #31 ---
+[2026-02-20T03:28:48.621Z] --- SCAN #31 ---
+[2026-02-20T03:28:48.621Z] Balance: $0.00 USDC
+[2026-02-20T03:28:48.621Z] Balance: $0.00 USDC
+[2026-02-20T03:28:48.621Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:28:48.621Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:30:48.630Z] --- SCAN #31 ---
+[2026-02-20T03:30:48.630Z] --- SCAN #31 ---
+[2026-02-20T03:30:48.630Z] Balance: $0.00 USDC
+[2026-02-20T03:30:48.630Z] Balance: $0.00 USDC
+[2026-02-20T03:30:48.630Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:30:48.630Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:32:18.211Z] [PAUSED] Trader disabled - running in simulation mode only
+[2026-02-20T03:32:18.214Z] [PAUSED] To enable: restore working trader from backup or fix API connection
+[2026-02-20T03:32:18.215Z] [PAUSED] Status: $30 USDC untouched, no real trades executed
+[2026-02-20T03:32:18.215Z] [INFO] Total sites built today: 18 | Sites in portfolio: ~60
+[2026-02-20T03:32:48.723Z] --- SCAN #31 ---
+[2026-02-20T03:32:48.723Z] --- SCAN #31 ---
+[2026-02-20T03:32:48.723Z] Balance: $0.00 USDC
+[2026-02-20T03:32:48.723Z] Balance: $0.00 USDC
+[2026-02-20T03:32:48.723Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:32:48.723Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:34:48.750Z] --- SCAN #31 ---
+[2026-02-20T03:34:48.750Z] --- SCAN #31 ---
+[2026-02-20T03:34:48.750Z] Balance: $0.00 USDC
+[2026-02-20T03:34:48.750Z] Balance: $0.00 USDC
+[2026-02-20T03:34:48.750Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:34:48.750Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:36:48.853Z] --- SCAN #31 ---
+[2026-02-20T03:36:48.853Z] --- SCAN #31 ---
+[2026-02-20T03:36:48.853Z] Balance: $0.00 USDC
+[2026-02-20T03:36:48.853Z] Balance: $0.00 USDC
+[2026-02-20T03:36:48.853Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:36:48.853Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:37:39.537Z] [PAUSED] Trader disabled - running in simulation mode only
+[2026-02-20T03:37:39.540Z] [PAUSED] To enable: restore working trader from backup or fix API connection
+[2026-02-20T03:37:39.540Z] [PAUSED] Status: $30 USDC untouched, no real trades executed
+[2026-02-20T03:37:39.540Z] [INFO] Total sites built today: 18 | Sites in portfolio: ~60
+[2026-02-20T03:38:48.950Z] --- SCAN #31 ---
+[2026-02-20T03:38:48.950Z] --- SCAN #31 ---
+[2026-02-20T03:38:48.950Z] Balance: $0.00 USDC
+[2026-02-20T03:38:48.950Z] Balance: $0.00 USDC
+[2026-02-20T03:38:48.950Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:38:48.950Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:40:48.956Z] --- SCAN #31 ---
+[2026-02-20T03:40:48.956Z] --- SCAN #31 ---
+[2026-02-20T03:40:48.956Z] Balance: $0.00 USDC
+[2026-02-20T03:40:48.956Z] Balance: $0.00 USDC
+[2026-02-20T03:40:48.956Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:40:48.956Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:42:36.098Z] [PAUSED] Trader disabled - running in simulation mode only
+[2026-02-20T03:42:36.102Z] [PAUSED] To enable: restore working trader from backup or fix API connection
+[2026-02-20T03:42:36.102Z] [PAUSED] Status: $30 USDC untouched, no real trades executed
+[2026-02-20T03:42:36.102Z] [INFO] Total sites built today: 18 | Sites in portfolio: ~60
+[2026-02-20T03:42:49.002Z] --- SCAN #31 ---
+[2026-02-20T03:42:49.002Z] --- SCAN #31 ---
+[2026-02-20T03:42:49.003Z] Balance: $0.00 USDC
+[2026-02-20T03:42:49.003Z] Balance: $0.00 USDC
+[2026-02-20T03:42:49.003Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:42:49.003Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:44:49.062Z] --- SCAN #31 ---
+[2026-02-20T03:44:49.062Z] --- SCAN #31 ---
+[2026-02-20T03:44:49.062Z] Balance: $0.00 USDC
+[2026-02-20T03:44:49.062Z] Balance: $0.00 USDC
+[2026-02-20T03:44:49.062Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:44:49.062Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:46:49.162Z] --- SCAN #31 ---
+[2026-02-20T03:46:49.162Z] --- SCAN #31 ---
+[2026-02-20T03:46:49.162Z] Balance: $0.00 USDC
+[2026-02-20T03:46:49.162Z] Balance: $0.00 USDC
+[2026-02-20T03:46:49.162Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:46:49.162Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:47:19.282Z] [PAUSED] Trader disabled - running in simulation mode only
+[2026-02-20T03:47:19.287Z] [PAUSED] To enable: restore working trader from backup or fix API connection
+[2026-02-20T03:47:19.287Z] [PAUSED] Status: $30 USDC untouched, no real trades executed
+[2026-02-20T03:47:19.287Z] [INFO] Total sites built today: 18 | Sites in portfolio: ~60
+[2026-02-20T03:48:49.232Z] --- SCAN #31 ---
+[2026-02-20T03:48:49.232Z] --- SCAN #31 ---
+[2026-02-20T03:48:49.232Z] Balance: $0.00 USDC
+[2026-02-20T03:48:49.232Z] Balance: $0.00 USDC
+[2026-02-20T03:48:49.232Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:48:49.232Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:50:49.332Z] --- SCAN #31 ---
+[2026-02-20T03:50:49.332Z] --- SCAN #31 ---
+[2026-02-20T03:50:49.332Z] Balance: $0.00 USDC
+[2026-02-20T03:50:49.332Z] Balance: $0.00 USDC
+[2026-02-20T03:50:49.332Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:50:49.332Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:52:49.418Z] --- SCAN #31 ---
+[2026-02-20T03:52:49.418Z] --- SCAN #31 ---
+[2026-02-20T03:52:49.418Z] Balance: $0.00 USDC
+[2026-02-20T03:52:49.418Z] Balance: $0.00 USDC
+[2026-02-20T03:52:49.418Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:52:49.418Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:54:49.512Z] --- SCAN #31 ---
+[2026-02-20T03:54:49.512Z] --- SCAN #31 ---
+[2026-02-20T03:54:49.512Z] Balance: $0.00 USDC
+[2026-02-20T03:54:49.512Z] Balance: $0.00 USDC
+[2026-02-20T03:54:49.512Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:54:49.512Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:56:49.571Z] --- SCAN #31 ---
+[2026-02-20T03:56:49.571Z] --- SCAN #31 ---
+[2026-02-20T03:56:49.571Z] Balance: $0.00 USDC
+[2026-02-20T03:56:49.571Z] Balance: $0.00 USDC
+[2026-02-20T03:56:49.571Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:56:49.571Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:58:49.600Z] --- SCAN #31 ---
+[2026-02-20T03:58:49.600Z] --- SCAN #31 ---
+[2026-02-20T03:58:49.600Z] Balance: $0.00 USDC
+[2026-02-20T03:58:49.600Z] Balance: $0.00 USDC
+[2026-02-20T03:58:49.600Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T03:58:49.600Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:00:49.626Z] --- SCAN #31 ---
+[2026-02-20T04:00:49.626Z] --- SCAN #31 ---
+[2026-02-20T04:00:49.626Z] Balance: $0.00 USDC
+[2026-02-20T04:00:49.626Z] Balance: $0.00 USDC
+[2026-02-20T04:00:49.626Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:00:49.626Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:02:49.723Z] --- SCAN #31 ---
+[2026-02-20T04:02:49.723Z] --- SCAN #31 ---
+[2026-02-20T04:02:49.724Z] Balance: $0.00 USDC
+[2026-02-20T04:02:49.724Z] Balance: $0.00 USDC
+[2026-02-20T04:02:49.724Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:02:49.724Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:04:49.824Z] --- SCAN #31 ---
+[2026-02-20T04:04:49.824Z] --- SCAN #31 ---
+[2026-02-20T04:04:49.824Z] Balance: $0.00 USDC
+[2026-02-20T04:04:49.824Z] Balance: $0.00 USDC
+[2026-02-20T04:04:49.824Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:04:49.824Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:06:49.882Z] --- SCAN #31 ---
+[2026-02-20T04:06:49.882Z] --- SCAN #31 ---
+[2026-02-20T04:06:49.882Z] Balance: $0.00 USDC
+[2026-02-20T04:06:49.882Z] Balance: $0.00 USDC
+[2026-02-20T04:06:49.882Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:06:49.882Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:08:49.982Z] --- SCAN #31 ---
+[2026-02-20T04:08:49.982Z] --- SCAN #31 ---
+[2026-02-20T04:08:49.982Z] Balance: $0.00 USDC
+[2026-02-20T04:08:49.982Z] Balance: $0.00 USDC
+[2026-02-20T04:08:49.982Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:08:49.982Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:10:50.014Z] --- SCAN #31 ---
+[2026-02-20T04:10:50.014Z] --- SCAN #31 ---
+[2026-02-20T04:10:50.014Z] Balance: $0.00 USDC
+[2026-02-20T04:10:50.014Z] Balance: $0.00 USDC
+[2026-02-20T04:10:50.014Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:10:50.014Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:12:50.016Z] --- SCAN #31 ---
+[2026-02-20T04:12:50.016Z] --- SCAN #31 ---
+[2026-02-20T04:12:50.016Z] Balance: $0.00 USDC
+[2026-02-20T04:12:50.016Z] Balance: $0.00 USDC
+[2026-02-20T04:12:50.016Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:12:50.016Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:14:50.099Z] --- SCAN #31 ---
+[2026-02-20T04:14:50.099Z] --- SCAN #31 ---
+[2026-02-20T04:14:50.100Z] Balance: $0.00 USDC
+[2026-02-20T04:14:50.100Z] Balance: $0.00 USDC
+[2026-02-20T04:14:50.100Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:14:50.100Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:16:50.122Z] --- SCAN #31 ---
+[2026-02-20T04:16:50.122Z] --- SCAN #31 ---
+[2026-02-20T04:16:50.122Z] Balance: $0.00 USDC
+[2026-02-20T04:16:50.122Z] Balance: $0.00 USDC
+[2026-02-20T04:16:50.122Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:16:50.122Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:18:50.222Z] --- SCAN #31 ---
+[2026-02-20T04:18:50.222Z] --- SCAN #31 ---
+[2026-02-20T04:18:50.222Z] Balance: $0.00 USDC
+[2026-02-20T04:18:50.222Z] Balance: $0.00 USDC
+[2026-02-20T04:18:50.222Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:18:50.222Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:20:50.236Z] --- SCAN #31 ---
+[2026-02-20T04:20:50.236Z] --- SCAN #31 ---
+[2026-02-20T04:20:50.236Z] Balance: $0.00 USDC
+[2026-02-20T04:20:50.236Z] Balance: $0.00 USDC
+[2026-02-20T04:20:50.236Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:20:50.236Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:22:50.295Z] --- SCAN #31 ---
+[2026-02-20T04:22:50.295Z] --- SCAN #31 ---
+[2026-02-20T04:22:50.295Z] Balance: $0.00 USDC
+[2026-02-20T04:22:50.295Z] Balance: $0.00 USDC
+[2026-02-20T04:22:50.295Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:22:50.295Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:24:50.306Z] --- SCAN #31 ---
+[2026-02-20T04:24:50.306Z] --- SCAN #31 ---
+[2026-02-20T04:24:50.307Z] Balance: $0.00 USDC
+[2026-02-20T04:24:50.307Z] Balance: $0.00 USDC
+[2026-02-20T04:24:50.307Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:24:50.307Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:26:50.406Z] --- SCAN #31 ---
+[2026-02-20T04:26:50.406Z] --- SCAN #31 ---
+[2026-02-20T04:26:50.406Z] Balance: $0.00 USDC
+[2026-02-20T04:26:50.406Z] Balance: $0.00 USDC
+[2026-02-20T04:26:50.407Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:26:50.407Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:28:50.478Z] --- SCAN #31 ---
+[2026-02-20T04:28:50.478Z] --- SCAN #31 ---
+[2026-02-20T04:28:50.478Z] Balance: $0.00 USDC
+[2026-02-20T04:28:50.478Z] Balance: $0.00 USDC
+[2026-02-20T04:28:50.478Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:28:50.478Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:30:50.504Z] --- SCAN #31 ---
+[2026-02-20T04:30:50.504Z] --- SCAN #31 ---
+[2026-02-20T04:30:50.504Z] Balance: $0.00 USDC
+[2026-02-20T04:30:50.504Z] Balance: $0.00 USDC
+[2026-02-20T04:30:50.504Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:30:50.504Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:32:50.523Z] --- SCAN #31 ---
+[2026-02-20T04:32:50.523Z] --- SCAN #31 ---
+[2026-02-20T04:32:50.523Z] Balance: $0.00 USDC
+[2026-02-20T04:32:50.523Z] Balance: $0.00 USDC
+[2026-02-20T04:32:50.523Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:32:50.523Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:34:50.623Z] --- SCAN #31 ---
+[2026-02-20T04:34:50.623Z] --- SCAN #31 ---
+[2026-02-20T04:34:50.623Z] Balance: $0.00 USDC
+[2026-02-20T04:34:50.623Z] Balance: $0.00 USDC
+[2026-02-20T04:34:50.623Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:34:50.623Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:36:50.711Z] --- SCAN #31 ---
+[2026-02-20T04:36:50.711Z] --- SCAN #31 ---
+[2026-02-20T04:36:50.711Z] Balance: $0.00 USDC
+[2026-02-20T04:36:50.711Z] Balance: $0.00 USDC
+[2026-02-20T04:36:50.712Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:36:50.712Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:38:50.797Z] --- SCAN #31 ---
+[2026-02-20T04:38:50.797Z] --- SCAN #31 ---
+[2026-02-20T04:38:50.798Z] Balance: $0.00 USDC
+[2026-02-20T04:38:50.798Z] Balance: $0.00 USDC
+[2026-02-20T04:38:50.798Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:38:50.798Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:40:50.800Z] --- SCAN #31 ---
+[2026-02-20T04:40:50.800Z] --- SCAN #31 ---
+[2026-02-20T04:40:50.800Z] Balance: $0.00 USDC
+[2026-02-20T04:40:50.800Z] Balance: $0.00 USDC
+[2026-02-20T04:40:50.800Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:40:50.800Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:42:50.860Z] --- SCAN #31 ---
+[2026-02-20T04:42:50.860Z] --- SCAN #31 ---
+[2026-02-20T04:42:50.860Z] Balance: $0.00 USDC
+[2026-02-20T04:42:50.860Z] Balance: $0.00 USDC
+[2026-02-20T04:42:50.860Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:42:50.860Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:44:50.860Z] --- SCAN #31 ---
+[2026-02-20T04:44:50.860Z] --- SCAN #31 ---
+[2026-02-20T04:44:50.860Z] Balance: $0.00 USDC
+[2026-02-20T04:44:50.860Z] Balance: $0.00 USDC
+[2026-02-20T04:44:50.860Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:44:50.860Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:46:50.907Z] --- SCAN #31 ---
+[2026-02-20T04:46:50.907Z] --- SCAN #31 ---
+[2026-02-20T04:46:50.907Z] Balance: $0.00 USDC
+[2026-02-20T04:46:50.907Z] Balance: $0.00 USDC
+[2026-02-20T04:46:50.907Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:46:50.907Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:48:51.001Z] --- SCAN #31 ---
+[2026-02-20T04:48:51.001Z] --- SCAN #31 ---
+[2026-02-20T04:48:51.001Z] Balance: $0.00 USDC
+[2026-02-20T04:48:51.001Z] Balance: $0.00 USDC
+[2026-02-20T04:48:51.001Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:48:51.001Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:50:51.086Z] --- SCAN #31 ---
+[2026-02-20T04:50:51.086Z] --- SCAN #31 ---
+[2026-02-20T04:50:51.086Z] Balance: $0.00 USDC
+[2026-02-20T04:50:51.086Z] Balance: $0.00 USDC
+[2026-02-20T04:50:51.086Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:50:51.086Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:52:51.128Z] --- SCAN #31 ---
+[2026-02-20T04:52:51.128Z] --- SCAN #31 ---
+[2026-02-20T04:52:51.128Z] Balance: $0.00 USDC
+[2026-02-20T04:52:51.128Z] Balance: $0.00 USDC
+[2026-02-20T04:52:51.128Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:52:51.128Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:54:51.181Z] --- SCAN #31 ---
+[2026-02-20T04:54:51.181Z] --- SCAN #31 ---
+[2026-02-20T04:54:51.181Z] Balance: $0.00 USDC
+[2026-02-20T04:54:51.181Z] Balance: $0.00 USDC
+[2026-02-20T04:54:51.181Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:54:51.181Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:56:51.192Z] --- SCAN #31 ---
+[2026-02-20T04:56:51.192Z] --- SCAN #31 ---
+[2026-02-20T04:56:51.192Z] Balance: $0.00 USDC
+[2026-02-20T04:56:51.192Z] Balance: $0.00 USDC
+[2026-02-20T04:56:51.192Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:56:51.192Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:58:51.292Z] --- SCAN #31 ---
+[2026-02-20T04:58:51.292Z] --- SCAN #31 ---
+[2026-02-20T04:58:51.292Z] Balance: $0.00 USDC
+[2026-02-20T04:58:51.292Z] Balance: $0.00 USDC
+[2026-02-20T04:58:51.292Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T04:58:51.292Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:00:51.346Z] --- SCAN #31 ---
+[2026-02-20T05:00:51.346Z] --- SCAN #31 ---
+[2026-02-20T05:00:51.347Z] Balance: $0.00 USDC
+[2026-02-20T05:00:51.347Z] Balance: $0.00 USDC
+[2026-02-20T05:00:51.347Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:00:51.347Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:02:51.350Z] --- SCAN #31 ---
+[2026-02-20T05:02:51.350Z] --- SCAN #31 ---
+[2026-02-20T05:02:51.350Z] Balance: $0.00 USDC
+[2026-02-20T05:02:51.350Z] Balance: $0.00 USDC
+[2026-02-20T05:02:51.350Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:02:51.350Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:04:51.369Z] --- SCAN #31 ---
+[2026-02-20T05:04:51.369Z] --- SCAN #31 ---
+[2026-02-20T05:04:51.369Z] Balance: $0.00 USDC
+[2026-02-20T05:04:51.369Z] Balance: $0.00 USDC
+[2026-02-20T05:04:51.369Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:04:51.369Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:06:51.428Z] --- SCAN #31 ---
+[2026-02-20T05:06:51.428Z] --- SCAN #31 ---
+[2026-02-20T05:06:51.429Z] Balance: $0.00 USDC
+[2026-02-20T05:06:51.429Z] Balance: $0.00 USDC
+[2026-02-20T05:06:51.429Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:06:51.429Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:08:51.460Z] --- SCAN #31 ---
+[2026-02-20T05:08:51.460Z] --- SCAN #31 ---
+[2026-02-20T05:08:51.461Z] Balance: $0.00 USDC
+[2026-02-20T05:08:51.461Z] Balance: $0.00 USDC
+[2026-02-20T05:08:51.461Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:08:51.461Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:10:51.522Z] --- SCAN #31 ---
+[2026-02-20T05:10:51.522Z] --- SCAN #31 ---
+[2026-02-20T05:10:51.522Z] Balance: $0.00 USDC
+[2026-02-20T05:10:51.522Z] Balance: $0.00 USDC
+[2026-02-20T05:10:51.522Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:10:51.522Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:12:51.560Z] --- SCAN #31 ---
+[2026-02-20T05:12:51.560Z] --- SCAN #31 ---
+[2026-02-20T05:12:51.561Z] Balance: $0.00 USDC
+[2026-02-20T05:12:51.561Z] Balance: $0.00 USDC
+[2026-02-20T05:12:51.561Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:12:51.561Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:14:51.649Z] --- SCAN #31 ---
+[2026-02-20T05:14:51.649Z] --- SCAN #31 ---
+[2026-02-20T05:14:51.649Z] Balance: $0.00 USDC
+[2026-02-20T05:14:51.649Z] Balance: $0.00 USDC
+[2026-02-20T05:14:51.649Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:14:51.649Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:16:51.654Z] --- SCAN #31 ---
+[2026-02-20T05:16:51.654Z] --- SCAN #31 ---
+[2026-02-20T05:16:51.654Z] Balance: $0.00 USDC
+[2026-02-20T05:16:51.654Z] Balance: $0.00 USDC
+[2026-02-20T05:16:51.654Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:16:51.654Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:18:51.676Z] --- SCAN #31 ---
+[2026-02-20T05:18:51.676Z] --- SCAN #31 ---
+[2026-02-20T05:18:51.677Z] Balance: $0.00 USDC
+[2026-02-20T05:18:51.677Z] Balance: $0.00 USDC
+[2026-02-20T05:18:51.677Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:18:51.677Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:20:51.741Z] --- SCAN #31 ---
+[2026-02-20T05:20:51.741Z] --- SCAN #31 ---
+[2026-02-20T05:20:51.741Z] Balance: $0.00 USDC
+[2026-02-20T05:20:51.741Z] Balance: $0.00 USDC
+[2026-02-20T05:20:51.741Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:20:51.741Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:22:51.793Z] --- SCAN #31 ---
+[2026-02-20T05:22:51.793Z] --- SCAN #31 ---
+[2026-02-20T05:22:51.793Z] Balance: $0.00 USDC
+[2026-02-20T05:22:51.793Z] Balance: $0.00 USDC
+[2026-02-20T05:22:51.793Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:22:51.793Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:24:51.885Z] --- SCAN #31 ---
+[2026-02-20T05:24:51.885Z] --- SCAN #31 ---
+[2026-02-20T05:24:51.885Z] Balance: $0.00 USDC
+[2026-02-20T05:24:51.885Z] Balance: $0.00 USDC
+[2026-02-20T05:24:51.885Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:24:51.885Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:26:51.940Z] --- SCAN #31 ---
+[2026-02-20T05:26:51.940Z] --- SCAN #31 ---
+[2026-02-20T05:26:51.940Z] Balance: $0.00 USDC
+[2026-02-20T05:26:51.940Z] Balance: $0.00 USDC
+[2026-02-20T05:26:51.940Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:26:51.940Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:28:51.994Z] --- SCAN #31 ---
+[2026-02-20T05:28:51.994Z] --- SCAN #31 ---
+[2026-02-20T05:28:51.994Z] Balance: $0.00 USDC
+[2026-02-20T05:28:51.994Z] Balance: $0.00 USDC
+[2026-02-20T05:28:51.994Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:28:51.994Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:30:52.067Z] --- SCAN #31 ---
+[2026-02-20T05:30:52.067Z] --- SCAN #31 ---
+[2026-02-20T05:30:52.068Z] Balance: $0.00 USDC
+[2026-02-20T05:30:52.068Z] Balance: $0.00 USDC
+[2026-02-20T05:30:52.068Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:30:52.068Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:32:52.172Z] --- SCAN #31 ---
+[2026-02-20T05:32:52.172Z] --- SCAN #31 ---
+[2026-02-20T05:32:52.172Z] Balance: $0.00 USDC
+[2026-02-20T05:32:52.172Z] Balance: $0.00 USDC
+[2026-02-20T05:32:52.172Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:32:52.172Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:34:52.218Z] --- SCAN #31 ---
+[2026-02-20T05:34:52.218Z] --- SCAN #31 ---
+[2026-02-20T05:34:52.218Z] Balance: $0.00 USDC
+[2026-02-20T05:34:52.218Z] Balance: $0.00 USDC
+[2026-02-20T05:34:52.218Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:34:52.218Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:36:52.308Z] --- SCAN #31 ---
+[2026-02-20T05:36:52.308Z] --- SCAN #31 ---
+[2026-02-20T05:36:52.308Z] Balance: $0.00 USDC
+[2026-02-20T05:36:52.308Z] Balance: $0.00 USDC
+[2026-02-20T05:36:52.308Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:36:52.308Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:38:52.354Z] --- SCAN #31 ---
+[2026-02-20T05:38:52.354Z] --- SCAN #31 ---
+[2026-02-20T05:38:52.355Z] Balance: $0.00 USDC
+[2026-02-20T05:38:52.355Z] Balance: $0.00 USDC
+[2026-02-20T05:38:52.355Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:38:52.355Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:40:52.455Z] --- SCAN #31 ---
+[2026-02-20T05:40:52.455Z] --- SCAN #31 ---
+[2026-02-20T05:40:52.455Z] Balance: $0.00 USDC
+[2026-02-20T05:40:52.455Z] Balance: $0.00 USDC
+[2026-02-20T05:40:52.455Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:40:52.455Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:42:52.470Z] --- SCAN #31 ---
+[2026-02-20T05:42:52.470Z] --- SCAN #31 ---
+[2026-02-20T05:42:52.470Z] Balance: $0.00 USDC
+[2026-02-20T05:42:52.470Z] Balance: $0.00 USDC
+[2026-02-20T05:42:52.470Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:42:52.470Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:44:52.484Z] --- SCAN #31 ---
+[2026-02-20T05:44:52.484Z] --- SCAN #31 ---
+[2026-02-20T05:44:52.485Z] Balance: $0.00 USDC
+[2026-02-20T05:44:52.485Z] Balance: $0.00 USDC
+[2026-02-20T05:44:52.485Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:44:52.485Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:46:52.500Z] --- SCAN #31 ---
+[2026-02-20T05:46:52.500Z] --- SCAN #31 ---
+[2026-02-20T05:46:52.500Z] Balance: $0.00 USDC
+[2026-02-20T05:46:52.500Z] Balance: $0.00 USDC
+[2026-02-20T05:46:52.500Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:46:52.500Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:48:52.596Z] --- SCAN #31 ---
+[2026-02-20T05:48:52.596Z] --- SCAN #31 ---
+[2026-02-20T05:48:52.596Z] Balance: $0.00 USDC
+[2026-02-20T05:48:52.596Z] Balance: $0.00 USDC
+[2026-02-20T05:48:52.596Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:48:52.596Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:50:52.602Z] --- SCAN #31 ---
+[2026-02-20T05:50:52.602Z] --- SCAN #31 ---
+[2026-02-20T05:50:52.602Z] Balance: $0.00 USDC
+[2026-02-20T05:50:52.602Z] Balance: $0.00 USDC
+[2026-02-20T05:50:52.602Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:50:52.602Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:52:52.702Z] --- SCAN #31 ---
+[2026-02-20T05:52:52.702Z] --- SCAN #31 ---
+[2026-02-20T05:52:52.702Z] Balance: $0.00 USDC
+[2026-02-20T05:52:52.702Z] Balance: $0.00 USDC
+[2026-02-20T05:52:52.702Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:52:52.702Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:54:52.762Z] --- SCAN #31 ---
+[2026-02-20T05:54:52.762Z] --- SCAN #31 ---
+[2026-02-20T05:54:52.762Z] Balance: $0.00 USDC
+[2026-02-20T05:54:52.762Z] Balance: $0.00 USDC
+[2026-02-20T05:54:52.762Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:54:52.762Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:56:52.860Z] --- SCAN #31 ---
+[2026-02-20T05:56:52.860Z] --- SCAN #31 ---
+[2026-02-20T05:56:52.860Z] Balance: $0.00 USDC
+[2026-02-20T05:56:52.860Z] Balance: $0.00 USDC
+[2026-02-20T05:56:52.860Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:56:52.860Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:58:52.945Z] --- SCAN #31 ---
+[2026-02-20T05:58:52.945Z] --- SCAN #31 ---
+[2026-02-20T05:58:52.945Z] Balance: $0.00 USDC
+[2026-02-20T05:58:52.945Z] Balance: $0.00 USDC
+[2026-02-20T05:58:52.945Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T05:58:52.945Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:00:53.044Z] --- SCAN #31 ---
+[2026-02-20T06:00:53.044Z] --- SCAN #31 ---
+[2026-02-20T06:00:53.044Z] Balance: $0.00 USDC
+[2026-02-20T06:00:53.044Z] Balance: $0.00 USDC
+[2026-02-20T06:00:53.044Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:00:53.044Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:02:53.045Z] --- SCAN #31 ---
+[2026-02-20T06:02:53.045Z] --- SCAN #31 ---
+[2026-02-20T06:02:53.045Z] Balance: $0.00 USDC
+[2026-02-20T06:02:53.045Z] Balance: $0.00 USDC
+[2026-02-20T06:02:53.045Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:02:53.045Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:04:53.138Z] --- SCAN #31 ---
+[2026-02-20T06:04:53.138Z] --- SCAN #31 ---
+[2026-02-20T06:04:53.138Z] Balance: $0.00 USDC
+[2026-02-20T06:04:53.138Z] Balance: $0.00 USDC
+[2026-02-20T06:04:53.138Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:04:53.138Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:06:53.240Z] --- SCAN #31 ---
+[2026-02-20T06:06:53.240Z] --- SCAN #31 ---
+[2026-02-20T06:06:53.240Z] Balance: $0.00 USDC
+[2026-02-20T06:06:53.240Z] Balance: $0.00 USDC
+[2026-02-20T06:06:53.240Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:06:53.240Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:08:53.336Z] --- SCAN #31 ---
+[2026-02-20T06:08:53.336Z] --- SCAN #31 ---
+[2026-02-20T06:08:53.336Z] Balance: $0.00 USDC
+[2026-02-20T06:08:53.336Z] Balance: $0.00 USDC
+[2026-02-20T06:08:53.336Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:08:53.336Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:10:53.340Z] --- SCAN #31 ---
+[2026-02-20T06:10:53.340Z] --- SCAN #31 ---
+[2026-02-20T06:10:53.340Z] Balance: $0.00 USDC
+[2026-02-20T06:10:53.340Z] Balance: $0.00 USDC
+[2026-02-20T06:10:53.340Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:10:53.340Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:12:53.351Z] --- SCAN #31 ---
+[2026-02-20T06:12:53.351Z] --- SCAN #31 ---
+[2026-02-20T06:12:53.352Z] Balance: $0.00 USDC
+[2026-02-20T06:12:53.352Z] Balance: $0.00 USDC
+[2026-02-20T06:12:53.352Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:12:53.352Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:14:53.451Z] --- SCAN #31 ---
+[2026-02-20T06:14:53.451Z] --- SCAN #31 ---
+[2026-02-20T06:14:53.451Z] Balance: $0.00 USDC
+[2026-02-20T06:14:53.451Z] Balance: $0.00 USDC
+[2026-02-20T06:14:53.451Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:14:53.451Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:16:53.473Z] --- SCAN #31 ---
+[2026-02-20T06:16:53.473Z] --- SCAN #31 ---
+[2026-02-20T06:16:53.473Z] Balance: $0.00 USDC
+[2026-02-20T06:16:53.473Z] Balance: $0.00 USDC
+[2026-02-20T06:16:53.473Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:16:53.473Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:18:53.475Z] --- SCAN #31 ---
+[2026-02-20T06:18:53.475Z] --- SCAN #31 ---
+[2026-02-20T06:18:53.475Z] Balance: $0.00 USDC
+[2026-02-20T06:18:53.475Z] Balance: $0.00 USDC
+[2026-02-20T06:18:53.475Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:18:53.475Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:20:53.495Z] --- SCAN #31 ---
+[2026-02-20T06:20:53.495Z] --- SCAN #31 ---
+[2026-02-20T06:20:53.495Z] Balance: $0.00 USDC
+[2026-02-20T06:20:53.495Z] Balance: $0.00 USDC
+[2026-02-20T06:20:53.495Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:20:53.495Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:22:53.497Z] --- SCAN #31 ---
+[2026-02-20T06:22:53.497Z] --- SCAN #31 ---
+[2026-02-20T06:22:53.497Z] Balance: $0.00 USDC
+[2026-02-20T06:22:53.497Z] Balance: $0.00 USDC
+[2026-02-20T06:22:53.497Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:22:53.497Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:24:53.598Z] --- SCAN #31 ---
+[2026-02-20T06:24:53.598Z] --- SCAN #31 ---
+[2026-02-20T06:24:53.598Z] Balance: $0.00 USDC
+[2026-02-20T06:24:53.598Z] Balance: $0.00 USDC
+[2026-02-20T06:24:53.598Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:24:53.598Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:26:53.600Z] --- SCAN #31 ---
+[2026-02-20T06:26:53.600Z] --- SCAN #31 ---
+[2026-02-20T06:26:53.601Z] Balance: $0.00 USDC
+[2026-02-20T06:26:53.601Z] Balance: $0.00 USDC
+[2026-02-20T06:26:53.601Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:26:53.601Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:28:53.607Z] --- SCAN #31 ---
+[2026-02-20T06:28:53.607Z] --- SCAN #31 ---
+[2026-02-20T06:28:53.608Z] Balance: $0.00 USDC
+[2026-02-20T06:28:53.608Z] Balance: $0.00 USDC
+[2026-02-20T06:28:53.608Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:28:53.608Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:30:53.673Z] --- SCAN #31 ---
+[2026-02-20T06:30:53.673Z] --- SCAN #31 ---
+[2026-02-20T06:30:53.673Z] Balance: $0.00 USDC
+[2026-02-20T06:30:53.673Z] Balance: $0.00 USDC
+[2026-02-20T06:30:53.673Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:30:53.673Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:32:53.678Z] --- SCAN #31 ---
+[2026-02-20T06:32:53.678Z] --- SCAN #31 ---
+[2026-02-20T06:32:53.678Z] Balance: $0.00 USDC
+[2026-02-20T06:32:53.678Z] Balance: $0.00 USDC
+[2026-02-20T06:32:53.678Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:32:53.678Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:34:53.757Z] --- SCAN #31 ---
+[2026-02-20T06:34:53.757Z] --- SCAN #31 ---
+[2026-02-20T06:34:53.757Z] Balance: $0.00 USDC
+[2026-02-20T06:34:53.757Z] Balance: $0.00 USDC
+[2026-02-20T06:34:53.757Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:34:53.757Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:36:53.780Z] --- SCAN #31 ---
+[2026-02-20T06:36:53.780Z] --- SCAN #31 ---
+[2026-02-20T06:36:53.780Z] Balance: $0.00 USDC
+[2026-02-20T06:36:53.780Z] Balance: $0.00 USDC
+[2026-02-20T06:36:53.780Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:36:53.780Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:38:53.814Z] --- SCAN #31 ---
+[2026-02-20T06:38:53.814Z] --- SCAN #31 ---
+[2026-02-20T06:38:53.814Z] Balance: $0.00 USDC
+[2026-02-20T06:38:53.814Z] Balance: $0.00 USDC
+[2026-02-20T06:38:53.814Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:38:53.814Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:40:53.865Z] --- SCAN #31 ---
+[2026-02-20T06:40:53.865Z] --- SCAN #31 ---
+[2026-02-20T06:40:53.865Z] Balance: $0.00 USDC
+[2026-02-20T06:40:53.865Z] Balance: $0.00 USDC
+[2026-02-20T06:40:53.865Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:40:53.865Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:42:53.961Z] --- SCAN #31 ---
+[2026-02-20T06:42:53.961Z] --- SCAN #31 ---
+[2026-02-20T06:42:53.961Z] Balance: $0.00 USDC
+[2026-02-20T06:42:53.961Z] Balance: $0.00 USDC
+[2026-02-20T06:42:53.961Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:42:53.961Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:44:54.048Z] --- SCAN #31 ---
+[2026-02-20T06:44:54.048Z] --- SCAN #31 ---
+[2026-02-20T06:44:54.048Z] Balance: $0.00 USDC
+[2026-02-20T06:44:54.048Z] Balance: $0.00 USDC
+[2026-02-20T06:44:54.048Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:44:54.048Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:46:54.123Z] --- SCAN #31 ---
+[2026-02-20T06:46:54.123Z] --- SCAN #31 ---
+[2026-02-20T06:46:54.124Z] Balance: $0.00 USDC
+[2026-02-20T06:46:54.124Z] Balance: $0.00 USDC
+[2026-02-20T06:46:54.124Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:46:54.124Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:48:54.224Z] --- SCAN #31 ---
+[2026-02-20T06:48:54.224Z] --- SCAN #31 ---
+[2026-02-20T06:48:54.225Z] Balance: $0.00 USDC
+[2026-02-20T06:48:54.225Z] Balance: $0.00 USDC
+[2026-02-20T06:48:54.225Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:48:54.225Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:50:54.244Z] --- SCAN #31 ---
+[2026-02-20T06:50:54.244Z] --- SCAN #31 ---
+[2026-02-20T06:50:54.245Z] Balance: $0.00 USDC
+[2026-02-20T06:50:54.245Z] Balance: $0.00 USDC
+[2026-02-20T06:50:54.245Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:50:54.245Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:52:54.245Z] --- SCAN #31 ---
+[2026-02-20T06:52:54.245Z] --- SCAN #31 ---
+[2026-02-20T06:52:54.245Z] Balance: $0.00 USDC
+[2026-02-20T06:52:54.245Z] Balance: $0.00 USDC
+[2026-02-20T06:52:54.245Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:52:54.245Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:54:54.304Z] --- SCAN #31 ---
+[2026-02-20T06:54:54.304Z] --- SCAN #31 ---
+[2026-02-20T06:54:54.305Z] Balance: $0.00 USDC
+[2026-02-20T06:54:54.305Z] Balance: $0.00 USDC
+[2026-02-20T06:54:54.305Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:54:54.305Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:56:54.354Z] --- SCAN #31 ---
+[2026-02-20T06:56:54.354Z] --- SCAN #31 ---
+[2026-02-20T06:56:54.355Z] Balance: $0.00 USDC
+[2026-02-20T06:56:54.355Z] Balance: $0.00 USDC
+[2026-02-20T06:56:54.355Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:56:54.355Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:58:54.435Z] --- SCAN #31 ---
+[2026-02-20T06:58:54.435Z] --- SCAN #31 ---
+[2026-02-20T06:58:54.435Z] Balance: $0.00 USDC
+[2026-02-20T06:58:54.435Z] Balance: $0.00 USDC
+[2026-02-20T06:58:54.435Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T06:58:54.435Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:00:54.437Z] --- SCAN #31 ---
+[2026-02-20T07:00:54.437Z] --- SCAN #31 ---
+[2026-02-20T07:00:54.437Z] Balance: $0.00 USDC
+[2026-02-20T07:00:54.437Z] Balance: $0.00 USDC
+[2026-02-20T07:00:54.437Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:00:54.437Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:02:54.479Z] --- SCAN #31 ---
+[2026-02-20T07:02:54.479Z] --- SCAN #31 ---
+[2026-02-20T07:02:54.479Z] Balance: $0.00 USDC
+[2026-02-20T07:02:54.479Z] Balance: $0.00 USDC
+[2026-02-20T07:02:54.479Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:02:54.479Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:04:54.484Z] --- SCAN #31 ---
+[2026-02-20T07:04:54.484Z] --- SCAN #31 ---
+[2026-02-20T07:04:54.484Z] Balance: $0.00 USDC
+[2026-02-20T07:04:54.484Z] Balance: $0.00 USDC
+[2026-02-20T07:04:54.484Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:04:54.484Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:06:54.558Z] --- SCAN #31 ---
+[2026-02-20T07:06:54.558Z] --- SCAN #31 ---
+[2026-02-20T07:06:54.558Z] Balance: $0.00 USDC
+[2026-02-20T07:06:54.558Z] Balance: $0.00 USDC
+[2026-02-20T07:06:54.558Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:06:54.558Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:08:54.592Z] --- SCAN #31 ---
+[2026-02-20T07:08:54.592Z] --- SCAN #31 ---
+[2026-02-20T07:08:54.592Z] Balance: $0.00 USDC
+[2026-02-20T07:08:54.592Z] Balance: $0.00 USDC
+[2026-02-20T07:08:54.592Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:08:54.592Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:10:54.634Z] --- SCAN #31 ---
+[2026-02-20T07:10:54.634Z] --- SCAN #31 ---
+[2026-02-20T07:10:54.634Z] Balance: $0.00 USDC
+[2026-02-20T07:10:54.634Z] Balance: $0.00 USDC
+[2026-02-20T07:10:54.634Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:10:54.634Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:12:54.684Z] --- SCAN #31 ---
+[2026-02-20T07:12:54.684Z] --- SCAN #31 ---
+[2026-02-20T07:12:54.684Z] Balance: $0.00 USDC
+[2026-02-20T07:12:54.684Z] Balance: $0.00 USDC
+[2026-02-20T07:12:54.684Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:12:54.684Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:14:54.771Z] --- SCAN #31 ---
+[2026-02-20T07:14:54.771Z] --- SCAN #31 ---
+[2026-02-20T07:14:54.772Z] Balance: $0.00 USDC
+[2026-02-20T07:14:54.772Z] Balance: $0.00 USDC
+[2026-02-20T07:14:54.772Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:14:54.772Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:16:54.821Z] --- SCAN #31 ---
+[2026-02-20T07:16:54.821Z] --- SCAN #31 ---
+[2026-02-20T07:16:54.821Z] Balance: $0.00 USDC
+[2026-02-20T07:16:54.821Z] Balance: $0.00 USDC
+[2026-02-20T07:16:54.821Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:16:54.821Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:18:54.922Z] --- SCAN #31 ---
+[2026-02-20T07:18:54.922Z] --- SCAN #31 ---
+[2026-02-20T07:18:54.922Z] Balance: $0.00 USDC
+[2026-02-20T07:18:54.922Z] Balance: $0.00 USDC
+[2026-02-20T07:18:54.922Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:18:54.922Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:20:54.989Z] --- SCAN #31 ---
+[2026-02-20T07:20:54.989Z] --- SCAN #31 ---
+[2026-02-20T07:20:54.989Z] Balance: $0.00 USDC
+[2026-02-20T07:20:54.989Z] Balance: $0.00 USDC
+[2026-02-20T07:20:54.989Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:20:54.989Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:22:55.075Z] --- SCAN #31 ---
+[2026-02-20T07:22:55.075Z] --- SCAN #31 ---
+[2026-02-20T07:22:55.076Z] Balance: $0.00 USDC
+[2026-02-20T07:22:55.076Z] Balance: $0.00 USDC
+[2026-02-20T07:22:55.076Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:22:55.076Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:24:55.087Z] --- SCAN #31 ---
+[2026-02-20T07:24:55.087Z] --- SCAN #31 ---
+[2026-02-20T07:24:55.087Z] Balance: $0.00 USDC
+[2026-02-20T07:24:55.087Z] Balance: $0.00 USDC
+[2026-02-20T07:24:55.087Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:24:55.087Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:26:55.106Z] --- SCAN #31 ---
+[2026-02-20T07:26:55.106Z] --- SCAN #31 ---
+[2026-02-20T07:26:55.106Z] Balance: $0.00 USDC
+[2026-02-20T07:26:55.106Z] Balance: $0.00 USDC
+[2026-02-20T07:26:55.106Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:26:55.106Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:28:55.166Z] --- SCAN #31 ---
+[2026-02-20T07:28:55.166Z] --- SCAN #31 ---
+[2026-02-20T07:28:55.167Z] Balance: $0.00 USDC
+[2026-02-20T07:28:55.167Z] Balance: $0.00 USDC
+[2026-02-20T07:28:55.167Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:28:55.167Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:30:55.179Z] --- SCAN #31 ---
+[2026-02-20T07:30:55.179Z] --- SCAN #31 ---
+[2026-02-20T07:30:55.179Z] Balance: $0.00 USDC
+[2026-02-20T07:30:55.179Z] Balance: $0.00 USDC
+[2026-02-20T07:30:55.179Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:30:55.179Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:32:55.181Z] --- SCAN #31 ---
+[2026-02-20T07:32:55.181Z] --- SCAN #31 ---
+[2026-02-20T07:32:55.182Z] Balance: $0.00 USDC
+[2026-02-20T07:32:55.182Z] Balance: $0.00 USDC
+[2026-02-20T07:32:55.182Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:32:55.182Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:34:55.227Z] --- SCAN #31 ---
+[2026-02-20T07:34:55.227Z] --- SCAN #31 ---
+[2026-02-20T07:34:55.227Z] Balance: $0.00 USDC
+[2026-02-20T07:34:55.227Z] Balance: $0.00 USDC
+[2026-02-20T07:34:55.227Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:34:55.227Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:36:55.290Z] --- SCAN #31 ---
+[2026-02-20T07:36:55.290Z] --- SCAN #31 ---
+[2026-02-20T07:36:55.290Z] Balance: $0.00 USDC
+[2026-02-20T07:36:55.290Z] Balance: $0.00 USDC
+[2026-02-20T07:36:55.291Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:36:55.291Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:38:55.346Z] --- SCAN #31 ---
+[2026-02-20T07:38:55.346Z] --- SCAN #31 ---
+[2026-02-20T07:38:55.346Z] Balance: $0.00 USDC
+[2026-02-20T07:38:55.346Z] Balance: $0.00 USDC
+[2026-02-20T07:38:55.346Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:38:55.346Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:40:55.399Z] --- SCAN #31 ---
+[2026-02-20T07:40:55.399Z] --- SCAN #31 ---
+[2026-02-20T07:40:55.399Z] Balance: $0.00 USDC
+[2026-02-20T07:40:55.399Z] Balance: $0.00 USDC
+[2026-02-20T07:40:55.399Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:40:55.399Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:42:55.477Z] --- SCAN #31 ---
+[2026-02-20T07:42:55.477Z] --- SCAN #31 ---
+[2026-02-20T07:42:55.477Z] Balance: $0.00 USDC
+[2026-02-20T07:42:55.477Z] Balance: $0.00 USDC
+[2026-02-20T07:42:55.477Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:42:55.477Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:44:55.487Z] --- SCAN #31 ---
+[2026-02-20T07:44:55.487Z] --- SCAN #31 ---
+[2026-02-20T07:44:55.487Z] Balance: $0.00 USDC
+[2026-02-20T07:44:55.487Z] Balance: $0.00 USDC
+[2026-02-20T07:44:55.487Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:44:55.487Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:46:55.578Z] --- SCAN #31 ---
+[2026-02-20T07:46:55.578Z] --- SCAN #31 ---
+[2026-02-20T07:46:55.578Z] Balance: $0.00 USDC
+[2026-02-20T07:46:55.578Z] Balance: $0.00 USDC
+[2026-02-20T07:46:55.578Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:46:55.578Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:48:55.585Z] --- SCAN #31 ---
+[2026-02-20T07:48:55.585Z] --- SCAN #31 ---
+[2026-02-20T07:48:55.585Z] Balance: $0.00 USDC
+[2026-02-20T07:48:55.585Z] Balance: $0.00 USDC
+[2026-02-20T07:48:55.585Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:48:55.585Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:50:55.670Z] --- SCAN #31 ---
+[2026-02-20T07:50:55.670Z] --- SCAN #31 ---
+[2026-02-20T07:50:55.670Z] Balance: $0.00 USDC
+[2026-02-20T07:50:55.670Z] Balance: $0.00 USDC
+[2026-02-20T07:50:55.670Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:50:55.670Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:52:55.738Z] --- SCAN #31 ---
+[2026-02-20T07:52:55.738Z] --- SCAN #31 ---
+[2026-02-20T07:52:55.738Z] Balance: $0.00 USDC
+[2026-02-20T07:52:55.738Z] Balance: $0.00 USDC
+[2026-02-20T07:52:55.738Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:52:55.738Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:54:55.774Z] --- SCAN #31 ---
+[2026-02-20T07:54:55.774Z] --- SCAN #31 ---
+[2026-02-20T07:54:55.774Z] Balance: $0.00 USDC
+[2026-02-20T07:54:55.774Z] Balance: $0.00 USDC
+[2026-02-20T07:54:55.774Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:54:55.774Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:56:55.803Z] --- SCAN #31 ---
+[2026-02-20T07:56:55.803Z] --- SCAN #31 ---
+[2026-02-20T07:56:55.803Z] Balance: $0.00 USDC
+[2026-02-20T07:56:55.803Z] Balance: $0.00 USDC
+[2026-02-20T07:56:55.803Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:56:55.803Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:58:55.882Z] --- SCAN #31 ---
+[2026-02-20T07:58:55.882Z] --- SCAN #31 ---
+[2026-02-20T07:58:55.882Z] Balance: $0.00 USDC
+[2026-02-20T07:58:55.882Z] Balance: $0.00 USDC
+[2026-02-20T07:58:55.882Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T07:58:55.882Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:00:55.918Z] --- SCAN #31 ---
+[2026-02-20T08:00:55.918Z] --- SCAN #31 ---
+[2026-02-20T08:00:55.919Z] Balance: $0.00 USDC
+[2026-02-20T08:00:55.919Z] Balance: $0.00 USDC
+[2026-02-20T08:00:55.919Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:00:55.919Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:02:55.967Z] --- SCAN #31 ---
+[2026-02-20T08:02:55.967Z] --- SCAN #31 ---
+[2026-02-20T08:02:55.967Z] Balance: $0.00 USDC
+[2026-02-20T08:02:55.967Z] Balance: $0.00 USDC
+[2026-02-20T08:02:55.967Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:02:55.967Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:04:56.072Z] --- SCAN #31 ---
+[2026-02-20T08:04:56.072Z] --- SCAN #31 ---
+[2026-02-20T08:04:56.072Z] Balance: $0.00 USDC
+[2026-02-20T08:04:56.072Z] Balance: $0.00 USDC
+[2026-02-20T08:04:56.072Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:04:56.072Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:06:56.175Z] --- SCAN #31 ---
+[2026-02-20T08:06:56.175Z] --- SCAN #31 ---
+[2026-02-20T08:06:56.175Z] Balance: $0.00 USDC
+[2026-02-20T08:06:56.175Z] Balance: $0.00 USDC
+[2026-02-20T08:06:56.175Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:06:56.175Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:08:56.274Z] --- SCAN #31 ---
+[2026-02-20T08:08:56.274Z] --- SCAN #31 ---
+[2026-02-20T08:08:56.274Z] Balance: $0.00 USDC
+[2026-02-20T08:08:56.274Z] Balance: $0.00 USDC
+[2026-02-20T08:08:56.274Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:08:56.274Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:10:56.349Z] --- SCAN #31 ---
+[2026-02-20T08:10:56.349Z] --- SCAN #31 ---
+[2026-02-20T08:10:56.349Z] Balance: $0.00 USDC
+[2026-02-20T08:10:56.349Z] Balance: $0.00 USDC
+[2026-02-20T08:10:56.349Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:10:56.349Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:12:56.446Z] --- SCAN #31 ---
+[2026-02-20T08:12:56.446Z] --- SCAN #31 ---
+[2026-02-20T08:12:56.446Z] Balance: $0.00 USDC
+[2026-02-20T08:12:56.446Z] Balance: $0.00 USDC
+[2026-02-20T08:12:56.446Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:12:56.446Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:14:56.546Z] --- SCAN #31 ---
+[2026-02-20T08:14:56.546Z] --- SCAN #31 ---
+[2026-02-20T08:14:56.546Z] Balance: $0.00 USDC
+[2026-02-20T08:14:56.546Z] Balance: $0.00 USDC
+[2026-02-20T08:14:56.546Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:14:56.546Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:16:56.633Z] --- SCAN #31 ---
+[2026-02-20T08:16:56.633Z] --- SCAN #31 ---
+[2026-02-20T08:16:56.633Z] Balance: $0.00 USDC
+[2026-02-20T08:16:56.633Z] Balance: $0.00 USDC
+[2026-02-20T08:16:56.633Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:16:56.633Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:18:56.733Z] --- SCAN #31 ---
+[2026-02-20T08:18:56.733Z] --- SCAN #31 ---
+[2026-02-20T08:18:56.734Z] Balance: $0.00 USDC
+[2026-02-20T08:18:56.734Z] Balance: $0.00 USDC
+[2026-02-20T08:18:56.734Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:18:56.734Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:20:56.772Z] --- SCAN #31 ---
+[2026-02-20T08:20:56.772Z] --- SCAN #31 ---
+[2026-02-20T08:20:56.772Z] Balance: $0.00 USDC
+[2026-02-20T08:20:56.772Z] Balance: $0.00 USDC
+[2026-02-20T08:20:56.772Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:20:56.772Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:22:56.775Z] --- SCAN #31 ---
+[2026-02-20T08:22:56.775Z] --- SCAN #31 ---
+[2026-02-20T08:22:56.775Z] Balance: $0.00 USDC
+[2026-02-20T08:22:56.775Z] Balance: $0.00 USDC
+[2026-02-20T08:22:56.775Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:22:56.775Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:24:56.875Z] --- SCAN #31 ---
+[2026-02-20T08:24:56.875Z] --- SCAN #31 ---
+[2026-02-20T08:24:56.875Z] Balance: $0.00 USDC
+[2026-02-20T08:24:56.875Z] Balance: $0.00 USDC
+[2026-02-20T08:24:56.875Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:24:56.875Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:26:56.975Z] --- SCAN #31 ---
+[2026-02-20T08:26:56.975Z] --- SCAN #31 ---
+[2026-02-20T08:26:56.975Z] Balance: $0.00 USDC
+[2026-02-20T08:26:56.975Z] Balance: $0.00 USDC
+[2026-02-20T08:26:56.975Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:26:56.975Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:28:57.067Z] --- SCAN #31 ---
+[2026-02-20T08:28:57.067Z] --- SCAN #31 ---
+[2026-02-20T08:28:57.068Z] Balance: $0.00 USDC
+[2026-02-20T08:28:57.068Z] Balance: $0.00 USDC
+[2026-02-20T08:28:57.068Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:28:57.068Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:30:57.074Z] --- SCAN #31 ---
+[2026-02-20T08:30:57.074Z] --- SCAN #31 ---
+[2026-02-20T08:30:57.074Z] Balance: $0.00 USDC
+[2026-02-20T08:30:57.074Z] Balance: $0.00 USDC
+[2026-02-20T08:30:57.074Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:30:57.074Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:32:57.114Z] --- SCAN #31 ---
+[2026-02-20T08:32:57.114Z] --- SCAN #31 ---
+[2026-02-20T08:32:57.114Z] Balance: $0.00 USDC
+[2026-02-20T08:32:57.114Z] Balance: $0.00 USDC
+[2026-02-20T08:32:57.114Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:32:57.114Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:34:57.205Z] --- SCAN #31 ---
+[2026-02-20T08:34:57.205Z] --- SCAN #31 ---
+[2026-02-20T08:34:57.205Z] Balance: $0.00 USDC
+[2026-02-20T08:34:57.205Z] Balance: $0.00 USDC
+[2026-02-20T08:34:57.205Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:34:57.205Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:36:57.245Z] --- SCAN #31 ---
+[2026-02-20T08:36:57.245Z] --- SCAN #31 ---
+[2026-02-20T08:36:57.245Z] Balance: $0.00 USDC
+[2026-02-20T08:36:57.245Z] Balance: $0.00 USDC
+[2026-02-20T08:36:57.245Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:36:57.245Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:38:57.261Z] --- SCAN #31 ---
+[2026-02-20T08:38:57.261Z] --- SCAN #31 ---
+[2026-02-20T08:38:57.261Z] Balance: $0.00 USDC
+[2026-02-20T08:38:57.261Z] Balance: $0.00 USDC
+[2026-02-20T08:38:57.261Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:38:57.261Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:40:57.271Z] --- SCAN #31 ---
+[2026-02-20T08:40:57.271Z] --- SCAN #31 ---
+[2026-02-20T08:40:57.271Z] Balance: $0.00 USDC
+[2026-02-20T08:40:57.271Z] Balance: $0.00 USDC
+[2026-02-20T08:40:57.271Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:40:57.271Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:42:57.282Z] --- SCAN #31 ---
+[2026-02-20T08:42:57.282Z] --- SCAN #31 ---
+[2026-02-20T08:42:57.282Z] Balance: $0.00 USDC
+[2026-02-20T08:42:57.282Z] Balance: $0.00 USDC
+[2026-02-20T08:42:57.282Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:42:57.282Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:44:57.292Z] --- SCAN #31 ---
+[2026-02-20T08:44:57.292Z] --- SCAN #31 ---
+[2026-02-20T08:44:57.292Z] Balance: $0.00 USDC
+[2026-02-20T08:44:57.292Z] Balance: $0.00 USDC
+[2026-02-20T08:44:57.292Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:44:57.292Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:46:57.393Z] --- SCAN #31 ---
+[2026-02-20T08:46:57.393Z] --- SCAN #31 ---
+[2026-02-20T08:46:57.393Z] Balance: $0.00 USDC
+[2026-02-20T08:46:57.393Z] Balance: $0.00 USDC
+[2026-02-20T08:46:57.393Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:46:57.393Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:48:57.415Z] --- SCAN #31 ---
+[2026-02-20T08:48:57.415Z] --- SCAN #31 ---
+[2026-02-20T08:48:57.416Z] Balance: $0.00 USDC
+[2026-02-20T08:48:57.416Z] Balance: $0.00 USDC
+[2026-02-20T08:48:57.416Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:48:57.416Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:50:57.476Z] --- SCAN #31 ---
+[2026-02-20T08:50:57.476Z] --- SCAN #31 ---
+[2026-02-20T08:50:57.476Z] Balance: $0.00 USDC
+[2026-02-20T08:50:57.476Z] Balance: $0.00 USDC
+[2026-02-20T08:50:57.476Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:50:57.476Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:52:57.499Z] --- SCAN #31 ---
+[2026-02-20T08:52:57.499Z] --- SCAN #31 ---
+[2026-02-20T08:52:57.499Z] Balance: $0.00 USDC
+[2026-02-20T08:52:57.499Z] Balance: $0.00 USDC
+[2026-02-20T08:52:57.499Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:52:57.499Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:54:57.599Z] --- SCAN #31 ---
+[2026-02-20T08:54:57.599Z] --- SCAN #31 ---
+[2026-02-20T08:54:57.599Z] Balance: $0.00 USDC
+[2026-02-20T08:54:57.599Z] Balance: $0.00 USDC
+[2026-02-20T08:54:57.599Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:54:57.599Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:56:57.606Z] --- SCAN #31 ---
+[2026-02-20T08:56:57.606Z] --- SCAN #31 ---
+[2026-02-20T08:56:57.606Z] Balance: $0.00 USDC
+[2026-02-20T08:56:57.606Z] Balance: $0.00 USDC
+[2026-02-20T08:56:57.606Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:56:57.606Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:58:57.620Z] --- SCAN #31 ---
+[2026-02-20T08:58:57.620Z] --- SCAN #31 ---
+[2026-02-20T08:58:57.620Z] Balance: $0.00 USDC
+[2026-02-20T08:58:57.620Z] Balance: $0.00 USDC
+[2026-02-20T08:58:57.620Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T08:58:57.620Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:00:57.666Z] --- SCAN #31 ---
+[2026-02-20T09:00:57.666Z] --- SCAN #31 ---
+[2026-02-20T09:00:57.666Z] Balance: $0.00 USDC
+[2026-02-20T09:00:57.666Z] Balance: $0.00 USDC
+[2026-02-20T09:00:57.666Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:00:57.666Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:02:57.766Z] --- SCAN #31 ---
+[2026-02-20T09:02:57.766Z] --- SCAN #31 ---
+[2026-02-20T09:02:57.767Z] Balance: $0.00 USDC
+[2026-02-20T09:02:57.767Z] Balance: $0.00 USDC
+[2026-02-20T09:02:57.767Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:02:57.767Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:04:57.850Z] --- SCAN #31 ---
+[2026-02-20T09:04:57.850Z] --- SCAN #31 ---
+[2026-02-20T09:04:57.850Z] Balance: $0.00 USDC
+[2026-02-20T09:04:57.850Z] Balance: $0.00 USDC
+[2026-02-20T09:04:57.850Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:04:57.850Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:06:57.940Z] --- SCAN #31 ---
+[2026-02-20T09:06:57.940Z] --- SCAN #31 ---
+[2026-02-20T09:06:57.940Z] Balance: $0.00 USDC
+[2026-02-20T09:06:57.940Z] Balance: $0.00 USDC
+[2026-02-20T09:06:57.940Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:06:57.940Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:08:58.034Z] --- SCAN #31 ---
+[2026-02-20T09:08:58.034Z] --- SCAN #31 ---
+[2026-02-20T09:08:58.034Z] Balance: $0.00 USDC
+[2026-02-20T09:08:58.034Z] Balance: $0.00 USDC
+[2026-02-20T09:08:58.034Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:08:58.034Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:10:58.076Z] --- SCAN #31 ---
+[2026-02-20T09:10:58.076Z] --- SCAN #31 ---
+[2026-02-20T09:10:58.076Z] Balance: $0.00 USDC
+[2026-02-20T09:10:58.076Z] Balance: $0.00 USDC
+[2026-02-20T09:10:58.076Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:10:58.076Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:12:58.077Z] --- SCAN #31 ---
+[2026-02-20T09:12:58.077Z] --- SCAN #31 ---
+[2026-02-20T09:12:58.077Z] Balance: $0.00 USDC
+[2026-02-20T09:12:58.077Z] Balance: $0.00 USDC
+[2026-02-20T09:12:58.077Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:12:58.077Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:14:58.103Z] --- SCAN #31 ---
+[2026-02-20T09:14:58.103Z] --- SCAN #31 ---
+[2026-02-20T09:14:58.103Z] Balance: $0.00 USDC
+[2026-02-20T09:14:58.103Z] Balance: $0.00 USDC
+[2026-02-20T09:14:58.103Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:14:58.103Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:16:58.201Z] --- SCAN #31 ---
+[2026-02-20T09:16:58.201Z] --- SCAN #31 ---
+[2026-02-20T09:16:58.201Z] Balance: $0.00 USDC
+[2026-02-20T09:16:58.201Z] Balance: $0.00 USDC
+[2026-02-20T09:16:58.201Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:16:58.201Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:18:58.299Z] --- SCAN #31 ---
+[2026-02-20T09:18:58.299Z] --- SCAN #31 ---
+[2026-02-20T09:18:58.299Z] Balance: $0.00 USDC
+[2026-02-20T09:18:58.299Z] Balance: $0.00 USDC
+[2026-02-20T09:18:58.299Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:18:58.299Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:20:58.315Z] --- SCAN #31 ---
+[2026-02-20T09:20:58.315Z] --- SCAN #31 ---
+[2026-02-20T09:20:58.315Z] Balance: $0.00 USDC
+[2026-02-20T09:20:58.315Z] Balance: $0.00 USDC
+[2026-02-20T09:20:58.315Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:20:58.315Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:22:58.316Z] --- SCAN #31 ---
+[2026-02-20T09:22:58.316Z] --- SCAN #31 ---
+[2026-02-20T09:22:58.316Z] Balance: $0.00 USDC
+[2026-02-20T09:22:58.316Z] Balance: $0.00 USDC
+[2026-02-20T09:22:58.316Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:22:58.316Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:24:58.321Z] --- SCAN #31 ---
+[2026-02-20T09:24:58.321Z] --- SCAN #31 ---
+[2026-02-20T09:24:58.321Z] Balance: $0.00 USDC
+[2026-02-20T09:24:58.321Z] Balance: $0.00 USDC
+[2026-02-20T09:24:58.321Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:24:58.321Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:26:58.333Z] --- SCAN #31 ---
+[2026-02-20T09:26:58.333Z] --- SCAN #31 ---
+[2026-02-20T09:26:58.333Z] Balance: $0.00 USDC
+[2026-02-20T09:26:58.333Z] Balance: $0.00 USDC
+[2026-02-20T09:26:58.333Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:26:58.333Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:28:58.371Z] --- SCAN #31 ---
+[2026-02-20T09:28:58.371Z] --- SCAN #31 ---
+[2026-02-20T09:28:58.371Z] Balance: $0.00 USDC
+[2026-02-20T09:28:58.371Z] Balance: $0.00 USDC
+[2026-02-20T09:28:58.371Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:28:58.371Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:30:58.390Z] --- SCAN #31 ---
+[2026-02-20T09:30:58.390Z] --- SCAN #31 ---
+[2026-02-20T09:30:58.390Z] Balance: $0.00 USDC
+[2026-02-20T09:30:58.390Z] Balance: $0.00 USDC
+[2026-02-20T09:30:58.390Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:30:58.390Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:32:58.410Z] --- SCAN #31 ---
+[2026-02-20T09:32:58.410Z] --- SCAN #31 ---
+[2026-02-20T09:32:58.410Z] Balance: $0.00 USDC
+[2026-02-20T09:32:58.410Z] Balance: $0.00 USDC
+[2026-02-20T09:32:58.410Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:32:58.410Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:34:58.482Z] --- SCAN #31 ---
+[2026-02-20T09:34:58.482Z] --- SCAN #31 ---
+[2026-02-20T09:34:58.482Z] Balance: $0.00 USDC
+[2026-02-20T09:34:58.482Z] Balance: $0.00 USDC
+[2026-02-20T09:34:58.482Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:34:58.482Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:36:58.525Z] --- SCAN #31 ---
+[2026-02-20T09:36:58.525Z] --- SCAN #31 ---
+[2026-02-20T09:36:58.526Z] Balance: $0.00 USDC
+[2026-02-20T09:36:58.526Z] Balance: $0.00 USDC
+[2026-02-20T09:36:58.526Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:36:58.526Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:38:58.623Z] --- SCAN #31 ---
+[2026-02-20T09:38:58.623Z] --- SCAN #31 ---
+[2026-02-20T09:38:58.623Z] Balance: $0.00 USDC
+[2026-02-20T09:38:58.623Z] Balance: $0.00 USDC
+[2026-02-20T09:38:58.623Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:38:58.623Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:40:58.703Z] --- SCAN #31 ---
+[2026-02-20T09:40:58.703Z] --- SCAN #31 ---
+[2026-02-20T09:40:58.703Z] Balance: $0.00 USDC
+[2026-02-20T09:40:58.703Z] Balance: $0.00 USDC
+[2026-02-20T09:40:58.703Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:40:58.703Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:42:58.803Z] --- SCAN #31 ---
+[2026-02-20T09:42:58.803Z] --- SCAN #31 ---
+[2026-02-20T09:42:58.803Z] Balance: $0.00 USDC
+[2026-02-20T09:42:58.803Z] Balance: $0.00 USDC
+[2026-02-20T09:42:58.803Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:42:58.803Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:44:58.890Z] --- SCAN #31 ---
+[2026-02-20T09:44:58.890Z] --- SCAN #31 ---
+[2026-02-20T09:44:58.890Z] Balance: $0.00 USDC
+[2026-02-20T09:44:58.890Z] Balance: $0.00 USDC
+[2026-02-20T09:44:58.890Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:44:58.890Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:46:58.986Z] --- SCAN #31 ---
+[2026-02-20T09:46:58.986Z] --- SCAN #31 ---
+[2026-02-20T09:46:58.986Z] Balance: $0.00 USDC
+[2026-02-20T09:46:58.986Z] Balance: $0.00 USDC
+[2026-02-20T09:46:58.986Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:46:58.986Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:48:59.080Z] --- SCAN #31 ---
+[2026-02-20T09:48:59.080Z] --- SCAN #31 ---
+[2026-02-20T09:48:59.081Z] Balance: $0.00 USDC
+[2026-02-20T09:48:59.081Z] Balance: $0.00 USDC
+[2026-02-20T09:48:59.081Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:48:59.081Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:50:59.118Z] --- SCAN #31 ---
+[2026-02-20T09:50:59.118Z] --- SCAN #31 ---
+[2026-02-20T09:50:59.118Z] Balance: $0.00 USDC
+[2026-02-20T09:50:59.118Z] Balance: $0.00 USDC
+[2026-02-20T09:50:59.118Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:50:59.118Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:52:59.123Z] --- SCAN #31 ---
+[2026-02-20T09:52:59.123Z] --- SCAN #31 ---
+[2026-02-20T09:52:59.123Z] Balance: $0.00 USDC
+[2026-02-20T09:52:59.123Z] Balance: $0.00 USDC
+[2026-02-20T09:52:59.123Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:52:59.123Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:54:59.224Z] --- SCAN #31 ---
+[2026-02-20T09:54:59.224Z] --- SCAN #31 ---
+[2026-02-20T09:54:59.224Z] Balance: $0.00 USDC
+[2026-02-20T09:54:59.224Z] Balance: $0.00 USDC
+[2026-02-20T09:54:59.224Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:54:59.224Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:56:59.269Z] --- SCAN #31 ---
+[2026-02-20T09:56:59.269Z] --- SCAN #31 ---
+[2026-02-20T09:56:59.269Z] Balance: $0.00 USDC
+[2026-02-20T09:56:59.269Z] Balance: $0.00 USDC
+[2026-02-20T09:56:59.269Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:56:59.269Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:58:59.272Z] --- SCAN #31 ---
+[2026-02-20T09:58:59.272Z] --- SCAN #31 ---
+[2026-02-20T09:58:59.273Z] Balance: $0.00 USDC
+[2026-02-20T09:58:59.273Z] Balance: $0.00 USDC
+[2026-02-20T09:58:59.273Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T09:58:59.273Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:00:59.350Z] --- SCAN #31 ---
+[2026-02-20T10:00:59.350Z] --- SCAN #31 ---
+[2026-02-20T10:00:59.350Z] Balance: $0.00 USDC
+[2026-02-20T10:00:59.350Z] Balance: $0.00 USDC
+[2026-02-20T10:00:59.350Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:00:59.350Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:02:59.408Z] --- SCAN #31 ---
+[2026-02-20T10:02:59.408Z] --- SCAN #31 ---
+[2026-02-20T10:02:59.408Z] Balance: $0.00 USDC
+[2026-02-20T10:02:59.408Z] Balance: $0.00 USDC
+[2026-02-20T10:02:59.408Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:02:59.408Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:04:59.442Z] --- SCAN #31 ---
+[2026-02-20T10:04:59.442Z] --- SCAN #31 ---
+[2026-02-20T10:04:59.443Z] Balance: $0.00 USDC
+[2026-02-20T10:04:59.443Z] Balance: $0.00 USDC
+[2026-02-20T10:04:59.443Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:04:59.443Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:06:59.451Z] --- SCAN #31 ---
+[2026-02-20T10:06:59.451Z] --- SCAN #31 ---
+[2026-02-20T10:06:59.452Z] Balance: $0.00 USDC
+[2026-02-20T10:06:59.452Z] Balance: $0.00 USDC
+[2026-02-20T10:06:59.452Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:06:59.452Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:08:59.555Z] --- SCAN #31 ---
+[2026-02-20T10:08:59.555Z] --- SCAN #31 ---
+[2026-02-20T10:08:59.555Z] Balance: $0.00 USDC
+[2026-02-20T10:08:59.555Z] Balance: $0.00 USDC
+[2026-02-20T10:08:59.555Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:08:59.555Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:10:59.570Z] --- SCAN #31 ---
+[2026-02-20T10:10:59.570Z] --- SCAN #31 ---
+[2026-02-20T10:10:59.570Z] Balance: $0.00 USDC
+[2026-02-20T10:10:59.570Z] Balance: $0.00 USDC
+[2026-02-20T10:10:59.570Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:10:59.570Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:12:59.578Z] --- SCAN #31 ---
+[2026-02-20T10:12:59.578Z] --- SCAN #31 ---
+[2026-02-20T10:12:59.578Z] Balance: $0.00 USDC
+[2026-02-20T10:12:59.578Z] Balance: $0.00 USDC
+[2026-02-20T10:12:59.578Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:12:59.578Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:14:59.669Z] --- SCAN #31 ---
+[2026-02-20T10:14:59.669Z] --- SCAN #31 ---
+[2026-02-20T10:14:59.669Z] Balance: $0.00 USDC
+[2026-02-20T10:14:59.669Z] Balance: $0.00 USDC
+[2026-02-20T10:14:59.669Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:14:59.669Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:16:59.674Z] --- SCAN #31 ---
+[2026-02-20T10:16:59.674Z] --- SCAN #31 ---
+[2026-02-20T10:16:59.674Z] Balance: $0.00 USDC
+[2026-02-20T10:16:59.674Z] Balance: $0.00 USDC
+[2026-02-20T10:16:59.674Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:16:59.674Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:18:59.738Z] --- SCAN #31 ---
+[2026-02-20T10:18:59.738Z] --- SCAN #31 ---
+[2026-02-20T10:18:59.739Z] Balance: $0.00 USDC
+[2026-02-20T10:18:59.739Z] Balance: $0.00 USDC
+[2026-02-20T10:18:59.739Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:18:59.739Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:20:59.835Z] --- SCAN #31 ---
+[2026-02-20T10:20:59.835Z] --- SCAN #31 ---
+[2026-02-20T10:20:59.835Z] Balance: $0.00 USDC
+[2026-02-20T10:20:59.835Z] Balance: $0.00 USDC
+[2026-02-20T10:20:59.835Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:20:59.835Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:22:59.937Z] --- SCAN #31 ---
+[2026-02-20T10:22:59.937Z] --- SCAN #31 ---
+[2026-02-20T10:22:59.937Z] Balance: $0.00 USDC
+[2026-02-20T10:22:59.937Z] Balance: $0.00 USDC
+[2026-02-20T10:22:59.937Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:22:59.937Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:24:59.972Z] --- SCAN #31 ---
+[2026-02-20T10:24:59.972Z] --- SCAN #31 ---
+[2026-02-20T10:24:59.973Z] Balance: $0.00 USDC
+[2026-02-20T10:24:59.973Z] Balance: $0.00 USDC
+[2026-02-20T10:24:59.973Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:24:59.973Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:27:00.061Z] --- SCAN #31 ---
+[2026-02-20T10:27:00.061Z] --- SCAN #31 ---
+[2026-02-20T10:27:00.062Z] Balance: $0.00 USDC
+[2026-02-20T10:27:00.062Z] Balance: $0.00 USDC
+[2026-02-20T10:27:00.062Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:27:00.062Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:29:00.098Z] --- SCAN #31 ---
+[2026-02-20T10:29:00.098Z] --- SCAN #31 ---
+[2026-02-20T10:29:00.098Z] Balance: $0.00 USDC
+[2026-02-20T10:29:00.098Z] Balance: $0.00 USDC
+[2026-02-20T10:29:00.098Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:29:00.098Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:31:00.101Z] --- SCAN #31 ---
+[2026-02-20T10:31:00.101Z] --- SCAN #31 ---
+[2026-02-20T10:31:00.101Z] Balance: $0.00 USDC
+[2026-02-20T10:31:00.101Z] Balance: $0.00 USDC
+[2026-02-20T10:31:00.101Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:31:00.101Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:33:00.107Z] --- SCAN #31 ---
+[2026-02-20T10:33:00.107Z] --- SCAN #31 ---
+[2026-02-20T10:33:00.107Z] Balance: $0.00 USDC
+[2026-02-20T10:33:00.107Z] Balance: $0.00 USDC
+[2026-02-20T10:33:00.107Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:33:00.107Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:35:00.188Z] --- SCAN #31 ---
+[2026-02-20T10:35:00.188Z] --- SCAN #31 ---
+[2026-02-20T10:35:00.189Z] Balance: $0.00 USDC
+[2026-02-20T10:35:00.189Z] Balance: $0.00 USDC
+[2026-02-20T10:35:00.189Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:35:00.189Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:37:00.289Z] --- SCAN #31 ---
+[2026-02-20T10:37:00.289Z] --- SCAN #31 ---
+[2026-02-20T10:37:00.289Z] Balance: $0.00 USDC
+[2026-02-20T10:37:00.289Z] Balance: $0.00 USDC
+[2026-02-20T10:37:00.289Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:37:00.289Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:39:00.318Z] --- SCAN #31 ---
+[2026-02-20T10:39:00.318Z] --- SCAN #31 ---
+[2026-02-20T10:39:00.318Z] Balance: $0.00 USDC
+[2026-02-20T10:39:00.318Z] Balance: $0.00 USDC
+[2026-02-20T10:39:00.318Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:39:00.318Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:41:00.387Z] --- SCAN #31 ---
+[2026-02-20T10:41:00.387Z] --- SCAN #31 ---
+[2026-02-20T10:41:00.387Z] Balance: $0.00 USDC
+[2026-02-20T10:41:00.387Z] Balance: $0.00 USDC
+[2026-02-20T10:41:00.387Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:41:00.387Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:43:00.473Z] --- SCAN #31 ---
+[2026-02-20T10:43:00.473Z] --- SCAN #31 ---
+[2026-02-20T10:43:00.474Z] Balance: $0.00 USDC
+[2026-02-20T10:43:00.474Z] Balance: $0.00 USDC
+[2026-02-20T10:43:00.474Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:43:00.474Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:45:00.511Z] --- SCAN #31 ---
+[2026-02-20T10:45:00.511Z] --- SCAN #31 ---
+[2026-02-20T10:45:00.512Z] Balance: $0.00 USDC
+[2026-02-20T10:45:00.512Z] Balance: $0.00 USDC
+[2026-02-20T10:45:00.512Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:45:00.512Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:47:00.573Z] --- SCAN #31 ---
+[2026-02-20T10:47:00.573Z] --- SCAN #31 ---
+[2026-02-20T10:47:00.573Z] Balance: $0.00 USDC
+[2026-02-20T10:47:00.573Z] Balance: $0.00 USDC
+[2026-02-20T10:47:00.573Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:47:00.573Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:49:00.665Z] --- SCAN #31 ---
+[2026-02-20T10:49:00.665Z] --- SCAN #31 ---
+[2026-02-20T10:49:00.666Z] Balance: $0.00 USDC
+[2026-02-20T10:49:00.666Z] Balance: $0.00 USDC
+[2026-02-20T10:49:00.666Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:49:00.666Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:51:00.765Z] --- SCAN #31 ---
+[2026-02-20T10:51:00.765Z] --- SCAN #31 ---
+[2026-02-20T10:51:00.765Z] Balance: $0.00 USDC
+[2026-02-20T10:51:00.765Z] Balance: $0.00 USDC
+[2026-02-20T10:51:00.765Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:51:00.765Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:53:00.854Z] --- SCAN #31 ---
+[2026-02-20T10:53:00.854Z] --- SCAN #31 ---
+[2026-02-20T10:53:00.854Z] Balance: $0.00 USDC
+[2026-02-20T10:53:00.854Z] Balance: $0.00 USDC
+[2026-02-20T10:53:00.854Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:53:00.854Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:55:00.864Z] --- SCAN #31 ---
+[2026-02-20T10:55:00.864Z] --- SCAN #31 ---
+[2026-02-20T10:55:00.865Z] Balance: $0.00 USDC
+[2026-02-20T10:55:00.865Z] Balance: $0.00 USDC
+[2026-02-20T10:55:00.865Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:55:00.865Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:57:00.954Z] --- SCAN #31 ---
+[2026-02-20T10:57:00.954Z] --- SCAN #31 ---
+[2026-02-20T10:57:00.954Z] Balance: $0.00 USDC
+[2026-02-20T10:57:00.954Z] Balance: $0.00 USDC
+[2026-02-20T10:57:00.954Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:57:00.954Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:59:01.044Z] --- SCAN #31 ---
+[2026-02-20T10:59:01.044Z] --- SCAN #31 ---
+[2026-02-20T10:59:01.044Z] Balance: $0.00 USDC
+[2026-02-20T10:59:01.044Z] Balance: $0.00 USDC
+[2026-02-20T10:59:01.044Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T10:59:01.044Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:01:01.085Z] --- SCAN #31 ---
+[2026-02-20T11:01:01.085Z] --- SCAN #31 ---
+[2026-02-20T11:01:01.085Z] Balance: $0.00 USDC
+[2026-02-20T11:01:01.085Z] Balance: $0.00 USDC
+[2026-02-20T11:01:01.086Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:01:01.086Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:03:01.150Z] --- SCAN #31 ---
+[2026-02-20T11:03:01.150Z] --- SCAN #31 ---
+[2026-02-20T11:03:01.150Z] Balance: $0.00 USDC
+[2026-02-20T11:03:01.150Z] Balance: $0.00 USDC
+[2026-02-20T11:03:01.150Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:03:01.150Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:05:01.242Z] --- SCAN #31 ---
+[2026-02-20T11:05:01.242Z] --- SCAN #31 ---
+[2026-02-20T11:05:01.242Z] Balance: $0.00 USDC
+[2026-02-20T11:05:01.242Z] Balance: $0.00 USDC
+[2026-02-20T11:05:01.242Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:05:01.242Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:07:01.271Z] --- SCAN #31 ---
+[2026-02-20T11:07:01.271Z] --- SCAN #31 ---
+[2026-02-20T11:07:01.271Z] Balance: $0.00 USDC
+[2026-02-20T11:07:01.271Z] Balance: $0.00 USDC
+[2026-02-20T11:07:01.271Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:07:01.271Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:09:01.274Z] --- SCAN #31 ---
+[2026-02-20T11:09:01.274Z] --- SCAN #31 ---
+[2026-02-20T11:09:01.274Z] Balance: $0.00 USDC
+[2026-02-20T11:09:01.274Z] Balance: $0.00 USDC
+[2026-02-20T11:09:01.274Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:09:01.274Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:11:01.338Z] --- SCAN #31 ---
+[2026-02-20T11:11:01.338Z] --- SCAN #31 ---
+[2026-02-20T11:11:01.339Z] Balance: $0.00 USDC
+[2026-02-20T11:11:01.339Z] Balance: $0.00 USDC
+[2026-02-20T11:11:01.339Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:11:01.339Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:13:01.439Z] --- SCAN #31 ---
+[2026-02-20T11:13:01.439Z] --- SCAN #31 ---
+[2026-02-20T11:13:01.440Z] Balance: $0.00 USDC
+[2026-02-20T11:13:01.440Z] Balance: $0.00 USDC
+[2026-02-20T11:13:01.440Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:13:01.440Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:15:01.540Z] --- SCAN #31 ---
+[2026-02-20T11:15:01.540Z] --- SCAN #31 ---
+[2026-02-20T11:15:01.541Z] Balance: $0.00 USDC
+[2026-02-20T11:15:01.541Z] Balance: $0.00 USDC
+[2026-02-20T11:15:01.541Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:15:01.541Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:17:01.545Z] --- SCAN #31 ---
+[2026-02-20T11:17:01.545Z] --- SCAN #31 ---
+[2026-02-20T11:17:01.545Z] Balance: $0.00 USDC
+[2026-02-20T11:17:01.545Z] Balance: $0.00 USDC
+[2026-02-20T11:17:01.545Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:17:01.545Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:19:01.558Z] --- SCAN #31 ---
+[2026-02-20T11:19:01.558Z] --- SCAN #31 ---
+[2026-02-20T11:19:01.559Z] Balance: $0.00 USDC
+[2026-02-20T11:19:01.559Z] Balance: $0.00 USDC
+[2026-02-20T11:19:01.559Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:19:01.559Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:21:01.678Z] --- SCAN #31 ---
+[2026-02-20T11:21:01.678Z] --- SCAN #31 ---
+[2026-02-20T11:21:01.678Z] Balance: $0.00 USDC
+[2026-02-20T11:21:01.678Z] Balance: $0.00 USDC
+[2026-02-20T11:21:01.678Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:21:01.678Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:23:01.742Z] --- SCAN #31 ---
+[2026-02-20T11:23:01.742Z] --- SCAN #31 ---
+[2026-02-20T11:23:01.742Z] Balance: $0.00 USDC
+[2026-02-20T11:23:01.742Z] Balance: $0.00 USDC
+[2026-02-20T11:23:01.742Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:23:01.742Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:25:01.842Z] --- SCAN #31 ---
+[2026-02-20T11:25:01.842Z] --- SCAN #31 ---
+[2026-02-20T11:25:01.842Z] Balance: $0.00 USDC
+[2026-02-20T11:25:01.842Z] Balance: $0.00 USDC
+[2026-02-20T11:25:01.842Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:25:01.842Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:27:01.868Z] --- SCAN #31 ---
+[2026-02-20T11:27:01.868Z] --- SCAN #31 ---
+[2026-02-20T11:27:01.868Z] Balance: $0.00 USDC
+[2026-02-20T11:27:01.868Z] Balance: $0.00 USDC
+[2026-02-20T11:27:01.868Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:27:01.868Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:29:01.884Z] --- SCAN #31 ---
+[2026-02-20T11:29:01.884Z] --- SCAN #31 ---
+[2026-02-20T11:29:01.884Z] Balance: $0.00 USDC
+[2026-02-20T11:29:01.884Z] Balance: $0.00 USDC
+[2026-02-20T11:29:01.884Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:29:01.884Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:31:01.984Z] --- SCAN #31 ---
+[2026-02-20T11:31:01.984Z] --- SCAN #31 ---
+[2026-02-20T11:31:01.984Z] Balance: $0.00 USDC
+[2026-02-20T11:31:01.984Z] Balance: $0.00 USDC
+[2026-02-20T11:31:01.984Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:31:01.984Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:33:02.049Z] --- SCAN #31 ---
+[2026-02-20T11:33:02.049Z] --- SCAN #31 ---
+[2026-02-20T11:33:02.049Z] Balance: $0.00 USDC
+[2026-02-20T11:33:02.049Z] Balance: $0.00 USDC
+[2026-02-20T11:33:02.049Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:33:02.049Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:35:02.126Z] --- SCAN #31 ---
+[2026-02-20T11:35:02.126Z] --- SCAN #31 ---
+[2026-02-20T11:35:02.126Z] Balance: $0.00 USDC
+[2026-02-20T11:35:02.126Z] Balance: $0.00 USDC
+[2026-02-20T11:35:02.126Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:35:02.126Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:37:02.140Z] --- SCAN #31 ---
+[2026-02-20T11:37:02.140Z] --- SCAN #31 ---
+[2026-02-20T11:37:02.140Z] Balance: $0.00 USDC
+[2026-02-20T11:37:02.140Z] Balance: $0.00 USDC
+[2026-02-20T11:37:02.140Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:37:02.140Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:39:02.241Z] --- SCAN #31 ---
+[2026-02-20T11:39:02.241Z] --- SCAN #31 ---
+[2026-02-20T11:39:02.241Z] Balance: $0.00 USDC
+[2026-02-20T11:39:02.241Z] Balance: $0.00 USDC
+[2026-02-20T11:39:02.241Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:39:02.241Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:41:02.266Z] --- SCAN #31 ---
+[2026-02-20T11:41:02.266Z] --- SCAN #31 ---
+[2026-02-20T11:41:02.266Z] Balance: $0.00 USDC
+[2026-02-20T11:41:02.266Z] Balance: $0.00 USDC
+[2026-02-20T11:41:02.266Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:41:02.266Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:43:02.364Z] --- SCAN #31 ---
+[2026-02-20T11:43:02.364Z] --- SCAN #31 ---
+[2026-02-20T11:43:02.365Z] Balance: $0.00 USDC
+[2026-02-20T11:43:02.365Z] Balance: $0.00 USDC
+[2026-02-20T11:43:02.365Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:43:02.365Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:45:02.407Z] --- SCAN #31 ---
+[2026-02-20T11:45:02.407Z] --- SCAN #31 ---
+[2026-02-20T11:45:02.407Z] Balance: $0.00 USDC
+[2026-02-20T11:45:02.407Z] Balance: $0.00 USDC
+[2026-02-20T11:45:02.407Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:45:02.407Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:47:02.473Z] --- SCAN #31 ---
+[2026-02-20T11:47:02.473Z] --- SCAN #31 ---
+[2026-02-20T11:47:02.473Z] Balance: $0.00 USDC
+[2026-02-20T11:47:02.473Z] Balance: $0.00 USDC
+[2026-02-20T11:47:02.473Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:47:02.473Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:49:02.478Z] --- SCAN #31 ---
+[2026-02-20T11:49:02.478Z] --- SCAN #31 ---
+[2026-02-20T11:49:02.478Z] Balance: $0.00 USDC
+[2026-02-20T11:49:02.478Z] Balance: $0.00 USDC
+[2026-02-20T11:49:02.478Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:49:02.478Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:51:02.578Z] --- SCAN #31 ---
+[2026-02-20T11:51:02.578Z] --- SCAN #31 ---
+[2026-02-20T11:51:02.578Z] Balance: $0.00 USDC
+[2026-02-20T11:51:02.578Z] Balance: $0.00 USDC
+[2026-02-20T11:51:02.578Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:51:02.578Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:53:02.617Z] --- SCAN #31 ---
+[2026-02-20T11:53:02.617Z] --- SCAN #31 ---
+[2026-02-20T11:53:02.617Z] Balance: $0.00 USDC
+[2026-02-20T11:53:02.617Z] Balance: $0.00 USDC
+[2026-02-20T11:53:02.617Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:53:02.617Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:55:02.649Z] --- SCAN #31 ---
+[2026-02-20T11:55:02.649Z] --- SCAN #31 ---
+[2026-02-20T11:55:02.649Z] Balance: $0.00 USDC
+[2026-02-20T11:55:02.649Z] Balance: $0.00 USDC
+[2026-02-20T11:55:02.649Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:55:02.649Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:57:02.677Z] --- SCAN #31 ---
+[2026-02-20T11:57:02.677Z] --- SCAN #31 ---
+[2026-02-20T11:57:02.677Z] Balance: $0.00 USDC
+[2026-02-20T11:57:02.677Z] Balance: $0.00 USDC
+[2026-02-20T11:57:02.677Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:57:02.677Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:59:02.759Z] --- SCAN #31 ---
+[2026-02-20T11:59:02.759Z] --- SCAN #31 ---
+[2026-02-20T11:59:02.759Z] Balance: $0.00 USDC
+[2026-02-20T11:59:02.759Z] Balance: $0.00 USDC
+[2026-02-20T11:59:02.759Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T11:59:02.759Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:01:02.809Z] --- SCAN #31 ---
+[2026-02-20T12:01:02.809Z] --- SCAN #31 ---
+[2026-02-20T12:01:02.810Z] Balance: $0.00 USDC
+[2026-02-20T12:01:02.810Z] Balance: $0.00 USDC
+[2026-02-20T12:01:02.810Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:01:02.810Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:03:02.878Z] --- SCAN #31 ---
+[2026-02-20T12:03:02.878Z] --- SCAN #31 ---
+[2026-02-20T12:03:02.878Z] Balance: $0.00 USDC
+[2026-02-20T12:03:02.878Z] Balance: $0.00 USDC
+[2026-02-20T12:03:02.878Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:03:02.878Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:05:02.944Z] --- SCAN #31 ---
+[2026-02-20T12:05:02.944Z] --- SCAN #31 ---
+[2026-02-20T12:05:02.944Z] Balance: $0.00 USDC
+[2026-02-20T12:05:02.944Z] Balance: $0.00 USDC
+[2026-02-20T12:05:02.944Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:05:02.944Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:07:03.042Z] --- SCAN #31 ---
+[2026-02-20T12:07:03.042Z] --- SCAN #31 ---
+[2026-02-20T12:07:03.043Z] Balance: $0.00 USDC
+[2026-02-20T12:07:03.043Z] Balance: $0.00 USDC
+[2026-02-20T12:07:03.043Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:07:03.043Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:09:03.072Z] --- SCAN #31 ---
+[2026-02-20T12:09:03.072Z] --- SCAN #31 ---
+[2026-02-20T12:09:03.072Z] Balance: $0.00 USDC
+[2026-02-20T12:09:03.072Z] Balance: $0.00 USDC
+[2026-02-20T12:09:03.072Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:09:03.072Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:11:03.079Z] --- SCAN #31 ---
+[2026-02-20T12:11:03.079Z] --- SCAN #31 ---
+[2026-02-20T12:11:03.079Z] Balance: $0.00 USDC
+[2026-02-20T12:11:03.079Z] Balance: $0.00 USDC
+[2026-02-20T12:11:03.079Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:11:03.079Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:13:03.153Z] --- SCAN #31 ---
+[2026-02-20T12:13:03.153Z] --- SCAN #31 ---
+[2026-02-20T12:13:03.153Z] Balance: $0.00 USDC
+[2026-02-20T12:13:03.153Z] Balance: $0.00 USDC
+[2026-02-20T12:13:03.153Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:13:03.153Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:15:03.224Z] --- SCAN #31 ---
+[2026-02-20T12:15:03.224Z] --- SCAN #31 ---
+[2026-02-20T12:15:03.224Z] Balance: $0.00 USDC
+[2026-02-20T12:15:03.224Z] Balance: $0.00 USDC
+[2026-02-20T12:15:03.224Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:15:03.224Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:17:03.324Z] --- SCAN #31 ---
+[2026-02-20T12:17:03.324Z] --- SCAN #31 ---
+[2026-02-20T12:17:03.324Z] Balance: $0.00 USDC
+[2026-02-20T12:17:03.324Z] Balance: $0.00 USDC
+[2026-02-20T12:17:03.324Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:17:03.324Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:19:03.386Z] --- SCAN #31 ---
+[2026-02-20T12:19:03.386Z] --- SCAN #31 ---
+[2026-02-20T12:19:03.386Z] Balance: $0.00 USDC
+[2026-02-20T12:19:03.386Z] Balance: $0.00 USDC
+[2026-02-20T12:19:03.386Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:19:03.386Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:21:03.451Z] --- SCAN #31 ---
+[2026-02-20T12:21:03.451Z] --- SCAN #31 ---
+[2026-02-20T12:21:03.451Z] Balance: $0.00 USDC
+[2026-02-20T12:21:03.451Z] Balance: $0.00 USDC
+[2026-02-20T12:21:03.451Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:21:03.451Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:23:03.551Z] --- SCAN #31 ---
+[2026-02-20T12:23:03.551Z] --- SCAN #31 ---
+[2026-02-20T12:23:03.552Z] Balance: $0.00 USDC
+[2026-02-20T12:23:03.552Z] Balance: $0.00 USDC
+[2026-02-20T12:23:03.552Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:23:03.552Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:25:03.643Z] --- SCAN #31 ---
+[2026-02-20T12:25:03.643Z] --- SCAN #31 ---
+[2026-02-20T12:25:03.643Z] Balance: $0.00 USDC
+[2026-02-20T12:25:03.643Z] Balance: $0.00 USDC
+[2026-02-20T12:25:03.643Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:25:03.643Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:27:03.726Z] --- SCAN #31 ---
+[2026-02-20T12:27:03.726Z] --- SCAN #31 ---
+[2026-02-20T12:27:03.726Z] Balance: $0.00 USDC
+[2026-02-20T12:27:03.726Z] Balance: $0.00 USDC
+[2026-02-20T12:27:03.726Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:27:03.726Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:29:03.769Z] --- SCAN #31 ---
+[2026-02-20T12:29:03.769Z] --- SCAN #31 ---
+[2026-02-20T12:29:03.769Z] Balance: $0.00 USDC
+[2026-02-20T12:29:03.769Z] Balance: $0.00 USDC
+[2026-02-20T12:29:03.769Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:29:03.769Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:31:03.869Z] --- SCAN #31 ---
+[2026-02-20T12:31:03.869Z] --- SCAN #31 ---
+[2026-02-20T12:31:03.870Z] Balance: $0.00 USDC
+[2026-02-20T12:31:03.870Z] Balance: $0.00 USDC
+[2026-02-20T12:31:03.870Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:31:03.870Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:33:03.970Z] --- SCAN #31 ---
+[2026-02-20T12:33:03.970Z] --- SCAN #31 ---
+[2026-02-20T12:33:03.970Z] Balance: $0.00 USDC
+[2026-02-20T12:33:03.970Z] Balance: $0.00 USDC
+[2026-02-20T12:33:03.970Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:33:03.970Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:35:03.976Z] --- SCAN #31 ---
+[2026-02-20T12:35:03.976Z] --- SCAN #31 ---
+[2026-02-20T12:35:03.976Z] Balance: $0.00 USDC
+[2026-02-20T12:35:03.976Z] Balance: $0.00 USDC
+[2026-02-20T12:35:03.976Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:35:03.976Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:37:04.034Z] --- SCAN #31 ---
+[2026-02-20T12:37:04.034Z] --- SCAN #31 ---
+[2026-02-20T12:37:04.034Z] Balance: $0.00 USDC
+[2026-02-20T12:37:04.034Z] Balance: $0.00 USDC
+[2026-02-20T12:37:04.034Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:37:04.034Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:39:04.116Z] --- SCAN #31 ---
+[2026-02-20T12:39:04.116Z] --- SCAN #31 ---
+[2026-02-20T12:39:04.116Z] Balance: $0.00 USDC
+[2026-02-20T12:39:04.116Z] Balance: $0.00 USDC
+[2026-02-20T12:39:04.117Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:39:04.117Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:41:04.156Z] --- SCAN #31 ---
+[2026-02-20T12:41:04.156Z] --- SCAN #31 ---
+[2026-02-20T12:41:04.157Z] Balance: $0.00 USDC
+[2026-02-20T12:41:04.157Z] Balance: $0.00 USDC
+[2026-02-20T12:41:04.157Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:41:04.157Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:43:04.239Z] --- SCAN #31 ---
+[2026-02-20T12:43:04.239Z] --- SCAN #31 ---
+[2026-02-20T12:43:04.239Z] Balance: $0.00 USDC
+[2026-02-20T12:43:04.239Z] Balance: $0.00 USDC
+[2026-02-20T12:43:04.239Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:43:04.239Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:45:04.316Z] --- SCAN #31 ---
+[2026-02-20T12:45:04.316Z] --- SCAN #31 ---
+[2026-02-20T12:45:04.317Z] Balance: $0.00 USDC
+[2026-02-20T12:45:04.317Z] Balance: $0.00 USDC
+[2026-02-20T12:45:04.317Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:45:04.317Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:47:04.354Z] --- SCAN #31 ---
+[2026-02-20T12:47:04.354Z] --- SCAN #31 ---
+[2026-02-20T12:47:04.355Z] Balance: $0.00 USDC
+[2026-02-20T12:47:04.355Z] Balance: $0.00 USDC
+[2026-02-20T12:47:04.355Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:47:04.355Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:49:04.406Z] --- SCAN #31 ---
+[2026-02-20T12:49:04.406Z] --- SCAN #31 ---
+[2026-02-20T12:49:04.406Z] Balance: $0.00 USDC
+[2026-02-20T12:49:04.406Z] Balance: $0.00 USDC
+[2026-02-20T12:49:04.406Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:49:04.406Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:51:04.416Z] --- SCAN #31 ---
+[2026-02-20T12:51:04.416Z] --- SCAN #31 ---
+[2026-02-20T12:51:04.416Z] Balance: $0.00 USDC
+[2026-02-20T12:51:04.416Z] Balance: $0.00 USDC
+[2026-02-20T12:51:04.416Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:51:04.416Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:53:04.483Z] --- SCAN #31 ---
+[2026-02-20T12:53:04.483Z] --- SCAN #31 ---
+[2026-02-20T12:53:04.483Z] Balance: $0.00 USDC
+[2026-02-20T12:53:04.483Z] Balance: $0.00 USDC
+[2026-02-20T12:53:04.483Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:53:04.483Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:55:04.533Z] --- SCAN #31 ---
+[2026-02-20T12:55:04.533Z] --- SCAN #31 ---
+[2026-02-20T12:55:04.533Z] Balance: $0.00 USDC
+[2026-02-20T12:55:04.533Z] Balance: $0.00 USDC
+[2026-02-20T12:55:04.533Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:55:04.533Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:57:04.634Z] --- SCAN #31 ---
+[2026-02-20T12:57:04.634Z] --- SCAN #31 ---
+[2026-02-20T12:57:04.634Z] Balance: $0.00 USDC
+[2026-02-20T12:57:04.634Z] Balance: $0.00 USDC
+[2026-02-20T12:57:04.634Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:57:04.634Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:59:04.722Z] --- SCAN #31 ---
+[2026-02-20T12:59:04.722Z] --- SCAN #31 ---
+[2026-02-20T12:59:04.723Z] Balance: $0.00 USDC
+[2026-02-20T12:59:04.723Z] Balance: $0.00 USDC
+[2026-02-20T12:59:04.723Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T12:59:04.723Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:01:04.763Z] --- SCAN #31 ---
+[2026-02-20T13:01:04.763Z] --- SCAN #31 ---
+[2026-02-20T13:01:04.763Z] Balance: $0.00 USDC
+[2026-02-20T13:01:04.763Z] Balance: $0.00 USDC
+[2026-02-20T13:01:04.763Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:01:04.763Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:03:04.860Z] --- SCAN #31 ---
+[2026-02-20T13:03:04.860Z] --- SCAN #31 ---
+[2026-02-20T13:03:04.860Z] Balance: $0.00 USDC
+[2026-02-20T13:03:04.860Z] Balance: $0.00 USDC
+[2026-02-20T13:03:04.860Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:03:04.860Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:05:04.946Z] --- SCAN #31 ---
+[2026-02-20T13:05:04.946Z] --- SCAN #31 ---
+[2026-02-20T13:05:04.946Z] Balance: $0.00 USDC
+[2026-02-20T13:05:04.946Z] Balance: $0.00 USDC
+[2026-02-20T13:05:04.946Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:05:04.946Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:07:04.948Z] --- SCAN #31 ---
+[2026-02-20T13:07:04.948Z] --- SCAN #31 ---
+[2026-02-20T13:07:04.948Z] Balance: $0.00 USDC
+[2026-02-20T13:07:04.948Z] Balance: $0.00 USDC
+[2026-02-20T13:07:04.948Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:07:04.948Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:09:04.967Z] --- SCAN #31 ---
+[2026-02-20T13:09:04.967Z] --- SCAN #31 ---
+[2026-02-20T13:09:04.967Z] Balance: $0.00 USDC
+[2026-02-20T13:09:04.967Z] Balance: $0.00 USDC
+[2026-02-20T13:09:04.967Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:09:04.967Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:11:05.063Z] --- SCAN #31 ---
+[2026-02-20T13:11:05.063Z] --- SCAN #31 ---
+[2026-02-20T13:11:05.063Z] Balance: $0.00 USDC
+[2026-02-20T13:11:05.063Z] Balance: $0.00 USDC
+[2026-02-20T13:11:05.063Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:11:05.063Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:13:05.067Z] --- SCAN #31 ---
+[2026-02-20T13:13:05.067Z] --- SCAN #31 ---
+[2026-02-20T13:13:05.067Z] Balance: $0.00 USDC
+[2026-02-20T13:13:05.067Z] Balance: $0.00 USDC
+[2026-02-20T13:13:05.067Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:13:05.067Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:15:05.151Z] --- SCAN #31 ---
+[2026-02-20T13:15:05.151Z] --- SCAN #31 ---
+[2026-02-20T13:15:05.151Z] Balance: $0.00 USDC
+[2026-02-20T13:15:05.151Z] Balance: $0.00 USDC
+[2026-02-20T13:15:05.151Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:15:05.151Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:17:05.244Z] --- SCAN #31 ---
+[2026-02-20T13:17:05.244Z] --- SCAN #31 ---
+[2026-02-20T13:17:05.245Z] Balance: $0.00 USDC
+[2026-02-20T13:17:05.245Z] Balance: $0.00 USDC
+[2026-02-20T13:17:05.245Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:17:05.245Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:19:05.347Z] --- SCAN #31 ---
+[2026-02-20T13:19:05.347Z] --- SCAN #31 ---
+[2026-02-20T13:19:05.347Z] Balance: $0.00 USDC
+[2026-02-20T13:19:05.347Z] Balance: $0.00 USDC
+[2026-02-20T13:19:05.347Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:19:05.347Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:21:05.353Z] --- SCAN #31 ---
+[2026-02-20T13:21:05.353Z] --- SCAN #31 ---
+[2026-02-20T13:21:05.353Z] Balance: $0.00 USDC
+[2026-02-20T13:21:05.353Z] Balance: $0.00 USDC
+[2026-02-20T13:21:05.353Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:21:05.353Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:23:05.412Z] --- SCAN #31 ---
+[2026-02-20T13:23:05.412Z] --- SCAN #31 ---
+[2026-02-20T13:23:05.412Z] Balance: $0.00 USDC
+[2026-02-20T13:23:05.412Z] Balance: $0.00 USDC
+[2026-02-20T13:23:05.412Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:23:05.412Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:25:05.475Z] --- SCAN #31 ---
+[2026-02-20T13:25:05.475Z] --- SCAN #31 ---
+[2026-02-20T13:25:05.476Z] Balance: $0.00 USDC
+[2026-02-20T13:25:05.476Z] Balance: $0.00 USDC
+[2026-02-20T13:25:05.476Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:25:05.476Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:27:05.499Z] --- SCAN #31 ---
+[2026-02-20T13:27:05.499Z] --- SCAN #31 ---
+[2026-02-20T13:27:05.499Z] Balance: $0.00 USDC
+[2026-02-20T13:27:05.499Z] Balance: $0.00 USDC
+[2026-02-20T13:27:05.499Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:27:05.499Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:29:05.564Z] --- SCAN #31 ---
+[2026-02-20T13:29:05.564Z] --- SCAN #31 ---
+[2026-02-20T13:29:05.564Z] Balance: $0.00 USDC
+[2026-02-20T13:29:05.564Z] Balance: $0.00 USDC
+[2026-02-20T13:29:05.564Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:29:05.564Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:31:05.610Z] --- SCAN #31 ---
+[2026-02-20T13:31:05.610Z] --- SCAN #31 ---
+[2026-02-20T13:31:05.611Z] Balance: $0.00 USDC
+[2026-02-20T13:31:05.611Z] Balance: $0.00 USDC
+[2026-02-20T13:31:05.611Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:31:05.611Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:33:05.697Z] --- SCAN #31 ---
+[2026-02-20T13:33:05.697Z] --- SCAN #31 ---
+[2026-02-20T13:33:05.697Z] Balance: $0.00 USDC
+[2026-02-20T13:33:05.697Z] Balance: $0.00 USDC
+[2026-02-20T13:33:05.697Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:33:05.697Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:35:05.722Z] --- SCAN #31 ---
+[2026-02-20T13:35:05.722Z] --- SCAN #31 ---
+[2026-02-20T13:35:05.723Z] Balance: $0.00 USDC
+[2026-02-20T13:35:05.723Z] Balance: $0.00 USDC
+[2026-02-20T13:35:05.723Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:35:05.723Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:37:05.823Z] --- SCAN #31 ---
+[2026-02-20T13:37:05.823Z] --- SCAN #31 ---
+[2026-02-20T13:37:05.823Z] Balance: $0.00 USDC
+[2026-02-20T13:37:05.823Z] Balance: $0.00 USDC
+[2026-02-20T13:37:05.823Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:37:05.823Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:39:05.825Z] --- SCAN #31 ---
+[2026-02-20T13:39:05.825Z] --- SCAN #31 ---
+[2026-02-20T13:39:05.826Z] Balance: $0.00 USDC
+[2026-02-20T13:39:05.826Z] Balance: $0.00 USDC
+[2026-02-20T13:39:05.826Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:39:05.826Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:41:05.891Z] --- SCAN #31 ---
+[2026-02-20T13:41:05.891Z] --- SCAN #31 ---
+[2026-02-20T13:41:05.891Z] Balance: $0.00 USDC
+[2026-02-20T13:41:05.891Z] Balance: $0.00 USDC
+[2026-02-20T13:41:05.891Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:41:05.891Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:43:05.973Z] --- SCAN #31 ---
+[2026-02-20T13:43:05.973Z] --- SCAN #31 ---
+[2026-02-20T13:43:05.973Z] Balance: $0.00 USDC
+[2026-02-20T13:43:05.973Z] Balance: $0.00 USDC
+[2026-02-20T13:43:05.973Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:43:05.973Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:45:06.026Z] --- SCAN #31 ---
+[2026-02-20T13:45:06.026Z] --- SCAN #31 ---
+[2026-02-20T13:45:06.026Z] Balance: $0.00 USDC
+[2026-02-20T13:45:06.026Z] Balance: $0.00 USDC
+[2026-02-20T13:45:06.026Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:45:06.026Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:45:17.912Z] [INIT] Wallet: 0xb99a3Ed7d209DdaF69FAB477B52857701e245CE9
+[2026-02-20T13:45:17.913Z] [INIT] USDC: $30.00
+[2026-02-20T13:45:17.913Z] [INIT] Today: 0/3 trades used
+[2026-02-20T13:45:18.231Z] [SCAN] Found 6 opportunities under 15¢
+[2026-02-20T13:45:18.231Z] [ORDER] Would place: BUY YES $5 on "Will Trump win the 2020 U.S. presidentia..."
+[2026-02-20T13:45:18.232Z] [TRADE] ❌ Failed: SIMULATION_MODE: Trading requires Simmer SDK integration or manual order signing
+[2026-02-20T13:45:18.232Z] [ORDER] Would place: BUY YES $5 on "Will Donald Trump formally concede the 2..."
+[2026-02-20T13:45:18.232Z] [TRADE] ❌ Failed: SIMULATION_MODE: Trading requires Simmer SDK integration or manual order signing
+[2026-02-20T13:45:18.232Z] [ORDER] Would place: BUY YES $5 on "Will there be a federal charge filed aga..."
+[2026-02-20T13:45:18.232Z] [TRADE] ❌ Failed: SIMULATION_MODE: Trading requires Simmer SDK integration or manual order signing
+[2026-02-20T13:47:06.061Z] --- SCAN #31 ---
+[2026-02-20T13:47:06.061Z] --- SCAN #31 ---
+[2026-02-20T13:47:06.062Z] Balance: $0.00 USDC
+[2026-02-20T13:47:06.062Z] Balance: $0.00 USDC
+[2026-02-20T13:47:06.062Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:47:06.062Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:47:39.705Z] [INIT] Wallet: 0xb99a3Ed7d209DdaF69FAB477B52857701e245CE9
+[2026-02-20T13:47:39.705Z] [INIT] USDC: $30.00
+[2026-02-20T13:47:39.705Z] [INIT] Today: 0/3 trades used
+[2026-02-20T13:47:39.847Z] [SCAN] Found 6 opportunities under 15¢
+[2026-02-20T13:47:39.847Z] [ORDER] Would place: BUY YES $5 on "Will Trump win the 2020 U.S. presidentia..."
+[2026-02-20T13:47:39.847Z] [TRADE] ❌ Failed: SIMULATION_MODE: Trading requires Simmer SDK integration or manual order signing
+[2026-02-20T13:47:39.847Z] [ORDER] Would place: BUY YES $5 on "Will Donald Trump formally concede the 2..."
+[2026-02-20T13:47:39.847Z] [TRADE] ❌ Failed: SIMULATION_MODE: Trading requires Simmer SDK integration or manual order signing
+[2026-02-20T13:47:39.847Z] [ORDER] Would place: BUY YES $5 on "Will there be a federal charge filed aga..."
+[2026-02-20T13:47:39.848Z] [TRADE] ❌ Failed: SIMULATION_MODE: Trading requires Simmer SDK integration or manual order signing
+[2026-02-20T13:49:06.099Z] --- SCAN #31 ---
+[2026-02-20T13:49:06.099Z] --- SCAN #31 ---
+[2026-02-20T13:49:06.099Z] Balance: $0.00 USDC
+[2026-02-20T13:49:06.099Z] Balance: $0.00 USDC
+[2026-02-20T13:49:06.099Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:49:06.099Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:51:06.199Z] --- SCAN #31 ---
+[2026-02-20T13:51:06.199Z] --- SCAN #31 ---
+[2026-02-20T13:51:06.200Z] Balance: $0.00 USDC
+[2026-02-20T13:51:06.200Z] Balance: $0.00 USDC
+[2026-02-20T13:51:06.200Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:51:06.200Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:52:31.478Z] [INIT] Wallet: 0xb99a3Ed7d209DdaF69FAB477B52857701e245CE9
+[2026-02-20T13:52:31.478Z] [INIT] USDC: $30.00
+[2026-02-20T13:52:31.478Z] [INIT] Today: 0/3 trades used
+[2026-02-20T13:52:31.810Z] [SCAN] Found 6 opportunities under 15¢
+[2026-02-20T13:52:31.811Z] [ORDER] Would place: BUY YES $5 on "Will Trump win the 2020 U.S. presidentia..."
+[2026-02-20T13:52:31.811Z] [TRADE] ❌ Failed: SIMULATION_MODE: Trading requires Simmer SDK integration or manual order signing
+[2026-02-20T13:52:31.811Z] [ORDER] Would place: BUY YES $5 on "Will Donald Trump formally concede the 2..."
+[2026-02-20T13:52:31.811Z] [TRADE] ❌ Failed: SIMULATION_MODE: Trading requires Simmer SDK integration or manual order signing
+[2026-02-20T13:52:31.811Z] [ORDER] Would place: BUY YES $5 on "Will there be a federal charge filed aga..."
+[2026-02-20T13:52:31.811Z] [TRADE] ❌ Failed: SIMULATION_MODE: Trading requires Simmer SDK integration or manual order signing
+[2026-02-20T13:53:06.210Z] --- SCAN #31 ---
+[2026-02-20T13:53:06.210Z] --- SCAN #31 ---
+[2026-02-20T13:53:06.210Z] Balance: $0.00 USDC
+[2026-02-20T13:53:06.210Z] Balance: $0.00 USDC
+[2026-02-20T13:53:06.210Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:53:06.210Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:55:06.241Z] --- SCAN #31 ---
+[2026-02-20T13:55:06.241Z] --- SCAN #31 ---
+[2026-02-20T13:55:06.241Z] Balance: $0.00 USDC
+[2026-02-20T13:55:06.241Z] Balance: $0.00 USDC
+[2026-02-20T13:55:06.241Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:55:06.241Z] [WAIT] Insufficient funds. Need $1+ to trade.
+[2026-02-20T13:55:46.440Z] [INIT] Wallet: 0xb99a3Ed7d209DdaF69FAB477B52857701e245CE9
+[2026-02-20T13:55:46.440Z] [INIT] USDC: $30.00
+[2026-02-20T13:55:46.441Z] [INIT] Today: 0/3 trades used
+[2026-02-20T13:55:46.898Z] [SCAN] Found 6 opportunities under 15¢
+[2026-02-20T13:55:46.898Z] [ORDER] Would place: BUY YES $5 on "Will Trump win the 2020 U.S. presidentia..."
+[2026-02-20T13:55:46.898Z] [TRADE] ❌ Failed: SIMULATION_MODE: Trading requires Simmer SDK integration or manual order signing
+[2026-02-20T13:55:46.898Z] [ORDER] Would place: BUY YES $5 on "Will Donald Trump formally concede the 2..."
+[2026-02-20T13:55:46.898Z] [TRADE] ❌ Failed: SIMULATION_MODE: Trading requires Simmer SDK integration or manual order signing
+[2026-02-20T13:55:46.898Z] [ORDER] Would place: BUY YES $5 on "Will there be a federal charge filed aga..."
+[2026-02-20T13:55:46.898Z] [TRADE] ❌ Failed: SIMULATION_MODE: Trading requires Simmer SDK integration or manual order signing

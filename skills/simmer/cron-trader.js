@@ -219,4 +219,13 @@ async function main() {
     } else if (result.opportunities > 0) {
       console.log(`[${now}] 👀 ${result.opportunities} opportunities | $${result.balance.toFixed(2)} | No trades`);
     } else {
-      console.log(`[${now}] ⏸️
+      console.log(`[${now}] ⏸️ No opportunities | $${result.balance.toFixed(2)} USDC | ${result.scanned} mkts`);
+    }
+    process.exit(0);
+  } catch (err) {
+    console.error(`[${now}] ❌ Error: ${err.message}`);
+    process.exit(1);
+  }
+}
+
+main();
