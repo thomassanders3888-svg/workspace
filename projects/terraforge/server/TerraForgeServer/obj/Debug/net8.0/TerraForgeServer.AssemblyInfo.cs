@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TerraForgeServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+278ac84b550a69ead711ee54f6bd812716f93ba8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28c6c77830d84824647df303131665c6c19847bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("TerraForgeServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TerraForgeServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
