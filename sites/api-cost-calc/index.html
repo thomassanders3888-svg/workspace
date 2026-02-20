@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API Cost Calculator 2025 | OpenAI Anthropic Groq Pricing</title>
+  <meta name="description" content="Calculate monthly API costs across providers. Compare OpenAI, Anthropic, Groq, and Together AI pricing. Find the cheapest LLM API.">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%); color: #e4e4e4; line-height: 1.6; min-height: 100vh; }
+    .container { max-width: 1000px; margin: 0 auto; padding: 2rem; }
+    header { text-align: center; padding: 3rem 1rem; }
+    h1 { font-size: 2.8rem; font-weight: 800; background: linear-gradient(90deg, #3b82f6, #8b5cf6, #ec4899); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 0.5rem; }
+    .subtitle { color: #9ca3af; font-size: 1.2rem; }
+    .calculator { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 16px; padding: 2rem; margin: 2rem 0; backdrop-filter: blur(10px); }
+    h2 { margin-bottom: 1.5rem; color: #60a5fa; font-size: 1.3rem; }
+    .input-group { margin-bottom: 1.5rem; }
+    label { display: block; margin-bottom: 0.5rem; color: #9ca3af; font-size: 0.95rem; }
+    input[type="number"], select { width: 100%; padding: 0.75rem; background: rgba(0,0,0,0.3); border: 1px solid #374151; border-radius: 8px; color: #fff; font-size: 1rem; }
+    input[type="range"] { width: 100%; margin: 0.5rem 0; }
+    .slider-value { text-align: right; color: #3b82f6; font-weight: 600; }
+    .results { display: grid; gap: 1rem; margin-top: 2rem; }
+    .provider-card { background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); border-radius: 12px; padding: 1.5rem; transition: all 0.3s; }
+    .provider-card:hover { border-color: #3b82f6; background: rgba(59,130,246,0.05); }
+    .provider-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; }
+    .provider-name { font-weight: 600; font-size: 1.1rem; }
+    .cost { font-size: 1.8rem; font-weight: 700; color: #4ade80; }
+    .model-select { font-size: 0.85rem; color: #9ca3af; background: transparent; border: none; width: auto; padding: 0; }
+    .savings { color: #fbbf24; font-size: 0.9rem; margin-top: 0.25rem; }
+    .winner { border-color: #4ade80; background: rgba(74,222,128,0.05); }
+    .cta { display: block; width: fit-content; margin: 2rem auto 0; padding: 1rem 2rem; background: linear-gradient(90deg, #3b82f6, #8b5cf6); color: #fff; text-decoration: none; border-radius: 8px; font-weight: 600; transition: transform 0.2s; }
+    .cta:hover { transform: translateY(-2px); }
+    .tips { margin-top: 2rem; padding: 1.5rem; background: rgba(251,191,36,0.05); border-left: 3px solid #fbbf24; border-radius: 0 8px 8px 0; }
+    footer { text-align: center; padding: 2rem; color: #6b7280; margin-top: 2rem; }
+    footer a { color: #60a5fa; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>💰 API Cost Calculator</h1>
+      <p class="subtitle">Calculate monthly LLM API costs across providers</p>
+    </header>
+
+    <div class="calculator">
+      <h2>📊 Usage Inputs</h2>
+      
+      <div class="input-group">
+        <label>Requests per day</label>
+        <input type="range" id="dailyRequests" min="1" max="10000" value="100" oninput="updateValue('requestsVal', this.value)">
+        <div class="slider-value" id="requestsVal">100</div>
+      </div>
+
+      <div class="input-group">
+        <label>Average input tokens per request</label>
+        <input type="range" id="inputTokens" min="100" max="32000" value="2000" step="100" oninput="updateValue('inputVal', this.value)">
+        <div class="slider-value" id="inputVal">2,000</div>
+      </div>
+
+      <div class="input-group">
+        <label>Average output tokens per request</label>
+        <input type="range" id="outputTokens" min="50" max="8000" value="500" step="50" oninput="updateValue('outputVal', this.value)">
+        <div class="slider-value" id="outputVal">500</div>
+      </div>
+    </div>
+
+    <div class="calculator">
+      <h2>💸 Monthly Cost Comparison</h2>
+      <div class="results" id="results"></div>
+      <a href="https://openrouter.ai" class="cta" target="_blank">Compare on OpenRouter →</a>
+    </div>
+
+    <div class="tips">
+      <strong>💡 Pro Tips:</strong>
+      <ul style="margin-top: 0.5rem; margin-left: 1.5rem; color: #9ca3af;">
+        <li>Groq offers the fastest inference at competitive prices</li>
+        <li>Anthropic's Claude 3.5 Sonnet balances cost and capability</li>
+        <li>OpenRouter aggregates pricing - often cheaper than direct</li>
+        <li>Batch requests to reduce per-call overhead</li>
+      </ul>
+    </div>
+
+    <footer>
+      <p>Data last updated: February 2025 | <a href="https://openrouter.ai/docs">View API Docs</a></p>
+      <p style="margin-top: 0.5rem; font-size: 0.9rem;">Contains affiliate links. Supports this free tool.</p>
+    </footer>
+  </div>
+
+  <script>
+    const providers = {
+      'groq': { name: 'Groq (Llama 3.1)', input: 0.6, output: 0.8, model: 'Llama 3.1 70B' },
+      'openai': { name: 'OpenAI', input: 5.0, output: 15.0, model: 'GPT-4o' },
+      'anthropic': { name: 'Anthropic', input: 3.0, output: 15.0, model: 'Claude 3.5 Sonnet' },
+      'together': { name: 'Together AI', input: 0.9, output: 0.9, model: 'Llama 3.1 70B' },
+      'gemini': { name: 'Google Gemini', input: 3.5, output: 10.5, model: 'Gemini 1.5 Pro' },
+    };
+
+    function updateValue(id, val) {
+      document.getElementById(id).textContent = parseInt(val).toLocaleString();
+      calculate();
+    }
+
+    function calculate() {
+      const daily = parseInt(document.getElementById('dailyRequests').value);
+      const inputTok = parseInt(document.getElementById('inputTokens').value);
+      const outputTok = parseInt(document.getElementById('outputTokens').value);
+      
+      const monthlyInput = daily * 30 * inputTok / 1000000; // in millions
+      const monthlyOutput = daily * 30 * outputTok / 1000000;
+      
+      const costs = [];
+      for (const [key, p] of Object.entries(providers)) {
+        const total = (monthlyInput * p.input) + (monthlyOutput * p.output);
+        costs.push({ ...p, key, total });
+      }
+      
+      costs.sort((a, b) => a.total - b.total);
+      const cheapest = costs[0].total;
+      
+      const resultsDiv = document.getElementById('results');
+      resultsDiv.innerHTML = costs.map((p, i) => {
+        const isWinner = i === 0;
+        const savings = isWinner ? '' : `Save $${(p.total - cheapest).toFixed(0)}/mo`;
+        return `
+          <div class="provider-card ${isWinner ? 'winner' : ''}">
+            <div class="provider-header">
+              <div>
+                <div class="provider-name">${p.name}</div>
+                <div style="color: #6b7280; font-size: 0.9rem;">${p.model}</div>
+              </div>
+              <div class="cost">$${p.total.toFixed(0)}<span style="font-size: 0.7em; color: #6b7280;">/mo</span></div>
+            </div>
+            ${!isWinner ? `<div class="savings">${savings}</div>` : '<div class="savings" style="color: #4ade80;">🏆 Best Value</div>'}
+          </div>
+        `;
+      }).join('');
+    }
+
+    // Initial calculation
+    calculate();
+  </script>
+</body>
+</html>
